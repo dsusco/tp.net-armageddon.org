@@ -1,0 +1,1226 @@
+---
+title: NetEA Tournament Pack
+---
+*[AP]: Anti-personnel
+*[AT]: Anti-tank
+*[AV]: Armoured Vehicles
+*[BPs]: Barrage Points
+*[CC]: Close Combat
+*[FF]: Firefight
+*[INF]: Infantry
+
+# Epic Game Rules
+
+{::nomarkdown}
+<blockquote>
+  <p>It is the purest folly to believe that an individual can save Armageddon. Wars are not won by heroes, they are won by firepower and force, and the application of strategy and tactics.</p>
+
+  <cite>Commissar Yarrick</cite>
+</blockquote>
+{:/}
+
+On the following pages you will find the core rules for the Epic game system, covering all of the basic mechanics of the Epic game. The core rules describe how units (that’s to say any kind of infantry or armoured vehicles) move and fire on each other and participate in assaults.
+
+Scattered through the rules you will occasionally find Special Rule boxes. Most special rules are described in rules sections [2.0](#specialist-units-and-weapons)–[4.0](#aerospace-operations), but some rules you really need to know about earlier on and because of this we’ve included them with the core rules. You will also find Design Concept boxes that explain certain fundamental principles of the rules. We’ve put these off to one side rather than include them in the rules proper in order to save repetition, and also to allow us to explain in rather more detail the concepts and philosophy behind the rules. The author feels quite strongly that disputes or misinterpretation of the rules can be minimised if you understand why a rule is written the way it is.
+
+We highly recommend that you play several games using the core rules before fighting battles using the full range of Epic scale vehicle and infantry miniatures that use the special rules. In order to help with this we’ve included a number of <q>training scenarios</q> at the end of the core rules that will allow you to try the rules out quickly and easily.
+
+### What You Will Need to Play
+
+In order to play you will need to get hold of Epic scale miniatures. These miniatures are available from Games Workshop stores and Direct Sales as well as independent specialist hobby shops.
+
+You will also need a small amount of gaming terrain. You can use the hills and trees made for Warhammer or Warhammer 40,000 and available from the same places as Epic miniatures if you don’t have any Epic scale terrain, or just lay a cloth over some books to create rolling, hilly terrain. Forge World sells a wide array of detailed resin terrain pieces to expand the boundaries of your battle settings.
+
+In addition to models, a suitable battlefield, and players you’ll need a few more essential items to begin play:
+
+Templates
+: Certain weapons in Epic, such as the huge Imperial Earthshaker Cannon, have an area effect rather than targeting a specific unit. These attacks are represented by placing a circular template over the target and attempting to affect any units under it. Two types of template are used in Epic, a Barrage template that has a diameter of 7.4cm, and a larger Orbital Bombardment template that has a diameter of 12cm. The type and intensity of the attack will dictate which template is used and how many templates may be required. Copies of both templates can be found at the end of the core rules, or you can use the plastic Blast and Ordnance templates produced by Games Workshop. You can also make your own versions of the templates from card or acetate.
+
+Measuring Instrument
+: You will need some kind of measuring instrument marked in centimetres (cms) in order to play Epic. You will find a retractable measuring tape most useful for measuring movement and shooting distances. If you only have a measuring instrument marked in inches then you can use it by halving any distances measured in centimetres and using the result as a distance in inches instead. For example, if the rules said 5cm you would count this as 2.5″ instead. Please note that if you decide to measure any distances in inches then both players must do so!
+
+Paper and Pens or Pencils
+: You may need to record details of casualties and damage to those gigantic war engines occasionally during a game, so it’s useful to have some paper and a writing implement handy.
+
+Dice
+: In Epic you’ll need buckets full of ordinary six-sided dice to resolve shooting and fighting in an assault. These are referred to as a D6. If you need to roll more than one dice, then this is written as 2D6 (for roll two dice) or 4D6 (for roll four dice) and so on. If you have to add something to the total of the roll, this is added afterwards. For example, D6+6 means roll one dice and add 6 to the score to get a total between 7 and 12. If asked to roll a D3 simply roll a D6 and count a roll of 1–2 as a 1, a roll of 3–4 as a 2, and a roll of 5–6 as a 3. In some cases a unit or formation will need to roll a 1 or higher on a D6. In this case the roll automatically succeeds and no dice roll is strictly necessary (though you can roll anyway if you wish!).
+
+Blast Markers
+: An army in battle tends to get worse at fighting as it is subjected to enemy fire and loses close combats. In Epic, Blast markers represent this. You can either make your own Blast markers, or use the Battle Markers produced by Games Workshop, or keep track of things with paper and pencil or some other method if you prefer. As long as you know how many Blast markers a formation has accumulated during the game then whatever method you use is fine with us!
+
+## Units
+
+Epic lets you fight battles with everything from lowly infantry to the terrifying war engines that dominate the battle zones of the 41<sup>st</sup> Millennium. From the smallest to the greatest, every warrior and weapon has its part to play. Different types of unit complement one another in combat—war engines fighting in cities need infantry to enter buildings and drive out enemy troops, infantry in the open need support from their own tanks and war engines lest they be swept away by enemy war engines.
+
+No matter what their size, the Citadel miniatures used to play Epic are referred to as units in the rules that follow. Each unit is an individual playing piece with its own capabilities. A unit may consist of a single model tank, a gigantic war engine, or several infantry models mounted together on a single base, but in the rules all of these things are simply referred to as units.
+
+**Important:**{: .text-uppercase } The core rules on the following pages only cover infantry and armoured vehicles. The rules for specialist units in Section [2.0](#specialist-units-and-weapons) introduce several new unit types and characteristics, rules for Titans and other war engines are introduced in Section [3.0](#war-engines), and rules for aircraft in Section [4.0](#aerospace-operations).
+
+### Unit Types
+
+All units in the core rules are subdivided into two broad categories: Infantry and Armoured Vehicles.
+
+Infantry (INF)
+: This designation includes all personnel not mounted inside a vehicle. Infantry are represented by between three and seven Epic infantry models mounted on a single base (see [Stands](#stands) for details). Field artillery such as Ork Big Gunz also fall into this category, as do infantry that ride on bikes or horses.
+
+Armoured Vehicles (AV)
+: As their name implies, these vehicles are covered with thick armour plate. The category includes tanks such as Leman Russ and Land Raiders, as well as armoured troop carriers like the Rhino. Armoured vehicles are represented by a single model.
+
+### Stands
+
+As previously noted, a unit can be a single vehicle model, or a _stand_ made up of several very small models grouped together and glued to a small base. Stands usually represent things like infantry, where moving the individual models round on their own would be very fiddly with Epic scale models. All the models glued to a stand count as a single unit as far as the rules are concerned. The size of a stand and the number of models glued to it are left pretty much up to the player to decide within the following limitations:
+
+* A stand may be no more than 40mm and no less than 5mm across in any direction.
+* A stand must be at least 20mm across in one direction (i.e., a 5mm by 5mm stand is not allowed, but a 5mm by 20mm stand would be okay).
+* Stands representing infantry units must have at least three infantry models and may not have more than seven. Infantry mounted on bikes or horses must have between two and four models mounted on each base.
+* Stands representing artillery must have between one and two artillery pieces and up to six crew models.
+
+### Unit Datasheets
+
+Each unit in Epic has a datasheet that tells you how fast, shooty and tough the unit is. Each datasheet provides the following information:
+
+Type
+: What target type the unit belongs to.
+
+Speed
+: The speed of the unit. This is the distance in centimetres the unit can move each turn while still firing its weapons fairly effectively. It is possible for units to move faster than this if you wish, but their shooting will be far less effective.
+
+Armour
+: This number shows how well protected and/or difficult to damage the unit is. If a hit is scored on the unit then you must roll this number or higher on a D6 to <q>save</q> the unit from the damage.
+
+Close Combat
+: This number shows how effective the unit is at close combat. It is used when the unit charges an enemy unit, or is charged itself.
+
+Firefight
+: This shows how effective the unit is when involved in a short-ranged firefight.
+
+Weapons
+: This section of the data sheet lists what weapons the unit carries. If a unit carries more than one of a type of weapon then this will be noted as a <q>multiplier</q> by the weapon’s name. For example, a Space Marine Tactical squad is noted as having a <q>Missile Launcher</q>, while a Space Marine Devastator squad is noted as having <q>2× Missile Launcher</q>.
+
+Range
+: The range of the weapon in centimetres.
+
+Firepower
+: The numbers here represent how effective the weapon is when it shoots. Firepower comes in two <q>flavours</q>: Anti-personnel (abbreviated to AP) and Anti-tank (abbreviated to AT). AP fire is used against infantry targets and AT fire against armoured vehicles. A weapon that has both an AP and an AT value may choose to use either one when it attacks, but may not use both in the same turn.
+: The value listed for a weapon is the score required on a single D6 to score a hit. Most weapons only roll one D6 to hit when they shoot. However, if a weapon’s firepower value is preceded by a multiplier then a number of dice equal to the multiplier should be rolled instead. For example, a weapon with a firepower of <q>AP5+</q> would roll one D6 to hit, while a unit with a firepower of <q>3× AP5+</q> would roll three D6. Sometimes the entry will specify a dice roll rather than a fixed number. For example, a weapon that had <q>D3× AP5+</q> would attack D3 times each time it was used.
+
+Special Rules
+: Some weapons have additional abilities (see [Specialist Units and Weapons](#specialist-units-and-weapons)) and may have limited fire arcs (see [Weapon Fire Arcs](#weapon-fire-arcs)).
+
+Notes
+: If any special rules apply to the unit then they will be noted here. An explanation of what effect these rules have can be found in sections [2.0](#specialist-units-and-weapons)–[4.0](#aerospace-operations).
+
+Datasheets for units from the Epic Game can be found in Section [5.0](#forces).
+
+## Formations
+
+On the battlefield, vehicles and troops don’t just mill around individually, instead they are organised so that they fight as a unified whole. In Epic, a body of troops and war machines that fights together on the battlefield is referred to as a _formation_.
+
+### Formations
+
+All units must be organised into formations at the start of the game. The scenarios included in these rules will tell you what formations each side may use. If you are devising your own scenario then you must decide what formations the units taking part will fight in before the battle begins.
+
+Every unit in a formation must be no further than 5cm from at least one other unit in the same formation. In addition, all units must form a <q>chain</q> without any gaps of more than 5cm. Sometimes the units in a formation will become separated due to enemy fire or assault. When this happens, the formation _must_ close back up again into a legal formation when it next takes an action (see [Actions](#actions)).
+
+{::nomarkdown}
+<figure>
+  <figcaption>Examples of Formations</figcaption>
+
+  <div>
+    <img alt="Space Marine Land Raider Formation" src="formation1.png">
+    <img alt="Space Marine Bike Formation" src="formation2.png">
+  </div>
+</figure>
+{:/}
+
+### Initiative Values
+
+Each formation has an _initiative value_ that represents how well trained and motivated it is. The lower a formation’s initiative value is, the better (e.g., an initiative of 1 is better than an initiative of 2). Formations with good initiative values are more likely to carry out orders, and will rally more quickly than formations with worse initiative values. You will find that a formation’s initiative value is one of its most important characteristics. Some example initiative values are shown below:
+
+|Formation|Initiative Value|
+|-|:-:|
+|Space Marine|1+|
+|Imperial Guard|2+|
+|Ork|3+|
+
+## Blast Markers
+
+During a game of Epic the formations under your command will receive _Blast markers_ when they come under fire, take casualties, fight in assaults, or fail initiative tests. Blast markers can be removed when a formation rallies or regroups (see [Regrouping and Broken Formations](#regrouping-and-broken-formations) and [Rallying Formations](#rallying-formations)). The effects of blast markers will make more sense when you have read the rest of the rules, but in summary:
+
+* A formation receives one Blast marker every time it is shot at by an enemy formation, even if no casualties are caused, unless the rules specifically state otherwise.
+* In addition, a formation receives one Blast marker every time a unit is destroyed, unless the rules specifically state otherwise.
+* Each Blast marker suppresses one unit in the formation and stops it from shooting. Blast markers also affect a formation’s ability to carry out actions, win assaults, and rally. A formation is broken when the number of Blast markers equals the number of units in the formation, unless the rules specifically state otherwise. A broken formation has to withdraw, and is not allowed to take actions in the action phase (which basically means it can’t move or shoot). It must try to rally in the end phase.
+
+<table class="table">
+  <caption>Blast Marker Table</caption>
+  <thead>
+    <tr>
+      <th>Blast Markers</th>
+      <th>Result</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Each Blast Marker</td>
+      <td>Unit <em>Suppressed</em></td>
+      <td>May not shoot</td>
+    </tr>
+    <tr>
+      <td>One per unit</td>
+      <td>Formation <em>Broken</em></td>
+      <td>Withdraw</td>
+    </tr>
+  </tbody>
+</table>
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Blast Markers</header>
+
+  <p>Blast markers are an attempt to show in a simple and playable manner that the psychological effect of fire is every bit as important, if not more important, than the actual number of casualties caused. Blast markers represent a whole range of personal disasters occurring to the units in a formation: things being damaged, squads being scattered, breaking or fleeing, and so on. They are a vital part of Epic so don’t overlook their importance. The rules for Blast markers reflect the fact that most troops will tend to grind to a halt and seek cover when they come under even quite a small amount of fire (that’s why a single sniper can slow down many times his own number of enemy troops), but will only withdraw when a combination of casualties and sustained enemy pressure convinces them that their position is untenable and they should withdraw (which is why a single sniper will rarely drive the enemy off).</p>
+</aside>
+{:/}
+
+## Sequence of Play
+
+An Epic battle is fought over a number of turns. How many turns a battle will last is determined by the players themselves or the scenario being fought.
+
+Epic uses the following _sequence of play_. As you can see, each turn in Epic Armageddon is split into three phases. However, the bulk of the action occurs, appropriately enough, in the action phase. During this phase, the players take it in turn to pick one of the formations in their armies and carry out an action with it. Each formation in an army can carry out one action. After both players have taken one action with each of their formations, they move onto the end phase. This is basically a <q>tidy-up</q> phase, where things that are not carried out during the action phase are sorted out. Note that both players do things in each phase, so both carry out actions in the action phase, rally broken formations in the end phase, and so on.
+
+### Sequence of Play
+
+Strategy Phase
+: Each player rolls a D6 and adds their army’s strategy rating to the score. Whoever scores higher may choose to go first or second in the action phase.
+
+Action Phase
+: The players alternate carrying out actions with their units.
+
+End Phase
+: Both players rally formations with Blast markers or that are broken, and then check the scenario victory conditions to see if either side has won.
+{: .upper-roman }
+
+<div class="sr">
+### Abilities Used at Start of Turn/Action
+
+Some units have special abilities that are specified as taking effect at the beginning of the turn. These effects are resolved before the Strategy roll. Similarly, abilities that are used at the start of an action can be taken before the Initiative roll is made or the action chosen. If both players have effects for the beginning of the turn, take turns resolving them starting with the player with the higher Strategy rating, alternating between players for each subsequent effect until all effects are resolved.
+</div>
+
+## The Strategy Phase
+
+Each army has a _strategy rating_. This will either be listed in the notes for a scenario, or can be found in the army list if you are playing a tournament game. An army’s strategy rating represents a mixture of its aggression and the ability of its commanders. An army with a high strategy rating is more likely to act before an enemy with a lower strategy rating.
+
+In the strategy phase at the start of each turn both players make a strategy roll by rolling a D6 and adding their strategy rating to the score. The player whose army scores higher can choose to go first or second in the action phase. In the case of a tie, the side that failed to win the initiative last turn gets it on this turn.
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Ties</header>
+
+  <p>In the case of a tie or any situation where the rules allow both players to do something at the same time, the player with the next birthday gets to go first unless the rules specifically say otherwise.</p>
+</aside>
+{:/}
+
+## The Action Phase
+
+In the action phase, the players take it in turns to carry out actions with their unbroken formations. Each unbroken formation can take one action per turn. The player that won the strategy roll can choose whether to go first or second.
+
+The player going first then carries out an action with one formation, and then their opponent does likewise, and so on until all formations have taken an action. If one player runs out of formations to activate, then the opposing player may keep on activating formations one after the other until all of his formations have taken an action.
+
+There are three steps to carrying out an action:
+
+1. Nominate a formation.
+2. Declare which action it will carry out.
+3. The formation must then pass an action test to see if it carries out the action successfully.
+{: .upper-roman }
+
+Each of these steps is explained in more detail below. Note that you must declare both the formation and the action it will carry out before taking the Action test. If you fail to do these things, then the formation chosen automatically fails the Action test without the dice being rolled (we can imagine this is due to a communications failure). If you failed to even nominate the formation then your opponent may nominate the formation for you.
+
+### Actions
+
+To carry out an action, first nominate an unbroken formation and then choose an action for it to carry out. The actions that can be chosen are listed as follows. Note that you must activate a formation if you can, you can’t choose to <q>pass</q> unless you have no choice in the matter. Also note that a formation may only be activated once per Action phase.
+
+Advance
+: The formation may make one move and then shoot.
+
+Engage
+: The formation may make one <q>charge</q> move and then fight an assault.
+
+Double
+: The formation may make two moves and then shoot with a -1 modifier.
+
+March
+: The formation may make three moves.
+
+Marshal
+: The formation may either shoot with a -1 modifier and then regroup, or make one move and then regroup. Regrouping allows the formation to remove some of the Blast markers affecting the formation (see [Regrouping and Broken Formations](#regrouping-and-broken-formations)).
+
+Overwatch
+: The formation may not move, but instead enters overwatch. Being on overwatch allows the formation to interrupt an enemy formation’s action to shoot at it. You may not choose this action if the formation has any units that are out of formation.
+
+Sustained Fire
+: The formation may not move (not even to turn in place), but can shoot with a +1 modifier. You may not choose this action if the formation has any units that are out of formation.
+
+In addition to these basic actions, there are two more special types of action a formation may make:
+
+Hold
+: This action is the only one allowed to a formation that fails an Action test (see the rules for action tests next). The formation may make one move or shoot or regroup. You must choose to move if any units are out of formation.
+
+Special Actions
+: Some formations are allowed to carry out special actions. Some of these are described in the Special Rules section of this rulebook, or they may be included in the rules for a scenario.
+
+### The Action Test
+
+Before a formation can carry out an action it must pass an action test. Broken formations may not take an action. Instead they must pass a rally test in the end phase in order to rally. See the rules for broken formations ([Regrouping and Broken Formations](#regrouping-and-broken-formations)) later on.
+
+To pass an action test, you must roll equal to or over the formation’s initiative value on a D6. If the formation passes the action test, it may carry out the stated action. If the formation fails the test, it can still carry out a hold action (even if the player nominated something else), but the formation receives a Blast marker. There is a -1 modifier to the action test if the formation has one or more Blast markers, and a further -1 modifier if the formation is trying to retain the initiative (see [Retaining the Initiative](#retaining-the-initiative)).
+
+<table class="table">
+  <caption>Action Test Table</caption>
+  <tr>
+    <td colspan="2">Formation has at least one Blast marker</td>
+    <td class="text-center">-1</td>
+  </tr>
+  <tr>
+    <td colspan="2">Formation is trying to retain the initiative</td>
+    <td class="text-center">-1</td>
+  </tr>
+  <tr>
+    <th>Action Test Result</th>
+    <th>Actions</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td>Pass Action Test</td>
+    <td>Any</td>
+    <td>Player may attempt to retain the initiative (see <a href="#retaining-the-initiative">Retaining the Initiative</a>].</td>
+  </tr>
+  <tr>
+    <td>Fail Action Test</td>
+    <td>Hold</td>
+    <td>Formation receives one Blast marker. Player may not attempt to retain the initiative.</td>
+  </tr>
+</table>
+
+### Retaining the Initiative
+
+Once you have successfully carried out an action with a formation, you may if you wish try to retain the initiative and take two actions in a row. If you decide to retain the initiative then you must nominate a new formation and declare the action it will carry out, but the formation will suffer a -1 modifier to its action test. Note: If the first formation fails its action, you may not attempt to retain the initiative—i.e., you may only attempt to retain the initiative after a successful action.
+
+You must hand over the initiative after you have completed the action for a formation that retained the initiative (i.e., you can’t retain the initiative twice in a row). The only exception to this is if one player has no formations left to activate. In this case, the other player may keep on activating formations without suffering the -1 modifier for retaining the initiative until all of the opposing formations have taken an action.
+
+{::nomarkdown}
+<aside class="eop">
+  <header>Actions</header>
+
+  <p>After setting up their forces, the Ork player (Matt) and the Imperial Guard player (Bill) both roll a dice and add their strategy rating. The Imperial Guard player rolls a 6, to which he adds his strategy rating of 2 for a total of 8. The Ork player rolls a 3 on the dice, plus his strategy rating of 3, giving him a total of 6. The Imperial Guard player hence wins the strategy phase and may choose whether to go first or second. He chooses to go first.</p>
+
+  <p>The action phase now begins and the Imperial Guard player nominates the formation with which he will attempt his first action.</p>
+
+  <p>He picks a Steel Legion Mechanised Infantry Company out on the left flank and declares that they are going to attempt a double action. The chosen formation are members of the Imperial Guard, and therefore have an initiative rating of 2+. The player rolls the dice and scores a 4—the action is successful and the formation makes its chosen action (in this case, moving twice up the flank. They then have the option to shoot but can’t see any enemy so the formation’s action is at an end).</p>
+
+  <p>The Imperial Guard player then decides he is going to try to retain the initiative.</p>
+
+  <p>He nominates a Steel Legion Super Heavy Tank Company on the other side of the battlefield and declares that they are also going to attempt a double action. The player rolls a dice and scores a 2—the action fails, since the formation has an Initiative of 2, and suffers -1 to its dice roll for retaining the initiative. The formation receives a Blast marker and must take a hold action instead of taking the double action.</p>
+</aside>
+{:/}
+
+## Movement
+
+Most actions allow all the units in a formation to make one or more moves. Units move a distance in centimetres up to the Speed value shown on their datasheet—there is no compulsion on players to use the total move available to them. Depending on the action they are taking, a unit may move one, two or three times (see [Multiple Moves](#multiple-moves)). They may turn freely as they move. A unit is never forced to move, but sometimes failing to do so can result in its destruction (see [Withdrawals](#withdrawals)). Once a player has moved a unit and removed his hand from the model, the move may not be changed.
+
+### Multiple Moves
+
+If an action allows units to make multiple moves, take each move one after the other, following the rules that follow for each move (i.e., don’t simply add the movement distances together). For example, a Space Marine Tactical detachment (Speed 15cms) taking a March action would make three moves of 15cm each, rather than one move of 45cms.
+
+### Other Units
+
+Enemy units may never move over or through each other. With the exception of infantry, a friendly unit may never move directly over another friendly unit. You can move over infantry units with other units, as the stationary infantry are assumed to get out of the way. Note that <q>moving over</q> refers to the model itself, not the unit’s base.
+
+### Zones of Control
+
+All units in Epic have a zone of control that extends 5cm in every direction from the model. Models mounted on a stand may measure the zone of control from any model on the stand.
+
+Units may not enter an enemy zone of control while they move, unless they are undertaking an engage action and use their charge move to get into base contact with the nearest enemy unit whose zone of control they have entered. Once a unit has been contacted by an engaging enemy unit, it loses its own zone of control for the rest of that engage action (including the ensuing assault). This will allow other units to move round it. Units are never allowed to cross directly over an enemy unit, even if it has lost its zone of control.
+
+If a unit finds itself in an enemy zone of control for any reason, then it must either charge the enemy or leave the zone of control when it next takes an action (note that this will require an action that allows it to charge or move).
+
+### Formations
+
+Any units that are out of formation for any reason after a formation has taken the movement part of its action are destroyed. The controlling player may choose which units are <q>out of formation</q> and destroyed. Note that each unit lost will place one Blast marker on the main part of the formation. This applies after each individual move, so if a formation made a march action, you can’t wait until the end of all three moves in order to bring units back into formation—any out of formation units are destroyed at the end of the first move (and again at the end of the second and third moves if any other units have also ended up out of formation following the move).
+
+<div class="sr">
+### Transport Vehicles
+
+Many formations include transport vehicles that can be used to carry other units that belong to the same formation. The number and type of units that can be carried will be listed on the transport vehicle’s datasheet. Transport vehicles may only carry units from their own formation. Transport vehicles can pick up and carry units as part of the transport vehicle’s move. The vehicle simply moves into base contact with the unit to be picked up, and then carries on with its move as normal. Note that the transported unit is not allowed to move themselves during the move when they are picked up.
+
+Transported units may disembark at the end of any move after the move in which is it was picked up. This happens after any overwatch shots (see [Overwatch](#overwatch)) but before the moving formation shoots or assaults. Disembarking units may be placed within 5cms of the transport vehicle. If the formation has engage orders then they may be placed in base contact with an enemy unit. Otherwise they may not be placed within an enemy unit’s zone of control. Note that units do not have to disembark, and may remain in their transport if they prefer. Units may not be picked up and disembark as part of the same move, though a formation making multiple moves as part of a march or double action could pick up units in one move and drop them off as part of a subsequent move. Units may embark or disembark as part of a counter-charge move (see [Counter Charges](#counter-charges)), unless the transport vehicle carrying them is already in base contact with two enemy units—in which case they must stay on board (they are trapped inside!).
+
+Units being transported may not shoot unless the transport vehicle’s datasheet specifically says otherwise. Transported units are counted towards the number of units in the formation for all rules purposes (i.e., when working out the number of units involved in an assault or if the formation is broken by Blast markers, etc.). If the transport unit is destroyed, then any transported units may make their normal armour save <span class="text-uppercase">or</span> make a 6+ cover save. See [Macro Weapons](#macro-weapons) if a transport is destroyed by a macro-weapon.
+
+Please note that a transport vehicle that is being transported cannot transport other units itself (i.e., the <q>Russian Doll</q> tactic is not allowed!).
+</div>
+
+## Terrain
+
+The galaxy is a vast place with millions of different worlds. The terrain covering these worlds can vary from empty plains to sky-scraping hive cities, and from verdant jungles to arid ash-waste deserts. Only one factor is common to them all, and that is that they all have areas where it is difficult to wage war!
+
+In Epic, terrain affects units in one of three ways:
+
+* The terrain has no effect on the unit when it moves through it.
+* The terrain is impassable to the unit so it cannot move through the terrain under any circumstances.
+* The terrain is dangerous to the unit, so the unit can enter the terrain but it might take damage (see [Dangerous Terrain Test](#dangerous-terrain-test)).
+
+The Terrain Effects table on the next page details some common types of terrain and the effects they have on different types of unit. How to represent terrain on the battlefield is discussed later on in this rulebook.
+
+### Dangerous Terrain Test
+
+Roll a D6 when you enter dangerous terrain, or when you start to move if already in dangerous terrain. On a roll of 1, the unit is destroyed with no save allowed, but the formation it is part of does not receive a Blast marker.
+
+Units may choose to move through dangerous terrain cautiously. A unit that is moving cautiously counts as having a speed of 5cm, but is allowed to re-roll any Dangerous Terrain tests that it fails.
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Terrain Conventions</header>
+
+  <p>It is possible to have all kinds of arguments about whether terrain partially or fully blocks the line of fire to a target. Because of this, you should discuss the terrain on your gaming table with your opponent before a game starts and make sure you both agree on how it will work with regard to this and any of the other terrain rules. However, the -1 to hit modifier should be generously applied, and if in any doubt it should be counted rather than ignored.</p>
+</aside>
+{:/}
+
+### Cover to Hit Modifiers
+
+Units that are in terrain that is tall enough to at least partially obscure them from an attacker’s view receive a -1 to hit modifier when being shot at (see [Roll to Hit](#roll-to-hit)). The to hit modifier also applies if intervening terrain obscures the target partially from view.
+
+### Infantry Cover Saves
+
+Certain terrain is noted as giving infantry a cover save. While in such terrain, the infantry receive the cover save listed on the Terrain table in addition to the -1 to hit modifier for being in cover. The cover save can be used instead of their normal armour save whenever they have to take an armour save. Note that they can use one or the other of these saves against a hit, not both.
+
+{::nomarkdown}
+<div class="eop">
+  <header>Terrain</header>
+
+  <figure>
+    <div><img alt="Hull Down Example" src="terrain1.png"></div>
+
+    <figcaption>The Shadowsword has moved into a <q>hull down</q> position behind a low ridge. From this position it counts as being in cover against attacks from the Ork formation with the Battlefortress and Buggies attacking it from the front, and so they will suffer the -1 to hit modifier. However, the Ork Gunwagons have manoeuvred to a position where the ridge does not block their line of fire, and so they do not suffer the penalty.</figcaption>
+  </figure>
+
+  <figure>
+    <figcaption>An Imperial Guard infantry company is attacking an Ork warband. Some of the Ork Boyz are in cover in the buildings at the back, while some of the Ork Boyz are in the open. The Imperial player must choose if he wishes to attack only the Boyz in the open, or the whole of the Ork formation. If he chooses to attack the whole formation then he will suffer a -1 to hit modifier. In addition, the Orks in the building will benefit from the 4+ infantry cover save against any hits applied against them.</figcaption>
+
+    <div><img alt="Partial Cover Example" src="terrain2.png"></div>
+  </figure>
+</div>
+{:/}
+
+<div class="sr">
+### Terrain Effects
+
+Fortifications
+: Units in fortifications receive the -1 to hit modifier for being in cover and may ignore the -1 save modifier for being caught in a crossfire, though they still receive the extra blast marker (see [Crossfire](#crossfire)). In addition, infantry in fortifications receive a 3+ cover save. Fortifications are normally impassable terrain for vehicles unless they are specifically designed to hold them (e.g., tank emplacements).
+
+Hills
+: Units on hills will benefit from better lines of sight to enemy units, as they will be high enough to see over some terrain features (see [Who May Shoot](#who-may-shoot), Line of Fire). This aside, units on hills count as being in open ground (or whatever other type of terrain they occupy that is also on the hill, such as roads, woods or buildings).
+
+Open Ground
+: Infantry count as being in cover (-1 to hit modifier) and receive a 5+ cover save if they are on Overwatch in Open Ground. This represents the fact that stationary infantry are very hard to see. Note that the save will be lost after the infantry shoot and the Overwatch marker is removed.
+
+Roads
+: Units that spend a whole move on a road may add 5cms to their move. In addition, if all of the units in a formation are on a road at the start of their action, you may declare they will make a road march. The formation takes a march action, and automatically passes the Action test. However, all of the units in the formation must remain on the road for the entire three moves.
+
+Armoured Vehicles
+: Infantry count as being in cover and receive the -1 to hit modifier (but no cover save) if they are touching an armoured vehicle or war engine, to represent their ability to take cover from enemy fire by crouching behind the vehicle.
+
+<table class="table">
+    <caption>Terrain Effects Table</caption>
+    <thead>
+      <tr>
+        <th>Terrain</th>
+        <th>Inf<span>antry</span></th>
+        <th>Veh<span>icle</span></th>
+        <th>W<span>ar </span>E<span>ngine</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Buildings</td>
+        <td>4+<span> Cover Save</span></td>
+        <td>I<span>mpassable</span></td>
+        <td>I<span>mpassable</span></td>
+      </tr>
+      <tr>
+        <td>Cliffs</td>
+        <td>I<span>mpassable</span></td>
+        <td>I<span>mpassable</span></td>
+        <td>I<span>mpassable</span></td>
+      </tr>
+      <tr>
+        <td>Fort<span>ifications</span></td>
+        <td>3+<span> Cover Save</span>, S<span>ee rules</span></td>
+        <td>S<span>ee rules</span></td>
+        <td>I<span>mpassable</span></td>
+      </tr>
+      <tr>
+        <td>Jungle</td>
+        <td>4+<span> Cover Save</span></td>
+        <td>I<span>mpassable</span></td>
+        <td>D<span>angerous</span></td>
+      </tr>
+      <tr>
+        <td>Marsh</td>
+        <td>6+<span> Cover Save</span>, D<span>angerous</span></td>
+        <td>D<span>angerous</span></td>
+        <td>D<span>angerous</span></td>
+      </tr>
+      <tr>
+        <td>Open<span> Ground, Hill Slopes</span></td>
+        <td><span>No Effect</span></td>
+        <td><span>No Effect</span></td>
+        <td><span>No Effect</span></td>
+      </tr>
+      <tr>
+        <td>River</td>
+        <td>6+<span> Cover Save</span>, D<span>angerous</span></td>
+        <td>I<span>mpassable</span></td>
+        <td><span>No Effect</span></td>
+      </tr>
+      <tr>
+        <td>Roads</td>
+        <td>S<span>ee rules</span></td>
+        <td>S<span>ee rules</span></td>
+        <td>S<span>ee rules</span></td>
+      </tr>
+      <tr>
+        <td><span>Ruins, </span>Rubble</td>
+        <td>4+<span> Cover Save</span></td>
+        <td>D<span>angerous</span></td>
+        <td>D<span>angerous</span></td>
+      </tr>
+      <tr>
+        <td>Scrub</td>
+        <td>6+<span> Cover Save</span></td>
+        <td><span>No Effect</span></td>
+        <td><span>No Effect</span></td>
+      </tr>
+      <tr>
+        <td>Woods</td>
+        <td>5+<span> Cover Save</span></td>
+        <td>D<span>angerous</span></td>
+        <td>D<span>angerous</span></td>
+      </tr>
+    </tbody>
+</table>
+</div>
+
+## Shooting
+
+Many actions allow a formation to shoot. This takes place in the Action phase when the formation takes its action.
+
+### Picking a Target
+
+When a player picks one formation to fire, an enemy formation is also chosen as its target. Formations may <span class="text-uppercase">not</span> split fire—any units unable to shoot at the nominated target formation lose the chance to shoot altogether.
+
+<div class="sr">
+### Weapon Fire Arcs
+
+{::nomarkdown}
+  <div>
+    <figure>
+      <figcaption>Forward</figcaption>
+      <img alt="Forward Fire Arc" src="forward.png">
+    </figure>
+
+    <figure>
+      <figcaption>Rear</figcaption>
+      <img alt="Rear Fire Arc" src="rear.png">
+    </figure>
+
+    <figure>
+      <figcaption>Left <span>Right</span></figcaption>
+      <img alt="Left and Right Arcs" src="left-right.png">
+    </figure>
+
+    <figure>
+      <figcaption>Fixed Forward</figcaption>
+      <img alt="Fixed Forward Fire Arc" src="fixed-forward.png">
+    </figure>
+  </div>
+{:/}
+
+<div>
+Most weapons can be fired in any direction (i.e., the unit does not have to be pointing at the target). However, in some cases, a weapon will be noted as having a limited weapon arc.
+
+Weapons that are noted on the data sheet as firing to the forward have a 180° arc of fire to the unit’s front, while weapons noted as firing to the rear have a 180° arc of fire to the unit’s rear. Weapons with a left fire arc may fire in the 180° arc to the unit’s left side, while weapons with a right fire arc can fire 180° to the unit’s right. Finally, weapons that are noted as fixed forward firing can only fire on targets that lie within 45° of either side of the direction that the unit is facing.
+</div>
+</div>
+
+### Who May Shoot
+
+In order to shoot, a unit must be in range and have a line of fire to at least one unit in the target formation, and must not be suppressed.
+
+Line Of Fire
+: The line of fire is a straight line drawn from the shooting unit to one unit in the target formation. The line of fire is blocked by terrain features such as buildings, hills, woods, etc. Weapons higher up can often see over any terrain that is lower down. Buildings, rubble, woods, fortifications and the like don’t block the line of fire to or from units that are in the terrain itself unless the line of fire passes through more than 10cms of the terrain feature (i.e., you can shoot 10cms <q>into</q> a terrain feature, but the line of fire is still blocked to units on the other side). The only units that can block the line of fire are war engines (see [War Engines](#war-engines)). Other units do not block the line of fire for friend or foe.
+
+Range
+: In order to shoot, a unit must be in range of a unit to which it has a line of fire in the target formation.
+
+Suppressed Units
+: One unit that has a line of fire and is within range may not shoot for each Blast marker on the formation. Units are suppressed <q>from the back to the front</q> of a formation, with the front and the back being determined by the location of the target formation. The units that are the furthest away from any units in the target formation are suppressed first, on the basis that troops lurking at the rear are more likely to keep their heads down than the more gung ho chaps at the front! If several units are equally far away from the target formation, then the controlling player may choose which to suppress.
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Shooting Conventions</header>
+
+  <p>The following principles apply to shooting:</p>
+
+  <dl>
+    <dt>Measuring Ranges</dt>
+    <dd>You must decide with your opponent how you will measure the range between two models during a game. The method used by the author (and the default you should use if you can’t agree to an alternative) is that a weapon is in range if any bit of the attacking weapon is within range of any part of the target model (or at least one of the models on a target stand).</dd>
+
+    <dt>Lines of Fire</dt>
+    <dd>In Epic, the terrain and the models are assumed to be the same scale, so if you want to check a difficult line of sight between two units, all you need to do is bend over and get a <q>model’s eye view</q> to see if they are in each others line of fire.</dd>
+
+    <dt>Pre-measuring</dt>
+    <dd>You must decide with your opponent if you are allowed to pre-measure distances during a game of Epic, or if you must declare charges or shooting attacks before measuring. For example, you must decide if you can measure to make sure a unit is within range of the enemy before deciding who it will shoot at, etc. Each method has its own distinct advantages, which boil down to pre-measuring being more precise and tactical, and not allowing pre-measuring being more characterful and exciting. If you cannot agree on which method to use then use the author’s method, which is to allow pre-measuring.</dd>
+  </dl>
+</aside>
+{:/}
+
+### Shooting Procedure
+
+This is a summary of the shooting procedure. We’ll work through it step-by-step in the rules that follow.
+
+1. Place one Blast marker on the target formation.
+2. Roll to hit.
+3. Allocate hits, make saving throws and remove casualties.
+4. Place additional Blast markers for casualties and check to see if the enemy formation is broken.
+{: .upper-roman }
+
+### Place Blast Marker
+
+The target formation automatically receives a Blast marker as long as at least one attacking unit can shoot at the formation. An additional Blast marker is received for each unit that is destroyed. A formation receives a Blast marker for coming under fire even if none of the attackers can cause any damage (e.g., armoured vehicles coming under heavy bolter fire).
+
+### Roll to Hit
+
+The player must decide at this stage whether weapons will fire with their AP or AT values if they have both. Then roll a D6 for each shot being directed at the target formation. You must roll equal to or higher than the appropriate <q>to hit</q> value to score a hit (e.g., if the weapon has an AT4+, you must roll a 4 or more to hit). The dice roll is modified for the following reasons. However a roll of 1 _before_ modification is always counted as a miss.
+
+<table class="table">
+  <caption>To Hit Modifier Table</caption>
+  <tbody>
+    <tr>
+      <td>Target is in cover</td>
+      <td>-1*</td>
+    </tr>
+    <tr>
+      <td>Attacker is carrying out a double or marshal action</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>Attacker is carrying out a sustained fire action</td>
+      <td>+1</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">*The attacker can choose to ignore the cover modifier if it applies to some units in the target formation but not to others. However, you can’t score hits on units in cover unless you take the -1 to hit modifier.</td>
+    </tr>
+  </tfoot>
+</table>
+
+<div class="sr">
+### Needing 7+ to Hit
+
+If to hit modifiers result in a required score of 7 or more to hit then it is still possible to score a hit, though very unlikely. As it is impossible to roll a 7 on a D6 (go on, try if you don’t believe us), you will first need to roll a 6, and then, for each dice rolling a 6, you will need to roll a further score as shown on the chart below. So, for example, to roll an 8 you must roll a 6 followed by a 5 or 6.
+
+<table class="table">
+  <thead>
+    <tr>
+      <th class="text-center">Target</th>
+      <th>D6 rolls needed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-center">7</td>
+      <td>6 followed by 4, 5 or 6</td>
+    </tr>
+    <tr>
+      <td class="text-center">8</td>
+      <td>6 followed by 5 or 6</td>
+    </tr>
+    <tr>
+      <td class="text-center">9</td>
+      <td>6 followed by 6</td>
+    </tr>
+    <tr>
+      <td class="text-center">10</td>
+      <td>May not be hit</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### Allocate Hits & Make Saving Throws
+{: #allocate-hits-and-make-saving-throws }
+
+You must allocate hits inflicted on your formation against targets that are within range and line of fire of the enemy. Hits are allocated <q>from the front to the back</q> of a formation. Note that this is the opposite of suppression. AP hits can only be allocated against infantry units, and AT hits may only be allocated against armoured vehicles. Hits must be allocated to the closest potential target first. You may not allocate a second hit to a unit until one hit has been allocated to every potential target, or allocate a third hit until all targets have been allocated two hits, etc.
+
+Once all hits have been allocated, make saving throws for each unit that has been hit, using the unit’s armour value from its datasheet or the cover save from the terrain table. Roll a D6. If the score is lower than the armour value or cover save value then the roll is equal to or greater than the armour or cover save value then the unit is saved and it remains in play. Make a separate save for each hit the unit suffers. Remember that the target formation receives a Blast marker for each unit that is destroyed.
+
+If an attacking formation scores hits both with normal weapons and weapons with the macro-weapon ability, then the opposing player must allocate and make any saves for the normal hits first, and then allocate and make any saves for the macro-weapon hits. Hits from macro-weapons can only be applied to units that are in a position to be hit by a macro-weapon (Note: With the exception of War Engines (see [Close Combat and Firefight Attacks](#close-combat-and-firefight-attacks)), during an assault, all units up to 15cm away are valid targets for allocation, regardless of whether the hits are from CC or FF).
+
+### Check to See if Target Breaks
+
+Once the attack is completely resolved, you must check to see if the target formation has been broken by the Blast markers it has received. The formation breaks if the number of Blast markers equals or exceeds the number of units in the formation. Note that formations do not break part way through a shooting attack—only once it has been resolved.
+
+{::nomarkdown}
+<aside class="eop">
+  <header>Shooting</header>
+
+  <p>A Space Marine Devastator Detachment in Rhinos has just made an advance action (to get within range of the enemy). All units have made their move, and now are permitted to shoot. They decide to shoot at an Ork warband nearby. The Space Marine player measures the range (which is within the Devastators’ range and line of fire) and places a Blast marker.</p>
+
+  <p>There are four Devastator units in the formation, each with two missile launchers, making for a total of eight shooting attacks. All the units in the target formation are infantry, so the Devastators elect to shoot using their <abbr title="Anti-personnel">AP</abbr> value, which is AP5+.</p>
+
+  <p>The player controlling the Devastators then rolls eight dice, scoring 1, 2, 2, 4, 4, 5, 6 and 6—making for a total of 3 hits.</p>
+
+  <p>The nearest units in the enemy formation are all Ork Boyz stands, three of whom suffer a hit.</p>
+
+  <p>The Ork player then attempts to make saves for these three units, rolling one dice for each. The Ork player fails to roll any 6s, meaning that all three units are destroyed.</p>
+
+  <p>A further three Blast markers are placed on the warband, taking the total number of Blast markers up to four—not enough to break the warband (since it has more than four units remaining).</p>
+</aside>
+{:/}
+
+<div class="sr">
+### Barrages
+
+Many artillery pieces, rocket launchers and some other weapons fire a barrage of shots causing mass destruction on the enemy. When these guns or launchers are grouped together in an attack they always fire a single barrage at the same target. On their datasheets, these weapons have no to hit rolls—instead they have a number of barrage points (BPs). The main difference between a barrage and a normal attack is that the barrage covers a substantial area and so may hit several units.
+
+To fire a barrage, first take a Barrage template (see [What You Will Need to Play](#what-you-will-need-to-play)) and place it on the table where you want the barrage to land. Each weapon contributing to the barrage must be within range and have a line of fire to at least one unit under the template. Weapons that are not in range or do not have a line of fire to an enemy unit that falls under the template may not fire at all this turn. You are allowed to place templates over your own units, or units from several enemy formations if you wish but all units under the templates—friend and foe alike—are attacked. Any formation that is attacked receives a Blast marker for <q>coming under fire</q> (see [Place Blast Marker](#place-blast-marker)). Next, refer to the data sheet to work out the total number of Barrage points. The whole formation fires at once, so the number of Barrage points for each weapon that is in range and has a line of fire is added together. When you have worked out the total number of barrage points refer to the barrage table below. Note that a formation may only fire one barrage per turn—a single formation may not fire separate barrages at different targets.
+
+The Barrage table lists the hit roll required to hit each unit under the Barrage template. Roll to hit all units (friend or foe) under the template with the appropriate to hit values. In order to speed dice rolling we recommend rolling to hit all units of exactly the same type together, and then removing any casualties from those closest to the enemy first.
+
+<table class="table">
+    <caption>Barrage Table</caption>
+    <thead>
+      <tr>
+        <th>B<span>arrage </span>P<span>oints</span></th>
+        <th>Extra Temp<span>lates</span></th>
+        <th>Extra B<span>last </span>M<span>arkers</span></th>
+        <th colspan="2">To Hit Rolls</th>
+      </tr>
+      <tr>
+        <th colspan="3"></th>
+        <th>AP</th>
+        <th>AT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>None</td>
+        <td>None</td>
+        <td>6+</td>
+        <td>6+</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>None</td>
+        <td>None</td>
+        <td>5+</td>
+        <td>6+</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>None</td>
+        <td>None</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+      <tr>
+        <td>4–5</td>
+        <td>One</td>
+        <td>None</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+      <tr>
+        <td>6–7</td>
+        <td>One</td>
+        <td>One</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+      <tr>
+        <td>8–9</td>
+        <td>Two</td>
+        <td>One</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+      <tr>
+        <td>10–12</td>
+        <td>Two</td>
+        <td>Two</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+      <tr>
+        <td>13–15</td>
+        <td>Two</td>
+        <td>Three</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+      <tr>
+        <td>16–18</td>
+        <td>Two</td>
+        <td>Four</td>
+        <td>4+</td>
+        <td>5+</td>
+      </tr>
+    </tbody>
+  </table>
+
+Extra Barrage Templates
+: Large barrages may receive extra Barrage templates. The Barrage table will tell you if a barrage receives any extra Barrage templates. Place any extra templates so that they touch the first template that was placed, and so that no templates overlap. All units under the templates are attacked with the barrage’s to hit values. Note that once the first template has been placed, the attacker may choose where to place the additional templates, as long as they are touching the first template, and no line of fire, placement or range restrictions apply (see below).
+
+Extra Blast Markers
+: Really large artillery barrages are very effective at suppressing enemy troops as well as killing them. To represent this, a large barrage may inflict one, two or three extra Blast markers, as shown on the barrage table. The Blast markers are placed in addition to any Blast markers placed on a formation for it coming under fire or for any casualties that it suffered. If several formations are being attacked then each receives the appropriate number of extra Blast markers.
+
+Using Barrage Templates
+: Deciding which enemy units have been caught underneath a circular Barrage template is another one of the things that can cause endless arguments during a game. The method we use (and the default you should use unless you have a different convention that you prefer) is that a unit is affected if any part of the model falls under the template, or at least one model on a stand. In addition, templates must be placed in such a way as to get as many enemy units from the target formation under them as possible within the restrictions for lines of fire and range. This stops players <q>sniping</q> at important units with artillery.
+</div>
+
+## Overwatch
+
+A formation that takes an overwatch action may not move, but may shoot, outside of the normal turn sequence, in response to an enemy formation’s movement. We mark formations on overwatch using the Games Workshop Order dice, but you can use other methods if you prefer. Note that if a formation has units more than 5cm from another unit in the formation (i.e., it is not in a legal formation), then the formation may **not** take an overwatch action, as it **must** move back into a legal formation if it can.
+
+A formation that is on overwatch may choose to shoot immediately after an enemy formation completes a move or unloads troops, and before the target either shoots or assaults.
+
+Note that a formation on overwatch is allowed to shoot at an enemy formation after any move, so it may shoot at a formation making several moves after it has completed one of these moves and before it carries out the next one. This stops fast formations using double or march actions to <q>whiz past</q> a formation that is on overwatch.
+
+Also note that formations on overwatch may only react when a formation moves or unloads troops. They may not to choose to shoot at a formation that does anything else in their line of fire, such as shooting without moving or regrouping.
+
+Resolve the shooting attacks using the normal rules. The overwatching formation must shoot at the formation that triggered the shooting—it can’t pick a different target. Once it has fired, the formation is no longer considered to be on overwatch.
+
+Formations remain on overwatch until they either shoot, or they undertake a new action in the following turn. Note that this means that a unit can go into overwatch on one turn, and not shoot until the following turn. Shooting in the following turn counts as your action for that turn, and will stop the formation taking an action later on. If the formation does not shoot in the following turn then it may take an action instead of shooting.
+
+{::nomarkdown}
+<aside class="eop">
+  <header>Overwatch</header>
+
+  <p>As his first action for the turn, the Imperial Guard player chooses to try to put one of his Steel Legion Mechanized Infantry Companies onto overwatch. He passes the Action test and the unit goes onto overwatch.</p>
+
+  <p>Nearby, an Ork formation chooses a sustained fire action and shoots at a nearby Titan. The Ork formation doesn’t move, so can’t trigger the formation on overwatch to fire. Their overwatch goes on…</p>
+
+  <p>Later in the same turn, another Ork formation chooses a double action and moves across in front of the Imperial Guard on overwatch. At the end of their first move, the Orks are within line of fire of the Imperial Guard detachment, but the player decides not to shoot at them since their second move will take them closer to another unit with which he can shoot them anyway. The overwatch is not triggered and still goes on…</p>
+
+  <p>A new turn begins and the Ork player wins the Strategy phase, enabling him to go first. The first thing the Ork player does is begin an engage action with a Kult of Speed, which begins tearing towards the Imperial Guard. At the end of their move, they are very close to the Imperial Guard formation, but before the assault is resolved, the Imperial Guard player announces that he is going to trigger the formation’s overwatch and shoot at the Kult of Speed. The shooting is resolved normally, and in all likelihood will provide a massive aid to the Imperial Guard in the coming assault.</p>
+
+  <p>After the effects of the shooting have been resolved, the assault is resolved normally.</p>
+</aside>
+{:/}
+
+## Crossfire
+
+{::nomarkdown}
+<blockquote>
+  <p>’Ere we go, ’ere we go, ’ere we go… Bloody hell, where’d dose beaky wagonz come from? Quick ladz, face dis way. No, no, no! Not dat way, dis way. Oi! Where are yooz boyz running off too? Come back ’ere ya yoosless lot… Bugga! Oh well, I guess I’ll just have to take out dem wagonz meself. ’Ere we go den… WAAAAAARGH!!!</p>
+
+  <cite>Last words of Warlord Naz-bakk</cite>
+</blockquote>
+{:/}
+
+Formations that take fire from the flank or rear are caught in a deadly crossfire, and will suffer additional casualties as troops struggle to find cover from attacks coming from an unexpected direction.
+
+To represent this, formations are allowed to use the following rules to claim a crossfire bonus when they shoot. You can claim the crossfire bonus if you can draw a straight line up to 45cm long from any of the units in the shooting formation to any unit in another friendly formation _and_ this line crosses a unit from the target formation _or_ the gap between two units from the target formation.
+
+The friendly unit that the crossfire line is drawn to must have a line of fire to a unit from the target formation, but does not have to be in range with any of its weapons. You may not use units that are in broken or marching formations to claim the crossfire bonus.
+
+All units from a formation caught in a crossfire suffer a -1 save modifier. This may result in some units automatically failing their saving throw. Some terrain features or special rules may counter this modifier (see [Terrain Effects](#terrain-effects) and <a href="#thick-rear-armour">_Thick Rear Armour_</a>).
+
+In addition, a formation caught in a crossfire attack receives two Blast markers for the **first** unit destroyed by the attack, rather than just one Blast marker for the destroyed unit as would usually be the case (see [Place Blast Marker](#place-blast-marker)).
+
+Note that a formation attacked by several enemy formations, each of which can claim a crossfire, will receive the extra Blast marker from _each_ enemy formation that inflicts one or more casualties.
+
+{::nomarkdown}
+<aside class="eop">
+  <header>Crossfire</header>
+
+  <div><img alt="Crossfire Example" src="crossfire.png"></div>
+
+  <p>The Land Raiders have taken an advance action and moved to the position shown in the photograph below. The Space Marine player is able to draw a line of fire less than 45cms long to a unit in the Space Marine Tactical formation, and so is able to claim the crossfire bonus when shooting on the Orks.</p>
+
+  <p>The Land Raiders’ lascannon are ineffective against the Ork infantry, but their heavy bolters inflict three hits. The -1 save modifier means that it is impossible for the Orks to make their armour save so three units are removed as casualties.</p>
+
+  <p>Five Blast markers are inflicted on the Orks: one for coming under fire, two for the first casualty caused by the heavy bolter fire, and two more for the remaining two casualties. There are only five units left in the Ork warband, so the five Blast markers inflicted by the Land Raiders are just enough to break the warband.</p>
+</aside>
+{:/}
+
+## Assaults
+
+Formations that carry out an engage action are allowed to move and then fight an assault. An assault represents a situation where all hell breaks loose as troops desperately try to seize a vital objective, or fight a tenacious defence to keep the objective in friendly hands. Assaults are not necessarily face to face or toe to toe, simply close enough that individual infantry are able to engage in the fight and make use of their small arms, grenades and other short ranged weapons. Casualties will often be high on both sides, and at the end of the assault, one side or the other will be forced to withdraw with its morale shattered, leaving the field to the victor.
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Assaults</header>
+
+  <p>The rules for assaults that follow are a crucial part of the Epic rules, and so it’s important to understand what they represent. Unlike most wargames, where assaults only really cover hand-to-hand combat, in Epic an assault covers everything that happens when a formation is ordered to assault an enemy formation. To put this another way, if you think of an assault as covering everything that happens in a typical 4–6 turn game of Warhammer 40,000, then you won’t go too far wrong!</p>
+
+  <p>This means that while hand-to-hand combat (called close combat in Epic) can be a part of what happens in an assault, it is by no means everything that happens. You will find it quite common for assaults to be resolved without any units making it into close combat at all, just as games of Warhammer 40,000 can be resolved without any close combat taking place.</p>
+
+  <p>One final point that needs to be made here is that an assault only occurs if a formation takes an engage action. This means it is possible for enemy formations to end up very close to each other (less than 15cms) without having to fight an assault. This reflects your troops’ natural inclination to get under cover when they are close to the enemy unless they are ordered to attack.</p>
+</aside>
+{:/}
+
+### Assault Procedure
+
+This is a summary of the assault procedure. We’ll work through it step by step in the rules that follow:
+
+1. Choose target formation
+2. Make charge move
+3. Make counter-charges
+4. Resolve attacks
+5. Work out result
+6. Loser withdraws
+7. Winner consolidates
+{: .upper-roman }
+
+### Choose Target Formation
+
+A formation taking an engage action must pick an enemy formation as the target of the assault. Any enemy formation may be chosen anywhere on the table, though for reasons that will become apparent it makes sense to choose someone fairly close by.
+
+Under certain circumstances, a formation may assault two or more enemy formations (see the special rule for intermingled formations).
+
+### Make Charge Move
+
+A formation undertaking an engage action is allowed to make **one** move (not a double distance move as is the case in many sets of wargame rules, not least many Games Workshop games), and then fights an assault against the enemy formation that was chosen as the target of the charge. This move is known as the _charge move_.
+
+Make the move normally, as described in the movement rules given previously. Once the move is complete, the engaging formation must have at least one unit within 15cms of a unit from the target formation. If this is not the case then the assault does not take place and the action ends. This caveat aside, units from the charging formation may move in any direction and do not have to head towards the enemy.
+
+Units making a charge move are allowed to enter enemy zones of control in order to move into base contact with an enemy unit from the target formation. Moving into base contact allows the unit to fight with its close combat value rather than its firefight value, as described below. This is the only time a unit may enter an enemy zone of control. See the rules for zones of control ([Zones of Control](#zones-of-control)). Note that charging units may not enter the zone of control of enemy units from another formation that is not the target of the assault.
+
+A maximum of two units may move into base contact with each defender. A charging unit that enters a zone of control must move into base contact with the nearest enemy whose zone of control has been entered. Once a unit has been contacted it loses its zone of control for the rest of the assault, allowing other units to move past it.
+
+It’s important to note that all you have to do is get one unit within 15cms of the enemy chosen as the target of the assault. There is no need for any units to get into base-to-base contact with the enemy unless you want them to.
+
+### Counter Charges
+
+An assault represents a brutal short-range battle involving movement, shooting and close combat. Although the assaulting formation will have initiated the combat, the defending formation will have time to react to the enemy assault and make limited moves of their own. To represent this, units from the defending formation involved in the assault are allowed to make a special move called a _counter charge_.
+
+Defending units that are not already in base contact with an enemy unit are allowed to counter charge. Units with a speed of 30cm or more may make a counter charge move of 10cm. Units with a speed of 25cm or less may make a counter charge move of 5cm. Counter charges happen after the engaging formation has finished moving and any overwatch shots have been taken, but before the combat is resolved. All the normal charge move rules apply, and defending formations must still be in a legal formation after the counter charge moves have been made (i.e., all units must be within 5cm of another unit from their formation). Embarked units may dismount.
+
+A unit must use their counter charge move to move directly towards the closest enemy unit. It may move into base contact if close enough, and as long as the enemy is not already in contact with two defending units. Units can choose not to counter charge if they wish, but if they do counter charge they must head towards the nearest enemy.
+
+Counter charging units are allowed to counter charge enemy units from any enemy formation, not just the one they were assaulted by. Any enemy formations that are contacted by counter charging units are drawn into the assault, and will fight just as if they had made the assault themselves. Treat them and the original attacking formation as a single formation for all rules purposes for the duration of the assault.
+
+A 2D6 roll is used to resolve a combined assault. If the attacker loses then each formation is broken. If the attacker wins then each formation receives a number of Blast markers equal to the number of units the formation lost in the assault.
+
+### Resolve Attacks
+
+All units have two assault values: a _close combat_ value and a _firefight_ value. Units that are in base-to-base contact with the enemy use the close combat value, while units that are not in base contact but are within 15cm and have a line of fire to the enemy can use their firefight value. Units that are armed only with close combat weapons and do not have any small arms or other ranged weapons may only attack if in base contact with the enemy.
+
+Roll 1D6 for each unit that may attack. Note that Blast markers do not suppress units from formations involved in an assault—it is assumed that the proximity of the enemy means that everyone joins in! Compare the dice roll to the unit’s close combat value if it’s in contact with the enemy, or its firefight value if it’s within 15cm of the enemy but not in base contact. If the dice roll is equal to or greater than the relevant value, then a hit is scored on the enemy. No modifiers ever apply to these dice rolls.
+
+Each player allocates the hits and make saving throws in the same manner as they would when allocating hits from shooting. Hits may only be allocated to units that were directly engaged in the combat (i.e., that belonged to the attacking or defending formation and which were within 15cms of the enemy after charge and counter-charge moves were completed). Infantry units from formations taking a charge action may not take cover saves (they are assumed to have left cover to charge the enemy), but other infantry units may take cover saves normally.
+
+If all of the units in the defending formation have been killed and at least one attacker survives, then the attacker wins and the assault is over (go straight to [Lower Withdraws](#loser-withdraws)). If all of the attacking units directly engaged in the assault are killed then the assault has stalled and the defender wins (go straight to [Lower Withdraws](#loser-withdraws)). <q>Directly engaged</q> means being within 15cm of a defending unit after charge and counter-charge moves have been completed. If even one of the original attackers that were within 15cms of the enemy survives, then the attack has not stalled. In any other case, both sides can call on support (see [Supporting Fire](#supporting-fire)).
+
+**Important Note:** Kills inflicted in an assault do not count for placing blast markers or for breaking a formation until **after** the result of the combat has been worked out. Also note that the attacker must completely destroy the defending formation to win at this stage, while all the defender has to do is to kill all the attacking units that made it to within 15cms of a defender.
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Assault Weapons and Small Arms</header>
+
+  <p>Many unit datasheets include weapons that are noted as being either assault weapons or small arms.</p>
+
+  <p>The term assault weapons covers all of the diverse close combat weapons of the 41<sup>st</sup> Millennium, including chainswords, power weapons and Ork choppas. The effect of these weapons is included in a unit’s Close Combat value and so they can only be used during an assault. For example, Assault Marines with chainswords have the effect of these weapons included in their Close Combat value of 3+.</p>
+
+  <p>The term <q>small arms</q> covers a dizzying array of short-range weapons used by units in the 41<sup>st</sup> Millennium. Examples include lasguns, bolters and Ork shootas. The effect of these weapons is included in a unit’s Firefight value and can only be used during an assault. For example, Tactical Marines with boltguns have the effect of these weapons included in their Firefight value of 4+.</p>
+
+  <p>An assault is the only time that units get to use their <q>small arms</q> such as bolters or lasguns, although these weapons have a nominal range of 15cm on the unit datasheets. This represents the limited amounts of ammo carried for such weapons, and also that in combat most soldiers will keep their heads down and only shoot when the situation is really desperate! Neither of these problems generally apply to heavy weapons teams, which is why these weapons get to shoot all of the time.</p>
+</aside>
+{:/}
+
+### Supporting Fire
+
+Both sides may call upon support unless the defender has been wiped out or the attack stalled as described above. Calling on support allows units from other formations to attack with their firefight value if they are within 15cm and have a line of fire to an enemy unit directly involved in the assault. In this case <q>directly involved</q> means belonging to the attacking or defending formation(s) and in a position to attack. This rule represents units from both sides that are not directly involved in the assault lending supporting fire when they see their friends coming under attack. Units from formations that are either Broken or Marched this turn cannot lend support.
+
+Roll to hit using the firefight values of the supporting formations, and then allocate hits and make saving throws as you would do for shooting attacks. Once all casualties have been removed you must work out the result of the attack (see [Work Out Result](#work-out-result)).
+
+### Work Out Result
+
+After both players have removed casualties, the outcome of the combat must be decided.
+
+First, if one side completely wiped the other side out, then it is the winner. If this isn’t the case then each player rolls 2D6, and adds any modifiers that apply from the chart below to the single D6 that rolled highest. Note that you don’t add your dice rolls together, but use the single dice with the highest score. Whoever has the higher score after any modifiers have been added wins the assault.
+
+In addition, the losing formation suffers a number of extra hits equal to the difference between the two sides’ result scores. There are no saves for these hits, which represent units being hacked down as they turn and run, or disintegrating into a panic-driven rout as they flee. Remove these additional casualties as you would hits inflicted in the assault phase (i.e., units in base contact first, then those closest to the enemy, etc.).
+
+In the case of a tied dice roll fight a second assault using any surviving units, starting with step 4 (i.e. roll dice, allocate hits, make saves and resolve the combat all over again with any survivors). Units from both sides are allowed to make a counter charge move before the second round is fought, with the attacker moving his counter charging units first (see [Counter Charges](#counter-charges)). If a second round is fought then any casualties from the first round carry over when working out the result of the combat.
+
+<table class="table">
+  <caption>Assault Modifiers <span class="pull-right">(Cumulative)</span></caption>
+  <tbody>
+    <tr>
+      <td>For each kill you have inflicted during the assault</td>
+      <td class="text-center">+1</td>
+    </tr>
+    <tr>
+      <td>You have more units than the opposing formation</td>
+      <td class="text-center">+1*</td>
+    </tr>
+    <tr>
+      <td>You have more than twice as many units as the opposing formation</td>
+      <td class="text-center">+1*</td>
+    </tr>
+    <tr>
+      <td>Your formation has no Blast markers</td>
+      <td class="text-center">+1**</td>
+    </tr>
+    <tr>
+      <td>The opposing formation has more Blast markers</td>
+      <td class="text-center">+1**</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">* Count the total number of units remaining in the charging formation against the total number of units remaining in the defending formation. Don’t include units from other formations that were lending supporting fire.</td>
+    </tr>
+    <tr>
+      <td colspan="2">** Count broken enemy formations as having as many Blast markers as units.</td>
+    </tr>
+  </tfoot>
+</table>
+
+### Loser Withdraws
+
+After the result of the combat has been worked out (either because all defending units were destroyed, or the attack stalled, or through a result roll), then the loser is broken and must withdraw, and formations on the winning side receive Blast markers for the casualties they suffered.
+
+If the loser was already broken when it was assaulted then the whole formation is destroyed, and <span class="text-uppercase">all</span> units in the formation are removed from play as casualties. If the losing formation is not broken then it becomes broken and may withdraw (see [Withdrawals](#withdrawals)).
+
+Once any additional casualties have been removed, any surviving units on the losing side must make an immediate withdrawal as explained in the rules for broken formations later on (see [Withdrawals](#withdrawals)).
+
+Finally, any formations belonging to the losing side that were in a position to have lent support (i.e., they were within 15cms of an enemy unit in the assault) receive one Blast marker each, even if they did not actually lend support. These Blast markers represent the detrimental effect on morale of seeing friends defeated in an assault.
+
+### Winner Consolidates
+
+After the loser has withdrawn, the winning formation receives a number of Blast markers equal to the number of units that were killed by the enemy. Note that it is possible for a formation to win an assault and then become broken by the casualties that they suffered! In this case, the winning formation is broken, but does not have to make a withdrawal even if other enemy units are within 15cm (see [Withdrawals](#withdrawals)). If the winner of the combat was already broken at the start of the combat, they do not receive any additional Blast markers.
+
+Any units on the winning side may then move 5cm. This is a free bonus move designed to allow attacking units to occupy territory they have captured. Units may not enter an enemy’s zone of control when they consolidate.
+
+<div class="sr">
+### Intermingled Formations
+
+Occasionally an attacker will wish to attack a position where units from two enemy formations are intermingled together. When a player declares the target for a charging formation he can choose, if he wishes, to include any enemy formations that are intermingled with the target formation as being part of the target of the charge. Two formations are intermingled if they have any units within 5cm of each other. If there are two or more formations within 5cm of the target formation, then the attacker can choose to include one or more of them as the target, he does not though have to include any of them.
+
+For the purposes of the assault, the intermingled formation is treated as being a single formation. All of the intermingled formations are allowed to make counter charges, and hits may be allocated to all of the formations involved. Once casualties have been worked out, a 2D6 roll is used to resolve the assault. Add together all of the Blast markers on the intermingled formations when working out the result of the assault. If the defender loses then each formation is broken and must withdraw. If the defender wins then each formation receives a number of Blast markers equal to the number of casualties it suffered in the combat (i.e., if one defending formation lost two units and then another one, then the first would get two Blast markers and the other would receive one Blast marker).
+</div>
+
+## Regrouping & Broken Formations
+{: #regrouping-and-broken-formations }
+
+Formations that take a marshal action are allowed to regroup in order to remove Blast markers and attempt to avoid becoming broken. Formations are broken once they have received a number of Blast markers equal to the number of units in the formation, or if they lose an assault. Broken formations may not be selected to take an action in the Action phase.
+
+### Regrouping
+
+Formations that take a marshal action may regroup. Roll 2D6 and remove a number of Blast markers equal to the highest roll. Note that the dice are not added together; instead the score of the higher dice is used.
+
+### Becoming Broken
+
+Check to see if a formation is broken after it receives any Blast markers (either from failing an Action test, shooting or winning an assault). Formations that lose an assault are automatically broken. You should completely resolve an assault or an attacking formation’s shooting before checking to see if the target formation breaks (i.e., don’t break a formation that comes under fire until all of the shooting has been resolved).
+
+Remove all of the Blast markers from a formation when it breaks, and mark it in some way to show that it is broken. You can mark a broken formation in any manner you like; some players simply remember, others turn units in a broken detachment away from the enemy, or you can use the Order Dice or Battle Markers produced by Games Workshop. At the end of the day, as long as you remember which formations are broken and which are not then any method will do.
+
+### Withdrawals
+
+Unless the rules state specifically otherwise, a broken formation may choose to make a withdrawal immediately after the action that caused it to break has been resolved. If a formation is broken part way through an action that it is taking (i.e., by the Blast marker received for failing an initiative test, or as a result of Blast markers received from overwatch fire), then it makes a withdrawal and loses the rest of its action.
+
+A formation making a withdrawal may make two moves. Withdrawal moves may be made in any direction, but if a unit ends the second withdrawal move within 15cm of the enemy, it is destroyed (it is killed while trying to escape!). Units may ignore enemy zones of control while making a withdrawal move but may not move directly over enemy units. These changes aside, withdrawal moves are treated exactly like a normal move. Enemy formations on overwatch can shoot at formations making withdrawal moves.
+
+Units with a speed of 0cm obviously cannot move when making a withdrawal, so are destroyed if there are any enemy units within 15cm at the point they become broken.
+
+### Blast Markers and Broken Formations
+
+Broken formations count as having as many Blast markers as units for any rules purposes.
+
+Broken formations do not receive Blast markers after they have been broken and before they rally. Instead each Blast marker that the formation would normally receive causes an additional hit on the formation, with no saving throw allowed. Apply these extra hits as you would from normal shooting (i.e., from front to back of the formation). These additional hits represent individual units panicking and fleeing the battlefield, and they make broken formations extremely vulnerable to enemy attack—you have been warned!
+
+Remember that a broken formation that wins an assault does not receive any Blast markers for the casualties it suffered, and will not therefore lose any additional units due to panic. It is assumed that in this case, the feeling of triumph at winning the assault overcomes any feelings of terror or fear.
+
+## The End Phase
+
+The End phase takes place, unsurprisingly, at the end of the turn, once both players have taken an action with each of their unbroken formations. Both players _must_ attempt to rally any formations and then check the scenario victory conditions to see if either side has won.
+
+### Rallying Formations
+
+In the End phase both players take turns to rally formations that have Blast markers or that are broken. Rally the formations one at a time, starting with the player with the higher strategy rating. In order to rally a formation you must roll equal to or over the formation’s initiative value on a D6 (see [Initiative Values](#initiative-values)). There is a -2 modifier to the dice roll if the formation is broken, and a -1 modifier if enemy units are within 30cm of a unit from the formation.
+
+If the test is failed, then broken formations must make a withdrawal (see [Withdrawals](#withdrawals)), while formations that are unbroken must remain in place but may not remove any Blast markers.
+
+If the test is passed then remove half the Blast markers from the formation, rounding fractions up. Formations with one Blast marker remaining that pass a Rally test remove the last Blast marker. A broken formation that rallies is no longer broken. It counts as having as many Blast markers as units, half of which will be removed for passing the Rally test. For example, a broken formation with seven units that rallied would no longer be broken and would receive three Blast markers.
+
+<table class="table">
+  <caption>Rally Test Modifiers</caption>
+  <tbody>
+    <tr>
+      <td>Formation is broken</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>There are enemy units within 30cms</td>
+      <td>-1</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="center" colspan="2">Modifiers are cumulative.</td>
+    </tr>
+  </tfoot>
+</table>
+
+### Check Victory Conditions
+
+Most games of Epic are played using a scenario that will have a set of victory conditions that a player needs to achieve in order to win. See the special rules for scenarios in the special rules section for more details on how this works.
+
+<div class="sr">
+### Rounding
+
+In Epic, all fractions are rounded up unless the rules specifically say otherwise. Generosity rules where 6mm soldiers are concerned!
+</div>
+
+## Core Rules Training Scenarios
+
+{::nomarkdown}
+<blockquote>
+  <p>Only faith in the Emperor and the training I am going to give you will save you on the battlefield.</p>
+
+  <cite>Veteran Sergeant Kesser</cite>
+</blockquote>
+{:/}
+
+You have now read all you need to know in order to try out the following training scenarios. A scenario is basically a set of notes, telling you all you need to know about the battle you are going to fight. It will tell you what forces are involved, what vehicles each player has, what each side’s objectives are, and so on.
+
+In order to play the core rules training scenarios you will need to get hold of a couple of dozen units of Epic scale Space Marines. It will help if you can track down some Predator Destructors and Rhinos too, but these are not vital. There is a free downloadable file on the <a href="http://www.net-armageddon.org/page/game-aids"><abbr title="Net Epic Armageddon">NetEA</abbr> website</a> which has a set of counters for the Space Marine units and vehicles used in the scenarios, so if you have access to the internet you can try out the first two scenarios even if you don’t have the correct models. Datasheets for the units can be found in the Forces section (see [Forces](#forces)).
+
+In order to play the scenarios that follow, you will also need a small amount of gaming terrain. You can use Warhammer or Warhammer 40,000 hills and trees if you don’t have any in Epic scale, or just lay a cloth over some books to create rolling, hilly terrain.
+
+**Note:** The datasheets for these five scenarios are in Section [5.0](#forces).
+
+### Basic Training Scenario
+
+Even Space Marines need to practise their tactics and strategy. This basic training scenario is based on one of these exercises and pits Space Marines from the same Chapter against each other in a simple training exercise. The object is to take and hold an objective.
+
+Force Alpha
+: Two formations each with six Space Marine Tactical units. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Force Beta
+: Two formations each with six Space Marine Tactical units. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Gaming Area
+: Set up a playing area approximately 60–90cm square. Set up any scenery you have in a mutually agreeable manner. You can set up as much or as little scenery as you like, but try to make sure that you have at least a couple of hills and either a built-up area or some woods for the troops to hide behind or take cover in. Place an <q>objective counter</q> in the very centre of the battlefield (a coin will do just fine).
+
+Deployment
+: If one player set up the scenery then his opponent can choose which table edge to deploy on. If you set up the scenery together then roll dice to see who gets the choice of edge. The other player sets up on the opposite table edge. You must deploy all of your units within 15cms of your table edge.
+
+Special Rules
+: All Space Marine units may use the _They Shall Know No Fear_ special rule (see [_They Shall Know No Fear_](#they-shall-know-no-fear)).
+
+Victory Conditions
+: You capture the objective if you have a unit within 15cms of it in the end phase and your opponent does not. To win the game, you must capture the objective and hold it for one full game turn.
+
+### Fast Attack Training Scenario
+
+Space Marine armies are highly mobile and make great use of armoured transport vehicles to strike at the enemy with lightning speed. By far the most common Space Marine transport vehicle is the ubiquitous Rhino, a sturdy and reliable machine capable of transporting ten fully equipped Space Marines across the battlefield.
+
+Force Alpha
+: Two formations each with six Space Marine Tactical units and three Rhinos. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Force Beta
+: Two formations each with six Space Marine Tactical units and three Rhinos. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Gaming Area
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Deployment
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Victory Conditions
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Special Rules
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+### Armoured Training Scenario
+
+Space Marines make use of a number of different types of armoured fighting vehicle. Among the most common is the Predator Destructor, a nicely balanced fighting machine with weapons suitable for engaging both armoured and vehicle targets. This scenario is based on the training exercises used to teach Space Marines the skills required to work as a member of the crew of a Predator tank.
+
+Force Alpha
+: Two formations each with four Space Marine Predator Destructors. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Force Beta
+: Two formations each with four Space Marine Predator Destructors. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Gaming Area
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Deployment
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Victory Conditions
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Special Rules
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+### Advanced Training Scenario
+
+Space Marine armies include a number of specialised formations and troop types such as Space Marine Assault units equipped with Jump Packs, and Space Marine Devestators equipped with additional heavy weapons. This scenario is based on the advanced training missions used by the Space Marines to show how the presence of these units affects the tactics learned during basic training.
+
+Force Alpha
+: Two formations each with six Space Marine tactical units and three Rhinos, plus one formation of four Space Marine Assault units. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Force Beta
+: Two formations each with six Space Marine tactical units and three Rhinos, plus one formation of four Space Marine Devastators. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Gaming Area
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Deployment
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Victory Conditions
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Special Rules
+: All Space Marine units may use the _They Shall Know No Fear_ special rule (see [_They Shall Know No Fear_](#they-shall-know-no-fear)), and Assault Marines may use the _Jump Packs_ special rule (see [_Jump Packs_]#jump-packs)).
+
+### Combined Arms Training Scenario
+
+In most circumstances, a Space Marine commander will field a combined arms force. This scenario teaches the vital skills needed to weld infantry, artillery and armoured vehicle formations into a single fighting force.
+
+Force Alpha
+: Two formations each with six Space Marine tactical units and three Rhinos, plus one formation of four Space Marine Assault units, one formation of four Predator Destructors, and one formation of three Whirlwinds. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Force Beta
+: Two formations each with six Space Marine tactical units and three Rhinos, plus one formation of four Space Marine Devestator units, one formation of four Predator Destructors, and one formation of three Whirlwinds. The force has a strategy rating of 5 and all formations have an initiative value of 1+.
+
+Gaming Area
+: Set up a playing area approximately 90–120cm square. Set up any scenery you have in a mutually agreeable manner. You can set up as much or as little scenery as you like, but try to make sure that you have at least a couple of hills and either a built-up area or some woods for the troops to hide behind or take cover in. Place an <q>objective counter</q> in the very centre of the battlefield (a coin will do just fine). Then each player must set up another objective 45cms away from any other objective. There should be a total of three objectives once they have all been set up.
+
+Deployment
+: Same as Basic Training (see [Basic Training Scenario](#basic-training-scenario)).
+
+Victory Conditions
+: You capture the objective if you have a unit within 15cms of it in the end phase and your opponent does not. To win the game you must capture two objectives and hold them both for one full game turn at the same time.
+
+Special Rules
+: Same as Advanced Training (see [Advanced Training Scenario](#advanced-training-scenario)).
+
+{::nomarkdown}
+<aside class="dc">
+  <header>Rules Questions</header>
+
+Tabletop wargaming is an imprecise science and can often generate rules questions. The sheer number of variables thrown up by the rules, army lists and varied tabletop terrain pretty much guarantees that at some point during any game you and your opponent will have a discussion about how exactly to deal with a situation that has occurred, or you will find that you play the game using slightly different methods or conventions.
+
+Usually, you will be able to overcome these differences by simply chatting about them with your opponent, but occasionally you will find that you each feel a rule or situation should be interpreted in a diametrically opposed way. Such a situation can lead to a very heated debate that might spoil your enjoyment of the game, and because of this, when these situations occur try not to argue about the rules, and instead simply smile and say <q>Okay, let’s play it your way!</q> Trust me, you’ll find that this method of play is much more relaxing and fun than bickering about rules, and you may find that you actually prefer your opponent’s method to your own. It’s also the mature approach, which I think is rather appropriate for a game like Epic, which when all is said and done is designed for experienced wargamers rather than experienced rules lawyers. ’Nuff said, I hope!
+</aside>
+{:/}
