@@ -1,0 +1,5 @@
+        <div class="weapon">
+{% include weapon-line.html weapon = include.weapon multiplier = include.multiplier arc = include.arc %}{% for m in include.weapon.modes %}
+
+{% include weapon-line.html weapon = m arc = include.arc %}{% endfor %}
+        </div>

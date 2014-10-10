@@ -1,0 +1,22 @@
+# Where things are
+source: _site/
+destination: public_html/
+collections:
+  - forces
+  - special_rules
+  - units
+  - weapons
+
+# Plugins
+gems: ['jekyll-less']
+
+# Conversion
+markdown: kramdown
+
+# Outputting
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'

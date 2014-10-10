@@ -1,0 +1,22 @@
+    <div class="unit">
+      <span class="name">{{include.unit.name}}</span>
+      <span class="type">{{include.unit.type}}</span>
+      <span class="speed">{{include.unit.speed}}</span>
+      <span class="armour">{{include.unit.armour}}</span>
+      <span class="cc">{{include.unit.cc}}</span>
+      <span class="ff">{{include.unit.ff}}</span>
+
+      <div class="weapons">{% for w in include.unit.weapons %}{% weapon w.id %}
+{% include weapon.html weapon = weapon multiplier = w.multiplier arc = w.arc %}{% endweapon %}{% endfor %}
+      </div>{% if include.unit.special_rules or include.unit.notes %}
+
+      <div class="notes">
+        <b>Notes:</b>{% if include.unit.special_rules %}
+
+        <ul class="special_rules">{% for sr in include.unit.special_rules %}
+          {% specialrule sr %}<li>{{ specialrule.name }}</li>{% endspecialrule %}{% endfor %}
+        </ul>{% endif %}{% if include.unit.notes %}
+
+        {{ include.unit.notes | markdownify }}{% endif %}
+      </div>{% endif %}
+    </div>

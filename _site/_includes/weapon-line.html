@@ -1,0 +1,10 @@
+          <div class="weapon-line">{% if include.weapon.name %}
+            <span class="name">{% if include.multiplier %}{{ include.multiplier }}× {% endif %}{{ include.weapon.name }}</span>{% else %}
+            <span class="boolean">{{ include.weapon.boolean }}</span>{% endif %}
+            <span class="range">{{ include.weapon.range }}</span>
+            <span class="firepower">{{ include.weapon.firepower }}</span>{% if include.weapon.special_rules or include.arc %}
+            <ul class="special_rules">{% if include.arc %}
+              <li>{{ include.arc }}</li>{% endif %}{% for sr in include.weapon.special_rules %}
+              <li>{% specialrule sr %}<abbr title="{{ specialrule.name }}">{{ specialrule.abbr }}</abbr>{% endspecialrule %}</li>{% endfor %}
+            </ul>{% endif %}
+          </div>

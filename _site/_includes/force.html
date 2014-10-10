@@ -1,0 +1,7 @@
+<div>
+  <h2 id="{{ include.force.id }}-forces">{{ include.force.name }} Forces</h2>
+
+  <div class="datasheet">{% for u in include.force.units %}{% unit u %}
+{% include unit.html unit = unit %}
+{% endunit %}{% endfor %}  </div>
+</div>
