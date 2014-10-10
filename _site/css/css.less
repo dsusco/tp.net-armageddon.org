@@ -1,3 +1,30 @@
+blockquote {
+  cite { text-align: right; }
+}
+
+ol, ul {
+  padding-left: 1.5em;
+}
+
+.dl-float-dt {
+  dt {
+    float: left;
+
+    &:after {
+      content: ': ';
+      white-space: pre;
+    }
+  }
+
+  dd { margin-bottom: 1em; }
+}
+
+.upper-roman {
+  dl& > dt:before { content: 'I '; }
+
+  ol& > li { list-style-type: upper-roman; }
+}
+
 .dc, .eop, .sr {
   background: #eee;
 
