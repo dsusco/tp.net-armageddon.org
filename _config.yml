@@ -24,3 +24,4 @@ defaults:
 kramdown:
   enable_coderay: false
   parse_block_html: true
+  toc_levels: 1..3
