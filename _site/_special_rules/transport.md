@@ -1,0 +1,12 @@
+---
+id: transport
+timestamp: 1974-06-24 04:36:33.000000000 -04:00
+name: Transport
+---
+<p>Many formations include transport vehicles that can be used to carry other units that belong to the same formation. The number and type of units that can be carried will be listed on the transport vehicle&rsquo;s datasheet. Transport vehicles may only carry units from their own formation. Transport vehicles can pick up and carry units as part of the transport vehicle&rsquo;s move. The vehicle simply moves into base contact with the unit to be picked up, and then carries on with its move as normal. Note that the transported unit is not allowed to move themselves during the move when they are picked up.</p>
+
+<p>Transported units may disembark at the end of any move after the move in which is it was picked up. This happens after any overwatch shots but before the moving formation shoots or assaults. Disembarking units may be placed within 5cms of the transport vehicle. If the formation has engage orders then they may be placed in base contact with an enemy unit. Otherwise they may not be placed within an enemy unit&rsquo;s zone of control. Note that units do not have to disembark, and may remain in their transport if they prefer. Units may not be picked up and disembark as part of the same move, though a formation making multiple moves as part of a march or double action could pick up units in one move and drop them off as part of a subsequent move. Units may embark or disembark as part of a counter-charge move, unless the transport vehicle carrying them is already in base contact with two enemy units &ndash; in which case they must stay on board (they are trapped inside!).</p>
+
+<p>Units being transported may not shoot unless the transport vehicle&rsquo;s datasheet specifically says otherwise. Transported units are counted towards the number of units in the formation for all rules purposes (ie, when working out the number of units involved in an assault or if the formation is broken by Blast markers, etc). If the transport unit is destroyed, then any transported units may make their normal armour save OR make a 6+ cover save. Further rules apply if a transport is destroyed by a macro-weapon.</p>
+
+<p>Please note that a transport vehicle that is being transported cannot transport other units itself (ie, the &lsquo;Russian Doll&rsquo; tactic is not allowed!).</p>
