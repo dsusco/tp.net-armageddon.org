@@ -1,6 +1,6 @@
 ---
 id: fortified-positions
-timestamp: 1974-06-24 04:35:59.000000000 -04:00
+timestamp: 2014-10-10 09:59:54.000000000 -04:00
 name: Fortified Positions
 ---
 <dl>

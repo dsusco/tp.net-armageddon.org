@@ -1,6 +1,6 @@
 ---
 id: planetfall
-timestamp: 1974-06-24 04:36:56.000000000 -04:00
+timestamp: 2014-10-10 10:09:23.000000000 -04:00
 name: Planetfall
 ---
 <p>Any unit capable of making a planetfall will have this noted on its datasheet. The datasheets for a spacecraft will note the type and number of units it may carry that can make planetfall. It is assumed that a spacecraft can also carry any cargo that will be transported in the unit with the planetfall ability. Units entering play by planetfall and their cargo (if any) should be kept off the table until they have landed.</p>

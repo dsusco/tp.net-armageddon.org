@@ -1,6 +1,6 @@
 ---
 id: teleport
-timestamp: 1974-06-24 04:36:43.000000000 -04:00
+timestamp: 2014-10-10 10:07:11.000000000 -04:00
 name: Teleport
 ---
 <p>Units with the teleport ability can appear suddenly on the battlefield, either because they have access to technological or arcane devices that allow them to be instantaneously moved from one place to another, or because they are capable of hiding extremely well and then suddenly appear &lsquo;as if from nowhere&rsquo;.</p>

@@ -1,6 +1,6 @@
 ---
 id: shadowfields-2
-timestamp: 1974-06-24 04:34:59.000000000 -04:00
+timestamp: 2014-10-10 09:49:57.000000000 -04:00
 name: 2 Shadowfields
 ---
 <p>Dark Eldar war engines are shrouded in light absorbing energy fields which serve as a powerful defence against the massed guns of their cornered prey. Each shadowfield will absorb one successful hit<br />

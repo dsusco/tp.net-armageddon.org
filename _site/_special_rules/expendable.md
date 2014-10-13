@@ -1,6 +1,6 @@
 ---
 id: expendable
-timestamp: 1974-06-24 04:35:56.000000000 -04:00
+timestamp: 2014-10-10 09:59:29.000000000 -04:00
 name: Expendable
 ---
 <p>Some units are seen by their allies as ablative or just plain disposable. This may be because the units are specifically created to sacrifice themselves, because the units are simply not valued, or for a number of other reasons.</p>

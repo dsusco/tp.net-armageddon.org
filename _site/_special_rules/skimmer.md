@@ -1,6 +1,6 @@
 ---
 id: skimmer
-timestamp: 1974-06-24 04:36:51.000000000 -04:00
+timestamp: 2014-10-10 10:08:37.000000000 -04:00
 name: Skimmer
 ---
 <p>Some units are noted as being skimmers. These units are equipped with devices that allow them to hover a short distance above the ground, so that they can fly over terrain that would slow other units down.</p>

@@ -1,6 +1,6 @@
 ---
 id: coordinated-fire
-timestamp: 1974-06-24 04:35:15.000000000 -04:00
+timestamp: 2014-10-10 09:52:32.000000000 -04:00
 name: Coordinated Fire
 ---
 <p>Some units are noted as being able to call in <em>coordinated fire</em>. These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action.</p>

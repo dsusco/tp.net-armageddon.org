@@ -1,6 +1,6 @@
 ---
 id: extra-attacks-2
-timestamp: 1974-06-24 04:35:52.000000000 -04:00
+timestamp: 2014-10-10 09:58:45.000000000 -04:00
 name: Extra Attacks (+2)
 abbr: EA(+2)
 ---

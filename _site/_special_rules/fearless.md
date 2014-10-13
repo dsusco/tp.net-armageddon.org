@@ -1,6 +1,6 @@
 ---
 id: fearless
-timestamp: 1974-06-24 04:35:57.000000000 -04:00
+timestamp: 2014-10-10 09:59:36.000000000 -04:00
 name: Fearless
 ---
 <p>Some units are noted as being fearless. Such units are either exceptionally brave or so crazed that they will never run away even when broken (though you can choose to have them make a withdrawal move if you want them to).</p>

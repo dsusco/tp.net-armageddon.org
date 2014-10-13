@@ -1,6 +1,6 @@
 ---
 id: first-strike
-timestamp: 1974-06-24 04:35:58.000000000 -04:00
+timestamp: 2014-10-10 09:59:46.000000000 -04:00
 name: First Strike
 abbr: FS
 ---

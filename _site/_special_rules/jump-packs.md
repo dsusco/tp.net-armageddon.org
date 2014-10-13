@@ -1,6 +1,6 @@
 ---
 id: jump-packs
-timestamp: 1974-06-24 04:36:10.000000000 -04:00
+timestamp: 2014-10-10 10:01:47.000000000 -04:00
 name: Jump Packs
 ---
 <p>Some units are noted as having jump packs. These units are equipped with special devices that allow them to fly for short distances, usually in a series of long &lsquo;hops&rsquo;.</p>

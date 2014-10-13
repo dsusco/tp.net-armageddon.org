@@ -1,6 +1,6 @@
 ---
 id: macro-weapon
-timestamp: 1974-06-24 04:37:03.000000000 -04:00
+timestamp: 2014-10-10 10:10:39.000000000 -04:00
 name: Macro-weapon
 abbr: MW
 ---

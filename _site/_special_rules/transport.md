@@ -1,6 +1,6 @@
 ---
 id: transport
-timestamp: 1974-06-24 04:36:33.000000000 -04:00
+timestamp: 2014-10-10 10:05:36.000000000 -04:00
 name: Transport
 ---
 <p>Many formations include transport vehicles that can be used to carry other units that belong to the same formation. The number and type of units that can be carried will be listed on the transport vehicle&rsquo;s datasheet. Transport vehicles may only carry units from their own formation. Transport vehicles can pick up and carry units as part of the transport vehicle&rsquo;s move. The vehicle simply moves into base contact with the unit to be picked up, and then carries on with its move as normal. Note that the transported unit is not allowed to move themselves during the move when they are picked up.</p>

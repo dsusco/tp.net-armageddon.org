@@ -1,6 +1,6 @@
 ---
 id: support-craft
-timestamp: 1974-06-24 04:33:47.000000000 -04:00
+timestamp: 2014-10-10 09:37:53.000000000 -04:00
 name: Support Craft
 ---
 <p>Support craft are skimmers, which for all line of sight and terrain purposes count as &lsquo;popped up&rsquo; at all times. If the Support Craft has a transport option, it may embark and disembark units as normal, embarked units are allowed a save if the Support Craft is destroyed.</p>

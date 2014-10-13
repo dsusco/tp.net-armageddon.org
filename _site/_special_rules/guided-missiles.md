@@ -1,6 +1,6 @@
 ---
 id: guided-missiles
-timestamp: 1974-06-24 04:32:55.000000000 -04:00
+timestamp: 2014-10-10 09:29:11.000000000 -04:00
 name: Guided Missile
 abbr: GM
 ---

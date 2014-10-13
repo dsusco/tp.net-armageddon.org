@@ -1,6 +1,6 @@
 ---
 id: scarab-conflict-necron-army-epic-tournament-special-rules
-timestamp: 1974-06-24 04:36:53.000000000 -04:00
+timestamp: 2014-10-10 10:08:52.000000000 -04:00
 name: Scarab Conflict Necron Army Epic Tournament Special Rules
 ---
 <dl>

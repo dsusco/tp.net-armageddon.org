@@ -1,6 +1,6 @@
 ---
 id: phase-out
-timestamp: 1974-06-24 04:37:19.000000000 -04:00
+timestamp: 2014-10-10 10:13:14.000000000 -04:00
 name: Phase Out
 ---
 <p>When a Necron formation becomes broken, it does not just fall back, but also vanishes from the battlefield without leaving any proof of its existence.</p>

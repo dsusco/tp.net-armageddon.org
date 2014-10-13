@@ -1,6 +1,6 @@
 ---
 id: regeration
-timestamp: 1974-06-24 04:36:54.000000000 -04:00
+timestamp: 2014-10-10 10:09:04.000000000 -04:00
 name: Regeneration
 ---
 <p>War engine units with Regeneration can regain lost damage capacity points. Each unit with regeneration regains one damage capacity point at the beginning of each turn&#39;s end phase.</p>

@@ -1,6 +1,6 @@
 ---
 id: the-hive-mind
-timestamp: 1974-06-24 04:36:42.000000000 -04:00
+timestamp: 2014-10-10 10:07:09.000000000 -04:00
 name: The Hive Mind
 ---
 <p>The Hive Mind of the Tyranids is a single coordinating sentience. Its influence is projected through synapse creatures that communicate with their lesser kin via a form of telepathy. Under the control of synapse creatures the slave organisms act in perfect unison. However, should the synapse creatures be slain the basic creatures revert to their animalistic behaviors until other synapse creatures can exert control over them. This is represented by the following rules for synapse swarm, <strong>not independent swarm</strong>, formations:</p>

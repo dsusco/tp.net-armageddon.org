@@ -1,6 +1,6 @@
 ---
 id: commander
-timestamp: 1974-06-24 04:35:14.000000000 -04:00
+timestamp: 2014-10-10 09:52:25.000000000 -04:00
 name: Commander
 ---
 <p>Some units and characters are noted as being commanders. Commanders can order up to three formations of troops to follow them when they make an assault, as long as all the formations have at least one unit within 5cm of a unit from the commander&rsquo;s formation.</p>

@@ -1,6 +1,6 @@
 ---
 id: fickle-masters
-timestamp: 1974-06-24 04:35:58.000000000 -04:00
+timestamp: 2014-10-10 09:59:44.000000000 -04:00
 name: Fickle Masters
 ---
 <p>The Chaos Powers are quick to punish or reward their champions.</p>

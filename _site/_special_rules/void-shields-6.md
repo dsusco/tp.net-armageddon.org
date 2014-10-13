@@ -1,6 +1,6 @@
 ---
 id: void-shields-6
-timestamp: 1974-06-24 04:35:06.000000000 -04:00
+timestamp: 2014-10-10 09:51:00.000000000 -04:00
 name: 6 Void Shields
 ---
 <p>Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan&rsquo;s datasheet.</p>

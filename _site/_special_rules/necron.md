@@ -1,6 +1,6 @@
 ---
 id: necron
-timestamp: 1974-06-24 04:36:57.000000000 -04:00
+timestamp: 2014-10-10 10:09:35.000000000 -04:00
 name: Necron
 ---
 <p>Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit&rsquo;s datasheet.</p>

@@ -1,6 +1,6 @@
 ---
 id: markerlights
-timestamp: 1974-06-24 04:33:15.000000000 -04:00
+timestamp: 2014-10-10 09:32:33.000000000 -04:00
 name: Markerlights
 ---
 <p>All enemy formations with at least one unit within 30cm range and Line of Fire (LOF) of at least one Tau unit with the marker lights ability is considered to be marked. When shooting at a marked formation, all ranged firepower attacks add +1 to their to-hit roll.</p>

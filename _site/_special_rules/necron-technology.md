@@ -1,6 +1,6 @@
 ---
 id: necron-technology
-timestamp: 1974-06-24 04:36:57.000000000 -04:00
+timestamp: 2014-10-10 10:09:33.000000000 -04:00
 name: Necron Technology
 ---
 <dl>

@@ -1,6 +1,6 @@
 ---
 id: tunneler
-timestamp: 1974-06-24 04:37:39.000000000 -04:00
+timestamp: 2014-10-10 10:16:30.000000000 -04:00
 name: Tunneler
 ---
 <p>Formations where all of the units have Tunneler (or are transported in units that have the ability) may be kept off the table and can appear at the start of the second turn or after. Set up the units touching their own side&rsquo;s table edge before the battle starts at the same time that spacecraft are setup. Any units transported in the tunneler should be placed to one side at this time too.</p>

@@ -1,6 +1,6 @@
 ---
 id: holofield
-timestamp: 1974-06-24 04:36:08.000000000 -04:00
+timestamp: 2014-10-10 10:01:21.000000000 -04:00
 name: Holofield
 ---
 <p>Eldar Titans are protected by a Holofield that is projected from special wing-like structures on the Titan&rsquo;s carapace. These fracture the image of the Titan making it appear as a swirling cloud of coloured motes to the naked eye, while at the same time disrupting any targeting devices attempting to lock onto the Titan. The overall result is to make the Titan a very hard target to hit! Holofields provide Titans with a special 3+ saving throw that can be taken instead of the Titan&rsquo;s normal saving throw. This save may always be taken, even against hits in an assault or against Titan Killer or Macro-weapons attacks. Make a single saving against weapons with the Titan Killer ability, rather than a separate save for each point of damage. If a vehicle with a Holofield also has Reinforced Armour, then it is allowed to re-roll its saving throw unless hit by Lance, Macro-weapon or Titan Killer attacks, but the re-roll must be made using the units armour save rather than the Holofield save. No Blast markers are placed for hits that are saved by a Holofield.</p>

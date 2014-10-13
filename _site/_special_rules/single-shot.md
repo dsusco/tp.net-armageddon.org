@@ -1,6 +1,6 @@
 ---
 id: single-shot
-timestamp: 1974-06-24 04:36:51.000000000 -04:00
+timestamp: 2014-10-10 10:08:39.000000000 -04:00
 name: Single Shot
 abbr: SS
 ---

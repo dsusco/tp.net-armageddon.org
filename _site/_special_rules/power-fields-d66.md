@@ -1,6 +1,6 @@
 ---
 id: power-fields-d66
-timestamp: 1974-06-24 04:35:16.000000000 -04:00
+timestamp: 2014-10-10 09:52:46.000000000 -04:00
 name: D6+6 Power Fields
 ---
 <p>Some Ork war engines are protected by banks of power fields. The number each war engine has is noted on its datasheet. Power fields work in exactly the same manner as Imperial Void Shields, with the sole exception that they may not be repaired once they have been knocked down by a hit, and will instead remain down for the remainder of the battle.</p>

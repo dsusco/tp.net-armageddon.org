@@ -1,6 +1,6 @@
 ---
 id: portal
-timestamp: 1974-06-24 04:37:17.000000000 -04:00
+timestamp: 2014-10-10 10:12:59.000000000 -04:00
 name: Portal
 ---
 <p>Necron Portals are the primary means by which the Necron forces are transported across the galaxy. Any formation that is in the reserves, either because it has not entered play or has left the board for any reason, may enter play via a portal as part of any activation that allows movement. Measure their movement using the portal as the starting point. Additionally, formations may leave the board by entering a portal, taking them into the reserves. Note that once in the reserves they can either re-enter play immediately via another portal, provided they have movement, or remain in the reserves.</p>

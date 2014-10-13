@@ -1,6 +1,6 @@
 ---
 id: xeno-sociology
-timestamp: 1974-06-24 04:36:29.000000000 -04:00
+timestamp: 2014-10-10 10:04:55.000000000 -04:00
 name: Xeno-Sociology
 ---
 <p>A Tyranid invasion is more akin to an infestation. Lesser creatures are everywhere, whether because they were separated from a swarm or because they just made planetfall via a Mycetic Spore. These creatures instinctively seek out the psychic conduits of the Hive Mind that are the synapse creatures. This is represented by the following rules:</p>
