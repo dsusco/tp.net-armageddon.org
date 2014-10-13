@@ -1,45 +1,44 @@
 ---
-id: trenchworks
-timestamp: 2014-10-10 10:05:11.000000000 -04:00
+timestamp: 2014-10-13 15:55:41.000000000 -04:00
 name: Trenchworks
 ---
-<dl>
-	<dt>Bunker</dt>
-	<dd>Counts as Fortifications (see <a href="../tournament-pack/#terrain_effects">Terrain Effects</a>). Can hold three units.</dd>
-	<dt>Gun Emplacement</dt>
-	<dd>Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see <a href="../tournament-pack/#infantry_cover_saves">Infantry Cover Saves</a>). Can hold one unit.</dd>
-	<dt>Trench</dt>
-	<dd>Can hold one infantry unit per 4<abbr>cm</abbr> of length.</dd>
-</dl>
+Bunker
+: Counts as Fortifications (see [Terrain Effects](#terrain-effects)). Can hold three units.
 
-<table id="trenchworks_effects_table">
+Gun Emplacement
+: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](#infantry-cover-saves)). Can hold one unit.
+
+Trench
+: Can hold one infantry unit per 4<abbr>cm</abbr> of length.
+
+<table class="table table-tp">
 	<caption>Trenchworks Effects Table</caption>
 	<thead>
 		<tr>
 			<th>Terrain</th>
-			<th>Inf<span>antry</span></th>
-			<th>Veh<span>icle</span></th>
-			<th>W<span>ar </span>E<span>ngine</span></th>
+			<th>Infantry</th>
+			<th>Vehicle</th>
+			<th>War Engine</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td>Bunker</td>
-			<td>3+<span> Cover Save</span></td>
-			<td>D<span>angerous</span></td>
-			<td>I<span>mpassable</span></td>
+			<td>3+ Cover Save</td>
+			<td>Dangerous</td>
+			<td>Impassable</td>
 		</tr>
 		<tr>
 			<td>Gun Emplacement</td>
-			<td>4+<span> Cover Save</span></td>
-			<td>5+<span> Cover Save</span></td>
-			<td><span>No Effect</span></td>
+			<td>4+ Cover Save</td>
+			<td>5+ Cover Save</td>
+			<td>No Effect</td>
 		</tr>
 		<tr>
 			<td>Trench</td>
-			<td>4+<span> Cover Save</span></td>
-			<td>D<span>angerous</span></td>
-			<td><span>No Effect</span></td>
+			<td>4+ Cover Save</td>
+			<td>Dangerous</td>
+			<td>No Effect</td>
 		</tr>
 	</tbody>
 </table>

@@ -1,6 +1,5 @@
 ---
-id: daemonic-focus
-timestamp: 2014-10-10 09:53:00.000000000 -04:00
+timestamp: 2014-10-13 16:13:25.000000000 -04:00
 name: Daemonic Focus
 ---
-<p>Certain Chaos units are noted as having <em>Daemonic Focus</em>. Units with this ability may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Chaos units with daemonic Focus may not be used to keep summoned units in play if the formation is broken.</p>
+<p>Certain Chaos units are noted as having _Daemonic Focus_. Units with this ability may keep any or all summoned units that belong to the formation in play. Summoned units do not vanish back into the warp after the formation has attempted to rally. Chaos units with daemonic Focus may not be used to keep summoned units in play if the formation is broken.</p>

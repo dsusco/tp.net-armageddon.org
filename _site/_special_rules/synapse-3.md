@@ -1,6 +1,4 @@
 ---
-id: synapse-3
-timestamp: 2014-10-10 10:07:20.000000000 -04:00
+timestamp: 2014-10-13 15:49:33.000000000 -04:00
 name: Synapse (3)
 ---
-<p>Formations that contain at least one unit with Synapse (a synapse unit) may return brood units from the swarm pool to play via swarming. Each synapse unit has a synapse value, the number in parenthesis after &ldquo;Synapse&rdquo;.</p>

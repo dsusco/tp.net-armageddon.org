@@ -1,6 +1,4 @@
 ---
-id: self-planetfall
-timestamp: 2014-10-10 10:08:44.000000000 -04:00
+timestamp: 2014-10-13 15:44:16.000000000 -04:00
 name: Self Planetfall
 ---
-<p>Self Planetfall is plotted exactly as Planetfall. Both the turn in which the formation arrives and the landing location is plotted. The only exception is that, because these units are much smaller than orbiting spacecraft, they may be plotted to arrive in the same turn that an enemy spacecraft is present. On the designated turn the Self Planetfalling unit is activated in the normal activation sequence, as with Spacecraft. Nominate the action for the formation and roll to activate. If the unit fails to activate its arrival is delayed to the next following turn. If the activation is successful, place the formation at the plotted landing zone and determine scatter according to Core Rules as if it were a normal Planetfall, including loaded units disembarking up to 5cm. The formation&rsquo;s action proceeds as normal in all respects from that point. In other words, the formation gets the &ldquo;free move&rdquo; from Planetfall placement at the beginning of its action but in all other ways activates as normal. Note: The action is chosen at activation, before scatter is determined. Choose the action carefully as a poor scatter role could render some actions ineffective.</p>
