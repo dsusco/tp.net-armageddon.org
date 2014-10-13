@@ -3,6 +3,8 @@ title: NetEA Tournament Pack
 ---
 {% include 1.md %}
 
+{% include 2.md %}
+*[AA]: Anti-aircraft
 *[AP]: Anti-personnel
 *[AT]: Anti-tank
 *[AV]: Armoured Vehicles
@@ -10,3 +12,4 @@ title: NetEA Tournament Pack
 *[CC]: Close Combat
 *[FF]: Firefight
 *[INF]: Infantry
+*[MW]: Macro-Weapon
