@@ -77,29 +77,82 @@ ol, ul {
 .sr {
   > :first-child:before { content: 'Special Rule'; }
 }
-
-.firepower {
-  &:after { content: ', '; }
-
-  &:last-child:after { content: none; }
+/*  units */
+.datasheet {
+  overflow-x: auto;
 }
 
-.special_rules {
-  padding-left: 0;
+.unit {
+  &:nth-child(odd) { background: #eee; }
 
-  &, li { display: inline; }
-  li {
-    .firepower();
+  .stats, weapons {
+    display: table;
+  }
+
+  .stats, .weapon-line {
+    > span {
+      display: table-cell;
+      padding: 0 .5em;
+
+      &:before {
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      &.name:before { content: 'Name'; }
+      &.type:before { content: 'Type'; }
+      &.speed:before { content: 'Speed'; }
+      &.armour:before { content: 'Armour'; }
+      &.cc:before { content: 'CC'; }
+      &.ff:before { content: 'FF'; }
+      &.range:before { content: 'Range'; }
+      &.firepower:before { content: 'Firepower'; }
+    }
+  }
+
+  .firepower {
+    &:after { content: ', '; }
+
+    &:last-child:after { content: none; }
+  }
+
+  .special-rules {
+    padding-left: 0;
+
+    &, li { display: inline; }
+    li {
+      .firepower();
+    }
+  }
+
+  .notes {
+    clear: both;
+    padding: 0 .5em;
+
+    .special-rules {
+      font-style: italic;
+
+      > :last-child:after { content: '.'; }
+    }
+    > :last-child { display: inline; }
+  }
+}
+@media (min-width: 768px) {
+  .unit {
+    .stats, weapons {
+      width: 50%;
+      float: left;
+    }
   }
 }
 
-.notes {
-  .special_rules {
-    font-style: italic;
-
-    > :last-child:after { content: '.'; }
+/* */
+#toc {
+  &, ol {
+    list-style: none;
+    padding-left: 1em;
   }
-  > :last-child { display: inline; }
 }
 
 #examples-of-formations {
