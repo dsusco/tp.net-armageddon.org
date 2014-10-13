@@ -48,7 +48,7 @@ class Helper
 
     hash['abbr'] = sr['rule_abbreviation'] unless sr['rule_abbreviation'].empty?
 
-    "#{hash.to_yaml}---"
+    "#{hash.to_yaml}---\n#{sr['special_rule_details']}"
   end
 
   def self.weapon_template(w)
@@ -79,7 +79,6 @@ class Helper
   def self.default_keys(obj)
     hash = Hash.new { |h, k| h[k] = [] }
 
-    hash['id'] = obj['rule_netea_url']
     hash['timestamp'] = Time.at(obj['edit_date'].to_s[0..-4].to_i)
     hash['name'] = obj['title']
 
