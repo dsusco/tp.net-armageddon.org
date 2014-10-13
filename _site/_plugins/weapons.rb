@@ -5,7 +5,6 @@ module Jekyll
     def generate(site)
       site.collections['weapons'].docs.each do |w|
         w.data['id'] = File.basename(w.path, File.extname(w.path))
-        w.data['timestamp'] = File.mtime(w.path)
       end
     end
   end
