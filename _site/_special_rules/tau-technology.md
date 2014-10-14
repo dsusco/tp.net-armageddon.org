@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 15:50:44.000000000 -04:00
+timestamp: 2014-10-14 08:32:42.000000000 -04:00
 name: Tau Technology
 ---
 Deflector Shield
@@ -14,3 +14,4 @@ Markerlights
 Tau Jet Packs
 : Tau jet packs follow all the rules for Jump Packs. Additionally, units with Tau jet packs are allowed to make an additional move of 10cm at the end of an advance, double or march order. The extra move is allowed whether or not the unit fires and takes place after any firing. This extra move may be in any direction and follows all the normal movement rules, so unit coherency and zones of control must be adhered to as usual. No extra movement is allowed on any orders other than advance, double or march.
 : In formations where only some of the units have Tau jet packs, the units without Tau jet packs are not allowed the extra move.
+{: .dl-float-dt }
