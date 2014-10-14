@@ -1,11 +1,8 @@
-## {{ include.force.name }} Forces
+<div>
+  <h2 id="{{ include.force.id }}-forces">{{ include.force.name }} Forces</h2>{% for sr in include.force.special_rules %}{% specialrule sr %}
 
-{% for sr in include.force.special_rules %}
-{% specialrule sr %}
-<div class="sr">
-### {{ specialrule.name }}
+  <div class="sr">
+    <h3 id="{{ specialrule.id }}">{{ specialrule.name }}</h3>
 
-{::nomarkdown}
-{{ specialrule.content }}
-{:/}
-</div>{% endspecialrule %}{% endfor %}
+{{ specialrule.content }}  </div>{% endspecialrule %}{% endfor %}
+</div>
