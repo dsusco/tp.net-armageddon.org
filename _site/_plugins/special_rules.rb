@@ -14,9 +14,16 @@ module Jekyll
       end
 
       def render(context)
+        special_rules = (context.registers[:page]['special_rules'] ||= [])
+
         context.stack do
           context['specialrule'] = special_rule_hash(context)[context[@markup.strip]]
-          render_all(@nodelist, context)
+
+          # only render the special rule if it hasn't been rendered on the page yet
+          if special_rules.index(context['specialrule']['id']).nil?
+            special_rules << context['specialrule']['id']
+            render_all(@nodelist, context)
+          end
         end
       end
     end
