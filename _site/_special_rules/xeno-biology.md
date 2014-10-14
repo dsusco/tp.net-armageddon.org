@@ -1,9 +1,5 @@
 ---
-timestamp: 2014-10-13 16:30:42.000000000 -04:00
-name: Xeno-Biology
----
----
-timestamp: 2014-10-13 16:00:06.000000000 -04:00
+timestamp: 2014-10-14 08:40:31.000000000 -04:00
 name: Xeno-Biology
 ---
 Tyranids are the most rapidly evolving species in the known galaxy. The developmental leaps exhibited in broods from the same hive fleet would normally take millions of years to achieve in other creatures. Their biology gives them certain benefits on the field of battle which are represented by the following rules:
