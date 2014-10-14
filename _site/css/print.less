@@ -1,0 +1,168 @@
+/* bootstrap-esque */
+@import 'reset';
+@import 'mixins';
+@import 'page';
+
+/* element */
+body { font: 10pt/1 Garamond, serif; xbackground:red;}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+abbr {
+  &, &[title] { border-bottom: 0; }
+}
+
+/* type */
+h1 {
+  .text(16pt);
+  page-break-before: right;
+}
+h2 {
+  .text(12pt);
+  column-break-before: always;
+}
+h1, h2 { text-transform: uppercase; }
+h3, h4 {
+  .text(10pt);
+}
+h4 { bookmark-label: none; }
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0;
+}
+
+p, blockquote, figcaption, dl, ol, ul, table, .text {
+  .text(10pt);
+
+  p, blockquote, figcaption, dl, ol, ul, table, .text { margin-bottom: 0; }
+}
+
+blockquote {
+  font-style: italic;
+
+  > :first-child:before { content: '“'; }
+  > p:last-of-type:after { content: '”'; }
+}
+
+/* lists */
+.dl-float-dt {
+  > dt { font-weight: bold; }
+  > dd { margin-bottom: @line-height-computed; }
+}
+
+ol, ul {
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+/* tables */
+table {
+  th {
+    font-weight: bold;
+  }
+
+  th, td {
+    padding: 0 0.5em;
+  }
+}
+
+.table-tp {
+  margin-bottom: 10pt;
+  width: 100%;
+
+  &, > caption {
+    border-width: 1pt;
+    border-top-width: 0;
+  }
+
+  > caption {
+    border-bottom-width: 0;
+    border-top-width: 1pt;
+  }
+
+
+  th { font-style: italic; }
+}
+
+
+/* classes */
+.dc, .eop, .sr {
+  border-width: 1pt;
+  margin-bottom: 10pt;
+  padding: 6pt 1em;
+  page-break-inside: avoid;
+
+  > :first-child { margin-bottom: 12pt; }
+  > :last-child { margin-bottom: 0 !important; }
+}
+
+.unit {
+  .text(8pt);
+
+  .stats, weapons {
+    width: 50%;
+    float: left;
+  }
+}
+
+/* */
+#examples-of-formations {
+  figcaption {
+    margin-bottom: 0;
+  }
+  figcaption, img {
+    border-width: 1pt;
+  }
+}
+
+#examples-of-terrain {
+  figure {
+    display: table;
+
+    + figure figcaption { padding: 0 0.5em 0 0; }
+  }
+  div, figcaption {
+    display: table-cell;
+    width: 70%;
+    vertical-align: middle;
+  }
+  figcaption {
+    padding: 0 0 0 0.5em;
+    width: 30%;
+  }
+}
+
+#weapon-fire-arcs + * {
+  .col-sm-push-6 {
+    float: right;
+    width: 2 * 192px;
+  }
+  .col-sm-pull-6 {
+    padding-right: 0.5em;
+    margin-right: 2 * 192px;
+  }
+
+  .clearfix, img {
+    border-width: 1pt;
+  }
+}
+
+#abbreviations {
+  .clearfix();
+  border-width: 1pt;
+  margin-bottom: 0 0 10pt;
+  padding: 6pt 1em;
+
+  > dl {
+    float: left;
+    width: 33%;
+
+    > * { margin-bottom: 0; }
+  }
+}

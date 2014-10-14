@@ -1,9 +1,13 @@
-ol, ul {
-  padding-left: 1.5em;
-}
+/* replace with bootstrap */
+ol, ul { padding-left: 1.5em; }
 
+.text { margin-bottom: 1em; }
+
+.no-margin { margin-bottom: 0 !important; }
+
+/* lists */
 .dl-float-dt {
-  dt {
+  > dt {
     float: left;
 
     &:after {
@@ -12,9 +16,26 @@ ol, ul {
     }
   }
 
-  dd { margin-bottom: 1em; }
+  > dd { margin-bottom: 1em; }
 }
 
+.upper-roman {
+  counter-reset: upper-roman;
+
+  ol& {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  > dt:before,
+  > li:before {
+    counter-increment: upper-roman;
+    content: counter(upper-roman, upper-roman) ' – ';
+    font-weight: bold;
+  }
+}
+
+/* tables */
 .table-tp {
   &, > caption {
     border: 1px solid #999;
@@ -36,38 +57,28 @@ ol, ul {
   > tfoot { font-style: italic; }
 }
 
-.upper-roman {
-  counter-reset: upper-roman;
-
-  ol& {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  > dt:before,
-  > li:before {
-    counter-increment: upper-roman;
-    content: counter(upper-roman, upper-roman) ' – ';
-    font-weight: bold;
-  }
-}
-
+/* classes */
 .dc, .eop, .sr {
   background: #eee;
+  border: 1px solid #999;
   margin: 0 0 1em;
   padding: 1em;
 
   > :first-child {
     font-size: 100%;
+    font-style: italic;
     font-weight: bold;
     margin: 0 0 1em;
     text-align: center;
 
     &:before {
       display: block;
+      font-style: normal;
       text-transform: uppercase;
     }
   }
+
+  > :last-child { margin-bottom: 0; }
 }
 .dc {
   > :first-child:before { content: 'Design Concept'; }
@@ -78,6 +89,7 @@ ol, ul {
 .sr {
   > :first-child:before { content: 'Special Rule'; }
 }
+
 /*  units */
 .datasheet {
   overflow-x: auto;
@@ -98,19 +110,25 @@ ol, ul {
       &:before {
         display: block;
         font-weight: bold;
-        text-transform: uppercase;
       }
 
-      &.name:before { content: 'Name'; }
+      &.name {
+        width: 40%;
+        &:before { content: 'Name'; }
+      }
       &.type:before { content: 'Type'; }
       &.speed:before { content: 'Speed'; }
       &.armour:before { content: 'Armour'; }
       &.cc:before { content: 'CC'; }
       &.ff:before { content: 'FF'; }
       &.range:before { content: 'Range'; }
-      &.firepower:before { content: 'Firepower'; }
+      &.firepower {
+        width: 40%;
+        &:before { content: 'Firepower'; }
+      }
     }
   }
+  .weapon-line > span.name:before { content: 'Weapon'; }
 
   .firepower {
     &:after { content: ', '; }
@@ -139,7 +157,7 @@ ol, ul {
     > :last-child { display: inline; }
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .unit {
     .stats, weapons {
       width: 50%;
@@ -148,38 +166,45 @@ ol, ul {
   }
 }
 
-/* */
-#toc {
-  &, ol {
-    list-style: none;
-    padding-left: 1em;
-  }
-}
-
+/* IDs */
 #examples-of-formations {
   figcaption {
     background: #000;
+    font-weight: bold;
     color: #fff;
-    max-width: 347px;
+    max-width: 351px;
+  }
+  figcaption, img {
+    border: 2px solid #999;
+
+    + img { border-top-width: 0; }
   }
 }
 
-#weapon-fire-arcs {
-  + div > div > div {
-    border: 1px solid #ccc;
-    max-width: 390px;
+#weapon-fire-arcs + * {
+  .clearfix, img {
+    border: 1px solid #999;
+  }
 
-    figure {
-      float: left;
-      max-width: 50%;
-      position: relative;
+  figure {
+    float: left;
+    position: relative;
+    width: 50%;
+  }
 
-      figcaption {
-        padding: 0 0.5em;
-        position: absolute;
-        width: 100%;
-      }
-      img { border: 1px solid #ccc; }
-    }
+  figcaption {
+    padding: 0 0.5em;
+    position: absolute;
+    width: 100%;
   }
 }
+
+#abbreviations {
+  background: #eee;
+  border: 1px solid #999;
+  margin: 0 0 1em;
+  padding: 1em;
+
+  > * { margin-bottom: 0; }
+}
+

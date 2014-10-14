@@ -11,6 +11,8 @@ title: NetEA Tournament Pack
 
 {% include 5.md %}
 
+{% include 6.md %}
+
 *[AA]: Anti-aircraft
 *[AC]: Aircraft
 *[AP]: Anti-personnel
@@ -35,6 +37,7 @@ title: NetEA Tournament Pack
 *[INF]: Infantry
 *[L]: Lance
 *[Left]: Left Fire Arc
+*[LOF]: Line of Fire
 *[LV]: Light Vehicle
 *[MW]: Macro-weapon
 *[Right]: Right Fire Arc
