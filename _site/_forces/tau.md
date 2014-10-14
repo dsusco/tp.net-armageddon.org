@@ -1,5 +1,37 @@
 ---
 name: Tau
+units:
+  - ethereal
+  - shas'el
+  - shas'o
+
+  - crisis-battlesuits
+  - fire-warriors
+  - gun-drones
+  - kroot-hounds
+  - kroot-master-shapers
+  - kroot-warriors
+  - krootox
+  - pathfinders
+  - stealth-battlesuits
+
+  - broadside-battlesuit
+  - piranha
+  - tetra
+
+  - devilfish
+  - hammerhead
+  - skyray
+
+  - barracuda
+  - manta
+  - orca
+  - tiger-shark
+  - tiger-shark-ax-1-0
+
+  - custodian-class-battleship
+  - protector-class-cruiser
+
 special_rules:
   - coordinated-fire
   - tau-technology
