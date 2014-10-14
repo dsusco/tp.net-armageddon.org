@@ -1,14 +1,4 @@
 module Jekyll
-  class ForceDataGenerator < Generator
-    safe true
-
-    def generate(site)
-      site.collections['forces'].docs.each do |f|
-        f.data['id'] = File.basename(f.path, File.extname(f.path))
-      end
-    end
-  end
-
   module Tags
     class Force < Liquid::Block
       def force_hash(context)

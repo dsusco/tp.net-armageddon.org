@@ -1,14 +1,4 @@
 module Jekyll
-  class UnitDataGenerator < Generator
-    safe true
-
-    def generate(site)
-      site.collections['units'].docs.each do |u|
-        u.data['id'] = File.basename(u.path, File.extname(u.path))
-      end
-    end
-  end
-
   module Tags
     class Unit < Liquid::Block
       def unit_hash(context)

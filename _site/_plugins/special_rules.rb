@@ -1,14 +1,4 @@
 module Jekyll
-  class SpecialRulesDataGenerator < Generator
-    safe true
-
-    def generate(site)
-      site.collections['special_rules'].docs.each do |sr|
-        sr.data['id'] = File.basename(sr.path, File.extname(sr.path))
-      end
-    end
-  end
-
   module Tags
     class SpecialRule < Liquid::Block
       def special_rule_hash(context)

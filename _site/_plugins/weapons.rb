@@ -1,14 +1,4 @@
 module Jekyll
-  class WeaponDataGenerator < Generator
-    safe true
-
-    def generate(site)
-      site.collections['weapons'].docs.each do |w|
-        w.data['id'] = File.basename(w.path, File.extname(w.path))
-      end
-    end
-  end
-
   module Tags
     class Weapon < Liquid::Block
       def weapon_hash(context)
