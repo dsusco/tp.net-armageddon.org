@@ -1,6 +1,6 @@
 ---
 name: Tyranid
-units
+units:
   - brood-lord
 
   - gargoyles
