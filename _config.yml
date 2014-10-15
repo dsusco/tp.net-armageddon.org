@@ -4,6 +4,7 @@ url: http://localhost:4000/
 source: _site/
 destination: public_html/
 collections:
+  - army_lists
   - forces
   - special_rules
   - units
