@@ -1,7 +1,7 @@
 <section class="force">
   <h2 id="{{ include.force.id }}-forces" class="text-center">{{ include.force.name }} Forces</h2>{% for sr in include.force.special_rules %}{% specialrule sr %}
 
-  <div class="sr">
+  <div class="special-rule">
     <h3 id="{{ specialrule.id }}">{{ specialrule.name }}</h3>
 
 {{ specialrule.content }}  </div>{% endspecialrule %}{% endfor %}
