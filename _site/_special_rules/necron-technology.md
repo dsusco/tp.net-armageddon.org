@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 16:20:48.000000000 -04:00
+timestamp: 2014-10-15 14:20:39.000000000 -04:00
 name: Necron Technology
 ---
 Necron
@@ -13,4 +13,4 @@ Portals
 
 Living Metal
 : Units made of _living metal_ receive a _reinforced armor_ saving throw against normal weapons, or weapons with _lance_ or _macro-weapon_. In addition, their save is not reduced by _sniper_. Any titan killer attacks are automatically reduced to _titan killer (1)_ when resolving hits against units with living metal, and living metal units are permitted a single armor save.
-{: .dl-float-dt }
+{: .dl-colonated }

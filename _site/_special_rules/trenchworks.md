@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-14 08:35:15.000000000 -04:00
+timestamp: 2014-10-15 14:20:19.000000000 -04:00
 name: Trenchworks
 ---
 Bunker
@@ -10,36 +10,38 @@ Gun Emplacement
 
 Trench
 : Can hold one infantry unit per 4cm of length.
-{: .dl-float-dt }
+{: .dl-colonated }
 
-<table class="table table-tp">
-  <caption>Trenchworks Effects Table</caption>
-  <thead>
-    <tr>
-      <th>Terrain</th>
-      <th>Infantry</th>
-      <th>Vehicle</th>
-      <th>War Engine</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Bunker</td>
-      <td>3+ Cover Save</td>
-      <td>Dangerous</td>
-      <td>Impassable</td>
-    </tr>
-    <tr>
-      <td>Gun Emplacement</td>
-      <td>4+ Cover Save</td>
-      <td>5+ Cover Save</td>
-      <td>No Effect</td>
-    </tr>
-    <tr>
-      <td>Trench</td>
-      <td>4+ Cover Save</td>
-      <td>Dangerous</td>
-      <td>No Effect</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table class="no-margin-bottom table table-borderless table-captioned">
+    <caption>Trenchworks Effects Table</caption>
+    <thead>
+      <tr>
+        <th>Terrain</th>
+        <th>Infantry</th>
+        <th>Vehicle</th>
+        <th>War Engine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bunker</td>
+        <td>3+ Cover Save</td>
+        <td>Dangerous</td>
+        <td>Impassable</td>
+      </tr>
+      <tr>
+        <td>Gun Emplacement</td>
+        <td>4+ Cover Save</td>
+        <td>5+ Cover Save</td>
+        <td>No Effect</td>
+      </tr>
+      <tr>
+        <td>Trench</td>
+        <td>4+ Cover Save</td>
+        <td>Dangerous</td>
+        <td>No Effect</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

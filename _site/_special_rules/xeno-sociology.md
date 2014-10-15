@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 16:30:36.000000000 -04:00
+timestamp: 2014-10-15 14:19:44.000000000 -04:00
 name: Xeno-Sociology
 ---
 A Tyranid invasion is more akin to an infestation. Lesser creatures are everywhere, whether because they were separated from a swarm or because they just made planetfall via a Mycetic Spore. These creatures instinctively seek out the psychic conduits of the Hive Mind that are the synapse creatures. This is represented by the following rules:
@@ -14,4 +14,4 @@ Swarming
 : After a formation regroups, or in the End phase after all formations have rallied, a formation with at least one _synapse_ unit may <q>swarm</q>.
 : Total up all the synapse values in the formation, this is the number of <q>swarm points</q> available to the formation. Units with _brood_ in the swarm pool may be returned to play for a number of swarm points equal to their brood value. If a formation is broken or within 30cm of enemy units halve the number of swarm points available to it, rounding up. If a formation is broken **and** within 30cm of enemy units then it may not swarm. A formation may only return units to play if it started the game with that type of unit. For example, if a formation began the game with only Termagants then it could only return Termagants via swarming.
 : All units returned to play in this manner must be placed within 5cm of a unit from the formation that was there prior to swarming. These units may not be placed in enemy zone of control or in impassable terrain. Not all of the swarm points available need to be used, but any leftover are discarded.
-{: .dl-float-dt }
+{: .dl-colonated }

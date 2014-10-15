@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-14 08:40:31.000000000 -04:00
+timestamp: 2014-10-15 14:19:31.000000000 -04:00
 name: Xeno-Biology
 ---
 Tyranids are the most rapidly evolving species in the known galaxy. The developmental leaps exhibited in broods from the same hive fleet would normally take millions of years to achieve in other creatures. Their biology gives them certain benefits on the field of battle which are represented by the following rules:
@@ -9,4 +9,4 @@ Mobility
 
 Regeneration
 : War engine units with _regeneration_ can regain lost damage capacity points. Each unit with regeneration regains one damage capacity point at the beginning of each turn&rsquo;s end phase. Regeneration cannot be used by a destroyed unit nor may it increase a unit&rsquo;s damage capacity beyond the starting amount.
-{: .dl-float-dt }
+{: .dl-colonated }

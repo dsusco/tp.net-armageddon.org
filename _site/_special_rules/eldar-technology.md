@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 16:17:12.000000000 -04:00
+timestamp: 2014-10-15 14:21:22.000000000 -04:00
 name: Eldar Technology
 ---
 The Eldar are a technologically sophisticated race that make use of a number of devices that have capabilities far in advance of anything used by the other races in the galaxy. These technological advantages are represented in Epic by the following special rules:
@@ -13,4 +13,4 @@ Lance
 Webway Portal
 : Webway portals are used by the Eldar to safely travel through the Warp. Each Webway Portal included in the army allows the Eldar player to pick up to three other formations, and keep them back on the Craftworld. Any formation&rsquo;s that are kept on the Craftworld may enter play via the Webway Portal, by taking an action that allows them to make a move, and then measuring their first move from the position that a Webway Portal occupies on the tabletop. Note that the formation may appear through any Webway Portal, not just the one that was <q>used</q> to allow the formation to be kept off-board. No more than one formation may travel through each Webway Portal each turn.
 : In the Epic Tournament Game Rules formations in reserve with multiple deployment options must have a designated deployment method during setup (e.g. Webway Portal, air transport or teleport).
-{: .dl-float-dt }
+{: .dl-colonated }
