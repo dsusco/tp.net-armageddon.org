@@ -1,9 +1,285 @@
 ---
 name: Codex Astartes Space Marine
+blockquote: The Codex Astartes is the holy tome of these loyal Battle Brothers. The wisdom of the ancients is both scripture and the unbending rod by which they are measured. In war, they are fierce and as steadfast as those of old who stood beside the Emperor and broke the Legions of Horus. In faith and valour they are unmatched. The torches of their chapels burn bright with flames whose holy fire has shone upon an unchanging brotherhood for a hundred centuries. In their lives and in war, the Codex Astartes is their guide.
 forces:
   - space-marine
   - imperial-navy
   - titan-legion
+using_the_army_list:
+  |
+    The following army list allows you to field an army based on one of the Space Marine Chapters that closely follows the teachings of the Codex Astartes. It can also be used as a <q>stand in</q> army list for other Space Marine Chapters that do not follow the Codex Astartes, such as the Blood Angels, Dark Angels and Space Wolves.
+
+    Space Marines are organised into small formations called _detachments_. Each detachment is made up of one or more units, and may also include a number of extra units called _upgrades_.
+
+    The detachments that may be taken in a Codex Astartes army are shown on the chart that follows. The chart also shows what units comprise the detachment, what upgrades are allowed, and its points cost. For example, an Assault detachment consists of four Space Marine Assault units for 175 points, and may include the Commander and Vindicator upgrades at an additional cost in points.
+
+    Each upgrade that is taken adds to the cost of the detachment, as shown on the _upgrade chart_. The upgrade chart also lists the units that make up the upgrade. Note that these will sometimes replace units in the detachment they are taken for, and sometimes takes the form of additional units for the detachment. Each upgrade may be taken once per formation. For example, an Assault detachment could include one Commander and one Vindicator. If both were taken it would cost 175 + 50 +75 = 300 points.
+
+    Codex Astartes armies may be supported by Imperial Navy aircraft and Titan Legion battlegroups. A maximum of up to a third of the points available to the army may be spent on these formations.
+special_rules_text: The _They Shall Know No Fear_ rule applies to all Codex Astartes detachment formations (see [_They Shall Know No Fear_](#they-shall-know-no-fear)).
 special_rules:
   - space-marine-transports
 ---
+<p>Codex Astartes Space Marine armies have a strategy rating of 5. Imperial Navy aircraft formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.</p>
+
+<div class="table-responsive">
+  <table class="table table-army-list">
+    <caption>Space Marine Detachments</caption>
+    <colgroup>
+      <col style="width:19%"/>
+      <col style="width:34%"/>
+      <col style="width:35%"/>
+      <col style="width:12%"/>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Formation</th>
+        <th>Units</th>
+        <th>Upgrades</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Assault</td>
+        <td>Four Assault units</td>
+        <td>Commander, Vindicators</td>
+        <td>175 points</td>
+      </tr>
+      <tr>
+        <td>Bike</td>
+        <td>Any five of the following units: Attack Bike, Bike</td>
+        <td>Commander</td>
+        <td>200 points</td>
+      </tr>
+      <tr>
+        <td>Devastator</td>
+        <td>Four Devastator units plus transport</td>
+        <td>Commander, Dreadnoughts, Hunter, Land Raiders, Razorbacks</td>
+        <td>250 points</td>
+      </tr>
+      <tr>
+        <td>Land Raider</td>
+        <td>Four Land Raiders</td>
+        <td>Commander, Hunter, Vindicators</td>
+        <td>325 points</td>
+      </tr>
+      <tr>
+        <td>Land Speeder</td>
+        <td>Any five of the following units: Land Speeder, Land Speeder Tornado</td>
+        <td>Commander, Typhoons</td>
+        <td>200 points</td>
+      </tr>
+      <tr>
+        <td>Landing Craft</td>
+        <td>One Landing Craft</td>
+        <td>None</td>
+        <td>350 points</td>
+      </tr>
+      <tr>
+        <td>Predator</td>
+        <td>Any four of the following units: Predator Annihilator, Predator Destructor</td>
+        <td>Commander, Hunter, Vindicators</td>
+        <td>250 points</td>
+      </tr>
+      <tr>
+        <td>Scout</td>
+        <td>Four Scout units plus transport</td>
+        <td>Commander, Razorbacks, Sniper</td>
+        <td>150 points</td>
+      </tr>
+      <tr>
+        <td>0–1 Strike Cruiser</td>
+        <td>One Strike Cruiser</td>
+        <td>Battle Barge</td>
+        <td>200 points</td>
+      </tr>
+      <tr>
+        <td>Tactical</td>
+        <td>Six Tactical units plus transport</td>
+        <td>Commander, Dreadnoughts, Hunter, Land Raiders, Razorbacks, Vindicators</td>
+        <td>275 points</td>
+      </tr>
+      <tr>
+        <td>Terminator</td>
+        <td>Four Terminator units</td>
+        <td>Commander, Dreadnoughts, Land Raiders, Vindicators</td>
+        <td>350 points</td>
+      </tr>
+      <tr>
+        <td>Thunderhawk</td>
+        <td>One Thunderhawk Gunship</td>
+        <td>None</td>
+        <td>200 points</td>
+      </tr>
+      <tr>
+        <td>Vindicator</td>
+        <td>Four Vindicators</td>
+        <td>Commander, Hunter</td>
+        <td>225 points</td>
+      </tr>
+      <tr>
+        <td>Whirlwind</td>
+        <td>Four Whirlwinds</td>
+        <td>Commander, Hunter</td>
+        <td>300 points</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-army-list">
+    <caption>Space Marine Upgrades</caption>
+    <colgroup>
+      <col style="width:15%"/>
+      <col style="width:34%"/>
+      <col style="width:34%"/>
+      <col style="width:17%"/>
+    </colgroup>
+    <thead>
+      <tr>
+        <td colspan="4">(Each upgrade may be taken once per detachment.)</td>
+      </tr>
+      <tr>
+        <th>Upgrade</th>
+        <th colspan="2">Units</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Battle Barge</td>
+        <td colspan="2">Replace the Strike Cruiser with a Battle Barge</td>
+        <td>+150 points</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Commander</td>
+        <td rowspan="2">Add any one of the following characters to any unit in the formation:</td>
+        <td>Captain, Chaplain, Librarian</td>
+        <td>+50 points</td>
+      </tr>
+      <tr>
+        <td>0–1 Supreme Commander per army</td>
+        <td>+100 points</td>
+      </tr>
+      <tr>
+        <td>Dreadnoughts</td>
+        <td colspan="2">Add up to two Dreadnoughts</td>
+        <td>+50 points each</td>
+      </tr>
+      <tr>
+        <td>Hunter</td>
+        <td colspan="2">Add one Hunter</td>
+        <td>+75 points</td>
+      </tr>
+      <tr>
+        <td>Land Raiders</td>
+        <td colspan="2">Add up to four Land Raiders</td>
+        <td>+75 points each</td>
+      </tr>
+      <tr>
+        <td>Razorbacks</td>
+        <td colspan="2">Add any number of Razorbacks, up to the number required to transport the formation</td>
+        <td>+25 points each</td>
+      </tr>
+      <tr>
+        <td>Sniper</td>
+        <td colspan="2">Give one Scout unit <em>Sniper</em></td>
+        <td>+25 points</td>
+      </tr>
+      <tr>
+        <td>Typhoons</td>
+        <td colspan="2">Replace any number of Land Speeders with an equal number of Land Speeder Typhoons</td>
+        <td>+25 points each</td>
+      </tr>
+      <tr>
+        <td>Vindicators</td>
+        <td colspan="2">Add up to two Vindicators</td>
+        <td>+50 points each</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-army-list">
+    <caption>Imperial Ally Formations</caption>
+    <thead>
+      <tr>
+        <td>(Up to a third of the points available may be spent on these formations.)</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <table class="table table-army-list">
+            <caption>Imperial Navy Aircraft</caption>
+            <colgroup>
+              <col style="width:25%"/>
+              <col style="width:60%"/>
+              <col style="width:15%"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Formation</th>
+                <th>Units</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Marauder Squadron</td>
+                <td>Two Marauder Bombers</td>
+                <td>250 points</td>
+              </tr>
+              <tr>
+                <td>Thunderbolt Squadron</td>
+                <td>Two Thunderbolt Fighters</td>
+                <td>175 points</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="no-margin-bottom table table-army-list">
+            <caption>Titan Legion Battlegroups</caption>
+            <colgroup>
+              <col style="width:25%"/>
+              <col style="width:60%"/>
+              <col style="width:15%"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Formation</th>
+                <th>Units</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Reaver</td>
+                <td>One Reaver Class Titan</td>
+                <td>650 points</td>
+              </tr>
+              <tr>
+                <td>Warhound</td>
+                <td>One Warhound Class Titan</td>
+                <td>275 points</td>
+              </tr>
+              <tr>
+                <td>Warhound Pack</td>
+                <td>Two Warhound Class Titans</td>
+                <td>500 points</td>
+              </tr>
+              <tr>
+                <td>Warlord</td>
+                <td>One Warlord Class Titan</td>
+                <td>825 points</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

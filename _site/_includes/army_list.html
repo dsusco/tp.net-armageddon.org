@@ -1,3 +1,24 @@
 {% armylist include.id %}<section class="army-list">
   <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>
+
+  <blockquote>
+{{ armylist.blockquote | markdownify }}  </blockquote>
+
+  <h4>Forces</h4>
+
+  <p>The {{ armylist.name }} Army List uses the datasheets from {% for f in armylist.forces %}{% force f %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} section</a>{% endforce %}{% endfor %}.</p>
+
+  <h4>Using The Army List</h4>
+
+{{ armylist.using_the_army_list | markdownify }}
+  <h4 class="column-break">Special Rules</h4>
+
+{{ armylist.special_rules_text | markdownify }}{% for sr in armylist.special_rules %}
+
+{% includespecialrule id=sr %}{% endfor %}
+
+  <h3>{{ armylist.name }} Army List</h3>
+
+{{ armylist.content }}
+
 </section>{% endarmylist %}

@@ -61,6 +61,26 @@
   width: auto;
 }
 
+.table-army-list {
+  .table-borderless();
+  .table-captioned();
+  width: 100%;
+
+  > caption {
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  > thead, > tbody, > tfoot {
+    > tr > th {
+      border-bottom: 1px solid #999;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+  }
+  > thead > tr > td { text-align: center; }
+}
+
 /* classes */
 .design-concept, .example-of-play, .special-rule {
   background: #eee;
