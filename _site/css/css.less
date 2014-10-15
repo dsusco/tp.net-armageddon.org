@@ -1,12 +1,9 @@
-/* replace with bootstrap */
-ol, ul { padding-left: 1.5em; }
-
-.text { margin-bottom: 1em; }
-
-.no-margin { margin-bottom: 0 !important; }
+/* margin */
+.margin-bottom { margin-bottom: 0.75em; }
+.no-margin-bottom { margin-bottom: 0; }
 
 /* lists */
-.dl-float-dt {
+.dl-colonated {
   > dt {
     float: left;
 
@@ -15,54 +12,61 @@ ol, ul { padding-left: 1.5em; }
       white-space: pre;
     }
   }
-
-  > dd { margin-bottom: 1em; }
 }
 
-.upper-roman {
-  counter-reset: upper-roman;
+.list-upper-roman {
+  counter-reset: list-upper-roman;
 
   ol& {
     list-style-type: none;
     padding-left: 0;
   }
 
-  > dt:before,
-  > li:before {
-    counter-increment: upper-roman;
-    content: counter(upper-roman, upper-roman) ' – ';
+  > dt:before, > li:before {
+    counter-increment: list-upper-roman;
+    content: counter(list-upper-roman, upper-roman) ' – ';
     font-weight: bold;
   }
 }
 
 /* tables */
-.table-tp {
-  &, > caption {
-    border: 1px solid #999;
-    border-top-width: 0;
-  }
-  > caption {
-    background: #ccc;
-    border-bottom-width: 0;
-    border-top-width: 1px;
-    font-weight: bold;
-    padding: 0 0.5em;
-    text-align: left;
-  }
+.table-borderless {
   > thead, > tbody, > tfoot {
     > tr {
-      > th, > td { border-width: 0; }
+      > th, > td { border: none; }
     }
   }
-  > tfoot { font-style: italic; }
+
+  > tbody + tbody { border: none; }
+}
+
+.table-captioned {
+  border: 1px solid #999;
+  border-top: 0;
+
+  > caption {
+    background: #ccc;
+    border: 1px solid #999;
+    border-bottom: 0;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+  }
+
+  > thead, > tfoot { font-style: italic; }
+}
+
+.table-centered {
+  margin: 0 auto;
+  width: auto;
 }
 
 /* classes */
 .design-concept, .example-of-play, .special-rule {
   background: #eee;
   border: 1px solid #999;
-  margin: 0 0 1em;
   padding: 1em;
+  margin: 0 0 .75em;
 
   > :first-child {
     font-size: 100%;
@@ -72,6 +76,7 @@ ol, ul { padding-left: 1.5em; }
     text-align: center;
 
     &:before {
+      content: 'Design Concept';
       display: block;
       font-style: normal;
       text-transform: uppercase;
@@ -80,27 +85,18 @@ ol, ul { padding-left: 1.5em; }
 
   > :last-child { margin-bottom: 0; }
 }
-.design-concept {
-  > :first-child:before { content: 'Design Concept'; }
-}
-.example-of-play {
-  > :first-child:before { content: 'Example of Play'; }
-}
-.special-rule {
-  > :first-child:before { content: 'Special Rule'; }
-}
+.example-of-play > :first-child:before { content: 'Example of Play'; }
+.special-rule > :first-child:before { content: 'Special Rule'; }
 
-/*  units */
 .datasheet {
   overflow-x: auto;
 }
-
 .unit {
-  &:nth-child(odd) { background: #eee; }
+  background: #eee;
 
-  .stats, weapons {
-    display: table;
-  }
+  &:nth-child(even) { background: #fff; }
+
+  .stats, weapons { display: table; }
 
   .stats, .weapon-line {
     > span {
@@ -113,7 +109,7 @@ ol, ul { padding-left: 1.5em; }
       }
 
       &.name {
-        width: 40%;
+        width: 50%;
         &:before { content: 'Name'; }
       }
       &.type:before { content: 'Type'; }
@@ -123,7 +119,7 @@ ol, ul { padding-left: 1.5em; }
       &.ff:before { content: 'FF'; }
       &.range:before { content: 'Range'; }
       &.firepower {
-        width: 40%;
+        width: 50%;
         &:before { content: 'Firepower'; }
       }
     }
@@ -156,7 +152,9 @@ ol, ul { padding-left: 1.5em; }
     }
     > :last-child { display: inline; }
   }
+
 }
+
 @media screen and (min-width: 768px) {
   .unit {
     .stats, weapons {
@@ -170,30 +168,36 @@ ol, ul { padding-left: 1.5em; }
 #examples-of-formations {
   figcaption {
     background: #000;
-    font-weight: bold;
     color: #fff;
+    font-style: italic;
+    font-weight: bold;
     max-width: 351px;
+    text-align: center;
   }
+
   figcaption, img {
     border: 2px solid #999;
+    margin: 0 auto;
 
     + img { border-top-width: 0; }
   }
 }
 
-#weapon-fire-arcs + * {
-  .clearfix, img {
-    border: 1px solid #999;
-  }
+#weapon-fire-arc-figures {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 2 * 194px;
+
+  &, img { border: 1px solid #999; }
 
   figure {
-    float: left;
     position: relative;
+    float: left;
     width: 50%;
   }
 
   figcaption {
-    padding: 0 0.5em;
+    padding: 0 .5em;
     position: absolute;
     width: 100%;
   }
@@ -202,9 +206,8 @@ ol, ul { padding-left: 1.5em; }
 #abbreviations {
   background: #eee;
   border: 1px solid #999;
-  margin: 0 0 1em;
   padding: 1em;
+  margin: 0 0 .75em;
 
   > * { margin-bottom: 0; }
 }
-

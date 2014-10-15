@@ -1,17 +1,17 @@
 ---
 title: NetEA Tournament Pack
 ---
-{% include 1.md %}
+{::nomarkdown}
+{% include 1.html %}
 
-{% include 2.md %}
+{% include 2.html %}
 
-{% include 3.md %}
+{% include 3.html %}
 
-{% include 4.md %}
+{% include 4.html %}
 
-{% include 5.md %}
-
-{% include 6.md %}
+{% include 5.html %}
+{:/}
 
 *[AA]: Anti-aircraft
 *[AC]: Aircraft

@@ -1,31 +1,31 @@
-    <div class="unit">
-      <div class="stats">
-        <span class="name">{{include.unit.name}}</span>
-        <span class="type">{{include.unit.type}}</span>
-        <span class="speed">{{include.unit.speed}}</span>
-        <span class="armour">{{include.unit.armour}}</span>
-        <span class="cc">{{include.unit.cc}}</span>
-        <span class="ff">{{include.unit.ff}}</span>
+{% unit include.id %}<div class="unit">
+  <div class="stats">
+    <span class="name">{{ unit.name }}</span>
+    <span class="type">{{ unit.type }}</span>
+    <span class="speed">{{ unit.speed }}</span>
+    <span class="armour">{{ unit.armour }}</span>
+    <span class="cc">{{ unit.cc }}</span>
+    <span class="ff">{{ unit.ff }}</span>
+  </div>
+
+  <div class="weapons">{% if unit.weapons %}{% for w in unit.weapons %}
+    {% include weapon.html id = w.id multiplier = w.multiplier arc = w.arc %}{% endfor %}{% else %}
+    <div class="weapon">
+      <div class="weapon-line">
+        <span class="name">-</span>
+        <span class="range"></span>
+        <span class="firepower"></span>
       </div>
+    </div>{% endif %}
+  </div>{% if unit.special_rules or unit.notes %}
 
-      <div class="weapons">{% if include.unit.weapons %}{% for w in include.unit.weapons %}{% weapon w.id %}
-{% include weapon.html weapon = weapon multiplier = w.multiplier arc = w.arc %}{% endweapon %}{% endfor %}{% else %}
-        <div class="weapon">
-          <div class="weapon-line">
-            <span class="name">-</span>
-            <span class="range"></span>
-            <span class="firepower"></span>
-          </div>
-        </div>{% endif %}
-      </div>{% if include.unit.special_rules or include.unit.notes %}
+  <div class="notes">
+    <b>Notes:</b>{% if unit.special_rules %}
 
-      <div class="notes">
-        <b>Notes:</b>{% if include.unit.special_rules %}
+    <ul class="special-rules">{% for sr in unit.special_rules %}
+      {% specialrule sr %}<li>{{ specialrule.name }}</li>{% endspecialrule %}{% endfor %}
+    </ul>{% endif %}{% if unit.notes %}
 
-        <ul class="special-rules">{% for sr in include.unit.special_rules %}
-          {% specialrule sr %}<li>{{ specialrule.name }}</li>{% endspecialrule %}{% endfor %}
-        </ul>{% endif %}{% if include.unit.notes %}
-
-        {{ include.unit.notes | markdownify }}{% endif %}
-      </div>{% endif %}
-    </div>
+    {{ unit.notes | markdownify }}{% endif %}
+  </div>{% endif %}
+</div>{% endunit %}
