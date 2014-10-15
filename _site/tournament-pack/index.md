@@ -11,6 +11,8 @@ title: NetEA Tournament Pack
 {% include 4.html %}
 
 {% include 5.html %}
+
+{% include 6.html %}
 {:/}
 
 *[AA]: Anti-aircraft
