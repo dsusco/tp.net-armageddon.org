@@ -2,7 +2,8 @@
   <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>
 
   <blockquote>
-{{ armylist.blockquote | markdownify }}  </blockquote>
+{{ armylist.blockquote }}
+  </blockquote>
 
   <h4>Forces</h4>
 
@@ -10,12 +11,12 @@
 
   <h4>Using The Army List</h4>
 
-{{ armylist.using_the_army_list | markdownify }}
+{{ armylist.using_the_army_list | markdownify }}{% if armylist.special_rules_text %}
   <h4 class="column-break">Special Rules</h4>
 
-{{ armylist.special_rules_text | markdownify }}{% for sr in armylist.special_rules %}
+{{ armylist.special_rules_text | markdownify }}{% endif %}{% for sr in armylist.special_rules %}
 
-{% includespecialrule id=sr %}{% endfor %}
+{% includespecialrule id=sr army_list=include.army_list %}{% endfor %}
 
   <h3>{{ armylist.name }} Army List</h3>
 

@@ -1,3 +1,6 @@
 ---
 layout: default
 ---
+{% include army_list.html id=page.id army_list=true %}{% for f in page.forces %}
+
+{% include force.html id=f army_list=true %}{% endfor %}
