@@ -14,6 +14,16 @@
   }
 }
 
+.list-army-list {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  > li:not(:first-child) {
+    margin-top: 0.75em;
+  }
+}
+
 .list-upper-roman {
   counter-reset: list-upper-roman;
 
@@ -55,11 +65,14 @@
 
   > thead, > tfoot { font-style: italic; }
 }
-.table-responsive {
-  border-color: #999;
 
-  .table-army-list, .table-captioned {
-    &, > caption { border: 0; }
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    border-color: #999;
+
+    > .table-army-list, > .table-captioned {
+      &, > caption { border: 0; }
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 $(function () {
   'use strict';
 
-  $('.table-army-list > tbody').each(function () {
+  $('.table-army-list:not(:has(.table-army-list)) > tbody').each(function () {
     // get the number of columns in each table body...
     var $tbody = $(this),
       cols = $tbody.siblings('colgroup').children('col').length,
