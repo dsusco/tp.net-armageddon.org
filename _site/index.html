@@ -1,4 +1,5 @@
 ---
+html_title: NetEA Tournament Pack Website
 ---
 <h1>NetEA Tournament Pack</h1>
 
@@ -13,5 +14,5 @@
 <p>NetEA Approved army lists are tournament ready and balanced against one another using the Epic tournament game rules. They vary slightly from the those that used to be found on Games Workshop's website due to community feedback.</p>
 
 <ul>{% for al in site.army_lists %}
-  <li><a href="{{ al.url }}">{{ al.name }}</a> <a href=""><i class="fa fa-file-pdf-o"></i></a></li>{% endfor %}
+  <li><a href="{{ al.url }}">{{ al.html_title }}</a> <a href=""><i class="fa fa-file-pdf-o"></i></a></li>{% endfor %}
 </ul>
