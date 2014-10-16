@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <main class="container">
+    <main class="container{% if page.layout == 'army_list' %} no-outline{% endif %}">
 {{ content }}
     </main>
 

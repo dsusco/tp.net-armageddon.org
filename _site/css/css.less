@@ -245,29 +245,31 @@
 }
 
 /* heading numbering */
-body { counter-reset: h1; }
+main:not(.no-outline) {
+  counter-reset: h1;
 
-h1[id]:not(.no-count) {
-  counter-increment: h1;
-  counter-reset: h2, h3;
+  h1[id]:not(.no-count) {
+    counter-increment: h1;
+    counter-reset: h2, h3;
 
-  &:before { content: counter(h1) '.0 '; }
-}
+    &:before { content: counter(h1) '.0 '; }
+  }
 
-h2[id]:not(.no-count) {
-  counter-increment: h2;
-  counter-reset: h3;
+  h2[id]:not(.no-count) {
+    counter-increment: h2;
+    counter-reset: h3;
 
-  &:before { content: counter(h1) '.' counter(h2) ' '; }
-}
-.force, .army-list {
-  counter-increment: h2;
+    &:before { content: counter(h1) '.' counter(h2) ' '; }
+  }
+  .force, .army-list {
+    counter-increment: h2;
 
-  h2[id]:not(.no-count) { counter-increment: none; }
-}
+    h2[id]:not(.no-count) { counter-increment: none; }
+  }
 
-h3[id]:not(.no-count) {
-  counter-increment: h3;
+  h3[id]:not(.no-count) {
+    counter-increment: h3;
 
-  &:before { content: counter(h1) '.' counter(h2) '.' counter(h3) ' '; }
+    &:before { content: counter(h1) '.' counter(h2) '.' counter(h3) ' '; }
+  }
 }
