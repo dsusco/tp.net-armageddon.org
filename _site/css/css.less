@@ -55,6 +55,13 @@
 
   > thead, > tfoot { font-style: italic; }
 }
+.table-responsive {
+  border-color: #999;
+
+  .table-army-list, .table-captioned {
+    &, > caption { border: 0; }
+  }
+}
 
 .table-centered {
   margin: 0 auto;
@@ -71,11 +78,14 @@
     text-align: center;
     text-transform: uppercase;
   }
-  > thead, > tbody, > tfoot {
-    > tr > th {
-      border-bottom: 1px solid #999;
-      font-style: normal;
-      text-transform: uppercase;
+  > thead {
+    > tr {
+      > th {
+        font-style: normal;
+        text-transform: uppercase;
+      }
+
+      &:last-child > th { border-bottom: 1px solid #999; }
     }
   }
   > thead > tr > td { text-align: center; }
