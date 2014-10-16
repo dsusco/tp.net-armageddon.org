@@ -106,11 +106,18 @@
 }
 
 /* classes */
-.design-concept, .example-of-play, .special-rule {
+.short-story {
   background: #eee;
   border: 1px solid #999;
+  font-style: italic;
   padding: 1em;
   margin: 0 0 .75em;
+
+  > :last-child { margin-bottom: 0; }
+}
+.design-concept, .example-of-play, .special-rule {
+  .short-story();
+  font-style: normal;
 
   &:before {
     content: 'Design Concept';
@@ -127,8 +134,6 @@
     margin: 0 0 1em;
     text-align: center;
   }
-
-  > :last-child { margin-bottom: 0; }
 }
 .example-of-play:before { content: 'Example of Play'; }
 .special-rule:before { content: 'Special Rule'; }
@@ -249,10 +254,8 @@
 }
 
 #abbreviations {
-  background: #eee;
-  border: 1px solid #999;
-  padding: 1em;
-  margin: 0 0 .75em;
+  .short-story();
+  font-style: normal;
 
   > * { margin-bottom: 0; }
 }

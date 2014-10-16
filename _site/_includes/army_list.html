@@ -1,7 +1,7 @@
 {% armylist include.id %}<section class="army-list">
-  <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>
+  <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>{% if armylist.introduction %}
 
-{{ armylist.introduction | markdownify }}
+{{ armylist.introduction | markdownify }}{% endif %}
 
   <h4>Forces</h4>
 
