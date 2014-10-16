@@ -99,25 +99,26 @@
   padding: 1em;
   margin: 0 0 .75em;
 
+  &:before {
+    content: 'Design Concept';
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
   > :first-child {
     font-size: 100%;
     font-style: italic;
     font-weight: bold;
     margin: 0 0 1em;
     text-align: center;
-
-    &:before {
-      content: 'Design Concept';
-      display: block;
-      font-style: normal;
-      text-transform: uppercase;
-    }
   }
 
   > :last-child { margin-bottom: 0; }
 }
-.example-of-play > :first-child:before { content: 'Example of Play'; }
-.special-rule > :first-child:before { content: 'Special Rule'; }
+.example-of-play:before { content: 'Example of Play'; }
+.special-rule:before { content: 'Special Rule'; }
 
 .datasheet {
   overflow-x: auto;
@@ -241,4 +242,32 @@
   margin: 0 0 .75em;
 
   > * { margin-bottom: 0; }
+}
+
+/* heading numbering */
+body { counter-reset: h1; }
+
+h1[id]:not(.no-count) {
+  counter-increment: h1;
+  counter-reset: h2, h3;
+
+  &:before { content: counter(h1) '.0 '; }
+}
+
+h2[id]:not(.no-count) {
+  counter-increment: h2;
+  counter-reset: h3;
+
+  &:before { content: counter(h1) '.' counter(h2) ' '; }
+}
+.force, .army-list {
+  counter-increment: h2;
+
+  h2[id]:not(.no-count) { counter-increment: none; }
+}
+
+h3[id]:not(.no-count) {
+  counter-increment: h3;
+
+  &:before { content: counter(h1) '.' counter(h2) '.' counter(h3) ' '; }
 }
