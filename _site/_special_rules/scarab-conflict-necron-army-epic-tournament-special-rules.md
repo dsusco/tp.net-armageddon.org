@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 16:21:29.000000000 -04:00
+timestamp: 2014-10-16 16:02:47.000000000 -04:00
 name: Scarab Conflict Necron Army Epic Tournament Special Rules
 ---
 Necron Reserves
@@ -7,4 +7,4 @@ Necron Reserves
 
 Garrisons
 : The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. To represent that a tomb may contain active Necron, the player may choose to garrison up to two Infantry Phalanx formations at the Tomb Complex.
-{: .dl-float-dt }
+{: .dl-colonated }
