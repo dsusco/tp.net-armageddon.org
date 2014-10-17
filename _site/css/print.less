@@ -25,11 +25,14 @@ h1, h2 { text-transform: uppercase; }
 h3, h4 {
   .text(10pt);
 }
-h4 { bookmark-label: none; }
 h1, h2, h3, h4 {
+  bookmark-label: none;
   font-weight: bold;
   margin: 0;
+
+  &[id] { bookmark-label: content(); }
 }
+
 p, blockquote, figcaption, dl, ol, ul, table {
   .text(10pt);
 
@@ -50,19 +53,19 @@ ol, ul { padding-left: 1.5em; }
 
 ul { list-style-type: disc; }
 
-.dl-colonated > dd { margin-bottom: @line-height-computed; }
+.dl-colonated > dd:not(:last-child) { margin-bottom: @line-height-computed; }
+
+.list-army-list > li:not(:first-child) { margin-top: 3pt; }
 
 /* tables */
-th {
-  font-style: italic;
-  font-weight: bold;
-}
+th { font-weight: bold; }
 
 th, td { padding: 0 0.5em; }
 
 .table-captioned {
   border-width: 1pt;
-  margin-bottom: 10pt;
+  margin-bottom: @line-height-computed - 2;
+  width: 100%;
 
   > caption {
     border-width: 1pt;
@@ -70,98 +73,123 @@ th, td { padding: 0 0.5em; }
   }
 }
 
-/**********************/
-.table-tp {
-  margin-bottom: 10pt;
-  width: 100%;
-
-  &, > caption {
-    border-width: 1pt;
-    border-top-width: 0;
-  }
+.table-army-list {
+  .text(8pt);
+  margin-bottom: 3pt;
 
   > caption {
-    border-bottom-width: 0;
-    border-top-width: 1pt;
+    font-size: percentage(9/8);
+    padding: 0 0.5em;
   }
+  > thead > tr:last-child > th { border-bottom-width: 1pt; }
 
-
-  th { font-style: italic; }
+  .table-army-list { font-size: 100%; }
 }
 
-
 /* classes */
-.design-concept, .example-of-play, .special-rule {
-  border-width: 1pt;
-  margin-bottom: 10pt;
-  padding: 6pt 1em;
-  page-break-inside: avoid;
+.margin-bottom { margin-bottom: @line-height-computed; }
+.no-margin-bottom { margin-bottom: 0; }
 
-  > :first-child { margin-bottom: 12pt; }
-  > :last-child { margin-bottom: 0 !important; }
+.short-story {
+  .text(10pt);
+  border-width: 1pt;
+  padding-bottom: 6pt;
+  padding-top: 6pt;
+  page-break-inside: avoid;
+}
+
+.design-concept, .example-of-play, .special-rule {
+  .short-story();
+}
+
+.force > :first-child {
+  .margin-bottom();
+  .text-center();
 }
 
 .unit {
-  .text(8pt);
+  .clearfix();
+  .text(9pt);
 
-  .stats, weapons {
-    width: 50%;
+  .stats, .weapons {
     float: left;
+    width: 49.999%;
   }
 }
 
-/* */
+.army-list {
+  > h3.page-break {
+    .text(12pt);
+    .text-center();
+    .text-uppercase();
+
+    &, + p { margin-bottom: 3pt; }
+  }
+
+  .army-list-table-container {
+    padding-bottom: 3pt;
+    padding-top: 3pt;
+  }
+}
+
+/* IDs */
+#table-of-contents {
+  a {
+    display: block;
+
+    &._h1 {
+      content: target-counter(attr(href), h1) '.0 ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+    }
+    &._h2 {
+      content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+      margin-left: 1em;
+    }
+    &._h3 {
+      content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) '.' target-counter(attr(href), h3) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+      margin-left: 2em;
+    }
+    &.no-count {
+      content: target-content(attr(href)) leader('.') target-counter(attr(href), page);
+    }
+  }
+}
+
 #examples-of-formations {
-  figcaption {
-    margin-bottom: 0;
-  }
-  figcaption, img {
-    border-width: 1pt;
-  }
+  figcaption, img { border-width: 1pt; }
 }
 
 #examples-of-terrain {
   figure {
     display: table;
 
-    + figure figcaption { padding: 0 0.5em 0 0; }
+    + figure figcaption { padding: 0 1em 0 0; }
   }
   div, figcaption {
     display: table-cell;
-    width: 70%;
+    width: 67%;
     vertical-align: middle;
   }
   figcaption {
-    padding: 0 0 0 0.5em;
-    width: 30%;
+    padding: 0 0 0 1em;
+    width: 33%;
   }
 }
 
-#weapon-fire-arcs + * {
+#weapon-fire-arcs + .row {
   .col-sm-push-6 {
     float: right;
-    width: 2 * 192px;
+    margin-bottom: 0;
   }
   .col-sm-pull-6 {
-    padding-right: 0.5em;
-    margin-right: 2 * 192px;
-  }
-
-  .clearfix, img {
-    border-width: 1pt;
-  }
-}
-
-#abbreviations {
-  .clearfix();
-  border-width: 1pt;
-  margin-bottom: 0 0 10pt;
-  padding: 6pt 1em;
-
-  > dl {
     float: left;
-    width: 33%;
-
-    > * { margin-bottom: 0; }
+    width: 20em;
   }
 }
+
+#weapon-fire-arc-figures {
+  &, img { border-width: 1pt; }
+}
+
+#barrage-table { td, th { text-align: center; } }
+
+#abbreviations dd { margin-bottom: 0; }

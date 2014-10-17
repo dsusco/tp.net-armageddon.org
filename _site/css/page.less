@@ -1,27 +1,24 @@
+/* strings */
 title { string-set: title content(); }
-h1 { string-set: section content(); }
+h1 { string-set: section counter(h1) '.0 ' content(); }
 
-.two-column {
-  column-count: 2;
-  column-fill: auto;
-  column-gap: 0.75cm;
-  .page-break();
+/* bookmark labels */
+main:not(.no-outline) {
+  h1[id] { bookmark-label: counter(h1) '.0 ' content(); }
+  h2[id] { bookmark-label: counter(h1) '.' counter(h2) ' ' content(); }
+  h3[id] { bookmark-label: counter(h1) '.' counter(h2)  '.' counter(h3) ' ' content(); }
+
+  h1, h2, h3, h4 {
+    bookmark-label: none;
+
+    &[id].no-count { bookmark-label: content(); }
+  }
 }
 
-.column-break { column-break-before: always; }
-
+/* pages */
 .page-break { page-break-before: always; }
 .page-break-left { page-break-before: left; }
 .page-break-right { page-break-before: right; }
-
-.force {
-  .page-break-right();
-  page: datasheet;
-}
-
-.army-list {
-  .page-break-right();
-}
 
 @page {
   font: 10pt/1 Garamond, serif;
@@ -106,4 +103,49 @@ h1 { string-set: section content(); }
   @top-right { content: 'Table of Contents'; }
 
   @bottom-right { content: counter(page, lower-roman); }
+}
+
+/* columns */
+.two-column {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 0.75cm;
+  .page-break();
+}
+
+.column-break { column-break-before: always; }
+
+/* sections */
+#table-of-contents {
+  .two-column();
+  page: table-of-contents;
+
+  a {
+    display: block;
+
+    &._h1 {
+      content: target-counter(attr(href), h1) '.0 ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+    }
+    &._h2 {
+      content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+      margin-left: 1em;
+    }
+    &._h3 {
+      content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) '.' target-counter(attr(href), h3) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+      margin-left: 2em;
+    }
+    &.no-count {
+      content: target-content(attr(href)) leader('.') target-counter(attr(href), page);
+    }
+  }
+}
+
+
+.force {
+  .page-break-right();
+  page: datasheet;
+}
+
+.army-list {
+  .page-break-right();
 }
