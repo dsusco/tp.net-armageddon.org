@@ -1,23 +1,23 @@
 {% armylist include.id %}<section class="army-list">
-  <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>{% if armylist.introduction %}
+  <div class="two-column">
+    <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>{% if armylist.introduction %}
 
 {{ armylist.introduction | markdownify }}{% endif %}
 
-  <h4>Forces</h4>
+    <h4>Forces</h4>
 
-  <p>The {{ armylist.name }} Army List uses the datasheets from {% for f in armylist.forces %}{% force f %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} section</a>{% endforce %}{% endfor %}.</p>
+    <p>The {{ armylist.name }} Army List uses the datasheets from {% for f in armylist.forces %}{% force f %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} section</a>{% endforce %}{% endfor %}.</p>
 
-  <h4>Using The Army List</h4>
+    <h4>Using The Army List</h4>
 
 {{ armylist.using_the_army_list | markdownify }}{% if armylist.special_rules_text %}
-  <h4 class="column-break">Special Rules</h4>
+    <h4 class="column-break">Special Rules</h4>
 
 {{ armylist.special_rules_text | markdownify }}{% endif %}{% for sr in armylist.special_rules %}
 
 {% includespecialrule id=sr army_list=include.army_list %}{% endfor %}
+  </div>
 
-  <h3>{{ armylist.name }} Army List</h3>
-
+  <h3 class="page-break">{{ armylist.name }} Army List</h3>
 {{ armylist.content }}
-
 </section>{% endarmylist %}

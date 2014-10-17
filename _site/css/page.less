@@ -5,16 +5,21 @@ h1 { string-set: section content(); }
   column-count: 2;
   column-fill: auto;
   column-gap: 0.75cm;
-  page-break-before: always;
+  .page-break();
 }
 
 .column-break { column-break-before: always; }
+
 .page-break { page-break-before: always; }
 .page-break-left { page-break-before: left; }
 .page-break-right { page-break-before: right; }
 
 .force {
+  .page-break-right();
   page: datasheet;
+}
+
+.army-list {
   .page-break-right();
 }
 

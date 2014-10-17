@@ -1,19 +1,16 @@
-/* bootstrap-esque */
 @import 'reset';
-@import 'mixins';
 @import 'page';
+@import 'mixins';
 
-/* element */
-body { font: 10pt/1 Garamond, serif; xbackground:red;}
+/**/
+body { font: 10pt/1 Garamond, serif; }
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
-abbr {
-  &, &[title] { border-bottom: 0; }
-}
+abbr[title] { border-bottom: 0; }
 
 /* type */
 h1 {
@@ -33,11 +30,10 @@ h1, h2, h3, h4 {
   font-weight: bold;
   margin: 0;
 }
-
-p, blockquote, figcaption, dl, ol, ul, table, .text {
+p, blockquote, figcaption, dl, ol, ul, table {
   .text(10pt);
 
-  p, blockquote, figcaption, dl, ol, ul, table, .text { margin-bottom: 0; }
+  p, blockquote, figcaption, dl, ol, ul, table { margin-bottom: 0; }
 }
 
 blockquote {
@@ -48,30 +44,33 @@ blockquote {
 }
 
 /* lists */
-.dl-float-dt {
-  > dt { font-weight: bold; }
-  > dd { margin-bottom: @line-height-computed; }
-}
+dt { font-weight: bold; }
 
-ol, ul {
-  padding-left: 1.5em;
-}
+ol, ul { padding-left: 1.5em; }
 
-ul {
-  list-style-type: disc;
-}
+ul { list-style-type: disc; }
+
+.dl-colonated > dd { margin-bottom: @line-height-computed; }
 
 /* tables */
-table {
-  th {
-    font-weight: bold;
-  }
+th {
+  font-style: italic;
+  font-weight: bold;
+}
 
-  th, td {
+th, td { padding: 0 0.5em; }
+
+.table-captioned {
+  border-width: 1pt;
+  margin-bottom: 10pt;
+
+  > caption {
+    border-width: 1pt;
     padding: 0 0.5em;
   }
 }
 
+/**********************/
 .table-tp {
   margin-bottom: 10pt;
   width: 100%;
