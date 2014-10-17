@@ -23,6 +23,10 @@ $(function () {
       $a.addClass('no-count');
     }
 
+    if ($h.hasClass('sr-only')) {
+      $a.addClass('sr-only');
+    }
+
     $toc.append($('<li>').append($a));
   });
 
