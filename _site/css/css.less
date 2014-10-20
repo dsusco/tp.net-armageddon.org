@@ -215,6 +215,53 @@
 }
 
 /* IDs */
+#table-of-contents {
+  background: #428bca;
+  color: #fff;
+  font-size: 200%;
+  left: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .fa {
+    cursor: pointer;
+    line-height: inherit;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1.5em;
+
+    &.fa-chevron-circle-up { right: 1.5em; }
+    &.fa-chevron-circle-down { right: 0; }
+  }
+
+  ol {
+    height: 1.5em;
+    margin: 0 3em 0 1.5em;
+    overflow: hidden;
+  }
+  a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+  }
+
+  &.expanded {
+    height: 100%;
+
+    .fa-chevron-circle-up, .fa-chevron-circle-down { display: none; }
+
+    ol {
+      height: 100%;
+      margin-right: 0;
+      overflow: auto;
+    }
+  }
+}
+
 #examples-of-formations {
   figcaption {
     background: #000;

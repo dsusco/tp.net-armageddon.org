@@ -7,17 +7,7 @@ $(function () {
     var $h = $(this),
       $a = $('<a>', { href: '#' + $h.prop('id') }).text($h.text());
 
-    switch (this.tagName) {
-      case 'H1':
-        $a.addClass('_h1');
-        break;
-      case 'H2':
-        $a.addClass('_h2');
-        break;
-      case 'H3':
-        $a.addClass('_h3');
-        break;
-    }
+    $a.addClass('_' + this.tagName.toLowerCase());
 
     if ($h.hasClass('no-count')) {
       $a.addClass('no-count');
@@ -28,6 +18,13 @@ $(function () {
     }
 
     $toc.append($('<li>').append($a));
+  });
+
+  $toc.prev('.fa').click(function () {
+    var $fa = $(this);
+
+    $fa.toggleClass('fa-minus-circle fa-plus-circle')
+      .parent().toggleClass('expanded');
   });
 
   $('.table-army-list:not(:has(.table-army-list)) > tbody').each(function () {
