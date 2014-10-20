@@ -6,7 +6,7 @@
 
     <h4>Forces</h4>
 
-    <p>The {{ armylist.name }} Army List uses the datasheets from {% for f in armylist.forces %}{% force f %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} section</a>{% endforce %}{% endfor %}.</p>
+    <p>The {{ armylist.name }} Army List uses the datasheets from {% for f in armylist.forces %}{% force f %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} Forces section</a>{% endforce %}{% endfor %}.</p>
 
     <h4>Using The Army List</h4>
 
