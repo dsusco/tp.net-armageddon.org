@@ -137,14 +137,14 @@ th, td { padding: 0 0.5em; }
   a {
     display: block;
 
-    &._h1 {
+    &.h1 {
       content: target-counter(attr(href), h1) '.0 ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
     }
-    &._h2 {
+    &.h2 {
       content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
       margin-left: 1em;
     }
-    &._h3 {
+    &.h3 {
       content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) '.' target-counter(attr(href), h3) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
       margin-left: 2em;
     }
