@@ -1,4 +1,4 @@
-{% specialrule include.id %}<div class="special-rule{% for c in specialrule.css_classes %} {{c}}{% endfor %}">
+{% specialrule include.id %}<div class="special-rule{% for c in specialrule.classes %} {{c}}{% endfor %}">
   <h3 id="{{ specialrule.id }}">{{ specialrule.name }}</h3>
 
 {% if include.army_list %}{{ specialrule.content | markdownify }}{% else %}{{ specialrule.content }}{% endif %}</div>{% endspecialrule %}

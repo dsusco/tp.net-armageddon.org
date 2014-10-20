@@ -1,7 +1,7 @@
 ---
 timestamp: 2014-10-16 16:02:22.000000000 -04:00
 name: Summoned Units
-css_classes:
+classes:
   - pull-up
 ---
 Each formation in an army of chaos belongs to a faction that owes allegiance to one of the gods of chaos (Khorne, Nurgle, Slaanesh or Tzeentch), or to Chaos Undivided. You must decide which faction each formation in your army belongs to before the battle and note it down on your army list. Formations that purchase the Daemonic Pact upgrade are able to summon daemons to the battlefield.

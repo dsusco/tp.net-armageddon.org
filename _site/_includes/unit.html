@@ -1,4 +1,4 @@
-{% unit include.id %}<div class="unit">
+{% unit include.id %}<div class="unit{% for c in unit.classes %} {{c}}{% endfor %}">
   <div class="stats">
     <span class="name">{{ unit.name }}</span>
     <span class="type">{{ unit.type }}</span>

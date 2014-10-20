@@ -1,4 +1,4 @@
-{% armylist include.id %}<section class="army-list">
+{% armylist include.id %}<section class="army-list{% for c in armylist.classes %} {{c}}{% endfor %}">
   <div class="two-column">
     <h2 id="{{ armylist.id }}-army-list">{{ armylist.name }} Army List</h2>{% if armylist.introduction %}
 
