@@ -10,13 +10,9 @@ $(function () {
   // generate the ToC ol
   $('h1[id], h2[id], h3[id]').each(function () {
     var $h = $(this),
-      $a = $('<a href="#' + $h.prop('id') + '">' + $h.text() + '</a>');
+      $a = $('<a>', { href: '#' + $h.prop('id') }).append($h.text());
 
     $a.addClass(this.tagName.toLowerCase());
-
-    try {
-      $a.data('position', Math.ceil($h.position().top));
-    } catch (ignore) {}
 
     if ($h.hasClass('no-count')) { $a.addClass('no-count'); }
 
