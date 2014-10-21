@@ -23,7 +23,7 @@
     <b>Notes:</b>{% if unit.special_rules %}
 
     <ul class="special-rules">{% for sr in unit.special_rules %}
-      {% special_rule sr %}<li>{{ specialrule.name }}</li>{% endspecial_rule %}{% endfor %}
+      {% special_rule sr %}<li>{{ special_rule.name }}</li>{% endspecial_rule %}{% endfor %}
     </ul>{% endif %}{% if unit.notes %}
 
     {{ unit.notes | markdownify }}{% endif %}
