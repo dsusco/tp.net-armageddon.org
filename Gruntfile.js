@@ -51,8 +51,12 @@ module.exports = function(grunt) {
       return obj;
     }()),
     shell: {
+      options: {
+        stderr: false
+      },
       build: { command: 'jekyll build' },
-      prince: { command: 'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>' }
+      prince: { command: 'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>' },
+      remove_prince_annot: { command: 'sed -i "0,/\\/Annots /{s~/Annots \\[\\([0-9]\\+ 0 R \\)\\{2\\}~/Annots [~}" public_html/pdfs/netea-<%= grunt.config("output") %>.pdf' }
     },
     uglify: {
       options: {
@@ -104,6 +108,9 @@ module.exports = function(grunt) {
     grunt.config('input', this.data.input);
     grunt.config('output', this.data.output);
 
-    grunt.task.run(['shell:prince']);
+    grunt.task.run([
+      'shell:prince',
+      'shell:remove_prince_annot'
+    ]);
   });
 };
