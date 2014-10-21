@@ -12,6 +12,9 @@ collections:
   units:
   weapons:
 
+# Handling Reading
+exclude: ['_js', '_less']
+
 # Plugins
 gems: ['jekyll-less']
 

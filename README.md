@@ -1,4 +1,3 @@
-tp.net-armageddon.org
-=====================
+# tp.net-armageddon.org
 
-A Jekyll site for the NetEA Tournament Pack
+The Net Epic Armageddon Tournament Pack website, powered by Jekyll.

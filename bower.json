@@ -2,7 +2,7 @@
   "name": "tp.net-armageddon.org",
   "version": "0.0.0",
   "homepage": "https://github.com/dsusco/tp.net-armageddon.org",
-  "description": "A Jekyll site for the NetEA Tournament Pack",
+  "description": "The Net Epic Armageddon Tournament Pack website.",
   "license": "MIT",
   "private": true,
   "ignore": [
