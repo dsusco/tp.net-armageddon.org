@@ -1,9 +1,9 @@
 $(function () {
   'use strict';
 
-  var $toc = $('.no-prince #table-of-contents'),
+  var $toc = $('#table-of-contents'),
     $toc_ol = $('ol', $toc),
-    $window = $(window, $('.no-prince'));
+    $window = $(window);
 
   // watch for window resizes
   $window.on('delayedResize', {milliseconds: 100}, function () {
@@ -62,7 +62,7 @@ $(function () {
     // clear the current position
     $('.current-position').removeClass('current-position');
 
-    // scroll the ToC to window's current heading
+    // scroll the ToC to the window's current heading
     try {
       $toc_ol.scrollTop(0).scrollTop($('a:not(.sr-only)', $toc_ol).filter(function () {
         return $(this).data('position') <= scrollTop;
