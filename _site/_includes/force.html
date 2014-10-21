@@ -1,5 +1,5 @@
 {% force include.id %}<section class="force{% for c in force.classes %} {{c}}{% endfor %}">
   <h2 id="{{ force.id }}-forces">{{ force.name }} Forces</h2>{% for sr in force.special_rules %}
 
-{% includespecialrule id=sr army_list=include.army_list %}{% endfor %}
+{% include_special_rule id=sr army_list=include.army_list %}{% endfor %}
 </section>{% endforce %}
