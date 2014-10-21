@@ -65,7 +65,7 @@ th, td { padding: 0 0.5em; }
 
 .table-captioned {
   border-width: 1pt;
-  margin-bottom: @line-height-computed - 2;
+  margin-bottom: (@line-height-computed - 2pt);
   width: 100%;
 
   > caption {
@@ -89,6 +89,7 @@ th, td { padding: 0 0.5em; }
 
 /* classes */
 .margin-bottom { margin-bottom: @line-height-computed; }
+.no-margin-bottom { margin-bottom: 0; }
 
 .short-story {
   .text(10pt);
@@ -202,3 +203,5 @@ th, td { padding: 0 0.5em; }
   }
   .dl-colonated > dd { margin: 0; }
 }
+
+@import 'utilities';

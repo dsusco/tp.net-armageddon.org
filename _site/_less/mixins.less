@@ -3,63 +3,7 @@
 @line-height-computed: 12pt;
 
 .text(@font-size) {
-  font-size: percentage((@font-size/@body-size));
+  font-size: percentage(@font-size/@body-size);
   line-height: unit((@line-height-computed/@font-size * ceil(@font-size/@line-height-computed)));
   margin: 0 0 @line-height-computed;
-}
-
-/* */
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.clearfix {
-  &:before, &:after {
-    content: ' ' ;
-    display: table;
-  }
-  &:after { clear: both; }
-}
-
-/* */
-.pull-up { float: top; }
-.pull-down { float: bottom; }
-.pull-left { float: left; }
-.pull-right { float: right; }
-
-/* */
-.img-responsive {
-  display: block;
-  max-width: 100%;
-}
-
-/* */
-.text-left { text-align: left; }
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-
-.text-uppercase { text-transform: uppercase; }
-
-/* */
-.one-half {
-  float: left;
-  width: 49% !important;
-
-  + .one-half { float: right; }
-}
-
-.one-third {
-  float: left;
-  width: 32% !important;
-
-  + .one-third {
-    margin-left: 2%;
-
-    + .one-third {
-      float: right;
-      margin: 0;
-    }
-  }
 }
