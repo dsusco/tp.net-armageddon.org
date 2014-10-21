@@ -35,7 +35,7 @@ module.exports = function(grunt) {
       var obj = {
           tp: {
             input: 'public_html/tournament-pack/index.html',
-            output: 'netea-tournament-pack'
+            output: 'tournament-pack'
           }
         };
 
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     }()),
     shell: {
       build: { command: 'jekyll build' },
-      prince: { command: 'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>' }
+      prince: { command: 'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>' }
     },
     uglify: {
       options: {
