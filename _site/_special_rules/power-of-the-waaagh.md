@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 15:40:58.000000000 -04:00
+date: 2014-10-13 15:40:58.000000000 -04:00
 name: Power of the Waaagh!
 classes:
   - one-third

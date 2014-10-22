@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-15 14:19:31.000000000 -04:00
+date: 2014-10-15 14:19:31.000000000 -04:00
 name: Xeno-Biology
 classes:
   - one-half

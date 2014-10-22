@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-15 14:19:44.000000000 -04:00
+date: 2014-10-15 14:19:44.000000000 -04:00
 name: Xeno-Sociology
 classes:
   - one-half

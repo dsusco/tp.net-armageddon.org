@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-14 08:36:49.000000000 -04:00
+date: 2014-10-14 08:36:49.000000000 -04:00
 name: Trenchworks
 ---
 Death Korps of Krieg Imperial Guard armies are allowed to purchase one set of Trenchworks for its use for each Regimental HQ or Infantry Company included in the army.

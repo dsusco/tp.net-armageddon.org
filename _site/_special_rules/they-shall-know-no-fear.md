@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 13:26:16.000000000 -04:00
+date: 2014-10-13 13:26:16.000000000 -04:00
 name: They Shall Know No Fear
 ---
 Space Marines are renowned for their tenacity and bravery. This is represented by the following rules:

@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 16:11:45.000000000 -04:00
+date: 2014-10-13 16:11:45.000000000 -04:00
 name: Regimental HQs
 classes:
   - column-break

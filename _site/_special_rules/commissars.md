@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 15:03:19.000000000 -04:00
+date: 2014-10-13 15:03:19.000000000 -04:00
 name: Commissars
 ---
 An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.

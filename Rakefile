@@ -21,7 +21,7 @@ task :get_json, [:type] do |t, args|
     file_path = File.join(collection_path, "#{id}.md")
 
     if File.exists?(file_path)
-      if YAML::load(File.open(file_path))['timestamp'] != Time.at(obj['edit_date'].to_s[0..-4].to_i)
+      if YAML::load(File.open(file_path))['date'] != Time.at(obj['edit_date'].to_s[0..-4].to_i)
         p "Updating: #{file_path}"
         Helper::write_file(file_path, args.type[0...-1], obj)
       end
@@ -79,7 +79,7 @@ class Helper
   def self.default_keys(obj)
     hash = Hash.new { |h, k| h[k] = [] }
 
-    hash['timestamp'] = Time.at(obj['edit_date'].to_s[0..-4].to_i)
+    hash['date'] = Time.at(obj['edit_date'].to_s[0..-4].to_i)
     hash['name'] = obj['title']
 
     hash

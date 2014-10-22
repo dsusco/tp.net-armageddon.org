@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-15 14:21:22.000000000 -04:00
+date: 2014-10-15 14:21:22.000000000 -04:00
 name: Eldar Technology
 ---
 The Eldar are a technologically sophisticated race that make use of a number of devices that have capabilities far in advance of anything used by the other races in the galaxy. These technological advantages are represented in Epic by the following special rules:

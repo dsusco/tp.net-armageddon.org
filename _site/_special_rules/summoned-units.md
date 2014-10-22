@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-16 16:02:22.000000000 -04:00
+date: 2014-10-16 16:02:22.000000000 -04:00
 name: Summoned Units
 classes:
   - pull-up

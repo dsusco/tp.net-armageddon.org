@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 15:17:50.000000000 -04:00
+date: 2014-10-13 15:17:50.000000000 -04:00
 name: Fleet of Foot
 classes:
   - one-third

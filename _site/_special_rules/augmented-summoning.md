@@ -1,5 +1,5 @@
 ---
-timestamp: 2014-10-13 16:10:31.000000000 -04:00
+date: 2014-10-13 16:10:31.000000000 -04:00
 name: Augmented Summoning
 classes:
   - one-half
