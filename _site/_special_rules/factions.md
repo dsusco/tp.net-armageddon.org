@@ -1,5 +1,5 @@
 ---
-date: 2014-10-13 15:16:15.000000000 -04:00
+date: 2014-10-13T15:16:15-04:00
 name: Factions
 ---
 Each formation in an army of chaos belongs to a faction that owes allegiance to one of the gods of chaos (Khorne, Nurgle, Slaanesh or Tzeentch), or to Chaos Undivided. You must decide which faction each formation in your army belongs to before the battle and note it down on your army list. With the exception of those formations that Worship Chaos Undivided, the different factions do not get along well and some factions hold millennia-old hatred of each other. Although the factions will often unite under a powerful Warlord to fight a common enemy, their enmity can cause problems during a battle. This is represented by the following rules:

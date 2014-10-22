@@ -1,8 +1,6 @@
 ---
-date: 2014-10-13 15:04:31.000000000 -04:00
+date: 2014-10-13T15:04:31-04:00
 name: Coordinated Fire
-classes:
-  - one-half
 ---
 Some units are noted as being able to call in _coordinated fire_. These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action.
 

@@ -1,5 +1,5 @@
 ---
-date: 2014-10-13 15:59:10.000000000 -04:00
+date: 2014-10-13T15:59:10-04:00
 name: White Scars Transport
 ---
 The Space Marines are a highly mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raiders if the detachment is Terminators, Rhinos for any other form of detachment.

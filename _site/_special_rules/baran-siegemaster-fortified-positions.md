@@ -1,5 +1,5 @@
 ---
-date: 2014-10-14 08:16:18.000000000 -04:00
+date: 2014-10-14T08:16:18-04:00
 name: Fortified Positions
 ---
 A Siege Regiment army regiment is allowed to purchase one set of fortified positions for its troops to occupy for each Regimental HQ or Infantry company included in the army.
