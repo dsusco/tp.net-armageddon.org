@@ -1,6 +1,6 @@
 ---
-date: 2014-10-15T14:20:39-04:00
-name: Necron Technology
+date: "2014-10-15T14:20:39-04:00"
+name: "Necron Technology"
 ---
 Necron
 : Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit&rsquo;s datasheet.

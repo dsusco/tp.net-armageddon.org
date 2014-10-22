@@ -1,6 +1,6 @@
 ---
-date: 2014-10-15T14:20:01-04:00
-name: Tau Technology
+date: "2014-10-15T14:20:01-04:00"
+name: "Tau Technology"
 ---
 Deflector Shield
 : Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+.

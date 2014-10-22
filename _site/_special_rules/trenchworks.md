@@ -1,6 +1,6 @@
 ---
-date: 2014-10-15T14:20:19-04:00
-name: Trenchworks
+date: "2014-10-15T14:20:19-04:00"
+name: "Trenchworks"
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](#terrain-effects)). Can hold three units.

@@ -1,4 +1,4 @@
 ---
-date: 2014-10-13T14:59:20-04:00
-name: 2 Shadowfields
+date: "2014-10-13T14:59:20-04:00"
+name: "2 Shadowfields"
 ---

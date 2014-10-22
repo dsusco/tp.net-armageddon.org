@@ -1,6 +1,6 @@
 ---
-date: 2014-10-13T15:45:46-04:00
-name: Space Marine Transports
+date: "2014-10-13T15:45:46-04:00"
+name: "Space Marine Transports"
 ---
 The Space Marines are a highly mobile army. Because of this, the points cost of a detachment usually includes enough Rhino transport vehicles to transport it and any upgrades that have been taken. Determine the number of Rhinos needed after all upgrades have been purchased. The number of Rhinos will always be the minimum needed to carry the formation, you can&rsquo;t take extras along to cover any losses!
 

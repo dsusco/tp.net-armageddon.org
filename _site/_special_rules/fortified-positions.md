@@ -1,6 +1,6 @@
 ---
-date: 2014-10-15T14:20:58-04:00
-name: Fortified Positions
+date: "2014-10-15T14:20:58-04:00"
+name: "Fortified Positions"
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](#terrain-effects)). Can hold three units.

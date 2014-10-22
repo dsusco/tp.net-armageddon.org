@@ -1,4 +1,4 @@
 ---
-date: 2014-10-13T15:08:02-04:00
-name: Damage Capacity 5
+date: "2014-10-13T15:08:02-04:00"
+name: "Damage Capacity 5"
 ---

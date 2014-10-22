@@ -1,4 +1,4 @@
 ---
-date: 2014-10-13T15:18:22-04:00
-name: Expendable
+date: "2014-10-13T15:18:22-04:00"
+name: "Expendable"
 ---
