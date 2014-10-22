@@ -33,6 +33,9 @@
               ' * Licensed under <%= pkg.license %> (<%= pkg.homepage %>/blob/master/LICENSE)\n' +
               ' */\n',
 
+      clean: {
+        fontconfig: ['fontconfig']
+      },
       less: {
         print: {
           files: {
@@ -174,7 +177,7 @@
       shell: {
         options: { stderr: false },
 
-        build: { command: 'jekyll build' },
+        jekyll: { command: 'jekyll build' },
         prince: {
           command: [
             'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>',
@@ -219,13 +222,14 @@
       }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-http');
-    grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-http');
+    grunt.loadNpmTasks('grunt-shell');
 
-    grunt.registerTask('default', ['shell:build', 'less', 'uglify', 'pdf']);
+    grunt.registerTask('default', ['shell:jekyll', 'less', 'uglify', 'pdf', 'clean:fontconfig']);
 
     grunt.registerMultiTask('pdf', function () {
       grunt.file.mkdir('public_html/pdfs');
