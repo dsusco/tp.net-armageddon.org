@@ -136,6 +136,31 @@
   }
 }
 .example-of-play:before { content: 'Example of Play'; }
+
+.faq {
+  .short-story();
+  font-style: normal;
+
+  > dl {
+    > dt, > dd {
+      padding-left: 1.5em;
+      position: relative;
+
+      &:before {
+        left: 0;
+        position: absolute;
+      }
+    }
+
+    > dt {
+      font-weight: normal;
+
+      &:before { content: 'Q: '; }
+      + dd:before { content: 'A: '; }
+    }
+  }
+}
+
 .special-rule:before { content: 'Special Rule'; }
 
 .barrage-table { td, th { text-align: center; } }
@@ -263,13 +288,14 @@
 
 /* heading numbering */
 main:not(.no-outline) {
-  counter-reset: h1;
+  counter-reset: fn h1;
 
   h1[id]:not(.no-count) {
     counter-increment: h1;
-    counter-reset: h2, h3;
+    counter-reset: h2 h3;
 
     &:before { content: counter(h1) '.0 '; }
+    &.footnote { counter-increment: fn h1; }
   }
 
   h2[id]:not(.no-count) {
@@ -277,17 +303,31 @@ main:not(.no-outline) {
     counter-reset: h3;
 
     &:before { content: counter(h1) '.' counter(h2) ' '; }
+    &.footnote { counter-increment: fn h2; }
   }
   .force, .army-list {
     counter-increment: h2;
 
     h2[id]:not(.no-count) { counter-increment: none; }
+    &.footnote { counter-increment: fn h2; }
   }
 
   h3[id]:not(.no-count) {
     counter-increment: h3;
 
     &:before { content: counter(h1) '.' counter(h2) '.' counter(h3) ' '; }
+    &.footnote { counter-increment: fn h3; }
+  }
+
+  .footnote {
+    counter-increment: fn;
+
+    &:after {
+      content: counter(fn);
+      font-size: 75%;
+      line-height: 0;
+      vertical-align: super;
+    }
   }
 }
 

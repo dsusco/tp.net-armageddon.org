@@ -29,10 +29,18 @@ module Jekyll
 
         headings << @id
 
+        unless (faq = context.registers[:site].collections['faqs'].docs.find { |doc| doc.data['id'] == @id }).nil?
+          @class = @class.empty? 'footnote' : @class + ' footnote'
+          faq = IncludeTag.new('include', "faq.html id='#{faq.data['id']}'", []).render(context)
+        end
+
         h  = "<#{@tag_name} id=\"#{@id}\""
         h += " class=\"#{@class}\"" unless @class.empty?
         h += " style=\"#{@style}\"" unless @style.nil?
         h += ">#{@text}</#{@tag_name}>"
+        h += "\n\n#{faq}" unless faq.nil?
+
+        h
       end
     end
 

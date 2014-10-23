@@ -7,6 +7,7 @@ collections:
   army_lists:
     output: true
     permalink: army-lists/:title.html
+  faqs:
   forces:
   special_rules:
   units:

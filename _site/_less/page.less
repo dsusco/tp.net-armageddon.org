@@ -1,6 +1,8 @@
 /* strings */
 title { string-set: title content(); }
-h1 { string-set: section counter(h1) '.0 ' content(); }
+h1 { string-set: footnote counter(h1) '.0 ' content(), section counter(h1) '.0 ' content(); }
+h2 { string-set: footnote counter(h1) '.' counter(h2) ' ' content(); }
+h3 { string-set: footnote counter(h1) '.' counter(h2) '.' counter(h3) ' ' content(); }
 
 /* bookmark labels */
 main:not(.no-outline) {

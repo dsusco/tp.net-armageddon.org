@@ -79,21 +79,23 @@ th, td { padding: 0 0.5em; }
   margin-bottom: 3pt;
 
   > caption {
-    font-size: percentage((9/8));
+    .text(9pt);
+    margin: 0;
     padding: 0 0.5em;
   }
   > thead > tr:last-child > th { border-bottom-width: 1pt; }
-
-  .table-army-list { font-size: 100%; }
 }
 
 /* classes */
 .margin-bottom { margin-bottom: @line-height-computed; }
 .no-margin-bottom { margin-bottom: 0; }
 
+.footnote:after { font-size: 6pt; }
+
 .short-story {
   .text(10pt);
   border-width: 1pt;
+  margin-bottom: (@line-height-computed - 2pt);
   padding-bottom: 6pt;
   padding-top: 6pt;
   page-break-inside: avoid;
@@ -104,6 +106,39 @@ th, td { padding: 0 0.5em; }
   font-style: normal;
 }
 
+.faq {
+  background: none;
+  border: 0;
+  font-size: 0;
+  float: left;
+  padding: 0;
+  margin: 0;
+
+  > dl {
+    .text(8pt);
+    float: prince-column-footnote;
+    margin: 0;
+
+    &:before {
+      content: string(footnote);
+      display: block;
+      font-weight: bold;
+    }
+
+    &::footnote-call { content: none; }
+
+    > dt, > dd {
+      padding-left: 0;
+
+      &:before {
+        left: -1.25em;
+        text-align: right;
+        width: 1em;
+      }
+    }
+  }
+}
+
 .force > :first-child {
   .margin-bottom();
   .text-center();
@@ -112,6 +147,7 @@ th, td { padding: 0 0.5em; }
 .unit {
   .clearfix();
   .text(9pt);
+  margin: 0;
 
   .stats, .weapons {
     float: left;

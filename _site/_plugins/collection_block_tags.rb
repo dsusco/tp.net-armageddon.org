@@ -23,25 +23,29 @@ module Jekyll
       end
     end
 
-    class ArmyList < CollectionBlock
+    class ArmyListBlock < CollectionBlock
     end
 
-    class Force < CollectionBlock
+    class FaqBlock < CollectionBlock
     end
 
-    class SpecialRule < CollectionBlock
+    class ForceBlock < CollectionBlock
     end
 
-    class Unit < CollectionBlock
+    class SpecialRuleBlock < CollectionBlock
     end
 
-    class Weapon < CollectionBlock
+    class UnitBlock < CollectionBlock
     end
 
-    Liquid::Template.register_tag('army_list', ArmyList)
-    Liquid::Template.register_tag('force', Force)
-    Liquid::Template.register_tag('special_rule', SpecialRule)
-    Liquid::Template.register_tag('unit', Unit)
-    Liquid::Template.register_tag('weapon', Weapon)
+    class WeaponBlock < CollectionBlock
+    end
+
+    Liquid::Template.register_tag('army_list', ArmyListBlock)
+    Liquid::Template.register_tag('faq', FaqBlock)
+    Liquid::Template.register_tag('force', ForceBlock)
+    Liquid::Template.register_tag('special_rule', SpecialRuleBlock)
+    Liquid::Template.register_tag('unit', UnitBlock)
+    Liquid::Template.register_tag('weapon', WeaponBlock)
   end
 end

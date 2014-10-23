@@ -1,9 +1,8 @@
-@body-size: 10pt;
 @font-size-base: 10pt;
 @line-height-computed: 12pt;
 
 .text(@font-size) {
-  font-size: percentage((@font-size/@body-size));
+  font-size: @font-size;
   line-height: unit((@line-height-computed/@font-size * ceil(@font-size/@line-height-computed)));
   margin: 0 0 @line-height-computed;
 }
