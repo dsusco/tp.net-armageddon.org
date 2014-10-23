@@ -15,11 +15,13 @@
           grunt.file.write(file, grunt.template.process(template, { data: obj }));
         }
       },
-      getIdArray = function (str) {
+      getIdArray = function (str, sort) {
         try {
-          return str.match(/\[[a-z][\w\-]*\]/g).map(function (id) {
+          var idArray = str.match(/\[[a-z][\w\-]*\]/g).map(function (id) {
             return id.match(/[\w\-]+/g)[0];
-          }).sort();
+          });
+
+          return sort ? idArray.sort() : idArray;
         } catch (error) {
           return null;
         }
@@ -144,7 +146,7 @@
                           boolean: m.weapon_boolean,
                           range: m.weapon_range,
                           firepower: m.weapon_firepower,
-                          special_rules: getIdArray(m.weapon_abilities)
+                          special_rules: getIdArray(m.weapon_abilities, true)
                         };
                       })
                     }
