@@ -5,6 +5,24 @@ $(function () {
     $toc_ol = $('ol', $toc),
     $window = $(window);
 
+  // watch for window scrolling
+  $window.on('delayedScroll', {milliseconds: 100}, function () {
+    var scrollTop = $(this).scrollTop();
+
+    // clear the current position
+    $('.current-position').removeClass('current-position');
+
+    // scroll the ToC to the window's current heading
+    try {
+      $toc_ol.scrollTop(0).scrollTop($('a:not(.sr-only)', $toc_ol).filter(function () {
+        return $(this).data('position') <= scrollTop;
+      }).last().addClass('current-position').position().top);
+    } catch (error) {
+      // if no filtered a tags are found, use the first
+      $('a:not(.sr-only)', $toc_ol).first().addClass('current-position');
+    }
+  });
+
   // watch for window resizes
   $window.on('delayedResize', {milliseconds: 100}, function () {
     // as the heading positions change and need to be updated in the ToC
@@ -55,21 +73,27 @@ $(function () {
     $('.fa-minus-circle', $toc).click();
   });
 
-  // watch for window scrolling
-  $window.on('delayedScroll', {milliseconds: 100}, function () {
-    var scrollTop = $(this).scrollTop();
+  // watch for footnote clicks to open the faq
+  $('.footnote').each(function () {
+    var
+      $footnote = $(this),
+      $faq = $footnote.next('.faq').hide().click(function () {
+        // don't close a faq when it's clicked
+        return false;
+      });
 
-    // clear the current position
-    $('.current-position').removeClass('current-position');
+    $footnote.click(function () {
+      var slideUp = function (e) {
+        $faq.slideUp();
+        $window.unbind('click', slideUp)
+      };
 
-    // scroll the ToC to the window's current heading
-    try {
-      $toc_ol.scrollTop(0).scrollTop($('a:not(.sr-only)', $toc_ol).filter(function () {
-        return $(this).data('position') <= scrollTop;
-      }).last().addClass('current-position').position().top);
-    } catch (error) {
-      // if no filtered a tags are found, use the first
-      $('a:not(.sr-only)', $toc_ol).first().addClass('current-position');
-    }
-  }).trigger('delayedScroll');
+      $faq.slideToggle(function () {
+        if ($faq.is(':visible')) {
+          // watch for window clicks to close the open faq
+          $window.click(slideUp)
+        }
+      });
+    });
+  });
 });
