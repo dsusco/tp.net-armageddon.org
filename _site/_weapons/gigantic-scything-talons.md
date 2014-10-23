@@ -1,5 +1,5 @@
 ---
-date: "2014-10-22T16:23:35-04:00"
+date: "2014-10-23T08:19:40-04:00"
 name: "Gigantic Scything Talons"
 modes:
   -
