@@ -19,7 +19,7 @@
         try {
           return str.match(/\[[a-z][\w\-]*\]/g).map(function (id) {
             return id.match(/[\w\-]+/g)[0];
-          });
+          }).sort();
         } catch (error) {
           return null;
         }
@@ -162,6 +162,8 @@
               output: 'tournament-pack'
             }
           };
+
+        grunt.file.mkdir('public_html/army-lists');
 
         grunt.file.recurse('public_html/army-lists', function (abspath, rootdir, subdir, filename) {
           filename = filename.replace(/\.html$/, '');
