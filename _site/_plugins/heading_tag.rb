@@ -30,7 +30,7 @@ module Jekyll
         headings << @id
 
         unless (faq = context.registers[:site].collections['faqs'].docs.find { |doc| doc.data['id'] == @id }).nil?
-          @class = @class.empty? 'footnote' : @class + ' footnote'
+          @class = @class.empty? ? 'footnote' : @class + ' footnote'
           faq = IncludeTag.new('include', "faq.html id='#{faq.data['id']}'", []).render(context)
         end
 
