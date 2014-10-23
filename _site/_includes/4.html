@@ -1,5 +1,5 @@
 <section class="two-column">
-  <h1 id="aerospace-operations">Aerospace Operations</h1>
+  {% h1 Aerospace Operations %}
 
   <blockquote>
     <p>Krukfang pushed the control stick forward and steered Deffblasta down into a straffing run. The words of Gobstikk came back to him from when the Mekaniak had been teaching the young Krukfang how to fly. Long, uncontrolled bursts the clever Mek had taught him…</p>
@@ -11,7 +11,7 @@
 
   <p>The rules for aerospace operations are one of the most complicated sections of the Epic rulebook. Because of this we recommend playing a few games without aerospace units before you try them out, and that you limit each side to very small numbers of aerospace units for the first few games that you do play with the rules. Diving in the deep end and using aircraft, drop pods and spacecraft in your first game is not recommended!</p>
 
-  <h2 id="aerospace-units">Aerospace Units</h2>
+  {% h2 Aerospace Units %}
 
   <p>In Epic there are two types of aerospace unit:</p>
 
@@ -23,11 +23,11 @@
     <dd>This category includes all of the interstellar spacecraft used by armies to move from one star system to another. These craft can vary in size from small escorts to huge battleships armed with enough firepower to level a hive city! In Epic they are assumed to be operating from low orbit where they can land drop pods and provide long-range support for ground troops.</dd>
   </dl>
 
-  <h3 id="aerospace-formations">Aerospace Formations</h3>
+  {% h3 Aerospace Formations %}
 
   <p>Aerospace units are organised into formations just like any other unit. However, although aerospace formations do receive Blast markers, they cannot be broken or suppressed. In addition, they can’t be assaulted, lend support to an assault or be used by another formation to claim a crossfire, etc., while in the air. Once landed, an aerospace unit may be assaulted and be used in a crossfire, and is affected by Blast markers normally.</p>
 
-  <h2 id="aircraft">Aircraft</h2>
+  {% h2 Aircraft %}
 
   <p>Aircraft formations are not set-up with other units. They are kept off table (where it can be imagined they are in orbit or stationed at a nearby airbase) but can be set up on the board when they take an action. Aircraft that are capable of transporting other units may be set up with the these units already on board. The aircraft (plus any units they are transporting) may only enter play using the following rules.</p>
 
@@ -49,7 +49,7 @@
     <dd>The formation may do nothing this turn. An aircraft formation that fails its action test <em>must</em> choose to take a stand down action.</dd>
   </dl>
 
-  <h3 id="aircraft-approach-moves">Aircraft Approach Moves</h3>
+  {% h3 Aircraft Approach Moves %}
 
   <p>Aircraft carrying out an interception or ground attack action are set up touching their own side’s table edge (choose an edge randomly if your side doesn’t have a table edge in the scenario being played). After the formation is set up it carries out an approach move.</p>
 
@@ -68,13 +68,13 @@
     <dd>Fighter-bombers manoeuvre as bombers when making an approach move if they are carrying out a ground attack action (because they are laden down with bombs or rockets), and behave like fighters under any other circumstances.</dd>
   </dl>
 
-  <h3 id="aircraft-attacks">Aircraft Attacks</h3>
+  {% h3 Aircraft Attacks %}
 
   <p>After aircraft have made their approach move they are allowed to attack. Aircraft carrying out a ground attack action may attack an enemy ground formation. Aircraft carrying out an interception mission may attack an enemy aircraft formation. Aircraft are assumed to be flying high enough in the air to ignore any terrain that might block the line of sight when they shoot at any targets, and the crossfire rule does not apply to aircraft attacks. This aside, resolve the attack using the normal shooting rules.</p>
 
   <p>After the aircraft formation has made an attack, its action is over. It remains in play until the end phase, at which time it must make a disengagement move and exit the table (see <a href="#disengagement-moves">Disengagement Moves</a>).</p>
 
-  <h3 id="anti-aircraft-attacks">Anti-aircraft Attacks</h3>
+  {% h3 Anti-aircraft Attacks %}
 
   <p>Some weapons have an anti-aircraft value (<abbr title="Anti-aircraft">AA</abbr>) that can be used to attack aircraft, and only aircraft. Aircraft can shoot at other aircraft either when making a flak attack (see <a href="#flak-attacks">Flak Attacks</a>) or when attacking as part of an interception action. Ground units may <em>only</em> shoot at aircraft when making a flak attack, and may <em>not</em> choose to shoot at aircraft formations as part of one of their actions (this rule stops ground units <q>rushing over</q> to attack aircraft before they can disengage).</p>
 
@@ -82,7 +82,7 @@
 
   <p>Fighters and fighter-bombers can choose to <q>jink</q> when they have to make a saving throw. Jinking represents the pilot desperately swerving his plane to one side in order to try and dodge the enemy attack. All of the aircraft in a formation must jink, or none at all. Aircraft that jink receive a 4+ saving throw instead of their normal armour save but lose their attack if they have not already taken it (they are concentrating on dodging enemy bullets). Place a suitable marker on the aircraft as a reminder it can’t shoot.</p>
 
-  <h3 id="flak-attacks">Flak Attacks</h3>
+  {% h3 Flak Attacks %}
 
   <p><abbr title="Anti-aircraft">AA</abbr> weapons are designed to fire defensively against an attacking enemy aircraft, and may therefore shoot immediately after an enemy aircraft formation makes an approach move but before it makes its attack. This is called a <em>flak attack</em>. Note that aircraft carrying out a ground attack mission that are armed with <abbr title="Anti-aircraft">AA</abbr> weapons may shoot at enemy interceptors that fall within the <abbr title="Anti-aircraft">AA</abbr> weapon’s fire arc. Making a flak attack does not remove overwatch status from a ground formation.</p>
 
@@ -92,7 +92,7 @@
 
   <p>Ground units that are armed with <abbr title="Anti-aircraft">AA</abbr> weapons can shoot at enemy aircraft as they move past them. To represent this, they may shoot at an aircraft formation that moved within their weapon range during their approach or disengagement move, even if the aircraft is no longer within weapon range when the attack is made. Attacks made against disengaging aircraft are resolved when the aircraft reaches the edge of the table, before it is removed to <q>fly back to base</q>. Units that shot at an aircraft formation as it approached may not shoot at them again as they disengage.</p>
 
-  <h3 id="transporting-ground-units">Transporting Ground Units</h3>
+  {% h3 Transporting Ground Units %}
 
   <p>Aircraft with a transport capacity are known as transport aircraft and are allowed to pick up and drop off ground units. Troops being transported are kept off-board embarked on the transport aircraft until it is deployed. Any units that are picked up and transported off the table may later return to play in the same transport aircraft.</p>
 
@@ -109,11 +109,11 @@
     <dd>Transport aircraft may choose to land as described above, and then it and any units that disembark are allowed to fight an assault instead of shooting. If this option is chosen then the aircraft and any units that disembark may enter enemy zones of control as if they were charging. The aircraft and any units that disembark are treated as a single formation for the duration of the assault, in the same manner as units disembarking from a war engine taking an engage action (see <a href="#transport-war-engines">Transport War Engines</a>). If the aircraft loses the assault it is destroyed, but any units that have disembarked may withdraw normally.</dd>
   </dl>
 
-  <h3 id="disengagement-moves">Disengagement Moves</h3>
+  {% h3 Disengagement Moves %}
 
   <p>In the end phase, all aircraft that that have not landed must exit the table. Aircraft that have landed may choose to exit the table. Aircraft may exit along <span class="text-uppercase">any</span> table edge. Simply move the aircraft as you did when it made its approach move, until it reaches a table edge. This is called the <em>disengagement move</em>, and it takes place at the start of the end phase before any ground formations rally.</p>
 
-  <h3 id="blast-markers-2">Blast Markers</h3>
+  {% h3 Blast Markers %}
 
   <p>Aircraft collect Blast markers in a similar manner to other units, but are affected by them rather differently. The following fairly simple rules reflect the time it takes to rearm and refuel aircraft after a mission. Aircraft in a formation that has come under heavy attack and therefore have a lot of Blast markers will take longer to get ready, and so there is an increased chance that they may not get to carry out a mission.</p>
 
@@ -131,7 +131,7 @@
 
   <p>Aircraft that land are affected by any Blast makers they have picked up normally, and are allowed to rally in the end phase. Any additional Blast markers they pick up will be <q>carried off</q> with them if they later take off again.</p>
 
-  <h2 id="spacecraft">Spacecraft</h2>
+  {% h2 Spacecraft %}
 
   <p>Most armies have access to spacecraft that can be used to land ballistic entry vehicles and unleash potentially devastating orbital attacks. Each type of spacecraft an army can use has its own datasheet with details of the drop pods and weapons carried by the spacecraft.</p>
 
@@ -139,7 +139,7 @@
 
   <p>Spacecraft can carry out orbital bombardments, pin-point attacks and land units with the planetfall ability when they take an action. They may carry out all three of these things as part of the same action if they have the ability—their huge crew allows them to carry out a multitude of tasks.</p>
 
-  <h3 id="planning-spacecraft-operations">Planning Spacecraft Operations</h3>
+  {% h3 Planning Spacecraft Operations %}
 
   <p>In order to carry out spacecraft operations you will need a Battlefleet Gothic model representing the orbiting spacecraft.</p>
 
@@ -151,13 +151,13 @@
 
   <p>Simply write down on a piece of paper the coordinates of the drop zone and/or bombardment in relation to the position of the space craft model. The coordinates you plot will determine the centre point of the drop zone and any orbital bombardment your spacecraft fires. For example you might write <q>my drop zone will be 60cm up, 30cm right, and my orbital bombardment will come down 45cm up and 30cm left</q>. This would mean that the drop zone would be located 60cm up and 30cm to the right of the spacecraft model, while the orbital bombardment would hit a point 45cm and 30cm to the left of the model.</p>
 
-  <h3 id="carrying-out-the-operation">Carrying Out The Operation</h3>
+  {% h3 Carrying Out The Operation %}
 
   <p>Spacecraft operations take place in the action phase of the turn. Simply take an action test for the spacecraft as you would for any other formation. If the test is passed, the spacecraft may make orbital bombardments, pin-point attacks, and carry out a planetfall as described in the sections that follow (see <a href="#orbital-bombardments">Orbital Bombardments</a>, <a href="#pin-point-attacks">Pin-Point Attacks</a> and <a href="#planetfall">Planetfall</a>).</p>
 
   <p>After any attacks or landings have taken place, the spacecraft model is removed. If the test is failed then the spacecraft has been delayed and fails to arrive this turn; you may roll for it again next turn as long as no other spacecraft are scheduled to arrive that turn. If the next turn has been taken, then the delayed spacecraft will arrive in the first available free turn.</p>
 
-  <h3 id="orbital-bombardments">Orbital Bombardments</h3>
+  {% h3 Orbital Bombardments %}
 
   <p>If a spacecraft can carry out an orbital bombardment this will be noted on its datasheet.</p>
 
@@ -167,11 +167,11 @@
 
   <p>Once the position of the orbital bombardment is known, attack any units under the templates just as you would for an artillery barrage (see <a href="#barrages">Barrages</a>). Orbital bombardments never benefit from the crossfire rule.</p>
 
-  <h3 id="pin-point-attacks">Pin-Point Attacks</h3>
+  {% h3 Pin-Point Attacks %}
 
   <p>Pin-point attacks may be made on enemy war engines (war engines are the only things big enough for a spacecraft to pick out on the battlefield). Pick a target anywhere on the table and then attack it with any pin-point attacks the spacecraft may have. You may target different war engines with each pin-point attack if you wish, or concentrate all of the attacks on a single target. Note that you do not need to record the co-ordinates of pin-point attacks.</p>
 
-  <h2 id="planetfall">Planetfall</h2>
+  {% h2 Planetfall %}
 
   <p>Some armies are allowed to land ground units from orbiting spacecraft in specially modified vehicles. These vehicles are mainly used to carry troops from orbiting spacecraft to the planet below. Most are more like manned missiles than aircraft, and are designed to be fired at extremely high speeds into the planet’s atmosphere. At the last moment, powerful jets slow the descent of the vehicle allowing it and its cargo to land safely on the planet’s surface. The high speeds that the vehicles travel at makes it almost impossible for weapons to engage them before they have landed. This is known as making a <em>planetfall</em>.</p>
 
@@ -185,7 +185,7 @@
 
   <p>Units that land by planetfall may take an action later in the turn. In effect the units land from the spacecraft when the spacecraft takes its action, and can take an action of their own later in the same turn. Remember that any formations that have landed by planetfall and scattered out of formation must move back into a legal formation when they take an action. Aircraft that land by planetfall are treated in the same manner as a landed aircraft (see <a href="#transporting-ground-units">Transporting Ground Units</a>), and they may take off again later in the game.</p>
 
-  <h2 id="aerospace-training-scenarios">Aerospace Training Scenarios</h2>
+  {% h2 Aerospace Training Scenarios %}
 
   <blockquote>
     <p>Today had been a good day for Krukfang; plenty of firing, plenty of speed.</p>
@@ -195,7 +195,7 @@
 
   <p><strong>Note:</strong> The datasheets for these two scenarios are on the next page and in Section <a href="#forces">5.0</a>.</p>
 
-  <h3 id="death-from-the-skies">Death From The Skies!</h3>
+  {% h3 Death From The Skies! %}
 
   <p>In the sulphur-yellow skies above Armageddon, Ork fighta-bommers battle with Imperial Navy Thunderbolts and Marauders in a deadly dance of death. Typical of these engagements was the Ork aerial attack on Imperial Command Bunker Complex 17c, home to the Headquarters of the Imperial Guard 2<sup>nd</sup> Asgardian Rangers regiment. More than half a dozen Ork fighta-bommers from Harthag’s Deffblasta’s Flyboyz Sqwadron attacked the complex, and were intercepted by elements of the Imperial Navy’s 222<sup>nd</sup> Interceptor Strike Wing. The air combat that unfolded is considered by many to be one of the classic aerial engagements of the Armageddon wars.</p>
 
@@ -219,7 +219,7 @@
     <dd>The Ork player has three turns in which to destroy both Command Bunkers and all three Basilisks. If he succeeds he wins, if not the Imperial player wins.</dd>
   </dl>
 
-  <h3 id="thunderhawk-down">Thunderhawk Down</h3>
+  {% h3 Thunderhawk Down %}
 
   <p>Acheron Hive fell without warning on the fifth day of the invasion of Armageddon, the victim of treachery by none other than ex-Imperial Governor Herman von Strab. Intelligence reports indicated that von Strab was located in a captured command bunker just outside the hive city. A small force of Terminators from the Salamanders Chapter were despatched in a Thunderhawk Gunship in a bid to capture the traitor. The Terminators landed just outside the bunkers and quickly overran the complex, but found that von Strab had already left. Things started to go wrong when Ork Fighta-Bommers ambushed the Thunderhawk sent to evacuate the Terminators. Only the Thunderhawk’s legendarily sturdy construction and the timely assistance of some Imperial Navy Thunderbolt fighters allowed it to survive and pick up the Terminators. When the Thunderhawk returned to base only one engine was still functioning, all of its crew had either been wounded or killed, and bullet holes caused by over 250 big shoota shell hits were counted on its hull. All of the Terminators sent on the mission were evacuated safely.</p>
 
