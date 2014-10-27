@@ -1,6 +1,22 @@
+@black: #000;
+@dark-grey: #999;
+@grey: #ccc;
+@light-grey: #eee;
+@white: #fff;
+
+@body-size: 10pt;
+@font-size-base: 10pt;
+@line-height-base: 1.2;
+@line-height-computed: unit((@font-size-base * @line-height-base), pt);
+
+.text(@font-size: @font-size-base, @line-height: @line-height-computed) {
+  font-size: percentage((@font-size / @body-size));
+  line-height: unit((@line-height / @font-size * ceil(@font-size / @line-height)));
+  margin: 0 0 unit((@line-height / @font-size), em);
+}
+
 @import 'reset';
 @import 'page';
-@import 'mixins';
 @import 'generated_content';
 
 /* type */
@@ -95,22 +111,22 @@ th, td { padding: 0 0.5em; }
         text-transform: uppercase;
       }
 
-      &:last-child > th { border-bottom: 1pt solid #999; }
+      &:last-child > th { border-bottom: 1pt solid @dark-grey; }
     }
   }
   > thead > tr > td { text-align: center; }
-  > tbody > .stripe { background: #eee; }
+  > tbody > .stripe { background: @light-grey; }
 }
 
 .table-captioned {
-  border: 1pt solid #999;
+  border: 1pt solid @dark-grey;
   border-top: 0;
   margin-bottom: (@line-height-computed - 2pt);
   width: 100%;
 
   > caption {
-    background: #ccc;
-    border: 1pt solid #999;
+    background: @grey;
+    border: 1pt solid @dark-grey;
     border-bottom: 0;
     font-weight: bold;
     padding: 0 0.5em;
@@ -174,8 +190,8 @@ th, td { padding: 0 0.5em; }
 
 .short-story {
   .text();
-  background: #eee;
-  border: 1pt solid #999;
+  background: @light-grey;
+  border: 1pt solid @dark-grey;
   font-style: italic;
   margin-bottom: (@line-height-computed - 2pt);
   padding: 6pt 1em;
@@ -211,10 +227,10 @@ th, td { padding: 0 0.5em; }
 .unit {
   .clearfix();
   .text(9pt);
-  background: #eee;
+  background: @light-grey;
   margin: 0;
 
-  &:nth-child(even) { background: #fff; }
+  &:nth-child(even) { background: @white; }
 
   .stats, weapons {
     display: table;
@@ -323,8 +339,8 @@ th, td { padding: 0 0.5em; }
 
 #examples-of-formations {
   figcaption {
-    background: #000;
-    color: #fff;
+    background: @black;
+    color: @white;
     font-style: italic;
     font-weight: bold;
     max-width: 351px;
@@ -332,7 +348,7 @@ th, td { padding: 0 0.5em; }
   }
 
   figcaption, img {
-    border: 1pt solid #999;
+    border: 1pt solid @dark-grey;
     margin: 0 auto;
 
     + img { border-top-width: 0; }
@@ -372,7 +388,7 @@ th, td { padding: 0 0.5em; }
   max-width: 100%;
   width: (2 * 194px);
 
-  &, img { border: 1pt solid #999; }
+  &, img { border: 1pt solid @dark-grey; }
 
   figure {
     position: relative;
