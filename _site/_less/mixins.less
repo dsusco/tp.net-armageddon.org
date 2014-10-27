@@ -1,8 +1,10 @@
+@body-size: 10pt;
 @font-size-base: 10pt;
-@line-height-computed: 12pt;
+@line-height-base: 1.2;
+@line-height-computed: unit((@font-size-base * @line-height-base), pt);
 
-.text(@font-size) {
-  font-size: @font-size;
-  line-height: unit((@line-height-computed/@font-size * ceil(@font-size/@line-height-computed)));
-  margin: 0 0 @line-height-computed;
+.text(@font-size: @font-size-base, @line-height: @line-height-computed) {
+  font-size: percentage((@font-size / @body-size));
+  line-height: unit((@line-height / @font-size * ceil(@font-size / @line-height)));
+  margin: 0 0 unit((@line-height / @font-size), em);
 }

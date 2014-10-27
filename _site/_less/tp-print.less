@@ -3,13 +3,6 @@
 @import 'mixins';
 @import 'generated_content';
 
-body { font: 10pt/1 Garamond, serif; }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 /* type */
 h1 {
   .text(16pt);
@@ -25,31 +18,22 @@ h3, h4 {
 }
 h1, h2, h3, h4 {
   bookmark-label: none;
-  font-weight: bold;
   margin: 0;
 
   &[id] { bookmark-label: content(); }
 }
 
-p, blockquote, figcaption, dl, ol, ul, table {
+p, blockquote, figcaption, dl, ol, ul, table, .text {
   .text(10pt);
 
-  p, blockquote, figcaption, dl, ol, ul, table { margin-bottom: 0; }
-}
-
-blockquote {
-  font-style: italic;
-
-  > :first-child:before { content: '“'; }
-  > p:last-of-type:after { content: '”'; }
+  p, blockquote, figcaption, dl, ol, ul, table, .text {
+    font-size: 100%;
+    line-height: inherit;
+  }
 }
 
 /* lists */
-dt { font-weight: bold; }
-
 ol, ul { padding-left: 1.5em; }
-
-ul { list-style-type: disc; }
 
 .dl-colonated {
   > dt {
@@ -65,8 +49,7 @@ ul { list-style-type: disc; }
 }
 
 .list-army-list {
-  font-size: 100%;
-  line-height: inherit;
+  .text();
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
@@ -90,8 +73,6 @@ ul { list-style-type: disc; }
 }
 
 /* tables */
-th { font-weight: bold; }
-
 th, td { padding: 0 0.5em; }
 
 .table-army-list {
@@ -100,8 +81,9 @@ th, td { padding: 0 0.5em; }
   margin-bottom: 3pt;
 
   > caption {
-    .text(9pt);
+    font-size: percentage((9pt / 8pt));
     background: none;
+    line-height: unit((12 / 9));
     margin: 0;
     text-align: center;
     text-transform: uppercase;
@@ -145,15 +127,20 @@ th, td { padding: 0 0.5em; }
 }
 
 /* tp classes */
-.footnote:after { font-size: 6pt; }
+.footnote:after {
+  font-size: 6pt;
+  line-height: 0;
+}
+
 .faq {
   font-size: 0;
   float: left;
 
   > .panel-heading { display: none; }
   > .panel-body > dl {
-    .text(8pt);
     float: prince-column-footnote;
+    font-size: 8pt;
+    line-height: 1.5;
     margin: 0;
 
     &:before {
@@ -186,19 +173,18 @@ th, td { padding: 0 0.5em; }
 }
 
 .short-story {
-  .text(10pt);
+  .text();
   background: #eee;
   border: 1pt solid #999;
   font-style: italic;
   margin-bottom: (@line-height-computed - 2pt);
-  padding: 6pt;
+  padding: 6pt 1em;
   page-break-inside: avoid;
 
   > .panel-body > :last-child { margin-bottom: 0; }
 }
 .design-concept, .example-of-play, .special-rule {
   .short-story();
-  font-style: normal;
   font-style: normal;
 
   &:before {
@@ -210,10 +196,10 @@ th, td { padding: 0 0.5em; }
   }
 
   > :first-child {
-    font-size: 100%;
+    .text();
     font-style: italic;
     font-weight: bold;
-    margin: 0 0 1em;
+    margin-bottom: @line-height-computed;
     text-align: center;
   }
 }
@@ -239,7 +225,7 @@ th, td { padding: 0 0.5em; }
   .stats, .weapon-line {
     > span {
       display: table-cell;
-      padding: 0 .5em;
+      padding: 0 0.5em;
 
       &:before {
         display: block;
@@ -274,14 +260,12 @@ th, td { padding: 0 0.5em; }
     padding-left: 0;
 
     &, li { display: inline; }
-    li {
-      .firepower();
-    }
+    li { .firepower(); }
   }
 
   .notes {
     clear: both;
-    padding: 0 .5em;
+    padding: 0 0.5em;
 
     .special-rules {
       font-style: italic;
