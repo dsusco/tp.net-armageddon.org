@@ -1,0 +1,44 @@
+main:not(.no-outline) {
+  counter-reset: fn h1;
+
+  h1[id]:not(.no-count) {
+    counter-increment: h1;
+    counter-reset: h2 h3;
+
+    &:before { content: counter(h1) '.0 '; }
+    &.footnote { counter-increment: fn h1; }
+  }
+
+  h2[id]:not(.no-count) {
+    counter-increment: h2;
+    counter-reset: h3;
+
+    &:before { content: counter(h1) '.' counter(h2) ' '; }
+    &.footnote { counter-increment: fn h2; }
+  }
+  .force, .army-list {
+    counter-increment: h2;
+
+    h2[id]:not(.no-count) { counter-increment: none; }
+    &.footnote { counter-increment: fn h2; }
+  }
+
+  h3[id]:not(.no-count) {
+    counter-increment: h3;
+
+    &:before { content: counter(h1) '.' counter(h2) '.' counter(h3) ' '; }
+    &.footnote { counter-increment: fn h3; }
+  }
+
+  .footnote {
+    counter-increment: fn;
+    cursor: pointer;
+
+    &:after {
+      content: counter(fn);
+      font-size: 75%;
+      line-height: 0;
+      vertical-align: super;
+    }
+  }
+}
