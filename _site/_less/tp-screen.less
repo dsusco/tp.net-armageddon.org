@@ -162,10 +162,7 @@ body {
   }
   > thead {
     > tr {
-      > th, > td {
-        border-top: none;
-        font-style: normal;
-      }
+      > th, > td { border-top: none; }
       > td { text-align: center; }
     }
   }
@@ -185,13 +182,6 @@ body {
     border-radius: @panel-border-radius @panel-border-radius 0 0;
   }
 
-  > thead, > tfoot {
-    > tr {
-      > th, > td { font-style: italic; }
-    }
-  }
-  > tbody > tr > th { font-style: italic; }
-
   > tfoot > tr:not(:first-child) {
     > th, > td { border: none; }
   }
@@ -201,6 +191,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: auto;
+}
+
+
+@media screen and (max-width: @screen-xs-max) {
+  .table-responsive {
+    > .table-army-list, > .table-captioned {
+      &, > caption { border: 0; }
+    }
+  }
 }
 
 /* panels */
@@ -291,7 +290,7 @@ body {
   }
 }
 
-@media screen and (min-width: @screen-sm-min) {
+@media (min-width: @screen-sm-min) {
   .unit {
     .stats, weapons {
       width: 50%;
