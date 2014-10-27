@@ -1,3 +1,295 @@
 @import '../../bower_components/bootstrap/less/bootstrap';
 @import '../../bower_components/fontawesome/less/font-awesome';
-@import 'tp';
+body {
+  padding-top: 3em;
+
+  &.overflow-hidden { overflow: hidden; }
+}
+
+/* IDs */
+#table-of-contents {
+  background: @component-active-bg;
+  color: @component-active-color;
+  font-size: 200%;
+  left: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+
+  .container {
+    padding: 0;
+    position: relative;
+  }
+
+  .fa {
+    cursor: pointer;
+    left: 0;
+    line-height: inherit;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1.5em;
+
+    &.fa-chevron-circle-up, &.fa-chevron-circle-down {
+      left: auto;
+      right: 1.5em;
+    }
+    &.fa-chevron-circle-down { right: 0; }
+  }
+
+  ol {
+    height: 1.5em;
+    margin: 0 3em 0 1.5em;
+    overflow: hidden;
+  }
+
+  a {
+    color: inherit;
+    display: block;
+    font-size: 100%;
+    line-height: inherit;
+    text-decoration: none;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  &.expanded {
+    height: 100%;
+
+    .fa-chevron-circle-up, .fa-chevron-circle-down { display: none; }
+
+    .container {
+      height: 100%;
+      width: 100%;
+    }
+
+    ol {
+      height: 100%;
+      margin: 0;
+      overflow: auto;
+    }
+    a {
+      padding-left: 1.5em;
+
+      &.current-position { background: lighten(@component-active-bg, 12.5%); }
+    }
+  }
+}
+
+#examples-of-formations {
+  max-width: (347px + 2 * @panel-body-padding);
+  img + img { margin-top: (@line-height-computed / 2); }
+}
+
+.barrage-table {
+  > thead {
+    > tr:first-child > th { border: none; }
+    > tr:last-child > th { border-top: none; }
+  }
+  th, td { text-align: center; }
+}
+
+#weapon-fire-arc-figures {
+  max-width: 100%;
+  width: (2 * 194px);
+
+  &, img { border: 1px solid @panel-default-border; }
+
+  figure {
+    position: relative;
+    float: left;
+    width: 50%;
+  }
+
+  figcaption {
+    padding: 0 0.5em;
+    position: absolute;
+    top: 0.25em;
+    width: 100%;
+  }
+}
+
+/* lists */
+.dl-colonated {
+  > dt {
+    float: left;
+
+    &:after {
+      content: ': ';
+      white-space: pre;
+    }
+  }
+
+  > dd:not(:last-child) { margin-bottom: (@line-height-computed / 2); }
+}
+
+.list-army-list {
+  .list-unstyled();
+  margin-bottom: 0;
+
+  > li:not(:first-child) {
+    margin-top: (@line-height-computed / 2);
+  }
+}
+
+.list-upper-roman {
+  counter-reset: list-upper-roman;
+
+  ol& {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  > dt:before, > li:before {
+    counter-increment: list-upper-roman;
+    content: counter(list-upper-roman, upper-roman) ' – ';
+    font-weight: bold;
+  }
+}
+
+/* tables */
+.table-army-list {
+  .table-captioned();
+
+  > caption {
+    background: none;
+    border-bottom: none;
+  }
+  > thead {
+    > tr {
+      > th, > td {
+        border-top: none;
+        font-style: normal;
+      }
+      > td { text-align: center; }
+    }
+  }
+  > tbody > .stripe { background: @table-bg-accent; }
+}
+
+.table-captioned {
+  border: 1px solid @table-border-color;
+  border-top: none;
+  border-collapse:separate;
+  border-radius: 0 0 @panel-border-radius @panel-border-radius;
+
+  > caption {
+    .panel-heading();
+    background: @panel-default-heading-bg;
+    border: 1px solid @table-border-color;
+    border-radius: @panel-border-radius @panel-border-radius 0 0;
+  }
+
+  > thead, > tfoot {
+    > tr {
+      > th, > td { font-style: italic; }
+    }
+  }
+  > tbody > tr > th { font-style: italic; }
+
+  > tfoot > tr:not(:first-child) {
+    > th, > td { border: none; }
+  }
+}
+
+.table-centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* panels */
+.panel-heading {
+  font-size: @font-size-base;
+  font-weight: bold;
+  line-height: @line-height-base;
+  margin: 0;
+}
+.design-concept > .panel-heading:first-child:before { content: 'Design Concept: '; }
+.example-of-play > .panel-heading:first-child:before { content: 'Example of Play: '; }
+.special-rule > .panel-heading:first-child:before { content: 'Special Rule: '; }
+
+.panel-body {
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+}
+
+/* tp classes */
+.datasheet { overflow-x: auto; }
+
+.unit {
+  background: @table-bg-accent;
+
+  &:nth-child(even) { background: @body-bg; }
+
+  .stats, weapons { display: table; }
+
+  .stats, .weapon-line {
+    > span {
+      display: table-cell;
+      padding: 0 0.5em;
+
+      &:before {
+        display: block;
+        font-weight: bold;
+      }
+
+      &.name {
+        width: 40%;
+        &:before { content: 'Name'; }
+      }
+      &.type:before { content: 'Type'; }
+      &.speed:before { content: 'Speed'; }
+      &.armour:before { content: 'Armour'; }
+      &.cc:before { content: 'CC'; }
+      &.ff:before { content: 'FF'; }
+      &.range:before { content: 'Range'; }
+      &.firepower {
+        width: 40%;
+        &:before { content: 'Firepower'; }
+      }
+    }
+  }
+  .weapon-line > span.name:before { content: 'Weapon'; }
+
+  .firepower {
+    &:after { content: ', '; }
+
+    &:last-child:after { content: none; }
+  }
+
+  .special-rules {
+    padding-left: 0;
+
+    &, li { display: inline; }
+    li { .firepower(); }
+  }
+
+  .notes {
+    clear: both;
+    padding: 0 0.5em;
+
+    .special-rules {
+      font-style: italic;
+
+      > :last-child:after { content: '.'; }
+    }
+    > :last-child { display: inline; }
+  }
+}
+
+@media screen and (min-width: @screen-sm-min) {
+  .unit {
+    .stats, weapons {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+
+/* utility classes */
+.margin-bottom { margin-bottom: (@line-height-computed / 2); }
+.no-margin-bottom { margin-bottom: 0; }

@@ -13,6 +13,9 @@ collections:
   units:
   weapons:
 
+# Handling Reading
+exclude: ['_js', '_less']
+
 # Conversion
 markdown: kramdown
 

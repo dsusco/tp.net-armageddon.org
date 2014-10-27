@@ -1,4 +1,7 @@
-{% special_rule include.id %}<div class="special-rule{% for c in special_rule.classes %} {{c}}{% endfor %}">
-  <h3 id="{{ special_rule.id }}">{{ special_rule.name }}</h3>
+{% special_rule include.id %}<div class="panel panel-default special-rule{% for c in special_rule.classes %} {{c}}{% endfor %}">
+  <h3 id="{{ special_rule.id }}" class="panel-heading">{{ special_rule.name }}</h3>
 
-{% if include.army_list %}{{ special_rule.content | markdownify }}{% else %}{{ special_rule.content }}{% endif %}</div>{% endspecial_rule %}
+  <div class="panel-body">
+{% if include.army_list %}{{ special_rule.content | markdownify }}{% else %}{{ special_rule.content }}{% endif %}
+  </div>
+</div>{% endspecial_rule %}
