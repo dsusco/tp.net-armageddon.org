@@ -1,6 +1,8 @@
 ---
 date: "2014-10-15T14:21:32-04:00"
 name: "Dark Eldar Technology"
+classes:
+  - one-third
 ---
 Webway Portals
 : These smallish portals are used by the Dark Eldar as much as the Eldar. Allowing safe travel through the Warp, each Webway portal included in the army allows the Dark Eldar player to keep up to three formations back in Commorragh. Any of these reserve formations may enter play via a Webway portal by taking an action that allows them to move, then measuring its first move from the portal on the tabletop. No more than one formation may travel through a single portal each turn. Wraithgate use is limited to formations made up exclusively of infantry, light vehicles, and armored vehicles with the walker ability (The feared Kashnarak is the exception to the rule).
