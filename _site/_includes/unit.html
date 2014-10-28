@@ -9,8 +9,7 @@
   </div>
 
   <div class="weapons">{% if unit.weapons %}{% for w in unit.weapons %}
-    {% include weapon.html id = w.id multiplier = w.multiplier arc = w.arc %}{% endfor %}{% else %}
-    <div class="weapon">
+{% include weapon.html weapon=w %}{% endfor %}{% else %}<div class="weapon">
       <div class="weapon-line">
         <span class="name">-</span>
         <span class="range"></span>
@@ -23,9 +22,10 @@
     <b>Notes:</b>{% if unit.special_rules %}
 
     <ul class="special-rules">{% for sr in unit.special_rules %}
-      {% special_rule sr %}<li>{{ special_rule.name }}</li>{% endspecial_rule %}{% endfor %}
+      <li>{% special_rule sr %}{{ special_rule.name }}{% endspecial_rule %}</li>{% endfor %}
     </ul>{% endif %}{% if unit.notes %}
 
     {{ unit.notes | markdownify }}{% endif %}
   </div>{% endif %}
-</div>{% endunit %}
+</div>
+{% endunit %}

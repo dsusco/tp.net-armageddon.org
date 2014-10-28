@@ -125,7 +125,7 @@ body {
     }
   }
 
-  > dd:not(:last-child) { margin-bottom: (@line-height-computed / 2); }
+  > dd:not(:last-child) { .margin-bottom(); }
 }
 
 .list-army-list {
@@ -193,7 +193,6 @@ body {
   width: auto;
 }
 
-
 @media screen and (max-width: @screen-xs-max) {
   .table-responsive {
     > .table-army-list, > .table-captioned {
@@ -227,72 +226,84 @@ body {
 }
 
 /* tp classes */
-.datasheet { overflow-x: auto; }
+.datasheet {
+  .margin-bottom();
+  overflow-x: auto;
+}
 
 .unit {
+  .clearfix();
   background: @table-bg-accent;
 
-  &:nth-child(even) { background: @body-bg; }
-
-  .stats, weapons { display: table; }
+  &:nth-child(odd) { background: @body-bg; }
 
   .stats, .weapon-line {
-    > span {
+    > * {
       display: table-cell;
       padding: 0 0.5em;
+      text-align: center;
 
       &:before {
         display: block;
         font-weight: bold;
       }
+    }
+  }
 
-      &.name {
-        width: 40%;
-        &:before { content: 'Name'; }
-      }
+  .stats {
+    display: table;
+
+    > * {
+      &.name:before { content: 'Name'; }
       &.type:before { content: 'Type'; }
       &.speed:before { content: 'Speed'; }
       &.armour:before { content: 'Armour'; }
       &.cc:before { content: 'CC'; }
       &.ff:before { content: 'FF'; }
-      &.range:before { content: 'Range'; }
-      &.firepower {
-        width: 40%;
-        &:before { content: 'Firepower'; }
-      }
     }
   }
-  .weapon-line > span.name:before { content: 'Weapon'; }
 
-  .firepower {
-    &:after { content: ', '; }
-
-    &:last-child:after { content: none; }
+  .weapon:first-child > .weapon-line:first-child > * {
+    &.name:before { content: 'Weapons'; }
+    &.range:before { content: 'Range'; }
+    &.firepower:before { content: 'Firepower'; }
   }
+  .weapon-line { display: table; }
 
+  .boolean { text-align: right; }
+  .name, .firepower {
+    text-align: left;
+    width: 50%;
+  }
+  .firepower {
+    > :not(:last-child):after { content: ', '; }
+
+    .special-rules li:last-child:after { content: none; }
+  }
   .special-rules {
-    padding-left: 0;
+    padding: 0;
 
     &, li { display: inline; }
-    li { .firepower(); }
+
+    li:after { content: ', '; }
+    li:last-child:after { content: '.'; }
   }
 
   .notes {
     clear: both;
     padding: 0 0.5em;
 
-    .special-rules {
+    > .special-rules {
       font-style: italic;
 
-      > :last-child:after { content: '.'; }
+      + * { display: inline; }
     }
-    > :last-child { display: inline; }
   }
 }
 
 @media (min-width: @screen-sm-min) {
   .unit {
-    .stats, weapons {
+    .stats, .weapons {
       width: 50%;
       float: left;
     }

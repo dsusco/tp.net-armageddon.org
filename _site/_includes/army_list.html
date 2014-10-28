@@ -3,7 +3,6 @@
     <h2 id="{{ army_list.id }}-army-list">{{ army_list.name }} Army List</h2>{% if army_list.introduction %}
 
 {{ army_list.introduction | markdownify }}{% endif %}
-
     <h4>Forces</h4>
 
     <p>The {{ army_list.name }} Army List uses the datasheets from {% for f in army_list.forces %}{% force f %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} Forces section</a>{% endforce %}{% endfor %}.</p>

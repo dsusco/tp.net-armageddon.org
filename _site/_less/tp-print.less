@@ -227,73 +227,80 @@ th, td { padding: 0 0.5em; }
 .example-of-play:before { content: 'Example of Play'; }
 .special-rule:before { content: 'Special Rule'; }
 
-.datasheet { overflow-x: auto; }
+.datasheet {
+  .text(8pt);
+  margin-bottom: 3pt;
+
+  .stats, .weapons, .notes {
+    display: table;
+    float: left;
+  }
+  .stats, .weapon-line {
+    > * {
+      display: table-cell;
+      padding: 0 0.5em;
+      text-align: center;
+
+      &.boolean { text-align: right; }
+      &.name, &.firepower { text-align: left; }
+    }
+  }
+  .weapon-line { display: table; }
+  .notes { padding: 0 0.5em; }
+
+  .type { width: 4em; }
+  .speed, .range { width: 5em; }
+  .armour { width: 6em; }
+  .cc, .ff { width: 3em; }
+
+  > * {
+    width: 91.875em;
+
+    &:first-child {
+      .clearfix();
+      border-bottom: 1pt solid @dark-grey;
+
+      .notes {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .stats, .weapons {
+        span { .notes(); }
+      }
+    }
+  }
+}
 
 .unit {
   .clearfix();
-  .text(9pt);
   background: @light-grey;
-  margin: 0;
+  page-break-inside: avoid;
 
-  &:nth-child(even) { background: @white; }
-
-  .stats, weapons {
-    display: table;
-    float: left;
-    width: 49.999%;
-  }
-
-  .stats, .weapon-line {
-    > span {
-      display: table-cell;
-      padding: 0 0.5em;
-
-      &:before {
-        display: block;
-        font-weight: bold;
-      }
-
-      &.name {
-        width: 40%;
-        &:before { content: 'Name'; }
-      }
-      &.type:before { content: 'Type'; }
-      &.speed:before { content: 'Speed'; }
-      &.armour:before { content: 'Armour'; }
-      &.cc:before { content: 'CC'; }
-      &.ff:before { content: 'FF'; }
-      &.range:before { content: 'Range'; }
-      &.firepower {
-        width: 40%;
-        &:before { content: 'Firepower'; }
-      }
-    }
-  }
-  .weapon-line > span.name:before { content: 'Weapon'; }
+  &:nth-child(odd) { background: @white; }
 
   .firepower {
-    &:after { content: ', '; }
+    > :not(:last-child):after { content: ', '; }
 
-    &:last-child:after { content: none; }
+    .special-rules li:last-child:after { content: none; }
   }
-
   .special-rules {
-    padding-left: 0;
+    padding: 0;
 
     &, li { display: inline; }
-    li { .firepower(); }
+
+    li:after { content: ', '; }
+    li:last-child:after { content: '.'; }
   }
 
   .notes {
-    clear: both;
-    padding: 0 0.5em;
+    font-style: italic;
 
-    .special-rules {
-      font-style: italic;
+    > * {
+      display: inline;
 
-      > :last-child:after { content: '.'; }
+      &:first-child { display: none; }
     }
-    > :last-child { display: inline; }
   }
 }
 
@@ -433,3 +440,29 @@ th, td { padding: 0 0.5em; }
 @import 'utilities';
 .margin-bottom { margin-bottom: @line-height-computed; }
 .no-margin-bottom { margin-bottom: 0; }
+
+/* 65.875 */
+#space-marine-forces + .datasheet {
+  .name { width: 11em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 29.874em; }
+}
+#imperial-navy-forces + .datasheet {
+  .name { width: 11em; }
+  .weapon {
+    .name, .boolean  { width: 10em; }
+  }
+  .firepower { width: 12em; }
+  .notes { width: 32.874em; }
+}
+#titan-legion-forces + .datasheet {
+  .name { width: 10em; }
+  .weapon {
+    .name, .boolean  { width: 12em; }
+  }
+  .firepower { width: 11em; }
+  .notes { width: 32.874em; }
+}

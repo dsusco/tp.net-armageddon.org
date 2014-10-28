@@ -1,5 +1,15 @@
-        <div class="weapon{% for c in weapon.classes %} {{c}}{% endfor %}">
-{% include weapon-line.html weapon = include.weapon multiplier = include.multiplier arc = include.arc %}{% for m in include.weapon.modes %}
+{% weapon include.weapon.id %}    <div class="weapon">{% for m in weapon.modes %}
+      <div class="weapon-line">{% if m.boolean %}
+        <span class="boolean">{{ m.boolean }}</span>{% else %}
+        <span class="name">{% if include.weapon.multiplier %}{{ include.weapon.multiplier }}× {% endif %}{{ weapon.name }}</span>{% endif %}
+        <span class="range">{{ m.range }}</span>
+        <div class="firepower">
+          <span>{{ m.firepower }}</span>{% if include.weapon.arc or m.special_rules %}
 
-{% include weapon-line.html weapon = m arc = include.arc %}{% endfor %}
+          <ul class="special-rules">{% if include.weapon.arc %}
+            <li>{{ include.weapon.arc }}</li>{% endif %}{% for sr in m.special_rules %}
+            <li>{% special_rule sr %}<abbr title="{{ special_rule.name }}">{{ special_rule.abbr }}</abbr>{% endspecial_rule %}</li>{% endfor %}
+          </ul>{% endif %}
         </div>
+      </div>{% endfor %}
+    </div>{% endweapon %}

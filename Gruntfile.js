@@ -70,9 +70,9 @@
               var template = grunt.file.read('grunt-templates/special_rule.md');
 
               JSON.parse(body).forEach(function (sr) {
-                if (sr.rule_netea_url !== '') {
+                if (sr.netea_rule_url !== '') {
                   writeDoc(
-                    '_site/_special_rules/' + sr.rule_netea_url + '.md',
+                    '_site/_special_rules/' + sr.netea_rule_url + '.md',
                     template,
                     {
                       date: moment(sr.edit_date).format(),
@@ -95,9 +95,9 @@
               var template = grunt.file.read('grunt-templates/unit.md');
 
               JSON.parse(body).forEach(function (u) {
-                if (u.url_title !== '') {
+                if (u.netea_unit_url !== '') {
                   writeDoc(
-                    '_site/_units/' + u.url_title + '.md',
+                    '_site/_units/' + u.netea_unit_url + '.md',
                     template,
                     {
                       date: moment(u.edit_date).format(),
@@ -133,9 +133,9 @@
               var template = grunt.file.read('grunt-templates/weapon.md');
 
               JSON.parse(body).forEach(function (w) {
-                if (w.url_title !== '') {
+                if (w.netea_weapons_url !== '') {
                   writeDoc(
-                    '_site/_weapons/' + w.url_title + '.md',
+                    '_site/_weapons/' + w.netea_weapons_url + '.md',
                     template,
                     {
                       date: moment(w.edit_date).format(),
