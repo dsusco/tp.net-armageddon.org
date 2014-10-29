@@ -1,5 +1,7 @@
 ---
 name: Ork
+classes:
+  - page-break-right
 units:
   - oddboy
   - warlord
@@ -13,14 +15,14 @@ units:
   - warbikes
 
   - deth-kopta
-  - killa-kan
   - skorcha
   - warbuggy
 
   - battlewagon
-  - dreadnought
+  - dreadnought-ork
   - flakwagon
   - gunwagon
+  - killa-kan
   - stompa
 
   - battlefortress
@@ -34,7 +36,6 @@ units:
 
   - battlekroozer
   - kill-kroozer
-
 special_rules:
   - mob-rule
   - power-of-the-waaagh

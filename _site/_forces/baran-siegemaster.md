@@ -1,5 +1,7 @@
 ---
 name: Baran Siegemaster
+classes:
+  - page-break-right
 units:
   - commissar
 
@@ -9,12 +11,12 @@ units:
   - sappers
   - siege-infantry
   - snipers
-  - supreme-commander
+  - supreme-commander-ig
   - thudd-gun
 
   - blitzen-aa-gun
   - bruenhilde
-  - gootterdämmerung-howitzer
+  - gotterdammerung-howitzer
   - siegfried-light-tank
 
   - bombard
@@ -25,7 +27,6 @@ units:
 
   - baneblade
   - shadowsword
-
 special_rules:
   - fortified-positions
 ---

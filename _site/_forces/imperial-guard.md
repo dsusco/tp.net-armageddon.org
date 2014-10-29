@@ -1,5 +1,7 @@
 ---
 name: Imperial Guard
+classes:
+  - page-break-right
 units:
   - commissar
 
@@ -10,7 +12,7 @@ units:
   - snipers
   - storm-troopers
   - support-squad
-  - supreme-commander
+  - supreme-commander-ig
 
   - sentinel
 

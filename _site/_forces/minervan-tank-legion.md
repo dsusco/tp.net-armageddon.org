@@ -1,18 +1,20 @@
 ---
 name: Minervan Tank Legion
+classes:
+  - page-break-right
 units:
-  - commissar
+  - commissar-minervan
+  - supreme-commander-minervan
 
   - infantry
   - storm-troopers
-  - supreme-commander
 
   - salamander-command
   - salamander-scout
 
   - basilisk
   - bombard
-  - chimera
+  - chimera-minervan
   - deathstrike
   - destroyer-tank-hunter
   - griffon

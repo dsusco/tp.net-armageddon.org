@@ -1,5 +1,7 @@
 ---
 name: Tyranid
+classes:
+  - page-break-right
 units:
   - brood-lord
 
@@ -26,7 +28,6 @@ units:
   - hierodule-bio-titan
   - hierophant-bio-titan
   - trygon
-
 special_rules:
   - xeno-sociology
   - xeno-biology

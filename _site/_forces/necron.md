@@ -1,5 +1,7 @@
 ---
 name: Necron
+classes:
+  - page-break-right
 units:
   - necron-lord
 
@@ -23,7 +25,6 @@ units:
   - warbarque
 
   - scythe-class-harvester
-
 special_rules:
   - necron-technology
   - implacable-advance

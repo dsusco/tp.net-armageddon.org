@@ -1,5 +1,7 @@
 ---
 name: Chaos Cultist
+classes:
+  - page-break-right
 units:
   - icon-bearer
 
@@ -50,7 +52,6 @@ units:
 
   - doomwing
   - firelord
-
 special_rules:
   - augmented-summoning
   - daemonic-focus

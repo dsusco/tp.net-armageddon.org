@@ -1,9 +1,11 @@
 ---
 name: Tau
+classes:
+  - page-break-right
 units:
   - ethereal
-  - shas'el
-  - shas'o
+  - shasel
+  - shaso
 
   - crisis-battlesuits
   - fire-warriors
@@ -12,7 +14,7 @@ units:
   - kroot-master-shapers
   - kroot-warriors
   - krootox
-  - pathfinders
+  - pathfinders-tau
   - stealth-battlesuits
 
   - broadside-battlesuit
@@ -31,7 +33,6 @@ units:
 
   - custodian-class-battleship
   - protector-class-cruiser
-
 special_rules:
   - coordinated-fire
   - tau-technology

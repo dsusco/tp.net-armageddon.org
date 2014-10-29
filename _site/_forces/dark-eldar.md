@@ -1,6 +1,8 @@
 ---
 name: Dark Eldar
-unit:
+classes:
+  - page-break-right
+units:
   - archon
   - dracon
   - sybarite
@@ -34,7 +36,6 @@ unit:
 
   - corsair-class-escort
   - torture-class-cruiser
-
 special_rules:
   - dark-eldar-hit-and-run-tactics
   - fleet-of-foot

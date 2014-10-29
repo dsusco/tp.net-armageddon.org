@@ -1,17 +1,19 @@
 ---
 name: Death Korps of Krieg
+classes:
+  - page-break-right
 units:
   - commissar
 
-  - commander
+  - commander-death-korps
   - death-riders
   - engineers
-  - fire-support
+  - fire-support-death-korps
   - grenadiers
   - heavy-mortar
-  - infantry
+  - infantry-death-korps
   - quad-launcher
-  - supreme-commander
+  - supreme-commander-death-korps
 
   - centaur
   - earthshaker-platform
@@ -39,7 +41,6 @@ units:
   - marauder-heavy-bomber
 
   - hades-breaching-drill
-
 special_rules:
   - trenchworks
 ---

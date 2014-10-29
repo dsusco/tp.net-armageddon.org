@@ -1,5 +1,7 @@
 ---
 name: Alaitoc Eldar
+classes:
+  - page-break-right
 units:
   - autarch
   - exarch
@@ -12,7 +14,7 @@ units:
   - heavy-weapon-platform
   - howling-banshees
   - jetbikes
-  - pathfinders
+  - pathfinders-alaitoc
   - rangers
   - shining-spears
   - striking-scorpions
@@ -45,7 +47,6 @@ units:
 
   - dragonship
   - wraithship
-
 special_rules:
   - farsight
   - hit-and-run-tactics

@@ -1,5 +1,7 @@
 ---
 name: Salamander
+classes:
+  - page-break-right
 units:
   - captain
   - chaplain
@@ -10,7 +12,6 @@ units:
   - bike
   - devastator
   - salamander-devastator
-  - salamander-dreadnought
   - salamander-tactical
   - salamander-terminator
   - scout
@@ -28,6 +29,7 @@ units:
   - predator-destructor
   - predator-incinerator
   - razorback
+  - salamander-dreadnought
   - rhino
   - vindicator
   - whirlwind
@@ -39,7 +41,6 @@ units:
   - strike-cruiser
 
   - drop-pod
-
 special_rules:
   - they-shall-know-no-fear
 ---
