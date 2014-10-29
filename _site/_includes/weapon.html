@@ -6,7 +6,7 @@
         <div class="firepower">
           <span>{{ m.firepower }}</span>{% if include.weapon.arc or m.special_rules %}
 
-          <ul class="special-rules">{% if include.weapon.arc %}
+          <ul class="special-rules">{% if include.weapon.arc and m.boolean == nil %}
             <li>{{ include.weapon.arc }}</li>{% endif %}{% for sr in m.special_rules %}
             <li>{% special_rule sr %}<abbr title="{{ special_rule.name }}">{{ special_rule.abbr }}</abbr>{% endspecial_rule %}</li>{% endfor %}
           </ul>{% endif %}
