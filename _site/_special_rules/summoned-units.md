@@ -1,5 +1,5 @@
 ---
-date: "2014-10-16T16:02:22-04:00"
+date: "2014-10-29T14:24:55-04:00"
 name: "Summoned Units"
 classes:
   - pull-up
@@ -45,6 +45,6 @@ Players may only have one greater daemon of a given faction in the army on the b
   </table>
 </div>
 
-Summoned units count as part of the formation for all rules purposes as long as they remain on the battlefield. Summoned units are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution. If a formation loses an assault (see [Loser Withdraws](#loser-withdraws)) remove extra hits from the formation before it is broken and all the remaining summoned units are then removed.
+Summoned units count as part of the formation for all rules purposes as long as they remain on the battlefield. Summoned units are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution. If a formation loses an assault (see [Loser Withdraws](/tournament-pack/#loser-withdraws)) remove extra hits from the formation before it is broken and all the remaining summoned units are then removed.
 
 Summoned units remain on the battlefield until the end phase of the turn in which they are summoned. In the end of the rally phase, after formations have attempted to rally, all summoned units in the formation are removed from the board and placed back into the Daemon Pool unless the formation has a unit with Daemonic Focus (see [Daemonic Focus](#daemonic-focus)). Greater Daemons that are returned to the Daemon Pool keep the same DC they had when they left the battlefield. They do not heal back to full DC, so when summoned again they will have that same DC. Summoned units that are destroyed are not put back into the Daemon Pool. Note that this may lead to the formation breaking if the number of Blast markers on the formation is greater than the number of units left in play after the summoned units have been removed. When a formation breaks any summoned units in the formation are lost in the warp and considered destroyed. They do not go back into the Daemon Pool.

@@ -1,12 +1,12 @@
 ---
-date: "2014-10-15T14:20:19-04:00"
+date: "2014-10-29T14:23:45-04:00"
 name: "Trenchworks"
 ---
 Bunker
-: Counts as Fortifications (see [Terrain Effects](#terrain-effects)). Can hold three units.
+: Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
 
 Gun Emplacement
-: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](#infantry-cover-saves)). Can hold one unit.
+: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit.
 
 Trench
 : Can hold one infantry unit per 4cm of length.
