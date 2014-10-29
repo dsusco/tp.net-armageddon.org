@@ -1,0 +1,21 @@
+---
+date: "2014-10-28T14:48:16-04:00"
+name: "Scorpion"
+type: "WE"
+speed: "25cm"
+armour: "5+"
+cc: "6+"
+ff: "5+"
+special_rules:
+  - "damage-capacity-3"
+  - "reinforced-armour"
+  - "skimmer"
+notes:
+  |
+    Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+.
+weapons:
+  -
+    id: "scorpion-twin-pulsar"
+  -
+    id: "shuriken-cannon"
+---
