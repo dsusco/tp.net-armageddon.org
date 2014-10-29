@@ -207,6 +207,7 @@ th, td { padding: 0 0.5em; }
 .design-concept, .example-of-play, .special-rule {
   .short-story();
   font-style: normal;
+  margin-bottom: (@line-height-computed - 8pt);
 
   &:before {
     content: 'Design Concept';
@@ -220,7 +221,7 @@ th, td { padding: 0 0.5em; }
     .text();
     font-style: italic;
     font-weight: bold;
-    margin-bottom: @line-height-computed;
+    margin-bottom: (@line-height-computed - 6pt);
     text-align: center;
   }
 }
@@ -305,8 +306,8 @@ th, td { padding: 0 0.5em; }
 }
 
 .force > :first-child {
-  .margin-bottom();
   .text-center();
+  margin-bottom: 3pt;
 }
 
 .army-list {
@@ -450,6 +451,14 @@ th, td { padding: 0 0.5em; }
   .firepower { width: 14em; }
   .notes { width: 29.874em; }
 }
+#imperial-guard-forces + .datasheet {
+  .name { width: 11em; }
+  .weapon {
+    .name, .boolean  { width: 13em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 27.874em; }
+}
 #imperial-navy-forces + .datasheet {
   .name { width: 11em; }
   .weapon {
@@ -465,4 +474,140 @@ th, td { padding: 0 0.5em; }
   }
   .firepower { width: 11em; }
   .notes { width: 32.874em; }
+}
+#ork-forces + .datasheet {
+  .name { width: 8em; }
+  .weapon {
+    .name, .boolean  { width: 12em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 30.874em; }
+}
+#eldar-forces + .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 16em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 22.874em; }
+}
+#baran-siegemaster-forces + .datasheet {
+  .name { width: 13em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 27.874em; }
+}
+#feral-ork-forces + .datasheet {
+  .name { width: 7em; }
+  .weapon {
+    .name, .boolean  { width: 9em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 34.874em; }
+}
+#white-scar-forces + .datasheet {
+  .name { width: 11em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 29.874em; }
+}
+#speed-freek-forces + .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 12em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 27.874em; }
+}
+#black-legion-forces + .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 13em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 25.874em; }
+}
+#chaos-cultist-forces + .datasheet {
+  .name { width: 11em; }
+  .weapon {
+    .name, .boolean  { width: 10em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 29.874em; }
+}
+#dark-eldar-forces + .datasheet {
+  .name { width: 8em; }
+  .weapon {
+    .name, .boolean  { width: 14em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 29.874em; }
+}
+#minervan-tank-legion-forces + .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 13em; }
+  }
+  .firepower { width: 11em; }
+  .notes { width: 29.874em; }
+}
+#necron-forces + .datasheet {
+  .name { width: 10em; }
+  .weapon {
+    .name, .boolean  { width: 10em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 29.874em; }
+}
+#death-korps-of-krieg-forces + .datasheet {
+  .name { width: 9em; }
+  .weapon {
+    .name, .boolean  { width: 13em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 29.874em; }
+}
+#salamander-forces + .datasheet {
+  .name { width: 10em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 30.874em; }
+}
+#scions-of-iron-forces + .datasheet {
+  .name { width: 10em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 30.874em; }
+}
+#tau-forces + .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 14em; }
+  }
+  .firepower { width: 12em; }
+  .notes { width: 27.874em; }
+}
+#alaitoc-eldar-forces + .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 16em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 22.874em; }
+}
+#tyranid-forces + .datasheet {
+  .name { width: 8em; }
+  .weapon {
+    .name, .boolean  { width: 12.5em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 30.374em; }
 }

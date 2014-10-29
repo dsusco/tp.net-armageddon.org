@@ -18,10 +18,6 @@ main:not(.no-outline) {
 }
 
 /* pages */
-.page-break { page-break-before: always; }
-.page-break-left { page-break-before: left; }
-.page-break-right { page-break-before: right; }
-
 @page {
   font: 10pt/1 Garamond;
   margin: 1.75cm 1cm 1.25cm;
@@ -131,3 +127,8 @@ main:not(.no-outline) {
 }
 
 .army-list { .page-break-right(); }
+
+/* utility */
+.page-break { page-break-before: always; }
+.page-break-left { page-break-before: left; }
+.page-break-right { page-break-before: right; }
