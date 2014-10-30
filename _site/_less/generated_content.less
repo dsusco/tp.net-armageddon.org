@@ -42,3 +42,9 @@ main:not(.no-outline) {
     }
   }
 }
+
+title { string-set: title content(); }
+h1 { string-set: footnote counter(h1) '.0 ' content(), section counter(h1) '.0 ' content(); }
+h2 { string-set: footnote counter(h1) '.' counter(h2) ' ' content(); }
+h3 { string-set: footnote counter(h1) '.' counter(h2) '.' counter(h3) ' ' content(); }
+#date { string-set: date content(); }

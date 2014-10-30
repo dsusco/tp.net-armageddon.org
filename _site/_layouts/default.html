@@ -13,6 +13,8 @@
   </head>
 
   <body>
+    <div id="date" style="display:none">{{ page.date | date: '%F' }}</div>
+
     <main class="container{% if page.layout == 'army_list' %} no-outline{% endif %}">
 {{ content }}
     </main>

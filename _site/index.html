@@ -6,7 +6,11 @@ title: NetEA Tournament Pack Website
 <p>The NetEA Tournament Pack contains the unmodified Epic Armageddon game rules and errata that used to be found on Games Workshop's website. It includes the FAQ and all of the NetEA Approved army lists that are listed below.</p>
 
 <ul>
-  <li><a href="/tournament-pack/">NetEA Tournament Pack</a> <a href="pdfs/netea-tournament-pack.pdf" title="NetEA Tournament Pack"><i class="fa fa-file-pdf-o"></i></a></li>
+  <li>{% _page 'netea-tournament-pack' %}
+    <a href="{{ _page.url | remove: 'index.html' }}">{{ _page.title }}</a>
+    <small>({{ _page.date | date: '%F' }})</small>
+    <a href="pdfs/{{ _page.id }}.pdf" title="{{ _page.title }}"><i class="fa fa-file-pdf-o"></i></a>
+  {% end_page %}</li>
 </ul>
 
 <h2>Army Lists</h2>
@@ -14,5 +18,9 @@ title: NetEA Tournament Pack Website
 <p>NetEA Approved army lists are tournament ready and balanced against one another using the Epic tournament game rules. They vary slightly from the those that used to be found on Games Workshop's website due to community feedback.</p>
 
 <ul>{% for al in site.army_lists %}
-  <li><a href="{{ al.url }}">{{ al.title }}</a> <a href="{{ al.url | replace: 'army-lists/', 'pdfs/netea-' | replace: 'html', 'pdf' }}" title="NetEA {{ al.title }}"><i class="fa fa-file-pdf-o"></i></a></li>{% endfor %}
+  <li>
+    <a href="{{ al.url }}">{{ al.title }}</a>
+    <small>({{ al.date | date: '%F' }})</small>
+    <a href="{{ al.url | replace: 'army-lists/', 'pdfs/netea-' | replace: 'html', 'pdf' }}" title="NetEA {{ al.title }}"><i class="fa fa-file-pdf-o"></i></a>
+  </li>{% endfor %}
 </ul>
