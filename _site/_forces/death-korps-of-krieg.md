@@ -18,11 +18,11 @@ units:
   - centaur
   - earthshaker-platform
   - heavy-aa-platform
+  - hydra-platform
   - medusa-platform
 
   - bombard
   - hellhound
-  - hydra-platform
   - leman-russ
   - leman-russ-demolisher
   - leman-russ-vanquisher
