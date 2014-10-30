@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:28:16-04:00"
+date: "2014-10-30T17:36:48-04:00"
 name: "Big Mutants"
 type: "INF"
 speed: "15cm"
@@ -8,7 +8,7 @@ cc: "4+"
 ff: "4+"
 notes:
   |
-    May count as Ogryns for the purposes of being transported.
+    Counts as two units for the purposes of being transported.
 weapons:
   -
     id: "heavy-stubber"

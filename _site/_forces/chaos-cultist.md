@@ -3,9 +3,9 @@ name: Chaos Cultist
 classes:
   - page-break-right
 units:
+  - arch-heretic
   - icon-bearer
 
-  - arch-heretic
   - big-mutants
   - bloodletters
   - chaos-hounds
@@ -38,7 +38,6 @@ units:
   - hydra
   - leman-russ
   - leman-russ-demolisher
-  - plague-tower
   - silver-tower
 
   - bloodthirster
@@ -47,6 +46,7 @@ units:
   - keeper-of-secrets
   - lord-of-battle
   - lord-of-change
+  - plague-tower
   - questor-titan
   - subjugator-titan
 

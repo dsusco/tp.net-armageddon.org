@@ -3,8 +3,8 @@
         <span class="boolean">{{ m.boolean }}</span>{% else %}
         <span class="name">{% if include.weapon.multiplier %}{{ include.weapon.multiplier }}× {% endif %}{{ weapon.name }}</span>{% endif %}
         <span class="range">{{ m.range }}</span>
-        <div class="firepower">
-          <span>{{ m.firepower }}</span>{% if include.weapon.arc or m.special_rules %}
+        <div class="firepower">{% if m.firepower != '' %}
+          <span>{{ m.firepower }}</span>{% endif %}{% if include.weapon.arc or m.special_rules %}
 
           <ul class="special-rules">{% if include.weapon.arc and m.boolean == nil %}
             <li>{{ include.weapon.arc }}</li>{% endif %}{% for sr in m.special_rules %}

@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:29:03-04:00"
+date: "2014-10-30T17:37:47-04:00"
 name: "Chaos Spawn"
 type: "INF"
 speed: "15cm"
@@ -11,7 +11,7 @@ special_rules:
   - "invulnerable-save"
 notes:
   |
-    May count as Ogryns for the purposes of being transported.
+    Counts as two units for the purposes of being transported.
 weapons:
   -
     id: "horrific-mutations"

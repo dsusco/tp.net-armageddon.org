@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T14:35:35-04:00"
+date: "2014-10-30T17:33:41-04:00"
 name: "Gunwagon"
 type: "AV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one infantry unit (except Stormboyz or Warbikes).
+    May transport one infantry units without _Jump Packs_ and _Mounted_.
 weapons:
   -
     id: "big-gun"

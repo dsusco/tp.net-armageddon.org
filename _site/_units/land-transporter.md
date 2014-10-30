@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:30:05-04:00"
+date: "2014-10-30T17:39:36-04:00"
 name: "Land Transporter"
 type: "LV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    Transport two of the following units: Big Mutants, Chaos Hounds, Chaos Marine Aspiring Champion, Chaos Spawn, Cultists, Daemon Prince, Demagogue, Mutants, Support Squad; Big Mutants, Chaos Spawn and Daemon Princes count as two units each.
+    May transport two infantry units without _Mounted_.
 weapons:
   -
     id: "heavy-weapons"

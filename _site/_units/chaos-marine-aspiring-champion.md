@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:29:01-04:00"
+date: "2014-10-30T17:37:21-04:00"
 name: "Chaos Marine Aspiring Champion"
 type: "INF"
 speed: "15cm"
@@ -10,9 +10,6 @@ special_rules:
   - "commander"
   - "invulnerable-save"
   - "leader"
-notes:
-  |
-    May count as an Infantry unit for the purposes of being transported.
 weapons:
   -
     id: "heavy-weapons"

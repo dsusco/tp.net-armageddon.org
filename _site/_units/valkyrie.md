@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T13:54:23-04:00"
+date: "2014-10-30T17:26:07-04:00"
 name: "Valkyrie"
 type: "AV"
 speed: "35cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units (except Rough Riders); Ogryns count as two units each.
+    May transport two infantry units without _Mounted_.
 weapons:
   -
     id: "multilaser"
