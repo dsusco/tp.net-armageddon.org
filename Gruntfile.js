@@ -2,6 +2,7 @@
   'use strict';
 
   var
+    cheerio = require('cheerio'),
     moment = require('moment'),
     yaml = require('js-yaml');
 
@@ -184,8 +185,8 @@
         jekyll: { command: 'jekyll build' },
         prince: {
           command: [
-            'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>',
-            'sed -i "0,/\\/Annots /{s~/Annots \\[\\([0-9]\\+ 0 R \\)\\{2\\}~/Annots [~}" public_html/pdfs/netea-<%= grunt.config("output") %>.pdf'
+            'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output-date") %>.pdf <%= grunt.config("input") %>',
+            'sed -i "0,/\\/Annots /{s~/Annots \\[\\([0-9]\\+ 0 R \\)\\{2\\}~/Annots [~}" public_html/pdfs/netea-<%= grunt.config("output-date") %>.pdf'
           ].join('&&')
         }
       },
@@ -238,10 +239,20 @@
     grunt.registerMultiTask('pdf', function () {
       grunt.file.mkdir('public_html/pdfs');
 
+      grunt.config('date', cheerio.load(grunt.file.read(this.data.input))('#date').text());
       grunt.config('input', this.data.input);
       grunt.config('output', this.data.output);
+      grunt.config('output-date', grunt.config('output') + '-' + grunt.config('date'));
 
       grunt.task.run(['shell:prince']);
+
+      grunt.file.write(
+        'public_html/.htaccess',
+        grunt.file.read('public_html/.htaccess').replace(
+          new RegExp(grunt.config('output') + '-[^.]*'),
+          grunt.config('output-date')
+        )
+      );
     });
   };
 }());
