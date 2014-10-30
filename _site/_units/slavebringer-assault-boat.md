@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:39:09-04:00"
+date: "2014-10-30T08:47:40-04:00"
 name: "Slavebringer Assault Boat"
 type: "AC/WE"
 speed: "Bomber"
@@ -16,7 +16,7 @@ notes:
     Transport eight of the following units: Grotesques, Haemonculi, Hellions, Incubi, Mandrakes, Scourges, Talos, Warp Beasts, Warriors, Wyches; Talos count as two units each; plus four units of Mandrakes. Critical Hit Effect: The unit and all units being carried are destroyed.
 weapons:
   -
-    id: "twin-dark-lances-air1"
+    id: "twin-dark-lance"
     multiplier: "2"
     arc: "FxF"
   -

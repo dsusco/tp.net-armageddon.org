@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:55:55-04:00"
+date: "2014-10-29T16:00:22-04:00"
 name: "Termagants"
 type: "INF"
 speed: "20cm"
