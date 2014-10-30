@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:34:12-04:00"
+date: "2014-10-30T18:00:46-04:00"
 name: "Gunfortress"
 type: "WE"
 speed: "30cm"
@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport four infantry units without _Jump Packs_ and _Mounted_; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+.
+    May transport four infantry units without _Jump Packs_ or _Mounted_; only one of the four units may be a Big Gunz; plus two units of Grotz. Critical Hit Effect: Move the unit D6cm in a random direction, all units under it suffer a hit. The unit is destroyed and all units being carried are destroyed unless they roll a 6+.
 weapons:
   -
     id: "twin-big-shoota"

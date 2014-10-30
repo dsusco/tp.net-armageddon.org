@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T10:08:06-04:00"
+date: "2014-10-30T17:55:23-04:00"
 name: "Terminator"
 type: "INF"
 speed: "15cm"
@@ -10,6 +10,9 @@ special_rules:
   - "reinforced-armour"
   - "teleport"
   - "thick-rear-armour"
+notes:
+  |
+    Counts as two units for the purposes of being transported.
 weapons:
   -
     id: "assault-cannon"

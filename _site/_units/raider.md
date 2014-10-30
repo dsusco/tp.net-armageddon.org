@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:39:03-04:00"
+date: "2014-10-30T18:18:42-04:00"
 name: "Raider"
 type: "LV"
 speed: "35cm"
@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two of the following units: Grotesques, Haemonculi, Incubi, Mandrakes, Warriors, Wyches; plus one units of Mandrakes. Units being transported may shoot.
+    May transport two infantry units (except Warp Beasts) without _Jump Packs_ or _Mounted_; plus one unit of Mandrakes. Units being transported may shoot.
 weapons:
   -
     id: "dark-lance"

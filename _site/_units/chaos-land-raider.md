@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T16:00:22-04:00"
+date: "2014-10-30T17:52:22-04:00"
 name: "Chaos Land Raider"
 type: "AV"
 speed: "25cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    Transport one Chaos Space Marine Terminators; or two of the following units: Berzerkers, Chaos Space Marines, Chaos Space Marine Chosen, Havocs, Noise Marines, Plague Marines, Thousand Sons.
+    May transport two infantry units without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "twin-lascannon"

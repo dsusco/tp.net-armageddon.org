@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:38:43-04:00"
+date: "2014-10-30T18:18:27-04:00"
 name: "Barge of Pleasure"
 type: "WE"
 speed: "30cm"
@@ -13,7 +13,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport four of the following units: Grotesques, Haemonculi, Incubi, Mandrakes, Warp Beasts, Warriors, Wyches; plus two units of Mandrakes. Units being transported may shoot. Critical Hit Effect: The unit looses all of its weapons and has no close combat and firefight values. Subsequent critical hits destroy the unit.
+    May transport four infantry units without _Jump Packs_ or _Mounted_; plus two units of Mandrakes. Units being transported may shoot. Critical Hit Effect: The unit looses all of its weapons and has no close combat and firefight values. Subsequent critical hits destroy the unit.
 weapons:
   -
     id: "dark-lance"

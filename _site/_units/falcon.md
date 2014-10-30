@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T14:49:04-04:00"
+date: "2014-10-30T18:03:32-04:00"
 name: "Falcon"
 type: "AV"
 speed: "35cm"
@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one of the following units: Dark Reapers, Dire Avengers, Farseer, Fire Dragons, Guardians, Heavy Weapon Platform, Howling Banshees, Striking Scorpions.
+    May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "pulse-laser"

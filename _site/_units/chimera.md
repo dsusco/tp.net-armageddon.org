@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:25:02-04:00"
+date: "2014-10-30T17:58:30-04:00"
 name: "Chimera"
 type: "AV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units without _Mounted_.
+    May transport two infantry units without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "multilaser"

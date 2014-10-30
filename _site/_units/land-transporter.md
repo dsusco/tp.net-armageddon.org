@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:39:36-04:00"
+date: "2014-10-30T18:14:57-04:00"
 name: "Land Transporter"
 type: "LV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units without _Mounted_.
+    May transport two infantry units without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "heavy-weapons"

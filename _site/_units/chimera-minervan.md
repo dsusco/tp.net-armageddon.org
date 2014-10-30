@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:24:52-04:00"
+date: "2014-10-30T17:58:22-04:00"
 name: "Chimera"
 type: "AV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units without _Mounted_. Armed with either a Multilaser, Heavy Bolter or Heavy Flamer.
+    May transport two infantry units without _Jump Packs_ or _Mounted_. Armed with either a Multilaser, Heavy Bolter or Heavy Flamer.
 weapons:
   -
     id: "multilaser"

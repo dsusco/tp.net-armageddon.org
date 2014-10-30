@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T13:25:11-04:00"
+date: "2014-10-30T18:22:29-04:00"
 name: "Gorgon"
 type: "WE"
 speed: "20cm"
@@ -13,7 +13,7 @@ special_rules:
   - "walker"
 notes:
   |
-    May transport ten Infantry units. Critical Hit Effect: Immobilized. Subsequent critical hits destroy the unit.
+    May transport ten infantry units without _Jump Packs_ or _Mounted_. Critical Hit Effect: Immobilized. Subsequent critical hits destroy the unit.
 weapons:
   -
     id: "twin-heavy-stubber"

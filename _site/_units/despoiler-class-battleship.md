@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T13:15:11-04:00"
+date: "2014-10-30T18:13:40-04:00"
 name: "Despoiler Class Battleship"
 type: "SC"
 speed: "n/a"
@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport 40 of the following units: Berzerkers, Chaos Dreadnought, Chaos Space Marines, Chaos Space Marine Chosen, Chaos Space Marine Terminators, Daemon Prince, Havocs, Noise Marines, Obliterators, Plague Marines, Thousand Sons; plus enough Dreadclaws to transport any other units on board.
+    May transport 40 infantry units (Chaos Space Marine Terminators and Obliterators count as one unit each) or Chaos Dreadnoughts; plus enough Dreadclaws to transport them.
 weapons:
   -
     id: "orbital-bombardment-3bp"

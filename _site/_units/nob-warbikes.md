@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T15:26:22-04:00"
+date: "2014-10-30T18:08:30-04:00"
 name: "Nob Warbikes"
 type: "INF"
 speed: "35cm"
@@ -9,9 +9,6 @@ ff: "5+"
 special_rules:
   - "leader"
   - "mounted"
-notes:
-  |
-    Counts as a unit of Warbikes for the purposes of being transported.
 weapons:
   -
     id: "big-shoota"

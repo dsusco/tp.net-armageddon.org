@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T08:30:42-04:00"
+date: "2014-10-30T17:59:28-04:00"
 name: "Strike Cruiser"
 type: "SC"
 speed: "n/a"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport 20 infantry units, Attack Bikes, or Dreadnoughts; plus 20 armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried.
+    May transport 20 infantry units (Terminators count as one unit each), Attack Bikes, or Dreadnoughts; plus 20 armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Drop Pods or Landing Craft to transport any other units being carried.
 weapons:
   -
     id: "orbital-bombardment-5bp"

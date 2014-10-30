@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:56:01-04:00"
+date: "2014-10-30T18:30:31-04:00"
 name: "Malefactor"
 type: "AV"
 speed: "25cm"
@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units except for Gargoyles.
+    May transport two infantry units without _Jump Packs_ or _Mounted.
 weapons:
   -
     id: "frag-spines"

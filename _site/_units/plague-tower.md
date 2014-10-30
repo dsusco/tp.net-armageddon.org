@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:41:47-04:00"
+date: "2014-10-30T18:15:50-04:00"
 name: "Plague Tower"
 type: "WE"
 speed: "15cm"
@@ -14,7 +14,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport twelve infantry units without _Mounted_ or Great Unclean Ones; Great Unclean Ones count as two units each. Critical Hit Effect: The unit takes a point of damage and D3 units of the player’s choice that are being transported are destroyed.
+    May transport twelve Great Unclean Ones or infantry units without _Jump Packs_ or _Mounted_; Great Unclean Ones count as two units each. Critical Hit Effect: The unit takes a point of damage and D3 units of the player’s choice that are being transported are destroyed.
 weapons:
   -
     id: "plague-mortar"

@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:33:45-04:00"
+date: "2014-10-30T18:00:21-04:00"
 name: "Flakwagon"
 type: "AV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one infantry units without _Jump Packs_ and _Mounted_.
+    May transport one infantry unit without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "flak-gun"

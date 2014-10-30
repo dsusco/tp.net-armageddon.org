@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T15:34:00-04:00"
+date: "2014-10-30T18:13:20-04:00"
 name: "Obliterators"
 type: "INF"
 speed: "15cm"
@@ -11,6 +11,9 @@ special_rules:
   - "reinforced-armour"
   - "teleport"
   - "thick-rear-armour"
+notes:
+  |
+    Counts as two units for the purposes of being transported.
 weapons:
   -
     id: "body-weapons"

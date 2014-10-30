@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T08:30:34-04:00"
+date: "2014-10-30T17:54:51-04:00"
 name: "Rhino"
 type: "AV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two of the following units: Devastator, Scout, Tactical.
+    May transport two infantry units (except Terminators) without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "storm-bolter"

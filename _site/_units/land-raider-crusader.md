@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:26:39-04:00"
+date: "2014-10-30T17:53:06-04:00"
 name: "Land Raider Crusader"
 type: "AV"
 speed: "25cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport three of the following units: Devastator, Tactical, Terminator; Terminators count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported.
+    May transport three infantry units without _Jump Packs_ or _Mounted_. Counts as a Land Raider for the purposes of being transported.
 weapons:
   -
     id: "hurricane-bolters"

@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T15:26:25-04:00"
+date: "2014-10-30T18:08:25-04:00"
 name: "Mekboy Bad Ork Bikerboy"
 type: "INF"
 speed: "40cm"
@@ -10,9 +10,6 @@ special_rules:
   - "invulnerable-save"
   - "mounted"
   - "supreme-commander"
-notes:
-  |
-    Counts as a unit of Warbikes for the purposes of being transported.
 weapons:
   -
     id: "sawn-off-custom-blasta"

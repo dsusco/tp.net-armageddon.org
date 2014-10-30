@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T16:24:50-04:00"
+date: "2014-10-30T18:30:53-04:00"
 name: "Corvus Assault Pod"
 type: "CH"
 speed: "n/a"
@@ -10,6 +10,6 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport ten infantry units without _Mounted_; Praetorian Combat Servitors count as two units each.
+    May transport ten infantry units without _Jump Packs_ or _Mounted.
 weapons:
 ---

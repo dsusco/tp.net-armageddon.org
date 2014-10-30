@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T14:47:12-04:00"
+date: "2014-10-30T18:05:24-04:00"
 name: "Wave Serpent"
 type: "AV"
 speed: "35cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one Wraithguard unit or two of the following units: Dark Reapers, Dire Avengers, Farseer, Fire Dragons, Guardians, Heavy Weapon Platform, Howling Banshees, Striking Scorpions.
+    May transport one Wraithguard unit or two infantry units (except Support Weapon Platforms and Wraithguard) without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "twin-shuriken-cannon"
