@@ -184,7 +184,7 @@
         jekyll: { command: 'jekyll build' },
         prince: {
           command: [
-            'prince --baseurl=http://tp --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>',
+            'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output") %>.pdf <%= grunt.config("input") %>',
             'sed -i "0,/\\/Annots /{s~/Annots \\[\\([0-9]\\+ 0 R \\)\\{2\\}~/Annots [~}" public_html/pdfs/netea-<%= grunt.config("output") %>.pdf'
           ].join('&&')
         }
