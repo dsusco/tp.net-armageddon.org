@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:40:27-04:00"
+date: "2014-10-30T13:18:36-04:00"
 name: "Vessel of Pain"
 type: "WE"
 speed: "30cm"
@@ -12,7 +12,7 @@ special_rules:
   - "skimmer"
 notes:
   |
-    Critical Hit Effect: The unit is destroyed. All units  within 5cm are subject to an AP5+ attack.
+    Critical Hit Effect: The unit is destroyed. All units within 5cm are subject to an AP5+ attack.
 weapons:
   -
     id: "phantom-lances"

@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:32:54-04:00"
+date: "2014-10-30T13:22:43-04:00"
 name: "Land Raider Prometheus"
 type: "AV"
 speed: "25cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one Terminator unit; or two of the following units: Devastator, Tactical. Any unit in the same formation as this unit may ignore the 5cm restriction when using <em>commander</em>. Counts as a Land Raider for the purposes of being transported.
+    May transport one Terminator unit; or two of the following units: Devastator, Tactical. Any unit in the same formation as this unit may ignore the 5cm restriction when using _commander_. Counts as a Land Raider for the purposes of being transported.
 weapons:
   -
     id: "twin-heavy-bolter"

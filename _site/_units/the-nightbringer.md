@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:53:06-04:00"
+date: "2014-10-30T13:18:28-04:00"
 name: "The Nightbringer"
 type: "WE"
 speed: "15cm"
@@ -17,7 +17,7 @@ special_rules:
   - "walker"
 notes:
   |
-    Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a  macro-weapon hit on a roll of 4+.
+    Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+.
 weapons:
   -
     id: "lightning-arc"

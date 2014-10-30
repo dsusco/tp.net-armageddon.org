@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:19:22-04:00"
+date: "2014-10-30T13:21:42-04:00"
 name: "Manta"
 type: "WE"
 speed: "20cm"
@@ -17,7 +17,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport 20 infantry units or Broadside Battlesuits; plus four armoured vehicle or light vehicle units (except Broadside Battlesuits); Tetra count as one-third of a unit each, rounding up. Crisis Battlesuits count as two units each. Critical Hit Effect: The unit looses <em>Tau deflector shield</em>. Subsequent critical hits cause an extra point of damage.
+    May transport 20 infantry units or Broadside Battlesuits; plus four armoured vehicle or light vehicle units (except Broadside Battlesuits); Tetra count as one-third of a unit each, rounding up. Crisis Battlesuits count as two units each. Critical Hit Effect: The unit looses _Tau deflector shield_. Subsequent critical hits cause an extra point of damage.
 weapons:
   -
     id: "twin-heavy-rail-cannons"

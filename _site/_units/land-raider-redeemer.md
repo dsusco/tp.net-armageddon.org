@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:32:52-04:00"
+date: "2014-10-30T13:17:32-04:00"
 name: "Land Raider Redeemer"
 type: "AV"
 speed: "25cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one Terminator unit; or two of the following units: Devastator, Tactical. Counts as a Land Raider for the purposes of being  transported.
+    May transport one Terminator unit; or two of the following units: Devastator, Tactical. Counts as a Land Raider for the purposes of being transported.
 weapons:
   -
     id: "flamestorm-cannon"

@@ -1,11 +1,11 @@
 ---
-date: "2014-10-29T10:03:59-04:00"
+date: "2014-10-30T13:25:11-04:00"
 name: "Gorgon"
 type: "WE"
 speed: "20cm"
 armour: "4+"
 cc: "6+"
-ff: "6+<br/>(5+)"
+ff: "6+<br>(5+)"
 special_rules:
   - "damage-capacity-3"
   - "reinforced-armour"

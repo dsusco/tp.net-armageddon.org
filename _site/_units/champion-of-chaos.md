@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T16:00:26-04:00"
+date: "2014-10-30T13:14:51-04:00"
 name: "Champion of Chaos"
 type: "CH"
 speed: "n/a"
@@ -11,7 +11,7 @@ special_rules:
   - "invulnerable-save"
 notes:
   |
-    A Champion of Chaos  added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon.
+    A Champion of Chaos added to a formation that belongs to Khorne, Nurgle or Chaos Undivided has a Daemon Artifact weapon. A Champion of Chaos added to a formation that belongs to Slaanesh or Tzeentch has a Daemon Bolt weapon.
 weapons:
   -
     id: "daemon-artifact"

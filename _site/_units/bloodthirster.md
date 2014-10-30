@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:28:53-04:00"
+date: "2014-10-30T13:14:23-04:00"
 name: "Bloodthirster"
 type: "WE"
 speed: "30cm"
@@ -18,7 +18,7 @@ special_rules:
   - "walker"
 notes:
   |
-    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+. 
+    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+.
 weapons:
   -
     id: "axe-of-khorne"

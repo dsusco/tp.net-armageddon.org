@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:30:02-04:00"
+date: "2014-10-30T13:17:22-04:00"
 name: "Keeper of Secrets"
 type: "WE"
 speed: "15cm"
@@ -17,7 +17,7 @@ special_rules:
   - "walker"
 notes:
   |
-    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+. 
+    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+.
 weapons:
   -
     id: "gaze-of-slaanesh"

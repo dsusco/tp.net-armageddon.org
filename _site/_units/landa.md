@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T14:35:30-04:00"
+date: "2014-10-30T13:23:05-04:00"
 name: "Landa"
 type: "AC/WE"
 speed: "Bomber"
@@ -13,7 +13,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport ten infantry units (except Big Gunz), light vehicle units or armoured vehicle units with <em>walker</em>; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.
+    May transport ten infantry units (except Big Gunz), light vehicle units or armoured vehicle units with _walker_; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.
 weapons:
   -
     id: "gun-turrets"

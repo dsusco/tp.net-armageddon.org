@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:29:44-04:00"
+date: "2014-10-30T13:17:15-04:00"
 name: "Great Unclean One"
 type: "WE"
 speed: "15cm"
@@ -17,7 +17,7 @@ special_rules:
   - "walker"
 notes:
   |
-    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+. 
+    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+.
 weapons:
   -
     id: "stream-of-corruption"

@@ -1,9 +1,9 @@
 ---
-date: "2014-10-29T08:29:27-04:00"
+date: "2014-10-30T13:25:19-04:00"
 name: "Daemon Prince"
 type: "INF"
 speed: "15cm<br/>(30cm)"
-armour: "3+<br/>(4+)"
+armour: "3+<br>(4+)"
 cc: "3+"
 ff: "3+"
 special_rules:
@@ -14,7 +14,7 @@ special_rules:
   - "teleport"
 notes:
   |
-    A Daemon Prince may have wings, the unit gains <em>Jump Packs</em> and a move of 30cm, while its armour value is reduced to 4+.
+    A Daemon Prince may have wings, the unit gains _Jump Packs_ and a move of 30cm, while its armour value is reduced to 4+.
 weapons:
   -
     id: "warp-blast-ea-mw"

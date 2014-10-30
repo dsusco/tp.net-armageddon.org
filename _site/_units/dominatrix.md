@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T08:56:25-04:00"
+date: "2014-10-30T13:23:25-04:00"
 name: "Dominatrix"
 type: "WE"
 speed: "20cm"
@@ -16,7 +16,7 @@ special_rules:
   - "synapse-3"
 notes:
   |
-    May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses <em>supreme commander</em> and <em>synapse (3)</em>.
+    May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses _supreme commander_ and _synapse (3)_.
 weapons:
   -
     id: "bio-titan-bio-cannon"

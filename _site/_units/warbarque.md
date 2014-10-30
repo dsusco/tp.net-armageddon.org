@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:52:59-04:00"
+date: "2014-10-30T13:23:42-04:00"
 name: "Warbarque"
 type: "WE"
 speed: "20cm"
@@ -17,7 +17,7 @@ special_rules:
   - "thick-rear-armour"
 notes:
   |
-    Critical Hit Effect: The unit looses <em>portal</em>. Subsequent critical hits destroy the unit.
+    Critical Hit Effect: The unit looses _Portal_. Subsequent critical hits destroy the unit.
 weapons:
   -
     id: "particle-cannon"

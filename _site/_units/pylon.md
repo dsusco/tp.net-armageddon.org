@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:53:15-04:00"
+date: "2014-10-30T13:17:59-04:00"
 name: "Pylon"
 type: "WE"
 speed: "Immobile"
@@ -14,7 +14,7 @@ special_rules:
   - "thick-rear-armour"
 notes:
   |
-    Critical Hit Effect: The  unit is destroyed. All units within 5cm suffer a hit on a roll of 4+.
+    Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+.
 weapons:
   -
     id: "particle-accelerator"

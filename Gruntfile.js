@@ -119,7 +119,7 @@
                       }),
 
                       special_rules: getIdArray(u.miniatures_netea[0].netea_attributes, true),
-                      notes: u.miniatures_netea[0].netea_notes.replace(/[\r\n]/g, ' ')// remove replace
+                      notes: u.miniatures_netea[0].netea_notes
                     }
                   );
                 }

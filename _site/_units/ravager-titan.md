@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T15:32:55-04:00"
+date: "2014-10-30T13:18:13-04:00"
 name: "Ravager Titan"
 type: "WE"
 speed: "20cm"
@@ -14,7 +14,7 @@ special_rules:
   - "walker"
 notes:
   |
-    May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a  roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage.
+    May step over units and pieces of terrain that are lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4-6 the breach has been repaired. Any breach not repaired causes one point of damage.
 weapons:
   -
     id: "doomburner"
