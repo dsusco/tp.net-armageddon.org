@@ -1,11 +1,97 @@
 @import '../../bower_components/bootstrap/less/bootstrap';
 @import '../../bower_components/fontawesome/less/font-awesome';
-@import 'generated_content';
+@import 'tp';
 
 body {
   padding-top: 3em;
 
   &.overflow-hidden { overflow: hidden; }
+}
+
+/* lists */
+.dl-colonated > dd:not(:last-child) { .margin-bottom(); }
+
+.list-army-list > li:not(:first-child) { margin-top: (@line-height-computed / 2); }
+
+/* tables */
+.table-army-list {
+  .table-captioned();
+
+  > caption {
+    background: none;
+    border-bottom: none;
+  }
+  > thead {
+    > tr {
+      > th, > td { border-top: none; }
+      > td { text-align: center; }
+    }
+  }
+  > tbody > .stripe { background: @table-bg-accent; }
+}
+
+.table-captioned {
+  border: 1px solid @table-border-color;
+  border-top: none;
+  border-collapse:separate;
+  border-radius: 0 0 @panel-border-radius @panel-border-radius;
+
+  > caption {
+    .panel-heading();
+    background: @panel-default-heading-bg;
+    border: 1px solid @table-border-color;
+    border-radius: @panel-border-radius @panel-border-radius 0 0;
+  }
+
+  > tfoot > tr:not(:first-child) {
+    > th, > td { border: none; }
+  }
+}
+
+@media (max-width: @screen-xs-max) {
+  .table-responsive {
+    > .table-army-list, > .table-captioned {
+      &, > caption { border: 0; }
+    }
+  }
+}
+
+/* panels */
+.panel:before {
+  float: left;
+  font-weight: bold;
+  padding: @panel-heading-padding;
+  padding-right: 0;
+  white-space: pre;
+}
+.design-concept:before { content: 'Design Concept: '; }
+.example-of-play:before { content: 'Example of Play: '; }
+.special-rule:before { content: 'Special Rule: '; }
+
+.panel-heading {
+  font-size: @font-size-base;
+  font-weight: bold;
+  line-height: @line-height-base;
+  margin: 0;
+}
+
+/* tp classes */
+.datasheet {
+  .margin-bottom();
+  overflow-x: auto;
+
+  .unit:nth-child(odd) { background: @body-bg; }
+}
+
+.unit { background: @table-bg-accent; }
+
+@media (min-width: @screen-sm-min) {
+  .unit {
+    .stats, .weapons {
+      width: 50%;
+      float: left;
+    }
+  }
 }
 
 /* IDs */
@@ -95,221 +181,11 @@ body {
 }
 
 #weapon-fire-arc-figures {
-  max-width: 100%;
-  width: (2 * 194px);
-
   &, img { border: 1px solid @panel-default-border; }
-
-  figure {
-    position: relative;
-    float: left;
-    width: 50%;
-  }
-
-  figcaption {
-    padding: 0 0.5em;
-    position: absolute;
-    top: 0.25em;
-    width: 100%;
-  }
-}
-
-/* lists */
-.dl-colonated {
-  > dt {
-    float: left;
-
-    &:after {
-      content: ': ';
-      white-space: pre;
-    }
-  }
-
-  > dd:not(:last-child) { .margin-bottom(); }
-}
-
-.list-army-list {
-  .list-unstyled();
-  margin-bottom: 0;
-
-  > li:not(:first-child) {
-    margin-top: (@line-height-computed / 2);
-  }
-}
-
-.list-upper-roman {
-  counter-reset: list-upper-roman;
-
-  ol& {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  > dt:before, > li:before {
-    counter-increment: list-upper-roman;
-    content: counter(list-upper-roman, upper-roman) ' – ';
-    font-weight: bold;
-  }
-}
-
-/* tables */
-.table-army-list {
-  .table-captioned();
-
-  > caption {
-    background: none;
-    border-bottom: none;
-  }
-  > thead {
-    > tr {
-      > th, > td { border-top: none; }
-      > td { text-align: center; }
-    }
-  }
-  > tbody > .stripe { background: @table-bg-accent; }
-}
-
-.table-captioned {
-  border: 1px solid @table-border-color;
-  border-top: none;
-  border-collapse:separate;
-  border-radius: 0 0 @panel-border-radius @panel-border-radius;
-
-  > caption {
-    .panel-heading();
-    background: @panel-default-heading-bg;
-    border: 1px solid @table-border-color;
-    border-radius: @panel-border-radius @panel-border-radius 0 0;
-  }
-
-  > tfoot > tr:not(:first-child) {
-    > th, > td { border: none; }
-  }
-}
-
-.table-centered {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
-
-@media screen and (max-width: @screen-xs-max) {
-  .table-responsive {
-    > .table-army-list, > .table-captioned {
-      &, > caption { border: 0; }
-    }
-  }
-}
-
-/* panels */
-.panel:before {
-  float: left;
-  font-weight: bold;
-  padding: @panel-heading-padding;
-  padding-right: 0;
-  white-space: pre;
-}
-.design-concept:before { content: 'Design Concept: '; }
-.example-of-play:before { content: 'Example of Play: '; }
-.special-rule:before { content: 'Special Rule: '; }
-
-.panel-heading {
-  font-size: @font-size-base;
-  font-weight: bold;
-  line-height: @line-height-base;
-  margin: 0;
-}
-
-.panel-body {
-  > :first-child { margin-top: 0; }
-  > :last-child { margin-bottom: 0; }
-}
-
-/* tp classes */
-.datasheet {
-  .margin-bottom();
-  overflow-x: auto;
-}
-
-.unit {
-  .clearfix();
-  background: @table-bg-accent;
-
-  &:nth-child(odd) { background: @body-bg; }
-
-  .stats, .weapon-line {
-    > * {
-      display: table-cell;
-      padding: 0 0.5em;
-      text-align: center;
-
-      &:before {
-        display: block;
-        font-weight: bold;
-      }
-    }
-  }
-
-  .stats {
-    display: table;
-
-    > * {
-      &.name:before { content: 'Name'; }
-      &.type:before { content: 'Type'; }
-      &.speed:before { content: 'Speed'; }
-      &.armour:before { content: 'Armour'; }
-      &.cc:before { content: 'CC'; }
-      &.ff:before { content: 'FF'; }
-    }
-  }
-
-  .weapon:first-child > .weapon-line:first-child > * {
-    &.name:before { content: 'Weapons'; }
-    &.range:before { content: 'Range'; }
-    &.firepower:before { content: 'Firepower'; }
-  }
-  .weapon-line { display: table; }
-
-  .boolean { text-align: right; }
-  .name, .firepower {
-    text-align: left;
-    width: 50%;
-  }
-  .firepower {
-    > :not(:last-child):after { content: ', '; }
-
-    .special-rules li:last-child:after { content: none; }
-  }
-  .special-rules {
-    padding: 0;
-
-    &, li { display: inline; }
-
-    li:after { content: ', '; }
-    li:last-child:after { content: '.'; }
-  }
-
-  .notes {
-    clear: both;
-    padding: 0 0.5em;
-
-    > .special-rules {
-      font-style: italic;
-
-      + * { display: inline; }
-    }
-  }
-}
-
-@media (min-width: @screen-sm-min) {
-  .unit {
-    .stats, .weapons {
-      width: 50%;
-      float: left;
-    }
-  }
 }
 
 /* utility classes */
 .margin-bottom { margin-bottom: (@line-height-computed / 2); }
 .no-margin-bottom { margin-bottom: 0; }
+
+.overflow-x-auto { overflow-x: auto; }

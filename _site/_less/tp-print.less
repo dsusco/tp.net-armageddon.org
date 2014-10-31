@@ -17,7 +17,7 @@
 
 @import 'reset';
 @import 'page';
-@import 'generated_content';
+@import 'tp';
 
 /* type */
 h1 {
@@ -51,41 +51,12 @@ p, blockquote, figcaption, dl, ol, ul, table, .text {
 /* lists */
 ol, ul { padding-left: 1.5em; }
 
-.dl-colonated {
-  > dt {
-    float: left;
-
-    &:after {
-      content: ': ';
-      white-space: pre;
-    }
-  }
-
-  > dd:not(:last-child) { margin-bottom: @line-height-computed; }
-}
+.dl-colonated > dd:not(:last-child) { margin-bottom: @line-height-computed; }
 
 .list-army-list {
   .text();
-  list-style: none;
-  margin-bottom: 0;
-  padding-left: 0;
 
   > li:not(:first-child) { margin-top: 3pt; }
-}
-
-.list-upper-roman {
-  counter-reset: list-upper-roman;
-
-  ol& {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  > dt:before, > li:before {
-    counter-increment: list-upper-roman;
-    content: counter(list-upper-roman, upper-roman) ' – ';
-    font-weight: bold;
-  }
 }
 
 /* tables */
@@ -139,12 +110,6 @@ th, td { padding: 0 0.5em; }
   }
 
   > thead, > tbody > tr > th, > tfoot { font-style: italic; }
-}
-
-.table-centered {
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
 }
 
 /* tp classes */
@@ -201,8 +166,6 @@ th, td { padding: 0 0.5em; }
   margin-bottom: (@line-height-computed - 2pt);
   padding: 6pt 1em;
   page-break-inside: avoid;
-
-  > .panel-body > :last-child { margin-bottom: 0; }
 }
 .design-concept, .example-of-play, .special-rule {
   .short-story();
@@ -230,78 +193,69 @@ th, td { padding: 0 0.5em; }
 
 .datasheet {
   .text(8pt);
+  display: table;
   margin-bottom: 3pt;
 
-  .stats, .weapons, .notes {
-    display: table;
-    float: left;
-  }
-  .stats, .weapon-line {
-    > * {
-      display: table-cell;
-      padding: 0 0.5em;
-      text-align: center;
+  .unit {
+    font-size: 100%;
+    line-height: inherit;
+    margin-bottom: 0;
+    width: 91.875em;
 
-      &.boolean { text-align: right; }
-      &.name, &.firepower { text-align: left; }
+    .stats, .weapons { width: auto; }
+
+    &:first-child {
+      .before() {
+        background: @white;
+        border-bottom: 1pt solid @dark-grey;
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+
+      .stats, .weapon:first-child > .weapon-line:first-child {
+        > *:before { .before(); }
+      }
+      .notes:before {
+        .before();
+        content: 'Notes';
+      }
     }
+
+    &:not(:first-child) {
+      .stats, .weapon:first-child > .weapon-line:first-child {
+        > :before { content: none; }
+      }
+    }
+
+    &:nth-child(even) { background: @white; }
   }
-  .weapon-line { display: table; }
-  .notes { padding: 0 0.5em; }
 
   .type { width: 4em; }
   .speed, .range { width: 5em; }
   .armour { width: 6em; }
   .cc, .ff { width: 3em; }
 
-  > * {
-    width: 91.875em;
+  .notes {
+    clear: none;
+    float: left;
+    font-style: italic;
 
-    &:first-child {
-      .clearfix();
-      border-bottom: 1pt solid @dark-grey;
-
-      .notes {
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-
-      .stats, .weapons {
-        span { .notes(); }
-      }
-    }
+    > :first-child:before { content: none; }
   }
 }
 
 .unit {
-  .clearfix();
+  .text(8pt);
   background: @light-grey;
   page-break-inside: avoid;
 
-  &:nth-child(odd) { background: @white; }
-
-  .firepower {
-    > :not(:last-child):after { content: ', '; }
-
-    .special-rules li:last-child:after { content: none; }
-  }
-  .special-rules {
-    padding: 0;
-
-    &, li { display: inline; }
-
-    li:after { content: ', '; }
-    li:last-child:after { content: '.'; }
-  }
-
-  .notes {
-    font-style: italic;
-
-    > * {
-      display: inline;
-
-      &:first-child { display: none; }
-    }
+  .stats, .weapons {
+    float: left;
+    width: 49.999%;
   }
 }
 
@@ -397,23 +351,8 @@ th, td { padding: 0 0.5em; }
 
 #weapon-fire-arc-figures {
   margin: 0 auto;
-  max-width: 100%;
-  width: (2 * 194px);
 
   &, img { border: 1pt solid @dark-grey; }
-
-  figure {
-    position: relative;
-    float: left;
-    width: 50%;
-  }
-
-  figcaption {
-    padding: 0 0.5em;
-    position: absolute;
-    top: 0.25em;
-    width: 100%;
-  }
 }
 
 .barrage-table { td, th { text-align: center; } }
@@ -441,180 +380,4 @@ th, td { padding: 0 0.5em; }
 .margin-bottom { margin-bottom: @line-height-computed; }
 .no-margin-bottom { margin-bottom: 0; }
 
-/* 65.875 */
-#space-marine-forces + .datasheet {
-  .name { width: 11em; }
-  .weapon {
-    .name, .boolean  { width: 11em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 29.874em; }
-}
-#imperial-guard-forces + .datasheet {
-  .name { width: 11em; }
-  .weapon {
-    .name, .boolean  { width: 13em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 27.874em; }
-}
-#imperial-navy-forces + .datasheet {
-  .name { width: 11em; }
-  .weapon {
-    .name, .boolean  { width: 10em; }
-  }
-  .firepower { width: 12em; }
-  .notes { width: 32.874em; }
-}
-#titan-legion-forces + .datasheet {
-  .name { width: 10em; }
-  .weapon {
-    .name, .boolean  { width: 12em; }
-  }
-  .firepower { width: 11em; }
-  .notes { width: 32.874em; }
-}
-#ork-forces + .datasheet {
-  .name { width: 8em; }
-  .weapon {
-    .name, .boolean  { width: 12em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 30.874em; }
-}
-#eldar-forces + .datasheet {
-  .name { width: 12em; }
-  .weapon {
-    .name, .boolean  { width: 16em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 22.874em; }
-}
-#baran-siegemaster-forces + .datasheet {
-  .name { width: 13em; }
-  .weapon {
-    .name, .boolean  { width: 11em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 27.874em; }
-}
-#feral-ork-forces + .datasheet {
-  .name { width: 7em; }
-  .weapon {
-    .name, .boolean  { width: 9em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 34.874em; }
-}
-#white-scar-forces + .datasheet {
-  .name { width: 11em; }
-  .weapon {
-    .name, .boolean  { width: 11em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 29.874em; }
-}
-#speed-freek-forces + .datasheet {
-  .name { width: 12em; }
-  .weapon {
-    .name, .boolean  { width: 12em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 27.874em; }
-}
-#black-legion-forces + .datasheet {
-  .name { width: 12em; }
-  .weapon {
-    .name, .boolean  { width: 13em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 25.874em; }
-}
-#chaos-cultist-forces + .datasheet {
-  .name { width: 11em; }
-  .weapon {
-    .name, .boolean  { width: 10em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 29.874em; }
-}
-#dark-eldar-forces + .datasheet {
-  .name { width: 8em; }
-  .weapon {
-    .name, .boolean  { width: 14em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 29.874em; }
-}
-#minervan-tank-legion-forces + .datasheet {
-  .name { width: 12em; }
-  .weapon {
-    .name, .boolean  { width: 13em; }
-  }
-  .firepower { width: 11em; }
-  .notes { width: 29.874em; }
-}
-#necron-forces + .datasheet {
-  .name { width: 10em; }
-  .weapon {
-    .name, .boolean  { width: 10em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 29.874em; }
-}
-#death-korps-of-krieg-forces + .datasheet {
-  .name { width: 9em; }
-  .weapon {
-    .name, .boolean  { width: 13em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 29.874em; }
-}
-#salamander-forces + .datasheet {
-  .name { width: 10em; }
-  .weapon {
-    .name, .boolean  { width: 11em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 30.874em; }
-}
-#scions-of-iron-forces + .datasheet {
-  .name { width: 10em; }
-  .weapon {
-    .name, .boolean  { width: 11em; }
-  }
-  .firepower { width: 14em; }
-  .notes { width: 30.874em; }
-}
-#tau-forces + .datasheet {
-  .name { width: 12em; }
-  .weapon {
-    .name, .boolean  { width: 14em; }
-  }
-  .firepower { width: 12em; }
-  .notes { width: 27.874em; }
-}
-#alaitoc-eldar-forces + .datasheet {
-  .name { width: 12em; }
-  .weapon {
-    .name, .boolean  { width: 16em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 22.874em; }
-}
-#tyranid-forces + .datasheet {
-  .name { width: 8em; }
-  .weapon {
-    .name, .boolean  { width: 12.5em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 30.374em; }
-}
-#adeptus-mechanicus-titan-legion-forces + .datasheet {
-  .name { width: 12.5em; }
-  .weapon {
-    .name, .boolean  { width: 12.5em; }
-  }
-  .firepower { width: 15em; }
-  .notes { width: 25.374em; }
-}
+@import 'forces';

@@ -16,16 +16,14 @@
         <span class="firepower"></span>
       </div>
     </div>{% endif %}
-  </div>{% if unit.special_rules or unit.notes %}
+  </div>
 
-  <div class="notes">
-    <b>Notes:</b>{% if unit.special_rules %}
-
+  <div class="notes">{% if unit.special_rules %}
     <ul class="special-rules">{% for sr in unit.special_rules %}
       <li>{% special_rule sr %}{{ special_rule.name }}{% endspecial_rule %}</li>{% endfor %}
     </ul>{% endif %}{% if unit.notes %}
 
     {{ unit.notes | markdownify }}{% endif %}
-  </div>{% endif %}
+  </div>
 </div>
 {% endunit %}

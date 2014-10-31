@@ -1,29 +1,7 @@
 {% force include.id %}<section class="force{% for c in force.classes %} {{c}}{% endfor %}">
   <h2 id="{{ force.id }}-forces">{{ force.name }} Forces</h2>
 
-  <div class="datasheet">
-    <div class="hidden">
-      <div class="stats">
-        <span class="name">Name</span>
-        <span class="type">Type</span>
-        <span class="speed">Speed</span>
-        <span class="armour">Armour</span>
-        <span class="cc">CC</span>
-        <span class="ff">FF</span>
-      </div>
-
-      <div class="weapons">
-        <div class="weapon">
-          <div class="weapon-line">
-            <span class="name">Weapons</span>
-            <span class="range">Range</span>
-            <span class="firepower">Firepower</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="notes">Notes</div>
-    </div>{% for u in force.units %}
+  <div class="datasheet">{% for u in force.units %}
 {% include unit.html id=u %}{% endfor %}
   </div>{% for sr in force.special_rules %}
 

@@ -8,4 +8,6 @@ ff: n/a
 special_rules:
   - damage-capacity-3
 notes: No units may enter the bunker as it is filled with comm’s gear.
+classes:
+  - pull-down
 ---
