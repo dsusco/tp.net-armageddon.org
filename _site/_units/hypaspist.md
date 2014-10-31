@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T16:22:22-04:00"
+date: "2014-10-31T15:33:39-04:00"
 name: "Hypaspist"
 type: "INF"
 speed: "15cm"
@@ -8,5 +8,5 @@ cc: "5+"
 ff: "5+"
 weapons:
   -
-    id: heavy-bolter
+    id: "heavy-bolter"
 ---

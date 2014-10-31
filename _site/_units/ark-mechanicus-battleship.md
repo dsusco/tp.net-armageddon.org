@@ -1,5 +1,5 @@
 ---
-date: "2014-09-09T09:50:13-04:00"
+date: "2014-10-31T15:31:15-04:00"
 name: "Ark Mechanicus Battleship"
 type: "SC"
 speed: "n/a"

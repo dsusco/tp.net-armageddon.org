@@ -1,5 +1,5 @@
 ---
-date: "2014-10-16T16:00:41-04:00"
+date: "2014-10-31T15:20:33-04:00"
 name: "War Griffons Epic Tournament Special Rules"
 ---
-A Titan may not be upgraded with more or less weapons than its class allows. In addition, each Scout or Battle Titan formation must select at least two different types of weapons or pay a surcharge of an additional +25 points.
+All _Weapon Mounts_ in a Scout or Battle Titan formation must be mounted with a weapon. In addition, each Scout or Battle Titan formation must select at least two different weapons or pay a surcharge of an additional +25 points.

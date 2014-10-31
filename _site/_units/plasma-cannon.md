@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T16:46:04-04:00"
+date: "2014-10-31T15:24:45-04:00"
 name: "Plasma Cannon"
 type: "CH"
 speed: "n/a"
@@ -8,5 +8,5 @@ cc: "n/a"
 ff: "n/a"
 weapons:
   -
-    id: "plasma-cannon1"
+    id: "plasma-cannon-amtl"
 ---

@@ -1,5 +1,5 @@
 ---
-date: "2014-09-09T09:50:13-04:00"
+date: "2014-10-31T15:23:19-04:00"
 name: "Lysander Fighter"
 type: "AC"
 speed: "Fighter"
@@ -8,9 +8,9 @@ cc: "n/a"
 ff: "n/a"
 weapons:
   -
-    id: "stormbolters-air"
+    id: "storm-bolters-aa"
     arc: "FxF"
   -
-    id: "heavy-bolter"
+    id: "heavy-bolter-aa"
     arc: "FxF"
 ---
