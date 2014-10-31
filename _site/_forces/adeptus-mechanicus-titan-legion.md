@@ -30,9 +30,11 @@ units:
 
   - forge-knight
 
+  - imperator-class-titan
   - reaver-class-titan-amtl
   - warhound-class-titan-amtl
   - warlord-class-titan-amtl
+  - warmonger-class-titan
 
   - lysander-fighter
 
