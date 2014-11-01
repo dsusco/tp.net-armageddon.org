@@ -239,7 +239,7 @@
     grunt.registerMultiTask('pdf', function () {
       grunt.file.mkdir('public_html/pdfs');
 
-      grunt.config('date', cheerio.load(grunt.file.read(this.data.input))('#date').text());
+      grunt.config('date', cheerio.load(grunt.file.read(this.data.input))('title').first().data('date'));
       grunt.config('input', this.data.input);
       grunt.config('output', this.data.output);
       grunt.config('output-date', grunt.config('output') + '-' + grunt.config('date'));

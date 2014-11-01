@@ -126,9 +126,7 @@
 }
 
 /* tags */
-title { string-set: title content(); }
-
-#date { string-set: date content(); }
+title { string-set: title content(), date attr(data-date); }
 
 main:not(.no-outline) {
   counter-reset: fn h1;

@@ -9,12 +9,10 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ page.title }}</title>
+    <title data-date="{{ page.date | date: '%F' }}">{{ page.title }}</title>
   </head>
 
   <body>
-    <div id="date" style="display:none">{{ page.date | date: '%F' }}</div>
-
     <main class="container{% if page.layout == 'army_list' %} no-outline{% endif %}">
 {{ content }}
     </main>
