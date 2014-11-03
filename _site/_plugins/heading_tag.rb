@@ -12,7 +12,7 @@ module Jekyll
         # if no ID is given (with CSS # selector) then use the inner HTML to make one
         @id =
           markup.match(/#([A-Za-z][\w\-:.]+)/) { |m| m[1] } ||
-          @text.downcase.gsub(/&amp;/, 'and').gsub(' ', '-').gsub(/[^\w\-:.]/, '')
+          @text.downcase.gsub(/&amp;/, 'and').gsub(/[ \/\\]/, '-').gsub(/[^\w\-:.]/, '')
         # classes given with the CSS . selector
         @class = markup.scan(/\.(-?[_a-zA-Z]+[_a-zA-Z0-9-]*)/).flatten.join(' ')
         # inline style given with 'style=""'
