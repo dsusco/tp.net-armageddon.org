@@ -113,14 +113,12 @@ th, td { padding: 0 0.5em; }
 }
 
 /* tp classes */
-.footnote:after {
-  font-size: 6pt;
-  line-height: 0;
-}
+.footnote:after { font-size: 6pt !important; }
 
 .faq {
   font-size: 0;
   float: left;
+  page-break-inside: avoid;
 
   > .panel-heading { display: none; }
   > .panel-body > dl {
@@ -155,6 +153,10 @@ th, td { padding: 0 0.5em; }
       &:before { content: 'Q: '; }
       + dd:before { content: 'A: '; }
     }
+  }
+
+  &.float-footnote {
+    > .panel-body > dl { float: footnote; }
   }
 }
 
@@ -281,7 +283,10 @@ th, td { padding: 0 0.5em; }
 
 /* IDs */
 #table-of-contents {
-  ol { padding-left: 0; }
+  ol {
+    list-style: none;
+    padding-left: 0;
+  }
 
   a {
     display: block;
