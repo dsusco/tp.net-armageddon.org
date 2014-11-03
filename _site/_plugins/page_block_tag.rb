@@ -1,7 +1,6 @@
 module Jekyll
   module Tags
-    # A Liquid Block that holds the shared functionality of all the blocks used to access the
-    # site's collections.
+    # A block which gets a page from the page hash and places it in the context.
     class PageBlock < Liquid::Block
       def render(context)
         context.stack do
