@@ -1,6 +1,6 @@
 ---
 date: "2014-10-22T23:22:44-04:00"
-name: "Massive Claws & Teeth"
+name: "Massive Claws and Teeth"
 modes:
   -
     range: "(bc)"
