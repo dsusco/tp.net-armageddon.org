@@ -11,5 +11,4 @@ special_rules:
 notes:
   |
     May transport one infantry units without _Jump Packs_ or _Mounted_. With the exception of Big Gunz, units being transported may shoot.
-weapons:
 ---

@@ -8,5 +8,4 @@ cc: "3+"
 ff: "-"
 special_rules:
   - "fearless"
-weapons:
 ---

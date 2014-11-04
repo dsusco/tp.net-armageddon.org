@@ -8,5 +8,4 @@ cc: "n/a"
 ff: "n/a"
 special_rules:
   - "inspiring"
-weapons:
 ---

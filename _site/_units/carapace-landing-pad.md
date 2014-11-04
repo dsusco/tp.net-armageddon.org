@@ -9,5 +9,4 @@ ff: "n/a"
 notes:
   |
     All weapons with a BP firepower in the formation do not need a line of fire when shooting as part of a sustained fire, advance or double action.
-weapons:
 ---

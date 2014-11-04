@@ -11,5 +11,4 @@ special_rules:
 notes:
   |
     May transport ten infantry units without _Jump Packs_ or _Mounted_.
-weapons:
 ---

@@ -10,5 +10,4 @@ special_rules:
   - "expendable"
   - "infiltrator"
   - "invulnerable-save"
-weapons:
 ---

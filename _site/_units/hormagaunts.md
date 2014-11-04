@@ -10,5 +10,4 @@ special_rules:
   - "brood-1"
   - "expendable"
   - "infiltrator"
-weapons:
 ---

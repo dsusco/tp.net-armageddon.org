@@ -9,5 +9,4 @@ ff: "n/a"
 special_rules:
   - "commander"
   - "leader"
-weapons:
 ---

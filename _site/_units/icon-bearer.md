@@ -10,5 +10,4 @@ special_rules:
   - "daemonic-focus"
   - "invulnerable-save"
   - "leader"
-weapons:
 ---

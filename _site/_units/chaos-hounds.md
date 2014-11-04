@@ -6,5 +6,4 @@ speed: "30cm"
 armour: "6+"
 cc: "4+"
 ff: "-"
-weapons:
 ---

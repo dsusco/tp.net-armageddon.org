@@ -10,5 +10,4 @@ special_rules:
   - "expendable"
   - "first-strike"
   - "invulnerable-save"
-weapons:
 ---

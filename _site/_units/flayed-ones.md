@@ -11,5 +11,4 @@ special_rules:
   - "necron"
   - "scout"
   - "teleport"
-weapons:
 ---

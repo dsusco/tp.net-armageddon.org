@@ -10,5 +10,4 @@ special_rules:
   - "fearless"
   - "infiltrator"
   - "teleport"
-weapons:
 ---

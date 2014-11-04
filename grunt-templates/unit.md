@@ -10,7 +10,7 @@ special_rules:<% special_rules.forEach(function (sr) { %>
   - "<%= sr %>"<% }) %><% } %><% if (notes !== '') { %>
 notes:
   |
-    <%= notes %><% } %><% if (weapons !== null) { %>
+    <%= notes %><% } %><% if (weapons !== null && weapons.length) { %>
 weapons:<% weapons.forEach(function (w) { %>
   -
     id: "<%= w.id %>"<% if (w.multiplier !== '1') { %>
