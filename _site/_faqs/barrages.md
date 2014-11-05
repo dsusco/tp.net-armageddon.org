@@ -6,6 +6,9 @@ classes:
 Can a barrage claim a crossfire bonus?
 : Yes.
 
+If a unit is under multiple templates from the same barrage how many to hit rolls are rolled for it?
+: One.
+
 Do extra barrage templates have to be placed to get as many enemy units from the target formation under them as possible?
 : The rules are unclear here, but yes they do. This part, <q>and no line of fire, placement or range restrictions apply,</q> is referring to <q>Each weapon contributing to the barrage must be within range and have a line of fire to at least one unit under the template,</q> not <q>templates must be placed in such a way as to get as many enemy units from the target formation under them as possible.</q>
 

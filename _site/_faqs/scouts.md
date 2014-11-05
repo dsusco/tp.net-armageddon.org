@@ -1,7 +1,7 @@
 ---
 name: Scouts
 ---
-How do formations that contain scout and non-scout units form a <q>chain</q>?
+How do formations that contain scout and non-scout units form a <q>chain</q> to be a legal formation?
 : Every non-scout unit must be within 5cm of at least one other unit while scout units must be within 20cm of at least one other unit.
 
 Are scouts intermingled if they are within 10cm of another formation?
