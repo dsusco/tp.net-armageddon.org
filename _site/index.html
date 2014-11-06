@@ -7,7 +7,7 @@ title: NetEA Tournament Pack Website
 
 
 <ul>
-  <li>{% assign tp = site.data.page_hash.netea-tournament-pack %}{{ tp.content }}
+  <li>{% assign tp = site.data.pages.netea-tournament-pack %}
     <a href="{{ tp.url | remove: 'index.html' }}">{{ tp.title }}</a>
     <small>({{ tp.date | date: '%F' }})</small>
     <a href="pdfs/{{ tp.id }}.pdf" title="{{ tp.title }}"><i class="fa fa-file-pdf-o"></i></a>
@@ -19,7 +19,7 @@ title: NetEA Tournament Pack Website
 <p>NetEA Approved army lists are tournament ready and balanced against one another using the Epic tournament game rules. They vary slightly from the those that used to be found on Games Workshop's website due to community feedback.</p>
 
 <ul>{% for al in site.army_lists %}
-  <li>
+  <li>{% assign al = site.data.army_lists[al] %}
     <a href="{{ al.url }}">{{ al.title }}</a>
     <small>({{ al.date | date: '%F' }})</small>
     <a href="{{ al.url | replace: 'army-lists/', 'pdfs/netea-' | replace: 'html', 'pdf' }}" title="NetEA {{ al.title }}"><i class="fa fa-file-pdf-o"></i></a>
