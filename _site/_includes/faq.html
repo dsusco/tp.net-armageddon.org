@@ -1,5 +1,7 @@
-{% faq include.id %}<aside class="faq panel panel-default{% for c in faq.classes %} {{c}}{% endfor %}">
+{% assign faq = site.data.faqs[include.id] %}
+<aside class="faq panel panel-default{% for c in faq.classes %} {{c}}{% endfor %}">
   <div class="panel-heading"><abbr title="Frequently Asked Question">FAQ</abbr></div>
   <div class="panel-body">
-{{ faq.content }}  </div>
-</aside>{% endfaq %}
+{{ faq.content }}
+  </div>
+</aside>

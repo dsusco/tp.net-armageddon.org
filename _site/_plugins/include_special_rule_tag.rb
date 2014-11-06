@@ -10,11 +10,12 @@ module Jekyll
 
       # Renders a special rule if it hasn't been rendered on the page yet.
       def render(context)
+        id = parse_params(context)['id']
         special_rules = (context.registers[:page]['rendered_special_rules'] ||= [])
 
         context.stack do
-          if special_rules.index(parse_params(context)['id']).nil?
-            special_rules << parse_params(context)['id']
+          if special_rules.index(id).nil?
+            special_rules << id
             super
           end
         end
