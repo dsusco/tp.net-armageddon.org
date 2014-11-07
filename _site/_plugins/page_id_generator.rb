@@ -3,7 +3,7 @@ module Jekyll
     safe true
 
     # Adds an 'id' and 'date' attribute to each page if it doesn't have them in the YAML Front
-    # Matter already. It also creates the site's page hash.
+    # Matter already. Also creates the site's page hash.
     def generate(site)
       site.data['pages'] = {}
 
