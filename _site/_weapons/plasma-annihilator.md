@@ -1,10 +1,10 @@
 ---
-date: "2014-10-31T15:43:20-04:00"
+date: "2014-11-07T09:13:43-05:00"
 name: "Plasma Annihilator"
 modes:
   -
     range: "90cm"
-    firepower: "MW2+"
+    firepower: "4× MW2+"
     special_rules:
       - "slow-firing"
       - "titan-killer-d3"
