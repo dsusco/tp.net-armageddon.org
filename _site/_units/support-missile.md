@@ -1,5 +1,5 @@
 ---
-date: "2014-10-31T15:22:12-04:00"
+date: "2014-11-07T09:26:27-05:00"
 name: "Support Missile"
 type: "CH"
 speed: "n/a"
@@ -8,7 +8,7 @@ cc: "n/a"
 ff: "n/a"
 notes:
   |
-    Can be one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. Warp Missiles ignore _Imperial Void Shields_ and _Power Fields_.
+    Can be armed with one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile.
 weapons:
   -
     id: "barrage-missile"
