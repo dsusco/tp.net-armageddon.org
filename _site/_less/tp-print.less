@@ -118,7 +118,6 @@ th, td { padding: 0 0.5em; }
 .faq {
   font-size: 0;
   float: left;
-  page-break-inside: avoid;
 
   > .panel-heading { display: none; }
   > .panel-body > dl {
@@ -126,6 +125,7 @@ th, td { padding: 0 0.5em; }
     font-size: 8pt;
     line-height: 1.5;
     margin: 0;
+    page-break-inside: avoid;
 
     &:before {
       content: string(footnote);
@@ -261,9 +261,15 @@ th, td { padding: 0 0.5em; }
   }
 }
 
-.force > :first-child {
-  .text-center();
-  margin-bottom: 3pt;
+.force {
+  > :first-child {
+    .text-center();
+    margin-bottom: 3pt;
+  }
+
+  .faq > .panel-body > dl {
+    margin-left: 1.5em;
+  }
 }
 
 .army-list {
