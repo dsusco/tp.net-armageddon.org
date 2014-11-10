@@ -2,27 +2,29 @@ module Jekyll
   module Tags
     # A tag for headings which generates an ID and renders a FAQ associated with it.
     class Heading < Liquid::Tag
-      def initialize(tag_name, markup, options)
-        super
-
-        markup = markup.strip
-
-        # the inner HTML of the heading tag
-        @text = markup.gsub(/style="[^"]+"/, '').match(/^[^#.]+/) { |m| m[0].strip }
-        # if no ID is given (with CSS # selector) then use the inner HTML to make one
-        @id =
-          markup.match(/#([A-Za-z][\w\-:.]+)/) { |m| m[1] } ||
-          @text.downcase.gsub(/&amp;/, 'and').gsub(/[ \/\\]/, '-').gsub(/[^\w\-]/, '')
-        # classes given with the CSS . selector
-        @class = markup.scan(/\.(-?[_a-zA-Z]+[_a-zA-Z0-9-]*)/).flatten.join(' ')
-        # inline style given with 'style=""'
-        @style = markup.match(/style="([^"]+)"/) { |m| m[1] }
-      end
-
       # Renders a heading tag, incrementing the ID if necessary and appending the FAQ if one is
       # found.
       def render(context)
         headings = (context.registers[:page]['headings'] ||= [])
+
+        #
+        @markup.strip.split(/( #[^ ]+| \.[^ ]+| \{[^\}]+\})/).each do |token|
+          token.strip!
+
+          if match = token.match(/^#(.+)$/)
+            @id = context[match[1]] || match[1]
+          elsif match = token.match(/^\.(.+)$/)
+            classes = match[1].split('.').join(' ')
+            @class = @class.nil? ? classes : @class += " #{classes}"
+          elsif match = token.match(/^\{(.+)\}$/)
+            @style = @style.nil? ? match[1] : @style += ";#{match[1]}"
+          else
+            unless token.empty?
+              @text = context[token] || token
+              @id = @text.downcase.gsub(/&amp;/, 'and').gsub(/[ \/\\]/, '-').gsub(/[^\w\-]/, '') unless @id
+            end
+          end
+        end
 
         # if the heading exists on the page already...
         unless headings.index(@id).nil?
@@ -42,16 +44,16 @@ module Jekyll
         if faq = context.registers[:site]
                         .collections['faqs'].docs.find { |doc| doc.data['id'] == @id }
           # add the footnote class
-          @class = @class.empty? ? 'footnote' : @class + ' footnote'
+          @class = @class.nil? || @class.empty? ? 'footnote' : @class + ' footnote'
           # and render the FAQ
           faq = IncludeTag.new('include', "faq.html id='#{faq.data['id']}'", []).render(context)
         end
 
         h  = "<#{@tag_name} id=\"#{@id}\""
-        h += " class=\"#{@class}\"" unless @class.empty?
-        h += " style=\"#{@style}\"" unless @style.nil?
+        h += " class=\"#{@class}\"" if @class
+        h += " style=\"#{@style}\"" if @style
         h += ">#{@text}</#{@tag_name}>"
-        h += "\n\n#{faq}" unless faq.nil?
+        h += "\n#{faq}" if faq
 
         h
       end

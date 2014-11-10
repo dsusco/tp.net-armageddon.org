@@ -1,7 +1,7 @@
 {% assign army_list = site.data.army_lists[include.id] %}
-<section class="army-list{% for c in army_list.classes %} {{c}}{% endfor %}">
+<section class="army-list{% for c in army_list.classes %} {{c}}{% endfor %}">{% capture id %}{{ army_list.id }}-army-list{% endcapture %}{% capture name %}{{ army_list.name }} Army List{% endcapture %}
   <div class="two-column">
-    <h2 id="{{ army_list.id }}-army-list">{{ army_list.name }} Army List</h2>{% if army_list.introduction %}
+    {% h2 name #id %}{% if army_list.introduction %}
 
 {{ army_list.introduction | markdownify }}{% endif %}
     <h4>Forces</h4>

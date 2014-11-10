@@ -1,6 +1,6 @@
 {% assign force = site.data.forces[include.id] %}
-<section class="force{% for c in force.classes %} {{c}}{% endfor %}">
-  <h2 id="{{ force.id }}-forces">{{ force.name }} Forces</h2>
+<section class="force{% for c in force.classes %} {{c}}{% endfor %}">{% capture id %}{{ force.id }}-forces{% endcapture %}{% capture name %}{{ force.name }} Forces{% endcapture %}
+  {% h2 name #id %}
 
   <div class="datasheet">{% for u in force.units %}
 {% include unit.html id=u %}{% endfor %}
