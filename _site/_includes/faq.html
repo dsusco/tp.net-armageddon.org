@@ -2,6 +2,6 @@
 <aside class="faq panel panel-default{% for c in faq.classes %} {{c}}{% endfor %}">
   <div class="panel-heading"><abbr title="Frequently Asked Question">FAQ</abbr></div>
   <div class="panel-body">
-{{ faq.content }}
+{% if page.layout == 'army_list' %}{{ faq.content | markdownify }}{% else %}{{ faq.content }}{% endif %}
   </div>
 </aside>{% update_date faq.date %}
