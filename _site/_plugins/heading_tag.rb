@@ -7,7 +7,7 @@ module Jekyll
       def render(context)
         headings = (context.registers[:page]['headings'] ||= [])
 
-        #
+        # set the id, class, style and text tokens
         @markup.strip.split(/( #[^ ]+| \.[^ ]+| \{[^\}]+\})/).each do |token|
           token.strip!
 
