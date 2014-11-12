@@ -57,12 +57,16 @@ body {
 }
 
 /* panels */
-.panel:before {
-  float: left;
-  font-weight: bold;
-  padding: @panel-heading-padding;
-  padding-right: 0;
-  white-space: pre;
+.panel {
+  &:before {
+    float: left;
+    font-weight: bold;
+    padding: @panel-heading-padding;
+    padding-right: 0;
+    white-space: pre;
+  }
+
+  > .panel { margin: @panel-body-padding @panel-body-padding 0; }
 }
 .design-concept:before { content: 'Design Concept: '; }
 .example-of-play:before { content: 'Example of Play: '; }
