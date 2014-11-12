@@ -182,8 +182,11 @@ main {
     .force, .army-list {
       counter-increment: h2;
 
-      h2[id]:not(.no-count) { counter-increment: none; }
-      &.footnote { counter-increment: fn h2; }
+      h2[id]:not(.no-count) {
+        counter-increment: none;
+
+        &.footnote { counter-increment: fn; }
+      }
     }
 
     h3 {
