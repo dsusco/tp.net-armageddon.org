@@ -1,5 +1,6 @@
 module Jekyll
   class PageIdGenerator < Generator
+    priority :highest
     safe true
 
     # Adds an 'id' and 'date' attribute to each page if it doesn't have them in the YAML Front

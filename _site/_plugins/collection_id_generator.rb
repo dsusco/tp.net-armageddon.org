@@ -1,5 +1,6 @@
 module Jekyll
   class CollectionIdGenerator < Generator
+    priority :highest
     safe true
 
     # Adds an 'id' and 'date' attribute to each document in every collection if it doesn't have
