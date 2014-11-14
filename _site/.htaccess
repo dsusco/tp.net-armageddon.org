@@ -1,3 +1,4 @@
+RedirectMatch /pdfs/netea-faq.pdf /pdfs/netea-faq-.pdf
 RedirectMatch /pdfs/netea-tournament-pack.pdf /pdfs/netea-tournament-pack-.pdf
 
 RedirectMatch /pdfs/netea-adeptus-mechanicus-titan-legion.pdf /pdfs/netea-adeptus-mechanicus-titan-legion-.pdf

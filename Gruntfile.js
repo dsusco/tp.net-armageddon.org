@@ -160,6 +160,10 @@
       },
       pdf: (function () {
         var obj = {
+            'faq': {
+              input: 'public_html/faq/index.html',
+              output: 'faq'
+            },
             'tournament-pack': {
               input: 'public_html/tournament-pack/index.html',
               output: 'tournament-pack'
