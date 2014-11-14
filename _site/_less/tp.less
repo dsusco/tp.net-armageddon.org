@@ -132,12 +132,8 @@
 }
 
 /* tags */
-title { string-set: title content(), date attr(data-date); }
-
 main {
   counter-reset: fn;
-
-  h1, h2, h3 { string-set: footnote content(); }
 
   .footnote {
     counter-increment: fn;
@@ -148,54 +144,6 @@ main {
       font-size: 75%;
       line-height: 0;
       vertical-align: super;
-    }
-  }
-
-  &:not(.no-outline) {
-    counter-reset: fn h1;
-
-    h1 {
-      string-set: footnote counter(h1) '.0 ' content(), section counter(h1) '.0 ' content();
-
-      &[id]:not(.no-count) {
-        counter-increment: h1;
-        counter-reset: h2 h3;
-
-        &:before { content: counter(h1) '.0 '; }
-        &.footnote { counter-increment: fn h1; }
-      }
-    }
-
-    h2 {
-      string-set: footnote counter(h1) '.' counter(h2) ' ' content();
-
-      &[id]:not(.no-count) {
-        counter-increment: h2;
-        counter-reset: h3;
-
-        &:before { content: counter(h1) '.' counter(h2) ' '; }
-        &.footnote { counter-increment: fn h2; }
-      }
-    }
-    .force, .army-list {
-      counter-increment: h2;
-
-      h2[id]:not(.no-count) {
-        counter-increment: none;
-
-        &.footnote { counter-increment: fn; }
-      }
-    }
-
-    h3 {
-      string-set: footnote counter(h1) '.' counter(h2) '.' counter(h3) ' ' content();
-
-      &[id]:not(.no-count) {
-        counter-increment: h3;
-
-        &:before { content: counter(h1) '.' counter(h2) '.' counter(h3) ' '; }
-        &.footnote { counter-increment: fn h3; }
-      }
     }
   }
 }

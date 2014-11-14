@@ -1,6 +1,8 @@
 ---
 title: NetEA FAQ
 ---
-{% for faq in site.faqs %}
-{{ faq }}
+{% assign sorted_faqs = (site.faqs | sort: 'footnote') %}{% for faq in sorted_faqs %}<article>
+  <div>{{ faq.heading }} {{ faq.name }}</div>
+
+{{ faq.content }}</article>
 {% endfor %}

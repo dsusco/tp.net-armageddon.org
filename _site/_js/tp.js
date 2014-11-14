@@ -1,12 +1,6 @@
 $(function () {
   'use strict';
 
-  var
-    h,
-    h1 = 0,
-    h2 = 0,
-    h3 = 0;
-
   $('html').toggleClass('js no-js');
 
   if (typeof Prince !== 'undefined') {
@@ -16,26 +10,6 @@ $(function () {
   $('h1[id], h2[id], h3[id]').each(function () {
     var $h = $(this),
       $a = $('<a>', { href: '#' + $h.prop('id') }).append($h.text());
-
-    switch (this.tagName) {
-      case 'H1':
-        h1 += 1;
-        h2 = 0;
-        h3 = 0;
-        h = h1 + '.0';
-        break;
-      case 'H2':
-        h2 += 1;
-        h3 = 0;
-        h = h1 + '.' + h2;
-        break;
-      case 'H3':
-        h3 += 1;
-        h = h1 + '.' + h2 + '.' + h3;
-        break;
-    }
-
-    $h.data('heading', h);
 
     $a.addClass(this.tagName.toLowerCase());
 

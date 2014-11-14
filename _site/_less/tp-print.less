@@ -290,21 +290,10 @@ th, td { padding: 0 0.5em; }
 
   a {
     display: block;
+    content: target-content(attr(href)) leader('.') target-counter(attr(href), page);
 
-    &.h1 {
-      content: target-counter(attr(href), h1) '.0 ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
-    }
-    &.h2 {
-      content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
-      margin-left: 1em;
-    }
-    &.h3 {
-      content: target-counter(attr(href), h1) '.' target-counter(attr(href), h2) '.' target-counter(attr(href), h3) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
-      margin-left: 2em;
-    }
-    &.no-count {
-      content: target-content(attr(href)) leader('.') target-counter(attr(href), page);
-    }
+    &.h2 { margin-left: 1em; }
+    &.h3 { margin-left: 2em; }
   }
 }
 .no-outline #table-of-contents { display: none; }
@@ -378,6 +367,27 @@ th, td { padding: 0 0.5em; }
     .text-uppercase();
   }
   .dl-colonated > dd { margin: 0; }
+}
+
+/* generated content */
+title { string-set: title content(), date attr(data-date); }
+
+main {
+  counter-reset: fn h1;
+
+  h1[id] {
+    string-set: footnote content(), section counter(h1) '.0 ' content();
+
+    &:not(.no-count) {
+      counter-increment: h1;
+
+      &.footnote { counter-increment: fn h1; }
+    }
+  }
+
+  h2, h3 {
+    &[id] { string-set: footnote content(); }
+  }
 }
 
 /* utility classes */

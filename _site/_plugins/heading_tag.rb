@@ -5,7 +5,8 @@ module Jekyll
       # Renders a heading tag, incrementing the ID if necessary and appending the FAQ if one is
       # found.
       def render(context)
-        headings = (context.registers[:page]['headings'] ||= [])
+        page = context.registers[:page]
+        headings = (page['headings'] ||= [])
 
         # set the id, class, style and text tokens
         @markup.strip.split(/( #[^ ]+| \.[^ ]+| \{[^\}]+\})/).each do |token|
@@ -40,19 +41,54 @@ module Jekyll
 
         headings << @id
 
+        #
+        if page['id'] == 'netea-tournament-pack'
+          heading = @text
+          page['h1'] ||= 0
+          page['h2'] ||= 0
+          page['h3'] ||= 0
+          page['footnote'] ||= 0
+
+          if @class.nil? or not @class.include?('no-count')
+            case @tag_name
+              when 'h1'
+                page['h1'] += 1
+                page['h2'] = 0
+                page['h3'] = 0
+                heading = "#{page['h1']}.0"
+              when 'h2'
+                page['h2'] += 1
+                page['h3'] = 0
+                heading = "#{page['h1']}.#{page['h2']}"
+              when 'h3'
+                page['h3'] += 1
+                heading = "#{page['h1']}.#{page['h2']}.#{page['h3']}"
+            end
+          end
+          page['footnote'] += 1
+        end
+
         # if a faq is found...
         if faq = context.registers[:site]
                         .collections['faqs'].docs.find { |doc| doc.data['id'] == @id }
+          faq.data['footnote'] = page['footnote'] if page['footnote']
+          faq.data['heading'] = heading
+
           # add the footnote class
           @class = @class.nil? || @class.empty? ? 'footnote' : @class + ' footnote'
           # and render the FAQ
           faq = IncludeTag.new('include', "faq.html id='#{faq.data['id']}'", []).render(context)
         end
 
-        h  = "<#{@tag_name} id=\"#{@id}\""
+        h  = "<#{@tag_name}"
+        h += " id=\"#{@id}\""
         h += " class=\"#{@class}\"" if @class
         h += " style=\"#{@style}\"" if @style
-        h += ">#{@text}</#{@tag_name}>"
+        h += " data-heading=\"#{heading}\"" if heading
+        h += ">"
+        h += "#{heading} " if heading and heading != @text
+        h += @text
+        h += "</#{@tag_name}>"
         h += "\n#{faq}" if faq
 
         h
