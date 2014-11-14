@@ -50,11 +50,20 @@
 }
 
 /* tp classes */
-.faq > div > .panel-body > dl  > dt {
+aside.faq > div > .panel-body > dl > dt, article.faq > dl > dt {
   &:before { content: 'Q: '; }
 
   + dd:before { content: 'A: '; }
 }
+
+article.faq {
+  > div { font-weight: bold; }
+  > dl {
+    > dt { font-weight: normal; }
+    > dd + dt { margin-top: 1em; }
+  }
+}
+
 
 .unit {
   .clearfix();
