@@ -116,42 +116,42 @@ th, td { padding: 0 0.5em; }
 .footnote:after { font-size: 6pt !important; }
 
 .faq {
-  font-size: 0;
   float: left;
+  font-size: 0;
 
-  > .panel-body > dl {
+  > div {
     float: prince-column-footnote;
     font-size: 8pt;
     line-height: 1.5;
-    margin: 0;
     page-break-inside: avoid;
 
-    &:before {
-      content: string(footnote);
+    &::footnote-call { content: none; }
+
+    > .panel-heading {
       display: block;
       font-weight: bold;
     }
 
-    &::footnote-call { content: none; }
+    > .panel-body > dl {
+      line-height: inherit;
+      margin: 0;
 
-    > dt, > dd {
-      padding-left: 0;
-      position: relative;
+      > dt, > dd {
+        padding-left: 0;
+        position: relative;
 
-      &:before {
-        left: -1.25em;
-        position: absolute;
-        text-align: right;
-        width: 1em;
+        &:before {
+          left: -1.25em;
+          position: absolute;
+          text-align: right;
+          width: 1em;
+        }
       }
+
+      > dt { font-weight: normal; }
     }
-
-    > dt { font-weight: normal; }
   }
-
-  &.float-footnote {
-    > .panel-body > dl { float: footnote; }
-  }
+  &.float-footnote > div { float: footnote; }
 }
 
 .short-story {
@@ -261,7 +261,7 @@ th, td { padding: 0 0.5em; }
     margin-bottom: 3pt;
   }
 
-  .faq > .panel-body > dl {
+  .faq > div {
     margin-left: 1.5em;
   }
 }
@@ -372,23 +372,7 @@ th, td { padding: 0 0.5em; }
 /* generated content */
 title { string-set: title content(), date attr(data-date); }
 
-main {
-  counter-reset: fn h1;
-
-  h1[id] {
-    string-set: footnote content(), section counter(h1) '.0 ' content();
-
-    &:not(.no-count) {
-      counter-increment: h1;
-
-      &.footnote { counter-increment: fn h1; }
-    }
-  }
-
-  h2, h3 {
-    &[id] { string-set: footnote content(); }
-  }
-}
+main h1[id] { string-set: section content(); }
 
 /* utility classes */
 @import 'utilities';

@@ -1,6 +1,10 @@
 {% assign faq = site.data.faqs[include.id] %}
 <aside class="faq panel panel-default{% for c in faq.classes %} {{c}}{% endfor %}">
-  <div class="panel-body">
+  <div>
+    <div class="panel-heading">{{ faq.heading }} {{ faq.name }}</div>
+
+    <div class="panel-body">
 {% if page.layout == 'army_list' %}{{ faq.content | markdownify }}{% else %}{{ faq.content }}{% endif %}
+    </div>
   </div>
 </aside>

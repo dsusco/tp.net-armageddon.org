@@ -1,8 +1,5 @@
 ---
 title: NetEA FAQ
 ---
-{% assign sorted_faqs = (site.faqs | sort: 'footnote') %}{% for faq in sorted_faqs %}<article>
-  <div>{{ faq.heading }} {{ faq.name }}</div>
-
-{{ faq.content }}</article>
-{% endfor %}
+{% assign sorted_faqs = (site.faqs | sort: 'footnote') %}{% for faq in sorted_faqs %}
+{% include faq.html id=faq %}{% endfor %}
