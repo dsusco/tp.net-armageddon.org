@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <main class="container{% if page.layout == 'army_list' %} no-outline{% endif %}">
+    <main class="container{% if page.id == 'netea-faq' %} faq{% endif %}{% if page.layout == 'army_list' %} no-outline{% endif %}">
 {{ content }}
     </main>
 

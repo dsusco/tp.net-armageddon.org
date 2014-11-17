@@ -29,9 +29,7 @@ h2 {
   column-break-before: always;
 }
 h1, h2 { text-transform: uppercase; }
-h3, h4 {
-  .text(10pt);
-}
+h3, h4 { .text(10pt); }
 h1, h2, h3, h4 {
   bookmark-label: none;
   margin: 0;
@@ -152,6 +150,30 @@ aside.faq {
     }
   }
   &.float-footnote > div { float: footnote; }
+}
+
+main.faq {
+  .two-column();
+
+  #table-of-contents { display: none; }
+
+  > article {
+    > h2 {
+      .text(10pt);
+      column-break-before: auto;
+      margin: 0;
+      text-transform: none;
+    }
+
+    > dl > dt {
+      &, + dd {
+        &:before {
+          margin-left: -1.5em;
+          position: absolute;
+        }
+      }
+    }
+  }
 }
 
 .short-story {
