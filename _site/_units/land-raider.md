@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:53:44-04:00"
+date: "2014-11-18T10:59:07-05:00"
 name: "Land Raider"
 type: "AV"
 speed: "25cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units without _Jump Packs_ or _Mounted_.
+    May transport one Terminator unit or two infantry units without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "twin-lascannon"

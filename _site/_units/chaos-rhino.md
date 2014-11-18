@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:54:35-04:00"
+date: "2014-11-18T11:10:28-05:00"
 name: "Chaos Rhino"
 type: "AV"
 speed: "30cm"
@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport two infantry units (except Chaos Space Marine Terminators) without _Jump Packs_ or _Mounted_.
+    May transport two infantry units (except Chaos Space Marine Terminators and Obliterators) without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "combi-bolter"

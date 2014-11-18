@@ -1,5 +1,5 @@
 ---
-date: "2014-10-28T08:30:59-04:00"
+date: "2014-11-18T11:02:10-05:00"
 name: "Thunderhawk Gunship"
 type: "AC/WE"
 speed: "Bomber"
@@ -13,7 +13,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.
+    May transport eight infantry units, Attack Bikes or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.
 weapons:
   -
     id: "battle-cannon"

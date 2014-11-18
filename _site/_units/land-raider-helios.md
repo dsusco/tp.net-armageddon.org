@@ -1,5 +1,5 @@
 ---
-date: "2014-10-30T17:53:36-04:00"
+date: "2014-11-18T10:58:51-05:00"
 name: "Land Raider Helios"
 type: "AV"
 speed: "25cm"
@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one infantry unit without _Jump Packs_ or _Mounted_. Counts as a Land Raider for the purposes of being transported.
+    May transport one infantry unit (except a Terminator unit) without _Jump Packs_ or _Mounted_. Counts as a Land Raider for the purposes of being transported.
 weapons:
   -
     id: "twin-lascannon"
