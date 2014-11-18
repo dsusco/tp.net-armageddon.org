@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:18:52-04:00"
+date: "2014-11-09T14:53:17-05:00"
 name: "Crisis Battlesuits"
 type: "INF"
 speed: "20cm"

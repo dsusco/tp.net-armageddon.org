@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:19:24-04:00"
+date: "2014-11-10T05:36:28-05:00"
 name: "Custodian Class Battleship"
 type: "SC"
 speed: "n/a"

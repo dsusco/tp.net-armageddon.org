@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:19:03-04:00"
+date: "2014-11-09T14:41:52-05:00"
 name: "Kroot Hounds"
 type: "INF"
 speed: "20cm"

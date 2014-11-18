@@ -1,5 +1,5 @@
 ---
-date: "2014-10-29T09:19:18-04:00"
+date: "2014-11-09T14:42:27-05:00"
 name: "Barracuda"
 type: "AC"
 speed: "Fighter"
