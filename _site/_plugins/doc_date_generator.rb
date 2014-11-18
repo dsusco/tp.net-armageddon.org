@@ -6,6 +6,7 @@ module Jekyll
     #
     def generate(site)
       tp = site.data['pages']['netea-tournament-pack']
+      faq_page = site.data['pages']['netea-faq']
 
       site.data['army_lists'].each_value do |army_list|
         updateDate(army_list, site.data['faqs']["#{army_list.data['id']}-army-list"])
@@ -41,6 +42,10 @@ module Jekyll
         end
 
         updateDate(tp, army_list)
+      end
+
+      site.data['faqs'].each_value do |faq|
+        updateDate(faq_page, faq)
       end
     end
 
