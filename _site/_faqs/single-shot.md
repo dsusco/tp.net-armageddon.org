@@ -1,5 +1,5 @@
 ---
 name: Single Shot
 ---
-Can a Single Shot weapon that has fired count for suppression purposes?
+Can a single shot weapon that has fired count for suppression purposes?
 : Yes.

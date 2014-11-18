@@ -9,3 +9,4 @@ Do to hit modifiers for a double, marshal or sustain action apply to flak attack
 
 An aircraft makes its approach move and suffers flak attacks from one unit in a formation. As it makes its disengagement move it comes into range of an other unit from the same formation, may this unit flak attack the aircraft?
 : Yes, each _unit_ may only shoot at an aircraft once per turn.
+*[AA]: Anti-aircraft

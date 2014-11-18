@@ -1,0 +1,23 @@
+---
+name: "Set-up Remaining Formations"
+---
+When is it decided how formations in reserve will enter play?
+: The means by which a formation will be entering play must be declared when forces are being selected ([Forces](#forces-1)).
+
+Can a formation in reserve activate?
+: Yes, and it must enter play.
+
+Is a formation in reserve ever limited in what actions it can carry out?
+: Yes, it must carry out an action that will allow it to enter play. Sometimes it might be limited to carrying out an engage action (e.g. Eldar in reserve with a _Webway Portal_ that is covered by an enemy unit's zone of control).
+
+Must a formation in reserve activate?
+: No, but you may only choose to <q>pass</q> on activating a formation if all the unactivated formations for the turn are in reserve.
+
+Can a formation in reserve with no means to enter play choose to <q>pass</q> (e.g. Necrons in reserve with no _portal_ left to use)?
+: No.
+
+What happens when a formation in reserve fails its action test?
+: If must move as part of a hold action to enter play.
+
+What happens when a formation in reserve fails its action test but can't enter play (e.g. Eldar in reserve with a _Webway Portal_ that is covered by an enemy unit's zone of control)?
+: It takes a Blast marker, and may not take a hold action. It effectively looses its activation.
