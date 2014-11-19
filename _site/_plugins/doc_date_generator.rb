@@ -23,7 +23,7 @@ module Jekyll
 
             if unit.data['weapons']
               unit.data['weapons'].each do |w|
-                updateDate(army_list, site.data['weapons'][w])
+                updateDate(army_list, site.data['weapons'][w['id']])
               end
             end
           end
