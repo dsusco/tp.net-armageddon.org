@@ -6,10 +6,14 @@ speed: "n/a"
 armour: "n/a"
 cc: "n/a"
 ff: "n/a"
+notes:
+  |
+    Armed with either Pin-point Attacks or Orbital Bombardment.
 weapons:
   -
-    id: "pin-point-attack"
-    multiplier: "2"
+    id: "pin-point-attacks-2x"
+    multiplier: "0–1"
   -
     id: "orbital-bombardment-5bp"
+    multiplier: "0–1"
 ---
