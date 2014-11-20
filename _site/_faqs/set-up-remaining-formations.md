@@ -4,6 +4,9 @@ name: "Set-up Remaining Formations"
 Are formations being kept in reserve declared at the same time as other formations are being set up within 15cm of their own side's table edge?
 : No, players declare which formations are going to be kept in reserve first, then take it in turn to set up the remaining formations one at a time, starting with the player with the higher strategy rating.
 
+Can the player with the higher strategy rating choose to make their opponent set up a formation first?
+: No.
+
 When is it decided how formations in reserve will enter play?
 : The means by which a formation will be entering play must be declared when they are declared to be in reserve.
 
