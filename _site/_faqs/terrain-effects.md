@@ -15,5 +15,6 @@ How many infantry can be counted as being in cover when touching an armoured veh
 
 Can an infantry unit claim cover from enemy armoured vehicles?
 : Yes.
+
 *[AV]: Armoured Vehicle
 *[WE]: War Engine

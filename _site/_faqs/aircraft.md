@@ -10,5 +10,6 @@ What is the order of events with regards to aircraft/anti-aircraft/flak attacks,
 3. All anti-aircraft and flak attacks (from any enemy aircraft formations that are within range at the end of the aircraft's approach move and any enemy ground units with an AA value that were in range during the aircraft's approach move) are resolved against the aircraft formation. Before rolling any saving throws it may choose to jink if it doesn't have the Bomber manoeuvre class.
 4. If the aircraft formation has a transport capacity and is carrying out a ground attack it may choose to land, at which point it becomes a ground unit. If any unit's disembark they and the aircraft formation may be subject overwatch.
 5. The aircraft formation resolves its attacks or fights an assault if it decided to air assault.
+
 *[AA]: Anti-aircraft
 *[CAP]: Combat Air Patrol

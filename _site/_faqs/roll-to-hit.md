@@ -12,6 +12,7 @@ If a target formation has infantry in cover and armoured vehicles not in cover w
 
 Can I choose to fire some shots at units in cover (taking the -1 to hit modifier) and the rest at units out of cover?
 : You may not split each type of fire like this. All AP fire from a shooting formation must take the -1 modifier, or not, at the choice of the player. The same holds for AT and MW fire. However, the player could choose to take the -1 for one type of fire and not to for another.
+
 *[AP]: Anti-personnel
 *[AT]: Anti-tank
 *[AV]: Armoured Vehicle

@@ -6,5 +6,6 @@ A unit in base contact uses a first strike extra attack and the enemy unit is re
 
 How does first strike work with supporting fire?
 : First strike doesn't provide a benefit in this situation, treat it like normal.
+
 *[CC]: Close Combat
 *[FF]: Firefight

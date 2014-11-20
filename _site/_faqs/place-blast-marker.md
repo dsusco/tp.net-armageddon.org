@@ -9,5 +9,6 @@ Can a formation of units armed only with Small Arms fire at an enemy formation t
 
 Can units that are out of range of an enemy formation fire at them to place a Blast marker?
 : No.
+
 *[AP]: Anti-personnel
 *[AT]: Anti-tank

@@ -24,5 +24,6 @@ How do you resolve hits for a barrage template that's over different kinds of un
 
 How are barrages where some barrage points have special abilities resolved?
 : When firing in a barrage, a special weapon ability can only be used if all of the units firing have it. If a special ability is used in a barrage then those barrage weapons that don't have the special ability may not fire in the barrage, nor may they fire a separate barrage during their activation.
+
 *[AV]: Armoured Vehicle
 *[INF]: Infantry
