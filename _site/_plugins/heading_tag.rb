@@ -1,6 +1,6 @@
 module Jekyll
   module Tags
-    # A tag for headings which generates an ID and renders a FAQ associated with it.
+    # A tag for headings which generates an ID and renders any FAQ associated with it.
     class Heading < Liquid::Tag
       # Renders a heading tag, incrementing the ID if necessary and appending the FAQ if one is
       # found.
@@ -15,14 +15,13 @@ module Jekyll
           if match = token.match(/^#(.+)$/)
             @id = context[match[1]] || match[1]
           elsif match = token.match(/^\.(.+)$/)
-            classes = match[1].split('.').join(' ')
-            @class = @class.nil? ? classes : @class += " #{classes}"
+            @class = match[1].split('.').join(' ')
           elsif match = token.match(/^\{(.+)\}$/)
             @style = @style.nil? ? match[1] : @style += ";#{match[1]}"
           else
             unless token.empty?
               @text = context[token] || token
-              @id = @text.downcase.gsub(/&amp;/, 'and').gsub(/[ \/\\]/, '-').gsub(/[^\w\-]/, '') unless @id
+              @id ||= @text.downcase.gsub(/&amp;/, 'and').gsub(/[ \/\\]/, '-').gsub(/[^\w\-]/, '')
             end
           end
         end
@@ -41,13 +40,13 @@ module Jekyll
 
         headings << @id
 
-        #
+        # set the data-heading attribute (a three level heading counter)
         if page['id'] == 'netea-tournament-pack'
           heading = @text
           page['h1'] ||= 0
           page['h2'] ||= 0
           page['h3'] ||= 0
-          page['footnote'] ||= 0
+          page['footnote'] ||= 0 # this is used to order the FAQs on the FAQ page
 
           if @class.nil? or not @class.include?('no-count')
             case @tag_name
@@ -71,6 +70,7 @@ module Jekyll
         # if a faq is found...
         if faq = context.registers[:site]
                         .collections['faqs'].docs.find { |doc| doc.data['id'] == @id }
+          # set some data for the FAQ page
           faq.data['footnote'] = page['footnote'] if page['footnote']
           faq.data['heading'] = heading
 
@@ -80,6 +80,7 @@ module Jekyll
           faq = IncludeTag.new('include', "faq.html id='#{faq.data['id']}'", []).render(context)
         end
 
+        # build the HTML to render
         h  = "<#{@tag_name}"
         h += " id=\"#{@id}\""
         h += " class=\"#{@class}\"" if @class
