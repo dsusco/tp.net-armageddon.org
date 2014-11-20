@@ -93,7 +93,7 @@ $(function () {
     }
   });
 
-  // watch for window resizes
+  // watch for window resizes...
   $window.on('delayedResize', {milliseconds: 100}, function () {
     // as the heading positions change and need to be updated in the ToC
     $('a', $toc_ol).each(function () {

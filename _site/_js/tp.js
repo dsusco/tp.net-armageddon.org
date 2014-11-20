@@ -7,6 +7,7 @@ $(function () {
     $('html').toggleClass('no-prince prince');
   }
 
+  // build the table of contents
   $('h1[id], h2[id], h3[id]').each(function () {
     var $h = $(this),
       $a = $('<a>', { href: '#' + $h.prop('id') }).append($h.text());
@@ -20,12 +21,15 @@ $(function () {
     $('#table-of-contents ol').append($('<li>').append($a));
   });
 
+  // for each internal link that's not in the table of contents...
   $('main:not(.no-outline) section:not(#table-of-contents) a[href^="#"]').each(function () {
     var $a = $(this);
 
+    // replace its text with the linked to heading's data-heading attribute
     this.innerHTML = $($a.attr('href')).data('heading');
   });
 
+  // zebra stripe all army list table bodies that don't contain another army list table
   $('.table-army-list:not(:has(.table-army-list)) > tbody').each(function () {
     var $tbody = $(this),
       cols = $tbody.siblings('colgroup').children('col').length,
