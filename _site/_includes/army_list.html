@@ -14,7 +14,6 @@
     <h4>Special Rules</h4>
 
 {{ army_list.special_rules_text | markdownify }}{% endif %}{% for sr in army_list.special_rules %}
-
 {% include_special_rule id=sr %}{% endfor %}
   </div>
 
