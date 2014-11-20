@@ -47,6 +47,8 @@ module Jekyll
       site.data['faqs'].each_value do |faq|
         updateDate(faq_page, faq)
       end
+
+      updateDate(tp, faq_page)
     end
 
     private
