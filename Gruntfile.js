@@ -190,7 +190,7 @@
         prince: {
           command: [
             'prince --script=public_html/js/tp-print.min.js --style=public_html/css/tp-print.min.css -o public_html/pdfs/netea-<%= grunt.config("output-date") %>.pdf <%= grunt.config("input") %>',
-            'sed -i "0,/\\/Annots /{s~/Annots \\[\\([0-9]\\+ 0 R \\)\\{2\\}~/Annots [~}" public_html/pdfs/netea-<%= grunt.config("output-date") %>.pdf'
+            'ruby -EASCII-8BIT -i -p -e \'$_.sub!(/^\\/Annots \\[\\d+ \\d R ?/, "/Annots [") unless @found;@found = !($_ =~ /^\\/Annots \\[/).nil?\' public_html/pdfs/netea-<%= grunt.config("output-date") %>.pdf'
           ].join('&&')
         }
       },
