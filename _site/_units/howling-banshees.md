@@ -10,4 +10,6 @@ weapons:
     id: "shuriken-pistols"
   -
     id: "banshee-masks"
+special_rules:
+  - "infiltrator"
 ---
