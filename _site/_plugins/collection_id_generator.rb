@@ -18,17 +18,4 @@ module Jekyll
       end
     end
   end
-
-  class CounterGenerator < Generator
-    priority :lowest
-    safe true
-
-    def generate(site)
-      weapons = []
-      site.data['units'].each_value do |u|
-        weapons += u.data['weapons'].map{ |w| w['id'] } if u.data['weapons']
-      end
-      p site.collections['weapons'].docs.map { |d| d.data['id'] } - weapons.uniq!
-    end
-  end
 end
