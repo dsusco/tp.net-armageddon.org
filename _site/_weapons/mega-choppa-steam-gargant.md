@@ -1,10 +1,10 @@
 ---
-name: "Power Fists"
+name: "Mega Choppa"
 modes:
   -
     range: "(bc)"
     firepower: "Assault Weapons"
     special_rules:
-      - "extra-attacks-2"
-      - "macro-weapon"
+      - "extra-attacks-1"
+      - "titan-killer-d3"
 ---

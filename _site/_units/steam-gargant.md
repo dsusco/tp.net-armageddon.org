@@ -18,7 +18,7 @@ weapons:
     id: "soopagun"
     multiplier: "0–2"
   -
-    id: "mega-choppa"
+    id: "mega-choppa-steam-gargant"
     multiplier: "0–2"
   -
     id: "fist-of-gork"
