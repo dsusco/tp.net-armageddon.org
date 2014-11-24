@@ -1,5 +1,4 @@
 ---
-date: "<%= date %>"
 name: "<%= name %>"
 modes:<% modes.forEach(function (m) { %>
   -<% if (m.boolean !== '') { %>

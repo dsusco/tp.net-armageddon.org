@@ -1,5 +1,4 @@
 ---
-date: "<%= date %>"
 name: "<%= name %>"
 type: "<%= type %>"
 speed: "<%= speed %>"

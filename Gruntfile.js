@@ -9,12 +9,7 @@
   module.exports = function (grunt) {
     var
       writeDoc = function (file, template, obj) {
-        if (!grunt.file.exists(file) ||
-            !moment(yaml.safeLoad(grunt.file.read(file).match(/---\n((.|\n)*)\n---/m)[1]).date).isSame(moment(obj.date))) {
-          console.log('Writing to ' + file);
-
-          grunt.file.write(file, grunt.template.process(template, { data: obj }));
-        }
+        grunt.file.write(file, grunt.template.process(template, { data: obj }));
       },
       getIdArray = function (str, sort) {
         try {
