@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:26:54-04:00"
 name: "Thunderhawk Close Air Support"
 type: "AC/WE"
 speed: "Bomber"

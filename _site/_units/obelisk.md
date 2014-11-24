@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:16-04:00"
 name: "Obelisk"
 type: "AV"
 speed: "30cm"

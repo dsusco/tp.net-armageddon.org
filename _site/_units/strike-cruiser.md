@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:02:24-05:00"
 name: "Strike Cruiser"
 type: "SC"
 speed: "n/a"

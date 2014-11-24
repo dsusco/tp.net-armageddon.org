@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T22:43:24-04:00"
 name: "War Scythes"
 modes:
   -

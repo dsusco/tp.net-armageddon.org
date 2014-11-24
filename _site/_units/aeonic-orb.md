@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:40-04:00"
 name: "Aeonic Orb"
 type: "WE"
 speed: "20cm"

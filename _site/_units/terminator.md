@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T10:56:33-05:00"
 name: "Terminator"
 type: "INF"
 speed: "15cm"

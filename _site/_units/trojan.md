@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:03:21-04:00"
 name: "Trojan"
 type: "AV"
 speed: "20cm"

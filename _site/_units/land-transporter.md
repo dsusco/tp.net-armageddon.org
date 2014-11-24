@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:14:57-04:00"
 name: "Land Transporter"
 type: "LV"
 speed: "30cm"

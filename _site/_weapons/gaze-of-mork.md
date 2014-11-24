@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:23:13-04:00"
 name: "Gaze of Mork"
 modes:
   -

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:04:31-04:00"
 name: "Deathstrike Silo"
 type: "WE"
 speed: "Immobile"

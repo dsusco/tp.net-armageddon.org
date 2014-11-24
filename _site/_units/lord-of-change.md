@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:17:40-04:00"
 name: "Lord of Change"
 type: "WE"
 speed: "30cm"

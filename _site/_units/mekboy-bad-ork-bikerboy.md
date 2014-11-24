@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:08:25-04:00"
 name: "Mekboy Bad Ork Bikerboy"
 type: "INF"
 speed: "40cm"

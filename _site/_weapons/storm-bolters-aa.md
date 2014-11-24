@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:40:34-04:00"
 name: "Storm Bolters"
 modes:
   -

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:18-04:00"
 name: "Deathstrike"
 type: "AV"
 speed: "20cm"

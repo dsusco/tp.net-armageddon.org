@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T21:14:18-04:00"
 name: "Sawn-Off Custom Blasta"
 modes:
   -

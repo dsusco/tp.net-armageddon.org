@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:45:15-04:00"
 name: "Medusa"
 type: "AV"
 speed: "20cm"

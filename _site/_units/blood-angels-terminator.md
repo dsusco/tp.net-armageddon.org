@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T12:08:32-04:00"
 name: "Blood Angels Terminator"
 type: "INF"
 speed: "15cm"

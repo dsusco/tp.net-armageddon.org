@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:28:14-04:00"
 name: "Arch-Heretic"
 type: "CH"
 speed: "n/a"

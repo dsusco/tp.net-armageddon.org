@@ -1,5 +1,4 @@
 ---
-date: "2014-10-23T08:19:02-04:00"
 name: "Doomburner"
 modes:
   -

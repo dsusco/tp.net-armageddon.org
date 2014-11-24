@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:35:54-04:00"
 name: "Battlekroozer"
 type: "SC"
 speed: "n/a"

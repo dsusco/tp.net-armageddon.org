@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T16:10:31-04:00"
 name: "Augmented Summoning"
 classes:
   - one-half

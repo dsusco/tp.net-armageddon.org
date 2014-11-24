@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:42:07-05:00"
 name: "Krootox"
 type: "INF"
 speed: "15cm"

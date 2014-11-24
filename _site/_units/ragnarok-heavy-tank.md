@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:01:39-04:00"
 name: "Ragnarok Heavy Tank"
 type: "CH"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:20-04:00"
 name: "Hellhound"
 type: "AV"
 speed: "30cm"

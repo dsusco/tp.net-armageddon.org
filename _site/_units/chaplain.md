@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:29:09-04:00"
 name: "Chaplain"
 type: "CH"
 speed: "n/a"

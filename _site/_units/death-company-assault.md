@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T12:21:20-04:00"
 name: "Death Company Assault"
 type: "INF"
 speed: "30cm"

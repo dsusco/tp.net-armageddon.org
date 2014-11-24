@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:24-04:00"
 name: "Chaos Dreadnought"
 type: "AV"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:02-04:00"
 name: "Lictor"
 type: "LV"
 speed: "20cm"

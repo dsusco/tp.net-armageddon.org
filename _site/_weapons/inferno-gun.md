@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:46:03-04:00"
 name: "Inferno Gun"
 modes:
   -

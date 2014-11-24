@@ -1,5 +1,4 @@
 ---
-date: "2014-03-11T09:35:11-04:00"
 name: "Widowmaker"
 modes:
   -

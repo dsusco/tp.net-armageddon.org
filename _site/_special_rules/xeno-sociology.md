@@ -1,5 +1,4 @@
 ---
-date: "2014-10-15T14:19:44-04:00"
 name: "Xeno-Sociology"
 classes:
   - one-half

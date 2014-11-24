@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:17:30-04:00"
 name: "Fist of Gork"
 modes:
   -

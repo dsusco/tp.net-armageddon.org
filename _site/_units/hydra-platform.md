@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:32:59-04:00"
 name: "Hydra Platform"
 type: "LV"
 speed: "Immobile"

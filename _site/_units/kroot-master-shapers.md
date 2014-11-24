@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:40:45-05:00"
 name: "Kroot Master Shapers"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:42-04:00"
 name: "Abattoir"
 type: "WE"
 speed: "20cm"

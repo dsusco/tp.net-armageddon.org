@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:07:53-04:00"
 name: "Energy Pulse"
 modes:
   -

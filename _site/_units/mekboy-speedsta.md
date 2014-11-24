@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:26:29-04:00"
 name: "Mekboy Speedsta"
 type: "AV"
 speed: "35cm"

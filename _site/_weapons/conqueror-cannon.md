@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T13:03:59-04:00"
 name: "Conqueror Cannon"
 modes:
   -

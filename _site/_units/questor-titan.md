@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:30:24-04:00"
 name: "Questor Titan"
 type: "WE"
 speed: "35cm"

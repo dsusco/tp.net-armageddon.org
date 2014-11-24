@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:23:04-04:00"
 name: "Xeno-Biology"
 classes:
   - one-half

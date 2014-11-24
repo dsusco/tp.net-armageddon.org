@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:54:18-04:00"
 name: "Supreme Commander"
 type: "INF"
 speed: "15cm"

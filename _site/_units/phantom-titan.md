@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:28-04:00"
 name: "Phantom Titan"
 type: "WE"
 speed: "25cm"

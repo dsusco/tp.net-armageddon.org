@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:52:56-04:00"
 name: "Baneblade"
 type: "WE"
 speed: "15cm"

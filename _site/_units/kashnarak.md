@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:00-04:00"
 name: "Kashnarak"
 type: "WE"
 speed: "20cm"

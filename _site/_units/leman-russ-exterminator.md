@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:45:18-04:00"
 name: "Leman Russ Exterminator"
 type: "AV"
 speed: "20cm"

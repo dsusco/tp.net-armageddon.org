@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:26-04:00"
 name: "Support Weapon Platform"
 type: "INF"
 speed: "15cm"

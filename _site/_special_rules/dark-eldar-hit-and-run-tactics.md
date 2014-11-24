@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:24:26-04:00"
 name: "Hit &amp; Run Tactics"
 classes:
   - one-third

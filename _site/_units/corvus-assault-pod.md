@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:23:44-04:00"
 name: "Corvus Assault Pod"
 type: "CH"
 speed: "n/a"

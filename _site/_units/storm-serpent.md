@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:10-04:00"
 name: "Storm Serpent"
 type: "WE"
 speed: "25cm"

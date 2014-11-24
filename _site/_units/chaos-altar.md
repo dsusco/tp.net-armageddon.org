@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:28:57-04:00"
 name: "Chaos Altar"
 type: "WE"
 speed: "15cm"

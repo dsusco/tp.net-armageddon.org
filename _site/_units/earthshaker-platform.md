@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:04:24-04:00"
 name: "Earthshaker Platform"
 type: "LV"
 speed: "Immobile"

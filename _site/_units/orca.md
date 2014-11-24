@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:45:08-05:00"
 name: "Orca"
 type: "AC/WE"
 speed: "Bomber"

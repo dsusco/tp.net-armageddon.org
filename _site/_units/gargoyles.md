@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:12-04:00"
 name: "Gargoyles"
 type: "INF"
 speed: "30cm"

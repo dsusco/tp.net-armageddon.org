@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:06:05-05:00"
 name: "Wave Serpent"
 type: "AV"
 speed: "35cm"

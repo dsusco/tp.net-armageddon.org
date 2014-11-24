@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:53:52-04:00"
 name: "Dark Lance"
 modes:
   -

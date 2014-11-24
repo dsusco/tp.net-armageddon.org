@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:15:38-04:00"
 name: "Seeker Missiles"
 modes:
   -

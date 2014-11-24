@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T11:44:05-04:00"
 name: "Blood Angels Captain"
 type: "CH"
 speed: "n/a"

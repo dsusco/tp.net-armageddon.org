@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:14:38-04:00"
 name: "Silenced Burst Cannons"
 modes:
   -

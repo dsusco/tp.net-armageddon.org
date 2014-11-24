@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T17:58:45-04:00"
 name: "Valkyrie"
 type: "AV"
 speed: "35cm"

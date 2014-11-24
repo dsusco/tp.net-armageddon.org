@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:23-04:00"
 name: "Monolith"
 type: "AV"
 speed: "15cm"

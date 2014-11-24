@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:10:16-05:00"
 name: "Chaos Land Raider"
 type: "AV"
 speed: "25cm"

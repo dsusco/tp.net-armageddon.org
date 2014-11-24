@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T10:58:51-05:00"
 name: "Land Raider Helios"
 type: "AV"
 speed: "25cm"

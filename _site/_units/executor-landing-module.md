@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:38:53-04:00"
 name: "Executor Landing Module"
 type: "WE"
 speed: "25cm"

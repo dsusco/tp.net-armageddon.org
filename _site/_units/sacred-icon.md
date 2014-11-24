@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:35:04-04:00"
 name: "Sacred Icon"
 type: "CH"
 speed: "n/a"

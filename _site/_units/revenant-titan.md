@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:19-04:00"
 name: "Revenant Titan"
 type: "WE"
 speed: "35cm"

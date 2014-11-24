@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:18:07-04:00"
 name: "Flame Cannon"
 modes:
   -

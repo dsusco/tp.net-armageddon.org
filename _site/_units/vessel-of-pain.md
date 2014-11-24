@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:18:36-04:00"
 name: "Vessel of Pain"
 type: "WE"
 speed: "30cm"

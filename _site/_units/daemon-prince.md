@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:25:19-04:00"
 name: "Daemon Prince"
 type: "INF"
 speed: "15cm<br/>(30cm)"

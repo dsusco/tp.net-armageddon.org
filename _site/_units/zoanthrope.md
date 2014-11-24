@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:55:49-04:00"
 name: "Zoanthrope"
 type: "LV"
 speed: "15cm"

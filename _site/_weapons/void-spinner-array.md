@@ -1,5 +1,4 @@
 ---
-date: "2014-02-14T12:14:20-05:00"
 name: "Void Spinner Array"
 modes:
   -

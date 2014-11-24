@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:14-04:00"
 name: "Biovore"
 type: "LV"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:40:00-05:00"
 name: "Piranha"
 type: "LV"
 speed: "35cm"

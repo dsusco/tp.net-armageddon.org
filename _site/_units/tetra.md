@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:50:55-05:00"
 name: "Tetra"
 type: "LV"
 speed: "35cm"

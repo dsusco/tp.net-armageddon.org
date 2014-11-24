@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:43:44-04:00"
 name: "Defense Laser"
 modes:
   -

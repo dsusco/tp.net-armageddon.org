@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:41:41-04:00"
 name: "Battlehead"
 modes:
   -

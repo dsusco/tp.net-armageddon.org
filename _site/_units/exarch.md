@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:49:07-04:00"
 name: "Exarch"
 type: "CH"
 speed: "n/a"

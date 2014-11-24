@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:43-04:00"
 name: "Rough Riders"
 type: "INF"
 speed: "20cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:24-04:00"
 name: "Dactylis"
 type: "AV"
 speed: "15cm"

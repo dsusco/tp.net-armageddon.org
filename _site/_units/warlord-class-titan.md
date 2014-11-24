@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T11:45:13-04:00"
 name: "Warlord Class Titan"
 type: "WE"
 speed: "15cm"

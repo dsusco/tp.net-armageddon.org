@@ -1,5 +1,4 @@
 ---
-date: "2014-04-17T13:38:41-04:00"
 name: "Bio-Cannon"
 modes:
   -

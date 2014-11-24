@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T14:26:22-04:00"
 name: "Power Weapon"
 modes:
   -

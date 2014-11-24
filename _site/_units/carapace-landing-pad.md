@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T16:22:22-04:00"
 name: "Carapace Landing Pad"
 type: "CH"
 speed: "n/a"

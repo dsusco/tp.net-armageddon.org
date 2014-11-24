@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:32:36-04:00"
 name: "Salamander Terminator"
 type: "INF"
 speed: "15cm"
@@ -12,7 +11,7 @@ special_rules:
   - "thick-rear-armour"
 notes:
   |
-    Counts as a Terminator unit for the purposes of being transported. 
+    Counts as a Terminator unit for the purposes of being transported.
 weapons:
   -
     id: "heavy-flamer"

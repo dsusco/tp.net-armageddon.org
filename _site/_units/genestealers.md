@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:11-04:00"
 name: "Genestealers"
 type: "INF"
 speed: "20cm"

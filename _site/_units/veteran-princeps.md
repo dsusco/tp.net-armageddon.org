@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:36:31-04:00"
 name: "Veteran Princeps"
 type: "CH"
 speed: "n/a"

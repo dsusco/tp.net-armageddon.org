@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:03:46-04:00"
 name: "Heavy AA Platform"
 type: "LV"
 speed: "Immobile"

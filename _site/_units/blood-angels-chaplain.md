@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T11:43:24-04:00"
 name: "Blood Angels Chaplain"
 type: "CH"
 speed: "n/a"

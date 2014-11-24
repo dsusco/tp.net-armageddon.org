@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:31:08-04:00"
 name: "Whirlwind"
 type: "AV"
 speed: "30cm"

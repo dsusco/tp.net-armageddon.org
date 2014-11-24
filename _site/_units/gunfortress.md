@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:00:46-04:00"
 name: "Gunfortress"
 type: "WE"
 speed: "30cm"

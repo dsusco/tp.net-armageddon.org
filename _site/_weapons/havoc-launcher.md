@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:27:28-04:00"
 name: "Havoc Launcher"
 modes:
   -

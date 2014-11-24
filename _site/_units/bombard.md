@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:03-04:00"
 name: "Bombard"
 type: "AV"
 speed: "20cm"

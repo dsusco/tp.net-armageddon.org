@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:18:27-04:00"
 name: "Barge of Pleasure"
 type: "WE"
 speed: "30cm"

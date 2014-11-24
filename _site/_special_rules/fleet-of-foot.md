@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:17:50-04:00"
 name: "Fleet of Foot"
 classes:
   - one-third

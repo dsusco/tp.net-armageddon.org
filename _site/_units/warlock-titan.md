@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T09:56:21-05:00"
 name: "Warlock Titan"
 type: "WE"
 speed: "25cm"

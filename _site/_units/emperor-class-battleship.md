@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T11:44:27-04:00"
 name: "Emperor Class Battleship"
 type: "SC"
 speed: "n/a"

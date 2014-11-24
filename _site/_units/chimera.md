@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T17:58:30-04:00"
 name: "Chimera"
 type: "AV"
 speed: "30cm"

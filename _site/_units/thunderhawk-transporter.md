@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:27:02-04:00"
 name: "Thunderhawk Transporter"
 type: "AC/WE"
 speed: "Bomber"

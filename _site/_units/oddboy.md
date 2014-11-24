@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:35:28-04:00"
 name: "Oddboy"
 type: "CH"
 speed: "n/a"

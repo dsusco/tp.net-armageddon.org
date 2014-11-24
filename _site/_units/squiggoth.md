@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:09:25-04:00"
 name: "Squiggoth"
 type: "LV"
 speed: "20cm"

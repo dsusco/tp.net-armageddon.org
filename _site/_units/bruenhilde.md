@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:01:15-04:00"
 name: "Bruenhilde"
 type: "LV"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T11:45:36-04:00"
 name: "Warhound Class Titan"
 type: "WE"
 speed: "30cm"

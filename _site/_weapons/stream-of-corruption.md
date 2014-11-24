@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T21:16:04-04:00"
 name: "Stream of Corruption"
 modes:
   -

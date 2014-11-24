@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:32:49-04:00"
 name: "Predator Incinerator"
 type: "AV"
 speed: "30cm"

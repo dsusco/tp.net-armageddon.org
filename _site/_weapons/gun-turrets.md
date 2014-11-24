@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:24:31-04:00"
 name: "Gun Turrets"
 modes:
   -

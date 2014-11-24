@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:44:07-04:00"
 name: "Bile Pods"
 modes:
   -

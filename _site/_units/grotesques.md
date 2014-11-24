@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:38:54-04:00"
 name: "Grotesques"
 type: "INF"
 speed: "15cm"

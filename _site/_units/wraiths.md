@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:52:56-04:00"
 name: "Wraiths"
 type: "INF"
 speed: "30cm"

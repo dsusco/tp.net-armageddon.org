@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:21:32-04:00"
 name: "Centaur"
 type: "LV"
 speed: "35cm"

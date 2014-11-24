@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:43:28-05:00"
 name: "Tiger Shark AX-1-0"
 type: "AC"
 speed: "Bomber"

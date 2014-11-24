@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:01:59-05:00"
 name: "Landing Craft"
 type: "AC/WE"
 speed: "Bomber"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:23:42-04:00"
 name: "Warbarque"
 type: "WE"
 speed: "20cm"

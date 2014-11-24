@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T20:55:20-04:00"
 name: "Horrific Mutations"
 modes:
   -

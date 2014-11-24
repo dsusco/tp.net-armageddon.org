@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:25:25-04:00"
 name: "Regimental HQs"
 classes:
   - column-break

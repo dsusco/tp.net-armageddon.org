@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:03:42-04:00"
 name: "Macharius"
 type: "WE"
 speed: "15cm"

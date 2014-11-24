@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:39:42-04:00"
 name: "Phase Out"
 ---
 When a Necron formation becomes broken, it does not just fall back, but also vanishes from the battlefield without leaving any proof of its existence.

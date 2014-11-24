@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:18:20-04:00"
 name: "The Deceiver"
 type: "WE"
 speed: "15cm"

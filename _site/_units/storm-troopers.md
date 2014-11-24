@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:54:00-04:00"
 name: "Storm Troopers"
 type: "INF"
 speed: "15cm"

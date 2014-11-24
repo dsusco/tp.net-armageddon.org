@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:02-04:00"
 name: "Perditor"
 type: "WE"
 speed: "15cm"

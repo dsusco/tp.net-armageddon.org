@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:23-04:00"
 name: "Void Spinner"
 type: "WE"
 speed: "25cm"

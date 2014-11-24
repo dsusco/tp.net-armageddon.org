@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:04:40-04:00"
 name: "Death Riders"
 type: "INF"
 speed: "20cm"

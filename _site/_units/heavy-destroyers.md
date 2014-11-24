@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:33-04:00"
 name: "Heavy Destroyers"
 type: "INF"
 speed: "25cm"

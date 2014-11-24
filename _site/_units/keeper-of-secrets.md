@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:17:22-04:00"
 name: "Keeper of Secrets"
 type: "WE"
 speed: "15cm"

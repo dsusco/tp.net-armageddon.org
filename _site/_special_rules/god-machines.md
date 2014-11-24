@@ -1,5 +1,4 @@
 ---
-date: "2014-10-16T16:01:05-04:00"
 name: "God Machines"
 classes:
   - column-break

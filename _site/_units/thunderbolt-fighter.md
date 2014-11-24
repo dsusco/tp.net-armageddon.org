@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T11:44:18-04:00"
 name: "Thunderbolt Fighter"
 type: "AC"
 speed: "Fighter-Bomber"

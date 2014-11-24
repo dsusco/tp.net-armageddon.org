@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:19-04:00"
 name: "Griffon"
 type: "AV"
 speed: "30cm"

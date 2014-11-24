@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:45:41-04:00"
 name: "Commissar"
 type: "CH"
 speed: "n/a"

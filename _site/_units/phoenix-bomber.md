@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:26-04:00"
 name: "Phoenix Bomber"
 type: "AC"
 speed: "Fighter-Bomber"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:21:20-04:00"
 name: "White Scars Bike"
 type: "INF"
 speed: "35cm"

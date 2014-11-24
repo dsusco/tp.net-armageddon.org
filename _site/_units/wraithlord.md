@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:04-04:00"
 name: "Wraithlord"
 type: "AV"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:20:32-04:00"
 name: "Slavebringer Assault Boat"
 type: "AC/WE"
 speed: "Bomber"

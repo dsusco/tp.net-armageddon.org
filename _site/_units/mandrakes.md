@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:01-04:00"
 name: "Mandrakes"
 type: "INF"
 speed: "15cm"

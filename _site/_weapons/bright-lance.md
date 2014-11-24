@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:46:09-04:00"
 name: "Bright Lance"
 modes:
   -

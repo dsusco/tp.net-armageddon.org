@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:44:41-04:00"
 name: "Stormhammer"
 type: "WE"
 speed: "15cm"

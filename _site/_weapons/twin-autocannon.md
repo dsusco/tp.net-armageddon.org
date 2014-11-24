@@ -1,5 +1,4 @@
 ---
-date: "2014-03-24T10:14:42-04:00"
 name: "Twin Autocannon"
 modes:
   -

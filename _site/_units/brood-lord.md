@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:22-04:00"
 name: "Brood Lord"
 type: "CH"
 speed: "n/a"

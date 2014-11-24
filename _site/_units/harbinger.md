@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:35:09-04:00"
 name: "Harbinger"
 type: "AC/WE"
 speed: "Bomber"

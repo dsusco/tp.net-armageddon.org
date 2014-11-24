@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:45:22-04:00"
 name: "Destroyer Tank Hunter"
 type: "AV"
 speed: "20cm"

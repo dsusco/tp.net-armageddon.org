@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:10:41-05:00"
 name: "Devastation Class Cruiser"
 type: "SC"
 speed: "n/a"

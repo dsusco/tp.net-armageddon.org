@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:10-04:00"
 name: "Harridan"
 type: "WE"
 speed: "35cm"

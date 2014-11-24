@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T22:39:18-04:00"
 name: "Talos Claws"
 modes:
   -

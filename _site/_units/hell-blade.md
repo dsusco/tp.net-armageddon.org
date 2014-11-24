@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:35:07-04:00"
 name: "Hell Blade"
 type: "AC"
 speed: "Fighter"

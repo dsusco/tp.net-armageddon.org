@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T17:58:58-04:00"
 name: "Ogryns"
 type: "INF"
 speed: "15cm"

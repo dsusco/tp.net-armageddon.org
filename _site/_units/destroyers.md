@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:38-04:00"
 name: "Destroyers"
 type: "INF"
 speed: "25cm"

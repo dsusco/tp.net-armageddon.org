@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:40:02-04:00"
 name: "Autarch Close Combat Weapon"
 modes:
   -

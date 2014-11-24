@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:28:49-04:00"
 name: "Attack Bike"
 type: "LV"
 speed: "35cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:20:55-04:00"
 name: "Fusion Guns"
 modes:
   -

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:49:28-04:00"
 name: "Imperator Class Titan"
 type: "WE"
 speed: "15cm"

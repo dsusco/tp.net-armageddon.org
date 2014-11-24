@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:49:00-04:00"
 name: "Farseer"
 type: "INF"
 speed: "15cm"

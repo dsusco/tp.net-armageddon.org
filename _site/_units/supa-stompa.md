@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:35:18-04:00"
 name: "Supa-Stompa"
 type: "WE"
 speed: "15cm"

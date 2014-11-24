@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:25:55-04:00"
 name: "Power Fields"
 classes:
   - one-third

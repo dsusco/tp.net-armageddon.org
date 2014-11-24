@@ -1,5 +1,4 @@
 ---
-date: "2014-11-07T09:26:27-05:00"
 name: "Support Missile"
 type: "CH"
 speed: "n/a"

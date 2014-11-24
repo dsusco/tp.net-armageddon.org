@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:32:40-04:00"
 name: "Salamander Dreadnought"
 type: "AV"
 speed: "15cm"
@@ -10,7 +9,7 @@ special_rules:
   - "walker"
 notes:
   |
-    Armed with either a Missile Launcher and Twin Lascannon, or a Power Fist and Multi-melta. Counts as a Dreadnought for the purposes of being transported. 
+    Armed with either a Missile Launcher and Twin Lascannon, or a Power Fist and Multi-melta. Counts as a Dreadnought for the purposes of being transported.
 weapons:
   -
     id: "missile-launcher"

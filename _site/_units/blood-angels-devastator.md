@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T12:00:27-04:00"
 name: "Blood Angels Devastator"
 type: "INF"
 speed: "15cm"

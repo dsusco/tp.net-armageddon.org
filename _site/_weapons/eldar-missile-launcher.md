@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:07:33-04:00"
 name: "Eldar Missile Launcher"
 modes:
   -

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T14:25:33-04:00"
 name: "Multi-melta"
 modes:
   -

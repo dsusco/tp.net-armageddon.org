@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:29:04-04:00"
 name: "Captain"
 type: "CH"
 speed: "n/a"

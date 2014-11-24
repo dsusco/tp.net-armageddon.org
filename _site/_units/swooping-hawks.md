@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:25-04:00"
 name: "Swooping Hawks"
 type: "INF"
 speed: "35cm"

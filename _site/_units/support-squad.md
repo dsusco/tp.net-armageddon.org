@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:54:06-04:00"
 name: "Support Squad"
 type: "INF"
 speed: "15cm"

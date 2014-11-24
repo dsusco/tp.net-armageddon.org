@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:35:38-04:00"
 name: "Great Gargant"
 type: "WE"
 speed: "15cm"

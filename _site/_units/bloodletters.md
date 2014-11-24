@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:30-04:00"
 name: "Bloodletters"
 type: "INF"
 speed: "15cm"

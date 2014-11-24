@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:49:19-05:00"
 name: "Protector Class Cruiser"
 type: "SC"
 speed: "n/a"

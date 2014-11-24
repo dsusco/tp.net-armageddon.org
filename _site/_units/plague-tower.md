@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:15:50-04:00"
 name: "Plague Tower"
 type: "WE"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:45:16-04:00"
 name: "Rocket Launcher"
 modes:
   -

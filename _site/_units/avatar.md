@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:49:23-04:00"
 name: "Avatar"
 type: "WE"
 speed: "15cm"

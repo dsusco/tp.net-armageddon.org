@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:02-04:00"
 name: "Tomb Spyder"
 type: "AV"
 speed: "15cm"

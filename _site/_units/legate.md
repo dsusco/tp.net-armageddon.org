@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:34:20-04:00"
 name: "Legate"
 type: "CH"
 speed: "n/a"

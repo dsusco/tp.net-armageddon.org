@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:33:00-04:00"
 name: "Plaguebearers"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:51:14-05:00"
 name: "Skyray"
 type: "AV"
 speed: "30cm"

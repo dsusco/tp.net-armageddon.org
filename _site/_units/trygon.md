@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:55:52-04:00"
 name: "Trygon"
 type: "WE"
 speed: "25cm"

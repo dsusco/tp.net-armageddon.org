@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:13-04:00"
 name: "Shining Spears"
 type: "INF"
 speed: "35cm"

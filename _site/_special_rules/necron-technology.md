@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:26:13-04:00"
 name: "Necron Technology"
 ---
 Necron

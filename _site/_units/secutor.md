@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:36:00-04:00"
 name: "Secutor"
 type: "INF"
 speed: "15cm"

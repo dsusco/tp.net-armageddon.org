@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:26:42-04:00"
 name: "Fortified Positions"
 ---
 Bunker

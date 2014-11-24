@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:24:59-04:00"
 name: "Imperial Void Shields"
 ---
 Imperial Titans are protected by void shield generators. The number of void shields each Titan has is noted on the Titan&rsquo;s datasheet.

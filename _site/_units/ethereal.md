@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:55:08-05:00"
 name: "Ethereal"
 type: "CH"
 speed: "n/a"

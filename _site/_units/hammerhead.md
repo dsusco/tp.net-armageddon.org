@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:51:37-05:00"
 name: "Hammerhead"
 type: "AV"
 speed: "30cm"

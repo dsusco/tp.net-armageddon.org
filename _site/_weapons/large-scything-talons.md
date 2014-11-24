@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T20:57:19-04:00"
 name: "Large Scything Talons"
 modes:
   -

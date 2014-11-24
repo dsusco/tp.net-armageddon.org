@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:23:19-04:00"
 name: "Lysander Fighter"
 type: "AC"
 speed: "Fighter"

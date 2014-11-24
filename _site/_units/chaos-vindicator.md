@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:05-04:00"
 name: "Chaos Vindicator"
 type: "AV"
 speed: "25cm"

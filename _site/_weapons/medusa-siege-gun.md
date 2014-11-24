@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T21:01:05-04:00"
 name: "Medusa Siege Gun"
 modes:
   -

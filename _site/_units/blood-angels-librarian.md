@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T11:47:22-04:00"
 name: "Blood Angels Librarian"
 type: "CH"
 speed: "n/a"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:32-04:00"
 name: "Berzerkers"
 type: "INF"
 speed: "15cm"

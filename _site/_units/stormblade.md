@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:44:43-04:00"
 name: "Stormblade"
 type: "WE"
 speed: "15cm"

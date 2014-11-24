@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T11:34:25-04:00"
 name: "Stormraven Gunship"
 type: "AV"
 speed: "35cm"

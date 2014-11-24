@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:49-04:00"
 name: "Sentinel"
 type: "LV"
 speed: "20cm"

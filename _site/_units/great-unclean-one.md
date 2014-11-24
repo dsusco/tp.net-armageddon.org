@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:17:15-04:00"
 name: "Great Unclean One"
 type: "WE"
 speed: "15cm"

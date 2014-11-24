@@ -1,5 +1,4 @@
 ---
-date: "2014-10-23T08:20:22-04:00"
 name: "Gravitic Tracer Salvo"
 modes:
   -

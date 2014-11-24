@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:22:46-04:00"
 name: "Gauss Flayers"
 modes:
   -

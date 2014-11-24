@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:30:23-04:00"
 name: "Plague Zombies"
 type: "INF"
 speed: "10cm"

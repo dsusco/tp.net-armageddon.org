@@ -1,5 +1,4 @@
 ---
-date: "2014-11-07T09:13:43-05:00"
 name: "Plasma Annihilator"
 modes:
   -

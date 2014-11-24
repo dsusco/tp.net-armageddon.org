@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:52-04:00"
 name: "Fire Prism"
 type: "AV"
 speed: "35cm"

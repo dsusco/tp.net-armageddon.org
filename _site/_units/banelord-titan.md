@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:34-04:00"
 name: "Banelord Titan"
 type: "WE"
 speed: "15cm"

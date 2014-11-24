@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:08:18-05:00"
 name: "Chaos Space Marine Terminators"
 type: "INF"
 speed: "15cm"

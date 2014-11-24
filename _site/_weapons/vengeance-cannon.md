@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:45:23-04:00"
 name: "Vengeance Cannon"
 modes:
   -

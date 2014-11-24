@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:02:10-05:00"
 name: "Thunderhawk Gunship"
 type: "AC/WE"
 speed: "Bomber"

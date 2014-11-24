@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T22:40:07-04:00"
 name: "Twin Rail Cannons"
 modes:
   -

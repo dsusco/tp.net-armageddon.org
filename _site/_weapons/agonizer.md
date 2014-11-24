@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:37:20-04:00"
 name: "Agonizer"
 modes:
   -

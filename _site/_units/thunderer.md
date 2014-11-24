@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:44:16-04:00"
 name: "Thunderer"
 type: "AV"
 speed: "20cm"

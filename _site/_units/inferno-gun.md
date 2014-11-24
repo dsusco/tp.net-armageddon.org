@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T14:19:13-04:00"
 name: "Inferno Gun"
 type: "CH"
 speed: "n/a"

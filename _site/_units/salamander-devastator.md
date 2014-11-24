@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:35:33-04:00"
 name: "Salamander Devastator"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:06-04:00"
 name: "Hive Tyrant"
 type: "AV"
 speed: "20cm"

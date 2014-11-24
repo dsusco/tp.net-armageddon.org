@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T14:35:20-04:00"
 name: "Drop Pod"
 type: "Special"
 speed: "n/a"

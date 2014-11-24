@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:00:00-05:00"
 name: "Razorback"
 type: "AV"
 speed: "30cm"

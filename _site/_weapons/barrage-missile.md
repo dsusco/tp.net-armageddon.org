@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T16:52:24-04:00"
 name: "Barrage Missile"
 modes:
   -

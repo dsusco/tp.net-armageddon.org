@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:59:47-04:00"
 name: "Defiler"
 type: "AV"
 speed: "20cm"

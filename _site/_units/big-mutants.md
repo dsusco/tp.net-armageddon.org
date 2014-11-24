@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T17:36:48-04:00"
 name: "Big Mutants"
 type: "INF"
 speed: "15cm"

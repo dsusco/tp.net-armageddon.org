@@ -1,5 +1,4 @@
 ---
-date: "2014-11-09T14:53:37-05:00"
 name: "Pathfinders"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:31:04-04:00"
 name: "Vindicator"
 type: "AV"
 speed: "25cm"

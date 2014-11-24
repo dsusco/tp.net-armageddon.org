@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:03:48-04:00"
 name: "Hades Breaching Drill"
 type: "Special"
 speed: "Immobile"

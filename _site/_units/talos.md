@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:11-04:00"
 name: "Talos"
 type: "AV"
 speed: "15cm"

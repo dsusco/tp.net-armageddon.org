@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:33-04:00"
 name: "Manticore"
 type: "AV"
 speed: "20cm"

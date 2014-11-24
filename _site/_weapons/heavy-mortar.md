@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:13:38-04:00"
 name: "Heavy Mortar"
 modes:
   -

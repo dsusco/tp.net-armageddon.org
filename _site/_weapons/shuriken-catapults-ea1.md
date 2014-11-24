@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:41:06-04:00"
 name: "Shuriken Catapults"
 modes:
   -

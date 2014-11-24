@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:35:32-04:00"
 name: "Killa Kan"
 type: "AV"
 speed: "15cm"

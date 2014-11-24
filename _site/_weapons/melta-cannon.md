@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:59:37-04:00"
 name: "Melta Cannon"
 modes:
   -

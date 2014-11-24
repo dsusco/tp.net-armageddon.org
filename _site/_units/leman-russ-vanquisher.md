@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T13:53:31-04:00"
 name: "Leman Russ Vanquisher"
 type: "AV"
 speed: "20cm"

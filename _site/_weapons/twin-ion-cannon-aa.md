@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:18:38-04:00"
 name: "Twin Ion Cannon"
 modes:
   -

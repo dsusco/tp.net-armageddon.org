@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:20-04:00"
 name: "Chaos Lord"
 type: "CH"
 speed: "n/a"

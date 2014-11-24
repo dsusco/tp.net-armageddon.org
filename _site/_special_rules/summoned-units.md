@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:24:55-04:00"
 name: "Summoned Units"
 classes:
   - pull-up

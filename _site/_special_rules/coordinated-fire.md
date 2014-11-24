@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:04:31-04:00"
 name: "Coordinated Fire"
 classes:
   - one-half

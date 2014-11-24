@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:30:07-04:00"
 name: "Lord of Battle"
 type: "WE"
 speed: "25cm"

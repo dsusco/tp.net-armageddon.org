@@ -1,5 +1,4 @@
 ---
-date: "2014-11-03T11:26:53-05:00"
 name: "Dreadclaw"
 type: "Special"
 speed: "n/a"

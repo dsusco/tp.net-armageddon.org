@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T10:09:04-04:00"
 name: "Dreadnought"
 type: "AV"
 speed: "15cm"

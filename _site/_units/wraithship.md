@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:01-04:00"
 name: "Wraithship"
 type: "SC"
 speed: "n/a"

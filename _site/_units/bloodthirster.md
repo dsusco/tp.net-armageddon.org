@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:14:23-04:00"
 name: "Bloodthirster"
 type: "WE"
 speed: "30cm"

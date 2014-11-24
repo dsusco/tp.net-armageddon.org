@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:46-04:00"
 name: "Tormentor Titan"
 type: "WE"
 speed: "35cm"

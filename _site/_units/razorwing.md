@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:06-04:00"
 name: "Razorwing"
 type: "AC"
 speed: "Fighter-Bomber"

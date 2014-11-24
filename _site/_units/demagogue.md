@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T17:38:32-04:00"
 name: "Demagogue"
 type: "INF"
 speed: "15cm"

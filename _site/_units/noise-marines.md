@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:34:01-04:00"
 name: "Noise Marines"
 type: "INF"
 speed: "15cm"

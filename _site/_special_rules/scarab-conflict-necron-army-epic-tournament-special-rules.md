@@ -1,5 +1,4 @@
 ---
-date: "2014-10-16T16:02:47-04:00"
 name: "Scarab Conflict Necron Army Epic Tournament Special Rules"
 ---
 Necron Reserves

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T21:14:38-04:00"
 name: "Solar Flare"
 modes:
   -

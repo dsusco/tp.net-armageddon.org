@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:36-04:00"
 name: "Flayed Ones"
 type: "INF"
 speed: "15cm"

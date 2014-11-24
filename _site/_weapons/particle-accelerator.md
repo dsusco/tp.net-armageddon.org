@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T21:05:04-04:00"
 name: "Particle Accelerator"
 modes:
   -

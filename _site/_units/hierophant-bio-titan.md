@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:07-04:00"
 name: "Hierophant Bio-Titan"
 type: "WE"
 speed: "25cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T11:54:46-04:00"
 name: "Blood Angels Assault"
 type: "INF"
 speed: "30cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:22-04:00"
 name: "Carnifex"
 type: "AV"
 speed: "20cm"

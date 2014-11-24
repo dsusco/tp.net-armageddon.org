@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:29:19-04:00"
 name: "Daemon Assault Engine"
 type: "AV"
 speed: "25cm"

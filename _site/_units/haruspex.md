@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:56:09-04:00"
 name: "Haruspex"
 type: "AV"
 speed: "20cm"

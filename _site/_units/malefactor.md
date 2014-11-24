@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:22:52-04:00"
 name: "Malefactor"
 type: "AV"
 speed: "25cm"

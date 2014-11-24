@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T16:00:14-04:00"
 name: "Chaos Space Marine Bikes"
 type: "INF"
 speed: "35cm"

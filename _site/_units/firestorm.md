@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:03:46-04:00"
 name: "Firestorm"
 type: "AV"
 speed: "35cm"

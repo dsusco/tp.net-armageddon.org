@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:28:58-04:00"
 name: "Bike"
 type: "INF"
 speed: "35cm"

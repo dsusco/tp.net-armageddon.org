@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:08:30-04:00"
 name: "Nob Warbikes"
 type: "INF"
 speed: "35cm"

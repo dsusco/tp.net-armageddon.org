@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:35:27-04:00"
 name: "Skorcha"
 type: "LV"
 speed: "35cm"

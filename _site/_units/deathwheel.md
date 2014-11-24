@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:59:50-04:00"
 name: "Deathwheel"
 type: "WE"
 speed: "30cm"

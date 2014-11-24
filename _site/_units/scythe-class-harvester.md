@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:53:14-04:00"
 name: "Scythe Class Harvester"
 type: "SC"
 speed: "n/a"

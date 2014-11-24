@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:06:28-04:00"
 name: "Vampire Raider"
 type: "AC/WE"
 speed: "Bomber"

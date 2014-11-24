@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:29:31-04:00"
 name: "Firelord"
 type: "AC"
 speed: "Bomber"

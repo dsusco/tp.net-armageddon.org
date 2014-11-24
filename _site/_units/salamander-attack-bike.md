@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:32:46-04:00"
 name: "Salamander Attack Bike"
 type: "LV"
 speed: "35"

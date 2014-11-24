@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:57:27-04:00"
 name: "Trail Blazing"
 classes:
   - column-break

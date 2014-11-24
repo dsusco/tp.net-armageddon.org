@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:41:09-04:00"
 name: "Warmonger Class Titan"
 type: "WE"
 speed: "15cm"

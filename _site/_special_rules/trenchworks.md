@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:23:45-04:00"
 name: "Trenchworks"
 ---
 Bunker

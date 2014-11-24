@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T08:48:08-04:00"
 name: "Raven Fighter"
 type: "AC"
 speed: "Fighter"

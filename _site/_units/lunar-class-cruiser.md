@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T11:44:33-04:00"
 name: "Lunar Class Cruiser"
 type: "SC"
 speed: "n/a"

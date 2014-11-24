@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:59:03-04:00"
 name: "Plasma Destructor"
 modes:
   -

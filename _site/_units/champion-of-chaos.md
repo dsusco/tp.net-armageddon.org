@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:14:51-04:00"
 name: "Champion of Chaos"
 type: "CH"
 speed: "n/a"

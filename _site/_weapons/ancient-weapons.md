@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:38:34-04:00"
 name: "Ancient Weapons"
 modes:
   -

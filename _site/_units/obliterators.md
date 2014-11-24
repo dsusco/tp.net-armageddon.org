@@ -1,5 +1,4 @@
 ---
-date: "2014-11-18T11:09:22-05:00"
 name: "Obliterators"
 type: "INF"
 speed: "15cm"

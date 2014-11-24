@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T10:08:23-04:00"
 name: "Reaver Class Titan"
 type: "WE"
 speed: "20cm"

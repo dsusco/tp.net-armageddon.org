@@ -1,5 +1,4 @@
 ---
-date: "2014-10-31T15:20:55-04:00"
 name: "Weapon Mount"
 abbr: "WM"
 ---

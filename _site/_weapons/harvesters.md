@@ -1,5 +1,4 @@
 ---
-date: "2014-10-23T08:20:42-04:00"
 name: "Harvesters"
 modes:
   -

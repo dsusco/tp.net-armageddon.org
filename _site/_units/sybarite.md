@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:39:10-04:00"
 name: "Sybarite"
 type: "CH"
 speed: "n/a"

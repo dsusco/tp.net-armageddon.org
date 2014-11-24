@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T09:26:58-04:00"
 name: "Thunderhawk Saturation Bomber"
 type: "AC/WE"
 speed: "Bomber"
@@ -11,7 +10,7 @@ special_rules:
   - "reinforced-armour"
 notes:
   |
-    Critical Hit Effect: Destroyed. 
+    Critical Hit Effect: Destroyed.
 weapons:
   -
     id: "battle-cannon"

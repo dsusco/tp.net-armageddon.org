@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:29:30-04:00"
 name: "Doomwing"
 type: "AC"
 speed: "Fighter"

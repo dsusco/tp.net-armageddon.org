@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T18:26:21-04:00"
 name: "Scarab Swarm"
 modes:
   -

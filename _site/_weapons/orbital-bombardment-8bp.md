@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T16:12:42-04:00"
 name: "Orbital Bombardment"
 modes:
   -

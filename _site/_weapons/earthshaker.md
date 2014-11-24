@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T13:00:53-04:00"
 name: "Earthshaker"
 modes:
   -

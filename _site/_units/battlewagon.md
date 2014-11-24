@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:00:38-04:00"
 name: "Battlewagon"
 type: "AV"
 speed: "30cm"

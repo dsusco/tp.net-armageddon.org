@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T15:37:37-04:00"
 name: "Mob Rule"
 classes:
   - one-half

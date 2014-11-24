@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:23-04:00"
 name: "Rangers"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-15T14:21:32-04:00"
 name: "Dark Eldar Technology"
 classes:
   - one-third

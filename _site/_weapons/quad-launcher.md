@@ -1,5 +1,4 @@
 ---
-date: "2014-04-17T13:48:29-04:00"
 name: "Quad Launcher"
 modes:
   -

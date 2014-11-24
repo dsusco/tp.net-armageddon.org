@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:18:13-04:00"
 name: "Ravager Titan"
 type: "WE"
 speed: "20cm"

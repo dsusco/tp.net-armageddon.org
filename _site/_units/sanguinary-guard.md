@@ -1,5 +1,4 @@
 ---
-date: "2014-07-08T13:04:08-04:00"
 name: "Sanguinary Guard"
 type: "INF"
 speed: "30cm"

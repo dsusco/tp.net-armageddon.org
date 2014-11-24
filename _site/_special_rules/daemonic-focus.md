@@ -1,5 +1,4 @@
 ---
-date: "2014-10-13T16:13:25-04:00"
 name: "Daemonic Focus"
 classes:
   - one-half

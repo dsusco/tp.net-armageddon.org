@@ -1,5 +1,4 @@
 ---
-date: "2014-10-15T14:20:01-04:00"
 name: "Tau Technology"
 classes:
  - one-half

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:22-04:00"
 name: "Vyper"
 type: "LV"
 speed: "35cm"

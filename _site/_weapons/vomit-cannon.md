@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T22:54:00-04:00"
 name: "Vomit Cannon"
 modes:
   -

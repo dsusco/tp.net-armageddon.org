@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T08:52:22-04:00"
 name: "Dragonship"
 type: "SC"
 speed: "n/a"

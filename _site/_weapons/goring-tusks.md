@@ -1,5 +1,4 @@
 ---
-date: "2014-10-23T08:20:07-04:00"
 name: "Goring Tusks"
 modes:
   -

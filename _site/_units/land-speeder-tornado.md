@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T08:29:50-04:00"
 name: "Land Speeder Tornado"
 type: "LV"
 speed: "35cm"

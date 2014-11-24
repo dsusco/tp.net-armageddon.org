@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T23:21:44-04:00"
 name: "Kroot Guns"
 modes:
   -

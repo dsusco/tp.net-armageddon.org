@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T08:38:59-04:00"
 name: "Incubi"
 type: "INF"
 speed: "15cm"

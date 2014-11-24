@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T18:08:39-04:00"
 name: "Trukk"
 type: "LV"
 speed: "35cm"

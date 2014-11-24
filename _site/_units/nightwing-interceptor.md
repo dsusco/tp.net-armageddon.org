@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:48:31-04:00"
 name: "Nightwing Interceptor"
 type: "AC"
 speed: "Fighter"

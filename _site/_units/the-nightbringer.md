@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T13:18:28-04:00"
 name: "The Nightbringer"
 type: "WE"
 speed: "15cm"

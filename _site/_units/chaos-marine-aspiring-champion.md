@@ -1,5 +1,4 @@
 ---
-date: "2014-10-30T17:37:21-04:00"
 name: "Chaos Marine Aspiring Champion"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-29T14:25:44-04:00"
 name: "Power of the Waaagh!"
 classes:
   - one-third

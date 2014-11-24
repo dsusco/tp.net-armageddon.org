@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T14:47:07-04:00"
 name: "Wraithguard"
 type: "INF"
 speed: "15cm"

@@ -1,5 +1,4 @@
 ---
-date: "2014-10-22T12:46:52-04:00"
 name: "Chain Fist"
 modes:
   -

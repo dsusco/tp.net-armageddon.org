@@ -1,5 +1,4 @@
 ---
-date: "2014-10-28T15:09:23-04:00"
 name: "Orkeosaurus"
 type: "WE"
 speed: "15cm"
