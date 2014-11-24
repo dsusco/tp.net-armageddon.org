@@ -1,6 +1,6 @@
 ---
 date: "2014-10-31T15:44:19-04:00"
-name: "Teritary Arms"
+name: "Tertitary Arms"
 modes:
   -
     range: "(15cm)"
