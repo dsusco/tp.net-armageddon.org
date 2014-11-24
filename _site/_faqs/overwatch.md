@@ -9,12 +9,12 @@ Can a formation on overwatch use its overwatch fire when it is in the zone of co
 
 A formation carries out an action that involves a move but none of the units physically move, is it still susceptible to overwatch?
 : Yes. Any action that includes one of more moves (advance, engage, double, march and possibly marshal, hold and special actions) is considered a move for the purposes of overwatch, even if units moved 0cm.
-: Note that withdrawals are optional however, and that a player can choose not to move a broken formation at all, thus avoiding overwatch.
+: Note that withdrawals and consolidation moves are optional however, and that a player can choose not to move the formation at all, thus avoiding overwatch.
 
 Do units that enter play via a special rule (landing, planetfall, self planetfall, teleporting, tunneling, being summoned or swarmed) trigger overwatch fire?
-: Only completing a move or disembarking triggers Overwatch.
+: No, only completing a move or disembarking triggers overwatch.
 
-Does counter-charging or consolidation trigger overwatch fire?
+Does counter-charging trigger overwatch fire?
 : No.
 
 What happens to formation that is broken from overwatch fire while it is carrying out an action?
