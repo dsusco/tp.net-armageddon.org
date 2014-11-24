@@ -9,7 +9,4 @@ special_rules:
   - "inspiring"
   - "invulnerable-save"
   - "leader"
-weapons:
-  -
-    id: "rending-claws-and-talons"
 ---
