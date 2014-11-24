@@ -32,5 +32,5 @@ weapons:
     id: "battle-cannon"
     multiplier: "4"
   -
-    id: "teritary-arms"
+    id: "tertiary-arms"
 ---

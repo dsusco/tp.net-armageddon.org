@@ -9,6 +9,7 @@ ff: "3+"
 special_rules:
   - "damage-capacity-3"
   - "reinforced-armour"
+  - "thick-rear-armour"
 notes:
   |
     Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+.

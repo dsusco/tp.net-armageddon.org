@@ -14,7 +14,7 @@ notes:
     Critical Hit Effect: Destroyed.
 weapons:
   -
-    id: "turbolaser"
+    id: "turbo-laser"
     arc: "FxF"
   -
     id: "twin-heavy-bolter-aa-30cm"

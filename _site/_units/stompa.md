@@ -9,6 +9,9 @@ ff: "4+"
 special_rules:
   - "reinforced-armour"
   - "walker"
+notes:
+  |
+    Armed with either three Big Guns, or two Big Guns and a kombat 'ammer.
 weapons:
   -
     id: "big-gun"

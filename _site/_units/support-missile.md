@@ -8,7 +8,7 @@ cc: "n/a"
 ff: "n/a"
 notes:
   |
-    Can be armed with one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile.
+    Can be armed with one of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. A Warp Missile ignores _Imperial Void Shields_ and _Power Fields_.
 weapons:
   -
     id: "barrage-missile"

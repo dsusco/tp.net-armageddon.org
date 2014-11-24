@@ -10,12 +10,12 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport twelve Vampire Raiders and the units being carried on them. Armed with either an Orbital Bombardment or two Pin-Point Attacks
+    May transport twelve Vampire Raiders and the units being carried on them. Armed with either an Orbital Bombardment or Pin-Point Attacks.
 weapons:
   -
     id: "orbital-bombardment-8bp"
     multiplier: "0–1"
   -
-    id: "pin-point-attack"
-    multiplier: "0–2"
+    id: "pin-point-attacks-2x"
+    multiplier: "0–1"
 ---

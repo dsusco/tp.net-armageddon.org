@@ -39,5 +39,5 @@ weapons:
   -
     id: "head-gun"
   -
-    id: "teritary-arms"
+    id: "tertiary-arms"
 ---

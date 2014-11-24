@@ -13,7 +13,7 @@ special_rules:
   - "walker"
 notes:
   |
-    May transport ten infantry units without _Jump Packs_ or _Mounted_. Critical Hit Effect: Immobilized. Subsequent critical hits destroy the unit.
+    May transport ten infantry units without _Jump Packs_ or _Mounted_. Armed with either Gorgon Mortars or Twin Heavy Bolter. Critical Hit Effect: Immobilized. Subsequent critical hits destroy the unit.
 weapons:
   -
     id: "twin-heavy-stubber"

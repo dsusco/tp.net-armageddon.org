@@ -11,9 +11,9 @@ notes:
     Armed with either Pin-point Attacks or Orbital Bombardment.
 weapons:
   -
-    id: "pin-point-attacks-2x"
+    id: "orbital-bombardment-5bp"
     multiplier: "0–1"
   -
-    id: "orbital-bombardment-5bp"
+    id: "pin-point-attacks-2x"
     multiplier: "0–1"
 ---
