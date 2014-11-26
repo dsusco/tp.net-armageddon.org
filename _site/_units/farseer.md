@@ -7,6 +7,7 @@ cc: "4+"
 ff: "5+"
 special_rules:
   - "commander"
+  - "farsight"
   - "invulnerable-save"
 weapons:
   -
