@@ -9,7 +9,7 @@ modes:
   -
     boolean: "or"
     range: "30cm"
-    firepower: "MW2+"
+    firepower: "MW3+"
     special_rules:
       - "titan-killer-d31"
 ---
