@@ -6,7 +6,7 @@ classes:
 A Tyranid invasion is more akin to an infestation. Lesser creatures are everywhere, whether because they were separated from a swarm or because they just made planetfall via a Mycetic Spore. These creatures instinctively seek out the psychic conduits of the Hive Mind that are the synapse creatures. This is represented by the following rules:
 
 Brood
-: Units with _brood_ (brood units) are placed in the army&rsquo;s off-board <q>swarm pool</q> when they are destroyed. These units may be returned to play via swarming for a number of swarm points equal to their brood value. This is the number in parenthesis after <q>Brood</q>.
+: Units with _brood_ (brood units) are placed in the army’s off-board <q>swarm pool</q> when they are destroyed. These units may be returned to play via swarming for a number of swarm points equal to their brood value. This is the number in parenthesis after <q>Brood</q>.
 
 Synapse
 : Formations that contain at least one unit with _synapse_ (a synapse unit) may return brood units from the swarm pool to play via swarming. Each synapse unit has a synapse value, the number in parenthesis after <q>Synapse</q>.
