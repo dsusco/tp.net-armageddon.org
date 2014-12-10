@@ -68,33 +68,29 @@ main:not(.no-outline) {
   @bottom-right { content: counter(page); }
 }
 
-@page datasheet, reference-sheet {
-  border: 1pt solid @dark-grey;
-  margin: 0.75cm 1cm;
-  padding: 6pt;
-
+@page cover, copyright, datasheet, reference-sheet {
   @top-left { content: none; }
-  @top-center { content: none; }
   @top-right { content: none; }
 
   @bottom-left { content: none; }
   @bottom-right { content: none; }
+}
+@page cover, datasheet, reference-sheet {
+  margin: 0.75cm 1cm;
+
+  @top-center { content: none; }
+}
+@page cover {
+  background: center/190mm no-repeat url(../tournament-pack/images/cover.png);
+}
+@page copyright { margin-bottom: 1cm; }
+@page datasheet, reference-sheet {
+  border: 1pt solid @dark-grey;
+  padding: 6pt;
 }
 @page datasheet {
   margin: 1cm 0.75cm;
   size: 11in 210mm;
-}
-
-@page cover {
-  background: center/190mm no-repeat url(../tournament-pack/images/cover.png);
-  margin: 0.75cm 1cm;
-
-  @top-left { content: none; }
-  @top-center { content: none; }
-  @top-right { content: none; }
-
-  @bottom-left { content: none; }
-  @bottom-right { content: none; }
 }
 
 @page table-of-contents:left {
@@ -119,27 +115,11 @@ main:not(.no-outline) {
 .column-break { column-break-before: always; }
 
 /* sections */
-#cover {
-  page: cover;
+#cover { page: cover; }
 
-  #title, #date {
-    font-family: Impact, sans-serif;
-    font-size: 24pt;
-    line-height: 1.5;
-    margin-bottom: 256pt;
-  }
-  #title {
-    font-size: 32pt;
-    line-height: 1.125;
-    margin: 172pt 0 0;
-  }
-
-  a {
-    font-size: 12pt;
-    line-height: 2;
-  }
-
-  > * { .text-center(); }
+#copyright {
+  .two-column();
+  page: copyright;
 }
 
 #table-of-contents {

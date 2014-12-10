@@ -305,6 +305,36 @@ aside.faq {
 }
 
 /* IDs */
+#cover {
+  #title, #date {
+    font-family: Impact, sans-serif;
+    font-size: 24pt;
+    line-height: 1.5;
+    margin-bottom: (21 * @line-height-computed);
+  }
+  #title {
+    font-size: 32pt;
+    line-height: 1.125;
+    margin: (14 * @line-height-computed) 0 0;
+  }
+
+  a {
+    font-size: 12pt;
+    line-height: 2;
+  }
+
+  > * { .text-center(); }
+}
+
+#copyright .short-story > :first-child {
+  .text();
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: (@line-height-computed - 6pt);
+  text-align: center;
+  text-transform: uppercase;
+}
+
 #table-of-contents {
   ol {
     list-style: none;
