@@ -70,9 +70,8 @@ main:not(.no-outline) {
 
 @page datasheet, reference-sheet {
   border: 1pt solid @dark-grey;
-  margin: 1cm 0.75cm;
+  margin: 0.75cm 1cm;
   padding: 6pt;
-  size: 11in 210mm;
 
   @top-left { content: none; }
   @top-center { content: none; }
@@ -81,12 +80,15 @@ main:not(.no-outline) {
   @bottom-left { content: none; }
   @bottom-right { content: none; }
 }
-@page reference-sheet {
-  margin: 0.75cm 1cm;
-  size: 210mm 11in;
+@page datasheet {
+  margin: 1cm 0.75cm;
+  size: 11in 210mm;
 }
 
-@page title {
+@page cover {
+  background: center/190mm no-repeat url(../tournament-pack/images/cover.png);
+  margin: 0.75cm 1cm;
+
   @top-left { content: none; }
   @top-center { content: none; }
   @top-right { content: none; }
@@ -117,14 +119,27 @@ main:not(.no-outline) {
 .column-break { column-break-before: always; }
 
 /* sections */
-#title {
-  display: none;
-  page: title;
+#cover {
+  page: cover;
 
-  > * {
-    .text-center();
-    display: block;
+  #title, #date {
+    font-family: Impact, sans-serif;
+    font-size: 24pt;
+    line-height: 1.5;
+    margin-bottom: 256pt;
   }
+  #title {
+    font-size: 32pt;
+    line-height: 1.125;
+    margin: 172pt 0 0;
+  }
+
+  a {
+    font-size: 12pt;
+    line-height: 2;
+  }
+
+  > * { .text-center(); }
 }
 
 #table-of-contents {
