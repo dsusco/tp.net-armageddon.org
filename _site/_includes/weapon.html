@@ -7,7 +7,7 @@
     <div class="firepower">{% if m.firepower != '' %}
       <span>{{ m.firepower }}</span>{% endif %}{% if include.weapon.arc or m.special_rules %}
 
-      <ul class="special-rules">{% if include.weapon.arc and m.boolean == nil %}
+      <ul class="special-rules">{% if include.weapon.arc and m.range != '(bc)' and m.range != '(15cm)' %}
         <li>{{ include.weapon.arc }}</li>{% endif %}{% for sr in m.special_rules %}{% assign special_rule = site.data.special_rules[sr] %}
         <li><abbr title="{{ special_rule.name }}">{{ special_rule.abbr }}</abbr></li>{% endfor %}
       </ul>{% endif %}

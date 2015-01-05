@@ -68,31 +68,29 @@ main:not(.no-outline) {
   @bottom-right { content: counter(page); }
 }
 
+@page cover, copyright, datasheet, reference-sheet {
+  @top-left { content: none; }
+  @top-right { content: none; }
+
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+@page cover, datasheet, reference-sheet {
+  margin: 0.75cm 1cm;
+
+  @top-center { content: none; }
+}
+@page cover {
+  background: center/190mm no-repeat url(../tournament-pack/images/cover.png);
+}
+@page copyright { margin-bottom: 1cm; }
 @page datasheet, reference-sheet {
   border: 1pt solid @dark-grey;
-  margin: 1cm 0.75cm;
   padding: 6pt;
+}
+@page datasheet {
+  margin: 1cm 0.75cm;
   size: 11in 210mm;
-
-  @top-left { content: none; }
-  @top-center { content: none; }
-  @top-right { content: none; }
-
-  @bottom-left { content: none; }
-  @bottom-right { content: none; }
-}
-@page reference-sheet {
-  margin: 0.75cm 1cm;
-  size: 210mm 11in;
-}
-
-@page title {
-  @top-left { content: none; }
-  @top-center { content: none; }
-  @top-right { content: none; }
-
-  @bottom-left { content: none; }
-  @bottom-right { content: none; }
 }
 
 @page table-of-contents:left {
@@ -117,14 +115,11 @@ main:not(.no-outline) {
 .column-break { column-break-before: always; }
 
 /* sections */
-#title {
-  display: none;
-  page: title;
+#cover { page: cover; }
 
-  > * {
-    .text-center();
-    display: block;
-  }
+#copyright {
+  .two-column();
+  page: copyright;
 }
 
 #table-of-contents {
