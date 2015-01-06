@@ -1,6 +1,7 @@
 RedirectMatch /pdfs/netea-faq.pdf /pdfs/netea-faq-.pdf
 RedirectMatch /pdfs/netea-tournament-pack.pdf /pdfs/netea-tournament-pack-.pdf
 
+RedirectMatch /pdfs/netea-adeptus-mechanicus-knight-world.pdf /pdfs/netea-adeptus-mechanicus-knight-world-.pdf
 RedirectMatch /pdfs/netea-adeptus-mechanicus-titan-legion.pdf /pdfs/netea-adeptus-mechanicus-titan-legion-.pdf
 RedirectMatch /pdfs/netea-chaos-cultist-stigmatus-covenant.pdf /pdfs/netea-chaos-cultist-stigmatus-covenant-.pdf
 RedirectMatch /pdfs/netea-chaos-space-marine-black-legion.pdf /pdfs/netea-chaos-space-marine-black-legion-.pdf
