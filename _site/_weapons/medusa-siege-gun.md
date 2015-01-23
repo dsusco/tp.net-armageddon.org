@@ -6,11 +6,4 @@ modes:
     firepower: "MW4+"
     special_rules:
       - "ignore-cover"
-  -
-    boolean: "or"
-    range: "60cm"
-    firepower: "1BP"
-    special_rules:
-      - "disrupt"
-      - "ignore-cover"
 ---
