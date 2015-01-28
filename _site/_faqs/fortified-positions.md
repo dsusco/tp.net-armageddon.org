@@ -14,4 +14,4 @@ Do units entering or starting their move in their own fortified position have to
 : If it is dangerous to their unit type, yes.
 
 How wide is razor wire and a trench?
-: They are assumed to be under 5cm wide, crossible in one move when a unit is moving catiously.
+: They are assumed to be under 5cm wide, crossible in one move when a unit is moving cautiously.

@@ -1,5 +1,5 @@
 ---
-name: "Sorceror Lord"
+name: "Sorcerer Lord"
 type: "CH"
 speed: "n/a"
 armour: "n/a"

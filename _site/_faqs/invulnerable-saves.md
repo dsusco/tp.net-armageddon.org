@@ -13,5 +13,5 @@ Can invulnerable saves be used by units destroyed from ending their second withd
 Can invulnerable saves be used by units destroyed from an additional hit from a Blast marker on a broken formation?
 : No.
 
-How many invulnerable saves must a unit make if it is hit by a Titan Killer weapon that causes multipler points of damage?
+How many invulnerable saves must a unit make if it is hit by a Titan Killer weapon that causes multiple points of damage?
 : One, unless it is a War Engine in which case it must make one invulnerable save for each point of damage.

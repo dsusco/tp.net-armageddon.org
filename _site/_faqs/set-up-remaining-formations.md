@@ -28,5 +28,5 @@ Can a formation in reserve with no means to enter play choose to <q>pass</q> (e.
 What happens when a formation in reserve fails its action test?
 : If must move as part of a hold action to enter play.
 
-What happens when a formation in reserve fails its action test but can't enter play (e.g. Eldar in reserve abd _Webway Portal_ in an enemy unit's zone of control)?
+What happens when a formation in reserve fails its action test but can't enter play (e.g. Eldar in reserve and _Webway Portal_ in an enemy unit's zone of control)?
 : It takes a Blast marker, and may not take a hold action. It effectively looses its activation.

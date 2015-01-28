@@ -1,7 +1,7 @@
 ---
 name: "Flak Attacks"
 ---
-Can units with weapons that don't have an AA value be supressed when making a flak attack?
+Can units with weapons that don't have an AA value be suppressed when making a flak attack?
 : Yes, and they only need to be within range as all ground units have a line of fire to flying aircraft.
 
 Do to hit modifiers for a double, marshal or sustain action apply to flak attacks?
