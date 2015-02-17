@@ -89,13 +89,26 @@ aside.faq > div > .panel-heading { display: none; }
   .unit:nth-child(odd) { background: @body-bg; }
 }
 
-.unit { background: @gray-lighter; }
+.unit {
+  background: @gray-lighter;
+
+  .stats, .weapon:first-child > .weapon-line:first-child {
+    > *:before {
+      color: #888;
+      font-size: 10px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+  }
+
+  .stats > .name { font-weight: bold; }
+}
 
 @media (min-width: @screen-sm-min) {
   .unit {
     .stats, .weapons {
-      width: 50%;
       float: left;
+      width: 50%;
     }
   }
 }

@@ -9,9 +9,6 @@ units:
   - infantry
   - storm-troopers
 
-  - salamander-command
-  - salamander-scout
-
   - basilisk
   - bombard
   - chimera-minervan
@@ -28,6 +25,8 @@ units:
   - leman-russ-vanquisher
   - manticore
   - medusa
+  - salamander-command
+  - salamander-scout
   - thunderer
   - valkyrie
   - vulture

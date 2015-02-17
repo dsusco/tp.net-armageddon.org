@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport eight infantry units without _Mounted_. Critical Hit Effect: The unit and all units on board are destroyed.
+    May transport eight infantry units without _Mounted_. Wraithguard count as two units each. Critical Hit Effect: The unit and all units on board are destroyed.
 weapons:
   -
     id: "pulse-laser"

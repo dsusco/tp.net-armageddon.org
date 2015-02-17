@@ -10,7 +10,7 @@ If a critical hit's effect causes additional hits do these have a chance of caus
 If a critical hit's effect is resolved in the end phase and this results in another critical hit is that resolved immediately?
 : No, it would be resolved in the next turn's end phase.
 
-If a critical hit's effect destroys units in another formation does that formation recieve a Blast marker for coming under fire?
+If a critical hit's effect destroys units in another formation does that formation receive a Blast marker for coming under fire?
 : No.
 
 If a critical hit's effect destroys units during an assault are those units counted for the purposes of working out the result of the assault?

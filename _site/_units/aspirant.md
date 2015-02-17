@@ -1,15 +1,15 @@
 ---
-name: "Sorceror Lord"
+name: "Aspirant"
 type: "CH"
 speed: "n/a"
 armour: "n/a"
 cc: "n/a"
 ff: "n/a"
 special_rules:
-  - "commander"
-  - "invulnerable-save"
+  - "fearless"
+  - "inspiring"
   - "leader"
 weapons:
   -
-    id: "warp-bolt"
+    id: "power-weapon"
 ---
