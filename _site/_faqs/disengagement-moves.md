@@ -1,7 +1,7 @@
 ---
 name: "Disengagement Moves"
 ---
-If an aircraft has travelled more than 30cm during its approach move and didn't end it with a turn can it turn immediately when it makes a disengagement move?
+If an aircraft has traveled more than 30cm during its approach move and didn't end it with a turn can it turn immediately when it makes a disengagement move?
 : No, it still must move at least another 30cm before it is allowed to turn.
 
 What happens when a landed aircraft does not make a disengagement move?

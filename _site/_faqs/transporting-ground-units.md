@@ -4,7 +4,7 @@ name: "Transporting Ground Units"
 Can aircraft without a transport capacity land?
 : No.
 
-If a landed aircraft is destroyed while carray ground units, are they lost with it?
+If a landed aircraft is destroyed while carry ground units, are they lost with it?
 : No, resolve this as per [Transport Vehicles](#transport-vehicles).
 
 Can units that have a special ability that allows them to enter play use it if a aircraft transports them off board?

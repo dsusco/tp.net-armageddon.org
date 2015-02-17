@@ -8,4 +8,4 @@ What happens when both armies have formations with the same ability used at the 
 : Dice to see who chooses to go first.
 
 Should you dice for each ability (e.g. _teleport_, _tunneler_, etc.) used at the start of the turn?
-: Bring it up in the five minute warmup.
+: Bring it up in the five minute warm-up.

@@ -7,7 +7,7 @@ units:
   - chaos-lord
   - chaos-warlord
   - icon-bearer
-  - sorceror-lord
+  - sorcerer-lord
 
   - berzerkers
   - bloodletters
