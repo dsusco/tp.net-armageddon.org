@@ -7,5 +7,5 @@ modes:
   -
     boolean: "or"
     range: "30cm"
-    firepower: "AA6+"
+    firepower: "AA5+"
 ---

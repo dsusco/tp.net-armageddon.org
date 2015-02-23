@@ -1,12 +1,12 @@
 ---
-name: "Vanguard Veteran"
+name: "Vanguard Assault Veteran"
 type: "INF"
-speed: "15cm"
+speed: "30cm"
 armour: "4+"
 cc: "4+"
 ff: "5+"
 special_rules:
-  - "infiltrator"
+  - "jump-packs"
 weapons:
   -
     id: "bolt-pistols"

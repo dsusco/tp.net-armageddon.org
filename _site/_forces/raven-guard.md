@@ -10,9 +10,10 @@ units:
 
   - assault
   - scout
+  - sternguard-veteran
   - tactical
-  - tactical-assault
   - terminator
+  - vanguard-assault-veteran
   - vanguard-veteran
 
   - land-speeder
@@ -21,13 +22,11 @@ units:
   - land-speeder-tornado
   - land-speeder-typhoon
 
-  - caestus
-  - dreadnought
   - hunter
   - razorback
   - rhino
 
-  - landing-craft
+  - storm-eagle
   - thunderhawk-gunship
 
   - battle-barge
