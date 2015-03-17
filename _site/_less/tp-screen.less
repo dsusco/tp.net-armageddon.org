@@ -101,7 +101,11 @@ aside.faq > div > .panel-heading { display: none; }
     }
   }
 
-  .stats > .name { font-weight: bold; }
+  .stats > .name {
+    font-weight: bold;
+
+    &:before { font-weight: normal; }
+  }
 }
 
 @media (min-width: @screen-sm-min) {
@@ -110,6 +114,7 @@ aside.faq > div > .panel-heading { display: none; }
       float: left;
       width: 50%;
     }
+  .notes { clear: both; }
   }
 }
 
