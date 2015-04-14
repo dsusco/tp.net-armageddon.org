@@ -14,6 +14,6 @@ weapons:
   -
     id: "orbital-bombardment-6bp"
   -
-    id: "pin-point-attacks"
+    id: "pin-point-attacks-2x"
     multiplier: "0–1"
 ---

@@ -15,9 +15,12 @@
   margin: 0 0 unit((@line-height / @font-size), em);
 }
 
+@import 'garamond';
 @import 'reset';
 @import 'page';
 @import 'tp';
+
+body { font-family: Garamond; }
 
 /* type */
 h1 {
@@ -275,6 +278,24 @@ aside.faq {
   .stats, .weapons {
     float: left;
     width: 49.999%;
+  }
+
+  .notes > :first-child:before {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &:first-child {
+    .stats, .weapon:first-child > .weapon-line:first-child {
+      > *:before {
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+    }
   }
 }
 

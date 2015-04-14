@@ -25,7 +25,7 @@ weapons:
     arc: "FxF"
   -
     id: "twin-soopagun"
-    multiplier: "2–3"
+    multiplier: "1–2"
     arc: "FxF"
   -
     id: "lifta-droppa"

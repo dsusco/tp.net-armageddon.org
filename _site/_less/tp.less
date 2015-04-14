@@ -68,23 +68,22 @@ article.faq {
 .unit {
   .clearfix();
 
-  .stats, .weapon-line {
+  .stats {
+    display: table;
+    width: 100%;
+
     > * {
       display: table-cell;
       padding: 0 0.5em;
       text-align: center;
 
-      &:before {
-        display: block;
+      &:before { display: block; }
+
+      &.name {
+        text-align: left;
+
+        &:before { content: 'Name'; }
       }
-    }
-  }
-
-  .stats {
-    display: table;
-
-    > * {
-      &.name:before { content: 'Name'; }
       &.type:before { content: 'Type'; }
       &.speed:before { content: 'Speed'; }
       &.armour:before { content: 'Armour'; }
@@ -92,38 +91,41 @@ article.faq {
       &.ff:before { content: 'FF'; }
     }
   }
-
-  .weapons { display: table; }
-  .weapon:first-child > .weapon-line:first-child > * {
-    &.name:before { content: 'Weapons'; }
-    &.range:before { content: 'Range'; }
-    &.firepower:before { content: 'Firepower'; }
+  .weapons {
+    display: table;
+    width: 100%;
   }
+  .weapon {
+    display: table-row-group;
 
-  .weapon, .weapon-line { display: table-row; }
-  .name, .boolean, .firepower {
-    text-align: left;
-    width: 50%;
+    &:first-child > .weapon-line:first-child > * {
+      &:before { display: block; }
+
+      &.name:before { content: 'Weapons'; }
+      &.range:before { content: 'Range'; }
+      &.firepower:before { content: 'Firepower'; }
+    }
   }
-  .boolean { text-align: right; }
-  .cc, .ff { min-width: 3em; }
-  .range { min-width: 4.25em; }
-  .firepower {
-    > :not(:last-child):after { content: ', '; }
+  .weapon-line {
+    display: table-row;
 
-    .special-rules >  li:last-child:after { content: none; }
+    > * {
+      display: table-cell;
+      padding: 0 0.5em;
+      text-align: center;
+
+      &.name { text-align: left; }
+      &.boolean { text-align: right; }
+      &.firepower {
+        text-align: left;
+
+        > :not(:last-child):after { content: ', '; }
+
+        .special-rules >  li:last-child:after { content: none; }
+      }
+    }
   }
-  .special-rules {
-    padding: 0;
-
-    &, > li { display: inline; }
-
-    > li:after { content: ', '; }
-    > li:last-child:after { content: '.'; }
-  }
-
   .notes {
-    clear: both;
     padding: 0 0.5em;
 
     > * { margin-bottom: 0; }
@@ -136,6 +138,15 @@ article.faq {
       content: 'Notes: ';
       font-style: normal;
     }
+  }
+
+  .special-rules {
+    padding: 0;
+
+    &, > li { display: inline; }
+
+    > li:after { content: ', '; }
+    > li:last-child:after { content: '.'; }
   }
 }
 
