@@ -1,5 +1,5 @@
 ---
-name: "Arm Weapon Mount"
+name: "Carapace Weapon Mount"
 modes:
   -
     range: "-"
