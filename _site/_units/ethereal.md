@@ -10,7 +10,7 @@ special_rules:
   - "leader"
 notes:
   |
-    All units in a formation joined by an Ethereal become Fearless. If the Ethereal is killed then all these units lose Fearless and the formation breaks automatically.
+    All units in a formation joined by an Ethereal gain <em>Fearless</em>. If the Ethereal is killed then all these units lose <em>Fearless</em> and the formation receives an additional D3 Blast markers.
 weapons:
   -
     id: "honour-blade"

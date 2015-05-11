@@ -26,7 +26,7 @@ units:
   - hypaspist
   - secutor
 
-  - sentinel
+  - crusader-robot
 
   - forge-knight
 
@@ -40,6 +40,7 @@ units:
 
   - ark-mechanicus-battleship
 special_rules:
+  - automaton
   - weapon-mount
   - imperial-void-shields
 ---

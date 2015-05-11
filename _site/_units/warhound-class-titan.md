@@ -13,7 +13,7 @@ special_rules:
   - "walker"
 notes:
   |
-    May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. All units it moves into or over suffer a hit on a roll of 6+.
+    May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+.
 weapons:
   -
     id: "plasma-blastgun"
