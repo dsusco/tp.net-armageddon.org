@@ -6,6 +6,7 @@ armour: "4+"
 cc: "6+"
 ff: "5+"
 special_rules:
+  - "scout"
   - "skimmer"
   - "transport"
 notes:

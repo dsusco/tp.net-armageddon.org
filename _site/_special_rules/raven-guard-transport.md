@@ -5,6 +5,4 @@ The Raven Guard are a highly mobile army. Because of this, the points cost of ce
 
 Formations that come with Rhinos will be noted as having <q>plus transport</q> in the units section of the army list. Raven Guard formations must take the transport vehicles, you cannot leave them behind in order to garrison the formation. You can only choose to ignore this if the formation is entering play via a special rule (e.g. planetfall or teleport) or an aircraft.
 
-You may choose to replace a formation’s Rhinos with Drop Pods before each game, after the opposing army is known but before objectives are placed. Raven Guard Terminator formations may also be transported in Drop Pods.
-
-Finally, a Raven Guard Strike Cruiser or Battle Barge may transport light vehicles as armoured vehicles.
+You may choose to replace a formation’s Rhinos with Drop Pods before each game, after the opposing army is known but before objectives are placed.
