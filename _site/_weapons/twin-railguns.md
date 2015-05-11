@@ -2,6 +2,6 @@
 name: "Twin Railguns"
 modes:
   -
-    range: "75cm"
+    range: "60cm"
     firepower: "AT3+"
 ---
