@@ -17,6 +17,7 @@ RedirectMatch /pdfs/netea-ork-feral-orks.pdf /pdfs/netea-ork-feral-orks-.pdf
 RedirectMatch /pdfs/netea-ork-speed-freeks.pdf /pdfs/netea-ork-speed-freeks-.pdf
 RedirectMatch /pdfs/netea-ork-war-horde.pdf /pdfs/netea-ork-war-horde-.pdf
 RedirectMatch /pdfs/netea-space-marine-codex-astartes.pdf /pdfs/netea-space-marine-codex-astartes-.pdf
+RedirectMatch /pdfs/netea-space-marine-raven-guard.pdf /pdfs/netea-space-marine-raven-guard-.pdf
 RedirectMatch /pdfs/netea-space-marine-salamanders.pdf /pdfs/netea-space-marine-salamanders-.pdf
 RedirectMatch /pdfs/netea-space-marine-scions-of-iron.pdf /pdfs/netea-space-marine-scions-of-iron-.pdf
 RedirectMatch /pdfs/netea-space-marine-white-scars.pdf /pdfs/netea-space-marine-white-scars-.pdf
