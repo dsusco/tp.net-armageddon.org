@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units without _Jump Packs_ or _Mounted_.
+    May transport one unit of Chaos Space Marine Terminators or Obliterators, or two infantry units (except Daemon Princes) without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: "twin-lascannon"
