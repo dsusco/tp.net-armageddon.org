@@ -1,5 +1,5 @@
 ---
-name: "Trenchworks"
+name: "Baran Siegemaster Fortifications"
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
@@ -13,7 +13,7 @@ Trench
 
 <div class="table-responsive">
   <table class="no-margin-bottom table table-borderless table-captioned">
-    <caption>Trenchworks Effects Table</caption>
+    <caption>Fortified Position Effects Table</caption>
     <thead>
       <tr>
         <th>Terrain</th>
@@ -33,6 +33,12 @@ Trench
         <td>Gun Emplacement</td>
         <td>4+ Cover Save</td>
         <td>5+ Cover Save</td>
+        <td>No Effect</td>
+      </tr>
+      <tr>
+        <td>Razor Wire</td>
+        <td>Dangerous</td>
+        <td>No Effect</td>
         <td>No Effect</td>
       </tr>
       <tr>

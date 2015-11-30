@@ -42,5 +42,5 @@ units:
 
   - hades-breaching-drill
 special_rules:
-  - trenchworks
+  - death-korps-of-krieg-fortifications
 ---

@@ -1,9 +1,8 @@
 ---
-name: "Fortified Positions"
+name: "Knight World Fortifications"
+classes:
+  - one-half
 ---
-Bunker
-: Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
-
 Gun Emplacement
 : Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit.
 
@@ -23,12 +22,6 @@ Trench
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Bunker</td>
-        <td>3+ Cover Save</td>
-        <td>Dangerous</td>
-        <td>Impassable</td>
-      </tr>
       <tr>
         <td>Gun Emplacement</td>
         <td>4+ Cover Save</td>
