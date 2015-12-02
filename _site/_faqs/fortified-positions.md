@@ -1,17 +1,14 @@
 ---
 name: "Fortified Positions"
 ---
-What is a fortified positions?
-: They are not units. They are terrain that is placed by the player.
-
-Do fortified positions block a line of fire?
+Do all Fortified Positions purchased need to be set up?
 : No.
 
-Do fortified positions work against fire from all directions?
-: Yes.
+Are Fortified Positions counted during tiebreak?
+: No.
 
-Do units entering or starting their move in their own fortified position have to take a dangerous terrain test?
-: If it is dangerous to their unit type, yes.
+Are the Gun Emplacements that come with certain formation set up at the same time as Fortified Positions?
+: No, these are setup with the formation they are part of.
 
-How wide is razor wire and a trench?
-: They are assumed to be under 5cm wide, crossible in one move when a unit is moving cautiously.
+Are the Gun Emplacements that come with certain formation units in the formation?
+: No, they just need to be set up in coherency with the rest of the formation.
