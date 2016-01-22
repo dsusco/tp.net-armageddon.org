@@ -21,6 +21,7 @@ RedirectMatch /pdfs/netea-space-marine-codex-astartes.pdf /pdfs/netea-space-mari
 RedirectMatch /pdfs/netea-space-marine-imperial-fists.pdf /pdfs/netea-space-marine-imperial-fists-.pdf
 RedirectMatch /pdfs/netea-space-marine-salamanders.pdf /pdfs/netea-space-marine-salamanders-.pdf
 RedirectMatch /pdfs/netea-space-marine-scions-of-iron.pdf /pdfs/netea-space-marine-scions-of-iron-.pdf
+RedirectMatch /pdfs/netea-space-marine-space-wolves.pdf /pdfs/netea-space-marine-space-wolves-.pdf
 RedirectMatch /pdfs/netea-space-marine-white-scars.pdf /pdfs/netea-space-marine-white-scars-.pdf
 RedirectMatch /pdfs/netea-tau.pdf /pdfs/netea-tau-.pdf
 RedirectMatch /pdfs/netea-tyranid.pdf /pdfs/netea-tyranid-.pdf
