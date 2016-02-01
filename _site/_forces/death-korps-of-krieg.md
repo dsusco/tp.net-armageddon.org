@@ -4,6 +4,7 @@ classes:
   - page-break-right
 units:
   - commissar
+  - gorgon-mortars
 
   - commander-death-korps
   - death-riders
