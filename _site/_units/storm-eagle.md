@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport four infantry units without _Jump Packs_ or _Mounted_.
+    May transport four infantry units without _Jump Packs_ or _Mounted_. Counts as a Thunderhawk for the purposes of being transported.
 weapons:
   -
     id: "twin-heavy-bolter-aa-15cm"

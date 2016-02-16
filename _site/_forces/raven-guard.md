@@ -9,6 +9,8 @@ units:
   - supreme-commander
 
   - assault
+  - bike
+  - devastator
   - scout
   - sternguard-veteran
   - tactical
@@ -16,6 +18,7 @@ units:
   - vanguard-assault-veteran
   - vanguard-veteran
 
+  - attack-bike
   - land-speeder
   - land-speeder-storm
   - land-speeder-tempest
