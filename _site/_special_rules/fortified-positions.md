@@ -1,52 +1,8 @@
 ---
 name: "Fortified Positions"
 ---
-Bunker
-: Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
+A Siege Regiment army regiment is allowed to purchase one set of fortified positions for its troops to occupy for each Regimental HQ or Infantry company included in the army.
 
-Gun Emplacement
-: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit.
+Fortified positions must be set up after Objectives, but before Spacecraft and Garrisons are deployed. They may be set up anywhere a vehicle may deploy in the Siegemasters half of the table. You may split up a set of fortified positions as desired, as long as the rules for formation coherence are adhered to. For example, you could split up trenches into several lines, as long as there are 5cm <q>links</q> between the different parts of the position. Fortified positions count as having a move of zero, and may <q>garrison</q> (e.g., they can be set up in positions that garrison units can be set up in). It goes without saying that they may not be transported, and any players that were considering transporting them onto the table should be deeply ashamed of themselves!
 
-Trench
-: Can hold one infantry unit per 4cm of length.
-{: .dl-colonated }
-
-<div class="table-responsive">
-  <table class="no-margin-bottom table table-borderless table-captioned">
-    <caption>Fortified Position Effects Table</caption>
-    <thead>
-      <tr>
-        <th>Terrain</th>
-        <th>Infantry</th>
-        <th>Vehicle</th>
-        <th>War Engine</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Bunker</td>
-        <td>3+ Cover Save</td>
-        <td>Dangerous</td>
-        <td>Impassable</td>
-      </tr>
-      <tr>
-        <td>Gun Emplacement</td>
-        <td>4+ Cover Save</td>
-        <td>5+ Cover Save</td>
-        <td>No Effect</td>
-      </tr>
-      <tr>
-        <td>Razor Wire</td>
-        <td>Dangerous</td>
-        <td>No Effect</td>
-        <td>No Effect</td>
-      </tr>
-      <tr>
-        <td>Trench</td>
-        <td>4+ Cover Save</td>
-        <td>Dangerous</td>
-        <td>No Effect</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Once set up fortified positions may be used by any unit, not just the units they were purchased for. They may be captured and used by enemy units too.

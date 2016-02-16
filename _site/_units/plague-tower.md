@@ -13,7 +13,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport twelve Great Unclean Ones or infantry units without _Jump Packs_ or _Mounted_; Great Unclean Ones count as two units each. Critical Hit Effect: The unit takes a point of damage and D3 units of the player’s choice that are being transported are destroyed.
+    May transport sixteen Great Unclean Ones or infantry units without _Jump Packs_ or _Mounted_; Great Unclean Ones count as two units each. Critical Hit Effect: The unit takes a point of damage and D3 units of the player’s choice that are being transported are destroyed.
 weapons:
   -
     id: "plague-mortar"

@@ -3,7 +3,7 @@
   <div class="two-column">
     {% h2 name #id %}{% if army_list.introduction %}
 
-{{ army_list.introduction | markdownify }}{% endif %}
+{{ army_list.introduction }}{% endif %}
     <h4>Forces</h4>
 
     <p>The {{ army_list.name }} Army List uses the datasheets from {% for f in army_list.forces %}{% assign force = site.data.forces[f] %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<a href="#{{ force.id }}-forces">the {{ force.name }} Forces section</a>{% endfor %}.</p>

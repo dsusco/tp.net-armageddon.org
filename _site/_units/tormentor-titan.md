@@ -14,7 +14,7 @@ special_rules:
   - "walker"
 notes:
   |
-    The unit’s speed value is reduced to 25cm and it loses the Jump Pack ability. Subsequent critical hits cause one point of damage.
+    Critical Hit Effect: The unit’s speed value is reduced to 25cm and it loses the <em>Jump Packs</em> ability. Subsequent critical hits cause one point of damage.
 weapons:
   -
     id: "phantom-lances"

@@ -1,4 +1,5 @@
-# A sample Gemfile
+#ruby=2.2.2
+#ruby-gemset=jekyll
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>2.4.0'
+gem 'jekyll', '~>2.5.0'
