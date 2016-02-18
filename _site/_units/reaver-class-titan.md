@@ -21,5 +21,5 @@ weapons:
     arc: "FwA"
   -
     id: "rocket-launcher-3bp"
-    arc: "FwA"
+    arc: "FxF"
 ---
