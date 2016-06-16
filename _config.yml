@@ -6,7 +6,7 @@ destination: public_html/
 collections:
   army_lists:
     output: true
-    permalink: army-lists/:title.html
+    permalink: army-lists/:name.html
   faqs:
   forces:
   special_rules:
