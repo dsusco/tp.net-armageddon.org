@@ -21,6 +21,7 @@ body {
     background: none;
     border-bottom: none;
   }
+  > colgroup > col { width: auto !important; }
   > thead {
     > tr {
       > th, > td { border-top: none; }
@@ -101,7 +102,11 @@ aside.faq > div > .panel-heading { display: none; }
     }
   }
 
-  .stats > .name { font-weight: bold; }
+  .stats > .name {
+    font-weight: bold;
+
+    &:before { font-weight: normal; }
+  }
 }
 
 @media (min-width: @screen-sm-min) {
@@ -110,6 +115,7 @@ aside.faq > div > .panel-heading { display: none; }
       float: left;
       width: 50%;
     }
+  .notes { clear: both; }
   }
 }
 
@@ -140,6 +146,7 @@ aside.faq > div > .panel-heading { display: none; }
     top: 0;
     width: 1.5em;
 
+    &.fa-plus-circle { left: 1.5em; }
     &.fa-chevron-circle-up, &.fa-chevron-circle-down {
       left: auto;
       right: 1.5em;
@@ -149,7 +156,7 @@ aside.faq > div > .panel-heading { display: none; }
 
   ol {
     height: 1.5em;
-    margin: 0 3em 0 1.5em;
+    margin: 0 3em;
     overflow: hidden;
   }
 
@@ -166,7 +173,7 @@ aside.faq > div > .panel-heading { display: none; }
   &.expanded {
     height: 100%;
 
-    .fa-chevron-circle-up, .fa-chevron-circle-down { display: none; }
+    .fa-home, .fa-chevron-circle-up, .fa-chevron-circle-down { display: none; }
 
     .container {
       height: 100%;

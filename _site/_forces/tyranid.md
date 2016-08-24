@@ -4,6 +4,7 @@ classes:
   - page-break-right
 units:
   - brood-lord
+  - symbiote
 
   - gargoyles
   - genestealers

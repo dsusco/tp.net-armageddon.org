@@ -12,7 +12,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport ten infantry units (except Big Gunz), light vehicle units or armoured vehicle units with _walker_; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.
+    May transport ten infantry units (except Big Gunz), light vehicle units, Killa Kans or Dreadnoughts; plus four units of Grotz. Light vehicles and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.
 weapons:
   -
     id: "gun-turrets"

@@ -1,5 +1,5 @@
 ---
-name: "Gatling Blaster"
+name: "Gatling Blaster (Mars Pattern)"
 modes:
   -
     range: "60cm"

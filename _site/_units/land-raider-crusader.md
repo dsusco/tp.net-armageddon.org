@@ -11,7 +11,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport three infantry units without _Jump Packs_ or _Mounted_; Terminator units count as two units each. Counts as a Land Raider for the purposes of being transported.
+    May transport three infantry units without _Jump Packs_ or _Mounted_; Terminator units count as one and a half units each, rounding up. Counts as a Land Raider for the purposes of being transported.
 weapons:
   -
     id: "hurricane-bolters"

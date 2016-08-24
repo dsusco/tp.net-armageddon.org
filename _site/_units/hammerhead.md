@@ -9,7 +9,7 @@ special_rules:
   - "skimmer"
 notes:
   |
-    Armed with either a Railgun, Ion Cannon or Twin Fusion Cannons.
+    Armed with either a Railgun, Ion Cannon or Twin Fusion Cannon.
 weapons:
   -
     id: "smart-missile-system"

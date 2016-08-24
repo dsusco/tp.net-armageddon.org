@@ -28,5 +28,5 @@ units:
   - baneblade
   - shadowsword
 special_rules:
-  - fortified-positions
+  - baran-siegemaster-fortified-positions
 ---

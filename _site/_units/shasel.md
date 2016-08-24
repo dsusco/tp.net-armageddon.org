@@ -8,7 +8,4 @@ ff: "n/a"
 special_rules:
   - "coordinated-fire"
   - "leader"
-weapons:
-  -
-    id: "plasma-rifle"
 ---

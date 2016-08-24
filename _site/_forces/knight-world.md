@@ -1,5 +1,7 @@
 ---
 name: Knight World
+classes:
+  - page-break-right
 units:
   - aspirant
   - seneschal
@@ -25,5 +27,5 @@ units:
 
 special_rules:
   - knight-technology
-  - knight-world-fortified-positions
+  - knight-world-fortifications
 ---

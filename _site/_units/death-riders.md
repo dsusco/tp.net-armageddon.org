@@ -8,6 +8,7 @@ ff: "6+"
 special_rules:
   - "infiltrator"
   - "mounted"
+  - "walker"
 weapons:
   -
     id: "laspistols"

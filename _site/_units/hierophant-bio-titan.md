@@ -13,7 +13,7 @@ special_rules:
   - "reinforced-armour"
 notes:
   |
-    May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide. Armed with either Bile Launcher or a Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage.
+    May step over units and and pieces of terrain that are lower then the unit's abdomen and less than 2cm wide.  Armed with either Bile Launcher or a Razorclaw. Critical Hit Effect: The unit takes a point of damage. Roll a D6, on a roll of 1 all units within 5cm take a hit on a roll of 6+, and on a roll of 6 the unit loses another point of damage.
 weapons:
   -
     id: "bile-launcher"

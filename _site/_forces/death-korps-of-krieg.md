@@ -4,6 +4,7 @@ classes:
   - page-break-right
 units:
   - commissar
+  - gorgon-mortars
 
   - commander-death-korps
   - death-riders
@@ -42,5 +43,5 @@ units:
 
   - hades-breaching-drill
 special_rules:
-  - trenchworks
+  - death-korps-of-krieg-fortifications
 ---

@@ -9,7 +9,7 @@ Brood
 : Units with _brood_ (brood units) are placed in the army’s off-board <q>swarm pool</q> when they are destroyed. These units may be returned to play via swarming for a number of swarm points equal to their brood value. This is the number in parenthesis after <q>Brood</q>.
 
 Synapse
-: Formations that contain at least one unit with _synapse_ (a synapse unit) may return brood units from the swarm pool to play via swarming. Each synapse unit has a synapse value, the number in parenthesis after <q>Synapse</q>.
+: Formations that contain at least one unit with _synapse_ (a synapse unit) may return brood units from the swarm pool to play via swarming. Each synapse unit has a synapse value, the number in parenthesis after <q>Synapse</q>. Some characters are noted as having Synapse (+x). These increase the synapse value of the unit they are added to by a number equal to <q>x</q>.
 
 Swarming
 : After a formation regroups, or in the End phase after all formations have rallied, a formation with at least one _synapse_ unit may <q>swarm</q>.

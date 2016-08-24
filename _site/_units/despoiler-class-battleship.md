@@ -10,7 +10,7 @@ special_rules:
   - "transport"
 notes:
   |
-    May transport 40 infantry units or Chaos Dreadnoughts; plus enough Dreadclaws to transport them.
+    May transport 40 infantry units or Chaos Dreadnoughts; plus nine Chaos Thunderhawks and enough Dreadclaws to transport any other units being carried.
 weapons:
   -
     id: "orbital-bombardment-3bp"

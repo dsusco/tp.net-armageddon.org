@@ -1,5 +1,5 @@
 ---
-name: "Trenchworks"
+name: "Death Korps or Krieg Fortifications"
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.

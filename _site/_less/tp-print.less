@@ -15,9 +15,12 @@
   margin: 0 0 unit((@line-height / @font-size), em);
 }
 
+@import 'garamond';
 @import 'reset';
 @import 'page';
 @import 'tp';
+
+body { font-family: Garamond; }
 
 /* type */
 h1 {
@@ -276,6 +279,24 @@ aside.faq {
     float: left;
     width: 49.999%;
   }
+
+  .notes > :first-child:before {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &:first-child {
+    .stats, .weapon:first-child > .weapon-line:first-child {
+      > *:before {
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
 
 .force {
@@ -339,14 +360,14 @@ aside.faq {
   ol {
     list-style: none;
     padding-left: 0;
-  }
 
-  a {
-    display: block;
-    content: target-content(attr(href)) leader('.') target-counter(attr(href), page);
+    a {
+      display: block;
+      content: target-content(attr(href)) leader('.') target-counter(attr(href), page);
 
-    &.h2 { margin-left: 1em; }
-    &.h3 { margin-left: 2em; }
+      &.h2 { margin-left: 1em; }
+      &.h3 { margin-left: 2em; }
+    }
   }
 }
 .no-outline #table-of-contents { display: none; }

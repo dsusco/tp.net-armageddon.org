@@ -5,9 +5,11 @@ RedirectMatch /pdfs/netea-adeptus-mechanicus-knight-world.pdf /pdfs/netea-adeptu
 RedirectMatch /pdfs/netea-adeptus-mechanicus-titan-legion.pdf /pdfs/netea-adeptus-mechanicus-titan-legion-.pdf
 RedirectMatch /pdfs/netea-chaos-cultist-stigmatus-covenant.pdf /pdfs/netea-chaos-cultist-stigmatus-covenant-.pdf
 RedirectMatch /pdfs/netea-chaos-space-marine-black-legion.pdf /pdfs/netea-chaos-space-marine-black-legion-.pdf
+RedirectMatch /pdfs/netea-chaos-space-marine-emperors-children.pdf /pdfs/netea-chaos-space-marine-emperors-children-.pdf
 RedirectMatch /pdfs/netea-dark-eldar.pdf /pdfs/netea-dark-eldar-.pdf
 RedirectMatch /pdfs/netea-eldar-alaitoc.pdf /pdfs/netea-eldar-alaitoc-.pdf
 RedirectMatch /pdfs/netea-eldar-biel-tan.pdf /pdfs/netea-eldar-biel-tan-.pdf
+RedirectMatch /pdfs/netea-eldar-iyanden.pdf /pdfs/netea-eldar-iyanden-.pdf
 RedirectMatch /pdfs/netea-imperial-guard-baran-siegemasters.pdf /pdfs/netea-imperial-guard-baran-siegemasters-.pdf
 RedirectMatch /pdfs/netea-imperial-guard-death-korps-of-krieg.pdf /pdfs/netea-imperial-guard-death-korps-of-krieg-.pdf
 RedirectMatch /pdfs/netea-imperial-guard-minervan-tank-legion.pdf /pdfs/netea-imperial-guard-minervan-tank-legion-.pdf
@@ -17,8 +19,10 @@ RedirectMatch /pdfs/netea-ork-feral-orks.pdf /pdfs/netea-ork-feral-orks-.pdf
 RedirectMatch /pdfs/netea-ork-speed-freeks.pdf /pdfs/netea-ork-speed-freeks-.pdf
 RedirectMatch /pdfs/netea-ork-war-horde.pdf /pdfs/netea-ork-war-horde-.pdf
 RedirectMatch /pdfs/netea-space-marine-codex-astartes.pdf /pdfs/netea-space-marine-codex-astartes-.pdf
+RedirectMatch /pdfs/netea-space-marine-imperial-fists.pdf /pdfs/netea-space-marine-imperial-fists-.pdf
 RedirectMatch /pdfs/netea-space-marine-salamanders.pdf /pdfs/netea-space-marine-salamanders-.pdf
 RedirectMatch /pdfs/netea-space-marine-scions-of-iron.pdf /pdfs/netea-space-marine-scions-of-iron-.pdf
+RedirectMatch /pdfs/netea-space-marine-space-wolves.pdf /pdfs/netea-space-marine-space-wolves-.pdf
 RedirectMatch /pdfs/netea-space-marine-white-scars.pdf /pdfs/netea-space-marine-white-scars-.pdf
 RedirectMatch /pdfs/netea-tau.pdf /pdfs/netea-tau-.pdf
 RedirectMatch /pdfs/netea-tyranid.pdf /pdfs/netea-tyranid-.pdf
