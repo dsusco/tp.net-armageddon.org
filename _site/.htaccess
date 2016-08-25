@@ -10,6 +10,7 @@ RedirectMatch /pdfs/netea-dark-eldar.pdf /pdfs/netea-dark-eldar-.pdf
 RedirectMatch /pdfs/netea-eldar-alaitoc.pdf /pdfs/netea-eldar-alaitoc-.pdf
 RedirectMatch /pdfs/netea-eldar-biel-tan.pdf /pdfs/netea-eldar-biel-tan-.pdf
 RedirectMatch /pdfs/netea-eldar-iyanden.pdf /pdfs/netea-eldar-iyanden-.pdf
+RedirectMatch /pdfs/netea-eldar-saim-hann.pdf /pdfs/netea-eldar-saim-hann-.pdf
 RedirectMatch /pdfs/netea-imperial-guard-baran-siegemasters.pdf /pdfs/netea-imperial-guard-baran-siegemasters-.pdf
 RedirectMatch /pdfs/netea-imperial-guard-death-korps-of-krieg.pdf /pdfs/netea-imperial-guard-death-korps-of-krieg-.pdf
 RedirectMatch /pdfs/netea-imperial-guard-minervan-tank-legion.pdf /pdfs/netea-imperial-guard-minervan-tank-legion-.pdf
