@@ -18,4 +18,7 @@ weapons:
   -
     id: "scatter-laser-aa"
     arc: "FxF"
+  -
+    id: "twin-eldar-missile-launcher"
+    arc: "FxF"
 ---

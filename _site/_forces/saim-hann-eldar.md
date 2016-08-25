@@ -13,8 +13,7 @@ units:
   - guardians
   - heavy-weapon-platform
   - howling-banshees
-  - jetbikes
-  - rangers
+  - saim-hann-jetbikes
   - shining-spears
   - striking-scorpions
   - swooping-hawks
@@ -23,7 +22,7 @@ units:
   - wraithguard
 
   - hornet
-  - vyper
+  - saim-hann-vyper
 
   - falcon
   - fire-prism

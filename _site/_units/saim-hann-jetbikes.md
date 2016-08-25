@@ -1,9 +1,9 @@
 ---
-name: "Wild Riders"
+name: "Saim-Hann Jetbikes"
 type: "INF"
 speed: "35cm"
 armour: "5+"
-cc: "5+"
+cc: "6+"
 ff: "4+"
 special_rules:
   - "invulnerable-save"
@@ -12,6 +12,4 @@ special_rules:
 weapons:
   -
     id: "twin-shuriken-catapults"
-  -
-    id: "close-combat-weapons"
 ---

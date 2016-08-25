@@ -1,5 +1,7 @@
 ---
 name: Adeptus Mechanicus Titan Legion
+classes:
+  - page-break-right
 units:
   - apocalypse-missile-launcher
   - carapace-landing-pad
