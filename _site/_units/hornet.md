@@ -10,7 +10,5 @@ special_rules:
   - "skimmer"
 weapons:
   -
-    id: "bright-lance"
-  -
-    id: "scatter-laser"
+    id: "twin-hornet-pulse-laser"
 ---
