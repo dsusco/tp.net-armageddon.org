@@ -11,4 +11,6 @@ notes:
 weapons:
   -
     id: "heavy-bolter"
+  -
+    id: "lasguns"
 ---

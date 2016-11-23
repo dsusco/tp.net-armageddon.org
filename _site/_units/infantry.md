@@ -11,4 +11,6 @@ notes:
 weapons:
   -
     id: "autocannon"
+  -
+    id: "lasguns"
 ---
