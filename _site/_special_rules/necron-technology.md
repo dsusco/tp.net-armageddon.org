@@ -1,5 +1,5 @@
 ---
-name: "Necron Technology"
+name: Necron Technology
 ---
 Necron
 : Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet.

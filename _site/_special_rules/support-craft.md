@@ -1,3 +1,3 @@
 ---
-name: "Support Craft"
+name: Support Craft
 ---

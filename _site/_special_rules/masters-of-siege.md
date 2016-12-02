@@ -1,5 +1,5 @@
 ---
-name: "Masters of Siege"
+name: Masters of Siege
 ---
 The Imperial Fists have a special expertise in siege warfare and mass shock assaults. This is represented by the following rules:
 

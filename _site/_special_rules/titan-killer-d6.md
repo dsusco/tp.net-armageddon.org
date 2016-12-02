@@ -1,4 +1,4 @@
 ---
-name: "Titan Killer (D6)"
-abbr: "TK(D6)"
+name: Titan Killer (D6)
+abbr: TK(D6)
 ---

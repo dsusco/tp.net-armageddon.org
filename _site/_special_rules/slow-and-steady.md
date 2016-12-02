@@ -1,3 +1,3 @@
 ---
-name: "Slow and Steady"
+name: Slow and Steady
 ---

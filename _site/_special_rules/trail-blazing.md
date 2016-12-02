@@ -1,5 +1,5 @@
 ---
-name: "Trail Blazing"
+name: Trail Blazing
 classes:
   - column-break
 ---

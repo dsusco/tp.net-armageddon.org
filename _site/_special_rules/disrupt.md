@@ -1,4 +1,4 @@
 ---
-name: "Disrupt"
-abbr: "D"
+name: Disrupt
+abbr: D
 ---

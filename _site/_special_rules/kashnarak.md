@@ -1,5 +1,5 @@
 ---
-name: "Kashnarak"
+name: Kashnarak
 classes:
   - pull-up
 ---

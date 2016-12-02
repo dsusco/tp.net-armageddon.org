@@ -1,5 +1,5 @@
 ---
-name: "Kabal of Pain’s Way Epic Tournament Special Rules"
+name: Kabal of Pain’s Way Epic Tournament Special Rules
 ---
 Dark Eldar forces are raiders by nature and rarely have an interest in holding ground. The swiftness of their vehicles and the deadly nature of their attacks are revealed quickly to their victims who watch the Dark Eldar disappear as quickly as they came. To represent these tactics, the Dark Eldar are forbidden from garrisoning any formations in the Epic tournament game scenario.
 

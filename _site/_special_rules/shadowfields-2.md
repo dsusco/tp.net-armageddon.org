@@ -1,3 +1,3 @@
 ---
-name: "2 Shadowfields"
+name: 2 Shadowfields
 ---

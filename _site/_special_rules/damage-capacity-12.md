@@ -1,3 +1,3 @@
 ---
-name: "Damage Capacity 12"
+name: Damage Capacity 12
 ---

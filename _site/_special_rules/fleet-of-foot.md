@@ -1,5 +1,5 @@
 ---
-name: "Fleet of Foot"
+name: Fleet of Foot
 classes:
   - one-third
 ---

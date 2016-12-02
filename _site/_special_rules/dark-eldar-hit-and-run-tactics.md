@@ -1,5 +1,5 @@
 ---
-name: "Hit &amp; Run Tactics"
+name: Hit &amp; Run Tactics
 classes:
   - one-third
 ---

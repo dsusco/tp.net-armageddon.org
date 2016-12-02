@@ -1,3 +1,3 @@
 ---
-name: "Augmented Summoning (+2D3)"
+name: Augmented Summoning (+2D3)
 ---

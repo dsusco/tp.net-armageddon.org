@@ -1,3 +1,3 @@
 ---
-name: "Supreme Commander"
+name: Supreme Commander
 ---

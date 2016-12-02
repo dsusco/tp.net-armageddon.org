@@ -1,3 +1,3 @@
 ---
-name: "Mounted"
+name: Mounted
 ---

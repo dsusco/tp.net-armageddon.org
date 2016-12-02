@@ -1,5 +1,5 @@
 ---
-name: "Eldar Technology"
+name: Eldar Technology
 ---
 The Eldar are a technologically sophisticated race that make use of a number of devices that have capabilities far in advance of anything used by the other races in the galaxy. These technological advantages are represented in Epic by the following special rules:
 

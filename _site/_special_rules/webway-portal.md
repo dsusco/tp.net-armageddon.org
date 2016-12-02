@@ -1,3 +1,3 @@
 ---
-name: "Webway Portal"
+name: Webway Portal
 ---

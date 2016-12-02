@@ -1,3 +1,3 @@
 ---
-name: "Necron"
+name: Necron
 ---

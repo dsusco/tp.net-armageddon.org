@@ -1,5 +1,5 @@
 ---
-name: "Regimental HQs"
+name: Regimental HQs
 classes:
   - column-break
 ---

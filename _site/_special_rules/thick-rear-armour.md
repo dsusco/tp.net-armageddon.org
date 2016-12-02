@@ -1,3 +1,3 @@
 ---
-name: "Thick Rear Armour"
+name: Thick Rear Armour
 ---

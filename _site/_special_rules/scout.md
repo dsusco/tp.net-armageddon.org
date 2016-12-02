@@ -1,3 +1,3 @@
 ---
-name: "Scout"
+name: Scout
 ---

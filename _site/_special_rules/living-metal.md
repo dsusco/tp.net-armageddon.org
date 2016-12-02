@@ -1,3 +1,3 @@
 ---
-name: "Living Metal"
+name: Living Metal
 ---

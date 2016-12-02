@@ -1,3 +1,3 @@
 ---
-name: "2 Void Shields"
+name: 2 Void Shields
 ---

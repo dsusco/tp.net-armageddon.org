@@ -1,5 +1,5 @@
 ---
-name: "Commissars"
+name: Commissars
 ---
 An Imperial Guard army may include one Commissar character per 500 points, or part thereof, in the army. The Commissars do not cost any points.
 

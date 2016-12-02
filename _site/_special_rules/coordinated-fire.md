@@ -1,5 +1,5 @@
 ---
-name: "Coordinated Fire"
+name: Coordinated Fire
 classes:
   - one-half
 ---

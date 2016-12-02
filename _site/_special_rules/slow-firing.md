@@ -1,4 +1,4 @@
 ---
-name: "Slow Firing"
-abbr: "Slw"
+name: Slow Firing
+abbr: Slw
 ---

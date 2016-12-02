@@ -1,5 +1,5 @@
 ---
-name: "Saim-Hann Epic Tournament Special Rules"
+name: Saim-Hann Epic Tournament Special Rules
 classes:
   - column-break
 ---

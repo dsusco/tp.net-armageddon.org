@@ -1,5 +1,5 @@
 ---
-name: "Fortified Positions"
+name: Fortified Positions
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.

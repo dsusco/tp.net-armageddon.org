@@ -1,3 +1,3 @@
 ---
-name: "Skimmer"
+name: Skimmer
 ---

@@ -1,5 +1,5 @@
 ---
-name: "Automata"
+name: Automata
 ---
 Formations that are comprised completely of units with _automata_ may only carry out marshal, overwatch and sustained fire actions. They also cannot capture objectives in the Epic tournament game rules.
 

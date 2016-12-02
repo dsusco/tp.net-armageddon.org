@@ -1,5 +1,5 @@
 ---
-name: "Tau Technology"
+name: Tau Technology
 classes:
  - one-half
 ---

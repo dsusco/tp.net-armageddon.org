@@ -1,5 +1,5 @@
 ---
-name: "Xeno-Biology"
+name: Xeno-Biology
 classes:
   - one-half
 ---

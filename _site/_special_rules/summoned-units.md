@@ -1,5 +1,5 @@
 ---
-name: "Summoned Units"
+name: Summoned Units
 classes:
   - pull-up
 ---

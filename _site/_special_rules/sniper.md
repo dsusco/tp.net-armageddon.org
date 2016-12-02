@@ -1,4 +1,4 @@
 ---
-name: "Sniper"
-abbr: "S"
+name: Sniper
+abbr: S
 ---

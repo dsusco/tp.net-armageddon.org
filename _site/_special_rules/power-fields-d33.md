@@ -1,3 +1,3 @@
 ---
-name: "D3+3 Power Fields"
+name: D3+3 Power Fields
 ---

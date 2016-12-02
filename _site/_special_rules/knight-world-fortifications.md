@@ -1,5 +1,5 @@
 ---
-name: "Knight World Fortifications"
+name: Knight World Fortifications
 classes:
   - one-half
 ---

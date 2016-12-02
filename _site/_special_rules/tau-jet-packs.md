@@ -1,3 +1,3 @@
 ---
-name: "Tau Jet Packs"
+name: Tau Jet Packs
 ---

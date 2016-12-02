@@ -1,5 +1,5 @@
 ---
-name: "Imperial Fist Fortifications"
+name: Imperial Fist Fortifications
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.

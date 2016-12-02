@@ -1,3 +1,3 @@
 ---
-name: "Teleport"
+name: Teleport
 ---

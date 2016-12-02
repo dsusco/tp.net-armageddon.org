@@ -1,5 +1,5 @@
 ---
-name: "Dark Eldar Technology"
+name: Dark Eldar Technology
 classes:
   - one-third
 ---

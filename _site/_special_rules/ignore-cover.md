@@ -1,4 +1,4 @@
 ---
-name: "Ignore Cover"
-abbr: "IC"
+name: Ignore Cover
+abbr: IC
 ---

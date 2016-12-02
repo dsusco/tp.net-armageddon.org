@@ -1,5 +1,5 @@
 ---
-name: "Knight Technology"
+name: Knight Technology
 classes:
   - one-half
 ---
