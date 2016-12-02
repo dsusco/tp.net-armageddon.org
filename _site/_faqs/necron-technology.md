@@ -1,5 +1,5 @@
 ---
-name: "Necron Technology"
+name: Necron Technology
 ---
 Can the _leader_ special ability be used to return a destroyed Necron unit instead of removing an additional Blast marker?
 : Yes, but only when regrouping.

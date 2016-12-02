@@ -1,5 +1,5 @@
 ---
-name: "Fortified Positions"
+name: Fortified Positions
 ---
 What is a fortified positions?
 : They are not units. They are terrain that is placed by the player.

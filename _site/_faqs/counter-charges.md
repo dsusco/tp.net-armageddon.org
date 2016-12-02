@@ -11,7 +11,7 @@ What happens when the closest enemy unit cannot be reach due to impassable terra
 : The counter-charge would follow the shortest path to get to the closest enemy unit.
 
 Can units counter-charge over friendly units?
-: Follow the normal movement rules (see [Other Units](#other-units)) with respect to this.
+: Follow the normal movement rules (see [Other Units](/tournament-pack/#other-units)) with respect to this.
 
 Can units disembark from a unit that has already counter-charged?
 : Yes, so long as the transport unit isn't in base contact with two enemy units.

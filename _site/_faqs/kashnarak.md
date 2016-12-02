@@ -1,5 +1,5 @@
 ---
-name: "Kashnarak"
+name: Kashnarak
 ---
 Does the Kashnarak need to pass an action test?
 : Yes, it has an initiative rating of 2+.

@@ -1,5 +1,5 @@
 ---
-name: "Aircraft Attacks"
+name: Aircraft Attacks
 ---
 Can an aircraft end its approach move in the middle of an enemy formation in order to ensure a specific target is allocated hits before other models?
 : No, if an aircraft ends its approach move in this manner then assume the fire is coming from the direction of the approach move.

@@ -1,5 +1,5 @@
 ---
-name: "Set-up Remaining Formations"
+name: Set-up Remaining Formations
 ---
 Are formations being kept in reserve declared at the same time as other formations are being set up within 15cm of their own side's table edge?
 : No, players declare which formations are going to be kept in reserve first, then take it in turn to set up the remaining formations one at a time, starting with the player with the higher strategy rating.

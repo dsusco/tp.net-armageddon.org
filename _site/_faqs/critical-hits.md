@@ -1,5 +1,5 @@
 ---
-name: "Critical Hits"
+name: Critical Hits
 ---
 Does the <q>hit</q> here refer to hits that have been allocated to the war engine or to hits that have reduced the war engine's damage capacity by 1 point?
 : Hits that have reduced the war engine's damage capacity by 1 point.

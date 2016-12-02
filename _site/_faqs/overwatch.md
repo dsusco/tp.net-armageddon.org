@@ -18,4 +18,4 @@ Does counter-charging trigger overwatch fire?
 : No.
 
 What happens to formation that is broken from overwatch fire while it is carrying out an action?
-: See [Withdrawals](#withdrawals), <q>it makes a withdrawal and loses the rest of its action.</q>
+: See [Withdrawals](/tournament-pack/#withdrawals), <q>it makes a withdrawal and loses the rest of its action.</q>
