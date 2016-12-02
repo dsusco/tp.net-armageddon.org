@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html class="no-js no-prince">
+<html class="no-js no-prince" lang="en">
   <head>
-    <link href="/css/tp.min.css" media="screen" rel="stylesheet">
+    <link href="/assets/css/tp.net-armageddon.org.css" rel="stylesheet" media="screen">
 
     <meta charset="utf-8">
     <meta name="author" content="">
@@ -9,14 +9,46 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title data-date="{{ page.date | date: '%F' }}">{{ page.title }}</title>
+    <title data-mtime="{{ page.mtime | date: '%F' }}">{{ page.title }}</title>
   </head>
 
-  <body>
-    <main id="{{ page.id }}" class="container{% if page.layout == 'army_list' %} no-outline{% endif %}">
+  <body id="{{ page.id }}" class="{{ page.layout }}-layout" data-spy="scroll" data-target="#nav" data-offset="42">
+    <main id="main" class="container">
 {{ content }}
-    </main>
+    </main>{% if page.headings %}
 
-    <script src="/js/tp.min.js"></script>
+    <nav id="nav" style="counter-reset:page 1">
+      <div class="container">
+        <div class="row">
+          <a class="fa fa-home" href="/"></a>
+          <i class="fa fa-plus-circle"></i>
+
+          <ol class="nav nav-pills nav-stacked">{% for pair in page.headings %}{% if forloop.first %}
+            <li>
+              <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" data-number="{{ pair[1].number }}">{{ pair[1].text }}</a>
+              <span>{% elsif forloop.last %}
+                <a class="fa fa-chevron-circle-down" href="{{ pair[1].href }}"></a>
+              </span>
+            </li>
+            <li>
+              <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" data-number="{{ pair[1].number }}">{{ pair[1].text }}</a>
+              <span>
+                <a class="fa fa-chevron-circle-up" href="{{ prev.href }}"></a>
+              </span>
+            </li>{% else %}
+                <a class="fa fa-chevron-circle-down" href="{{ pair[1].href }}"></a>
+              </span>
+            </li>
+            <li>
+              <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" data-number="{{ pair[1].number }}">{{ pair[1].text }}</a>
+              <span>
+                <a class="fa fa-chevron-circle-up" href="{{ prev.href }}"></a>{% endif %}{% assign prev = pair[1] %}{% endfor %}
+          </ol>
+        </div>
+      </div>
+    </nav>{% endif %}
+{% if jekyll.environment == 'development' %}
+    <script src="http://localhost:35729/livereload.js"></script>{% endif %}
+    <script src="/assets/js/tp.net-armageddon.org.js"></script>
   </body>
 </html>

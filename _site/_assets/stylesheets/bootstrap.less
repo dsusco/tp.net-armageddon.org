@@ -1,0 +1,121 @@
+@bootstrap: 'bootstrap/less/';
+
+// Core variables and mixins
+@import '@{bootstrap}variables';
+@import '@{bootstrap}mixins';
+
+// Reset and dependencies
+@import '@{bootstrap}normalize';
+@import '@{bootstrap}print';
+//@import '@{bootstrap}glyphicons';
+
+// Core CSS
+@import '@{bootstrap}scaffolding';
+@import '@{bootstrap}type';
+@import '@{bootstrap}code';
+@import '@{bootstrap}grid';
+@import '@{bootstrap}tables';
+@import '@{bootstrap}forms';
+@import '@{bootstrap}buttons';
+
+// Components
+@import '@{bootstrap}component-animations';
+@import '@{bootstrap}dropdowns';
+@import '@{bootstrap}button-groups';
+@import '@{bootstrap}input-groups';
+@import '@{bootstrap}navs';
+@import '@{bootstrap}navbar';
+@import '@{bootstrap}breadcrumbs';
+@import '@{bootstrap}pagination';
+@import '@{bootstrap}pager';
+@import '@{bootstrap}labels';
+@import '@{bootstrap}badges';
+@import '@{bootstrap}jumbotron';
+@import '@{bootstrap}thumbnails';
+@import '@{bootstrap}alerts';
+@import '@{bootstrap}progress-bars';
+@import '@{bootstrap}media';
+@import '@{bootstrap}list-group';
+@import '@{bootstrap}panels';
+@import '@{bootstrap}responsive-embed';
+@import '@{bootstrap}wells';
+@import '@{bootstrap}close';
+
+// Components w/ JavaScript
+@import '@{bootstrap}modals';
+@import '@{bootstrap}tooltip';
+@import '@{bootstrap}popovers';
+@import '@{bootstrap}carousel';
+
+// Utility classes
+@import '@{bootstrap}utilities';
+@import '@{bootstrap}responsive-utilities';
+
+body {
+  padding-top: (@font-size-h1 * 1.5);
+  position: relative;
+}
+
+/* type */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.page-header {
+  margin-top: 0;
+  margin-bottom: (@line-height-computed / 2);
+}
+
+h1, .h1 { line-height: 1.5; }
+h2, .h2 { line-height: 1.68; }
+h3, .h3 { line-height: 2; }
+h4, .h4 { line-height: @line-height-large; }
+h5, .h5 { line-height: @line-height-base; }
+h6, .h6 { line-height: @line-height-small; }
+
+/* lists */
+.dl-colonated > dd:not(:last-child) { .margin-bottom; }
+
+/* tables */
+.table-captioned {
+  border: 1px solid @table-border-color;
+  border-top: none;
+  border-collapse:separate;
+  border-radius: 0 0 @panel-border-radius @panel-border-radius;
+
+  > caption {
+    .panel-heading;
+    .text-center;
+
+    background: @panel-default-heading-bg;
+    border: 1px solid @table-border-color;
+    border-radius: @panel-border-radius @panel-border-radius 0 0;
+    color: @text-color;
+  }
+
+  > thead > tr, > tfoot > tr:not(:first-child) {
+    > th, > td { border: none; }
+  }
+}
+
+/* panels */
+.panel {
+  &:before {
+    float: left;
+    font-weight: bold;
+    padding: @panel-heading-padding;
+    padding-right: 0;
+    white-space: pre;
+  }
+
+  > .panel { margin: @panel-body-padding @panel-body-padding 0; }
+}
+
+.panel-heading {
+  font-size: @font-size-base;
+  font-weight: bold;
+  line-height: @line-height-base;
+  margin: 0;
+}
+
+/* utility classes */
+.margin-bottom { margin-bottom: (@line-height-computed / 2); }
+.no-margin-bottom { margin-bottom: 0; }

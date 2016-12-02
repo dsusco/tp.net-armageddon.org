@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% include table_of_contents.html %}
+{% include army_list.html id=page.id %}
 
-{% include army_list.html id=page.id %}{% for f in page.forces %}
-
-{% include force.html id=f %}{% endfor %}
+{% for f in page.forces %}
+  {% include force.html id=f %}
+{% endfor %}

@@ -1,13 +1,12 @@
 ---
+layout: faq
 title: NetEA FAQ
+pdf: true
 permalink: /faq/index.html
 ---
-{% include table_of_contents.html %}
+{% h1 <abbr title="Net Epic Armageddon">NetEA</abbr> <abbr title="Frequently Asked Questions">FAQ</abbr> %}{% assign sorted_faqs = (site.faqs | sort: 'footnote') %}{% for faq in sorted_faqs %}
 
-<h1 id="netea-faq-1"><abbr title="Net Epic Armageddon">NetEA</abbr> <abbr title="Frequently Asked Questions">FAQ</abbr></h1>{% assign sorted_faqs = (site.faqs | sort: 'footnote') %}{% for faq in sorted_faqs %}
+<article class="faq">{% capture heading %}{{ faq.number }} {{ faq.name }}{% endcapture %}
+  {% h2 heading %}
 
-<article class="faq">
-  <h2 id="{{ faq.id }}">{{ faq.heading }} {{ faq.name }}</h2>
-
-{{ faq.content }}
-</article>{% endfor %}
+{{ faq.content }}</article>{% endfor %}
