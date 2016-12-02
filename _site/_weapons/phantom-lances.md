@@ -1,9 +1,9 @@
 ---
-name: "Phantom Lances"
+name: Phantom Lances
 modes:
   -
-    range: "45cm"
-    firepower: "MW3+"
+    range: 45cm
+    firepower: MW3+
     special_rules:
-      - "titan-killer-1"
+      - titan-killer-1
 ---

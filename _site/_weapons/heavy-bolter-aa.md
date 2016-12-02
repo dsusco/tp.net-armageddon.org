@@ -1,7 +1,7 @@
 ---
-name: "Heavy Bolter"
+name: Heavy Bolter
 modes:
   -
-    range: "30cm"
-    firepower: "AP5+/AA6+"
+    range: 30cm
+    firepower: AP5+/AA6+
 ---

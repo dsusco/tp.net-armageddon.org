@@ -1,16 +1,16 @@
 ---
-name: "Staff of Light"
+name: Staff of Light
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "extra-attacks-1"
+      - extra-attacks-1
   -
-    boolean: "or"
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    boolean: or
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "macro-weapon"
+      - extra-attacks-1
+      - macro-weapon
 ---

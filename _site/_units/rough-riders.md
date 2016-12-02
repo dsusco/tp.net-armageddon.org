@@ -1,17 +1,17 @@
 ---
-name: "Rough Riders"
-type: "INF"
-speed: "20cm"
-armour: "6+"
-cc: "4+"
-ff: "6+"
+name: Rough Riders
+type: INF
+speed: 20cm
+armour: 6+
+cc: 4+
+ff: 6+
 special_rules:
-  - "infiltrator"
-  - "mounted"
-  - "scout"
+  - infiltrator
+  - mounted
+  - scout
 weapons:
   -
-    id: "laspistols"
+    id: laspistols
   -
-    id: "power-lances-ea1-fs"
+    id: power-lances-ea1-fs
 ---

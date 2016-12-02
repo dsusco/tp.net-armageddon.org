@@ -1,7 +1,7 @@
 ---
-name: "Hunter Missiles"
+name: Hunter Missiles
 modes:
   -
-    range: "60cm"
-    firepower: "AA5+"
+    range: 60cm
+    firepower: AA5+
 ---

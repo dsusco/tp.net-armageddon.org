@@ -1,10 +1,10 @@
 ---
-name: "Melta Bombs"
+name: Melta Bombs
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "macro-weapon"
+      - extra-attacks-1
+      - macro-weapon
 ---

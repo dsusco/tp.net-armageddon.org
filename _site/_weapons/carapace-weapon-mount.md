@@ -1,9 +1,9 @@
 ---
-name: "Carapace Weapon Mount"
+name: Carapace Weapon Mount
 modes:
   -
-    range: "-"
-    firepower: ""
+    range: '-'
+    firepower:
     special_rules:
-      - "weapon-mount"
+      - weapon-mount
 ---

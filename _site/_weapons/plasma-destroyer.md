@@ -1,7 +1,7 @@
 ---
-name: "Plasma Destroyer"
+name: Plasma Destroyer
 modes:
   -
-    range: "60cm"
-    firepower: "MW4+"
+    range: 60cm
+    firepower: MW4+
 ---

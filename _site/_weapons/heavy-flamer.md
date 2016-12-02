@@ -1,15 +1,15 @@
 ---
-name: "Heavy Flamer"
+name: Heavy Flamer
 modes:
   -
-    range: "15cm"
-    firepower: "AP4+"
+    range: 15cm
+    firepower: AP4+
     special_rules:
-      - "ignore-cover"
+      - ignore-cover
   -
-    boolean: "and"
-    range: "(15cm)"
-    firepower: "Small Arms"
+    boolean: and
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "ignore-cover"
+      - ignore-cover
 ---

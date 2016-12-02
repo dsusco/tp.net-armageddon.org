@@ -1,7 +1,7 @@
 ---
-name: "Storm Bolter"
+name: Storm Bolter
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

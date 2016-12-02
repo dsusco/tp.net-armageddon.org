@@ -1,10 +1,10 @@
 ---
-name: "Mega Choppa"
+name: Mega Choppa
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "titan-killer-d3"
+      - extra-attacks-1
+      - titan-killer-d3
 ---

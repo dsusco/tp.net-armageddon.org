@@ -1,7 +1,7 @@
 ---
-name: "Big Shoota"
+name: Big Shoota
 modes:
   -
-    range: "30cm"
-    firepower: "AP6+/AT6+"
+    range: 30cm
+    firepower: AP6+/AT6+
 ---

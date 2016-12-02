@@ -1,15 +1,15 @@
 ---
-name: "Salamander Scout"
-type: "AV"
-speed: "35cm"
-armour: "6+"
-cc: "6+"
-ff: "5+"
+name: Salamander Scout
+type: AV
+speed: 35cm
+armour: 6+
+cc: 6+
+ff: 5+
 special_rules:
-  - "scout"
+  - scout
 weapons:
   -
-    id: "autocannon"
+    id: autocannon
   -
-    id: "heavy-bolter"
+    id: heavy-bolter
 ---

@@ -1,7 +1,7 @@
 ---
-name: "Kustom Kannon"
+name: Kustom Kannon
 modes:
   -
-    range: "45cm"
-    firepower: "MW4+"
+    range: 45cm
+    firepower: MW4+
 ---

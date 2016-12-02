@@ -1,7 +1,7 @@
 ---
-name: "Head Gun"
+name: Head Gun
 modes:
   -
-    range: "45cm"
-    firepower: "AP4+/AT4+"
+    range: 45cm
+    firepower: AP4+/AT4+
 ---

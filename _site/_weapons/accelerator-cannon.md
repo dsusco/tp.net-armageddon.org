@@ -1,7 +1,7 @@
 ---
-name: "Accelerator Cannon"
+name: Accelerator Cannon
 modes:
   -
-    range: "75cm"
-    firepower: "MW3+"
+    range: 75cm
+    firepower: MW3+
 ---

@@ -1,16 +1,16 @@
 ---
-name: "Stream of Corruption"
+name: Stream of Corruption
 modes:
   -
-    range: "15cm"
-    firepower: "3BP"
+    range: 15cm
+    firepower: 3BP
     special_rules:
-      - "ignore-cover"
+      - ignore-cover
   -
-    boolean: "and"
-    range: "(15cm)"
-    firepower: "Small Arms"
+    boolean: and
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "extra-attacks-1"
-      - "ignore-cover"
+      - extra-attacks-1
+      - ignore-cover
 ---

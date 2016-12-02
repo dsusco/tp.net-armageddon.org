@@ -1,14 +1,14 @@
 ---
-name: "Plaguebearers"
-type: "INF"
-speed: "15cm"
-armour: "3+"
-cc: "4+"
-ff: "6+"
+name: Plaguebearers
+type: INF
+speed: 15cm
+armour: 3+
+cc: 4+
+ff: 6+
 special_rules:
-  - "expendable"
-  - "invulnerable-save"
+  - expendable
+  - invulnerable-save
 weapons:
   -
-    id: "plague-of-flies"
+    id: plague-of-flies
 ---

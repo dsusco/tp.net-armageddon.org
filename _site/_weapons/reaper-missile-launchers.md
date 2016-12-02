@@ -1,7 +1,7 @@
 ---
-name: "Reaper Missile Launchers"
+name: Reaper Missile Launchers
 modes:
   -
-    range: "45cm"
-    firepower: "2× AP5+"
+    range: 45cm
+    firepower: 2× AP5+
 ---

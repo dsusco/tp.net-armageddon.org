@@ -1,16 +1,16 @@
 ---
-name: "Carnifex"
-type: "AV"
-speed: "20cm"
-armour: "4+"
-cc: "3+"
-ff: "5+"
+name: Carnifex
+type: AV
+speed: 20cm
+armour: 4+
+cc: 3+
+ff: 5+
 special_rules:
-  - "fearless"
-  - "reinforced-armour"
+  - fearless
+  - reinforced-armour
 weapons:
   -
-    id: "bio-plasma"
+    id: bio-plasma
   -
-    id: "large-scything-talons"
+    id: large-scything-talons
 ---

@@ -1,10 +1,10 @@
 ---
-name: "Void Spinner Array"
+name: Void Spinner Array
 modes:
   -
-    range: "60cm"
-    firepower: "3BP"
+    range: 60cm
+    firepower: 3BP
     special_rules:
-      - "disrupt"
-      - "indirect-fire"
+      - disrupt
+      - indirect-fire
 ---

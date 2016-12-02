@@ -1,10 +1,10 @@
 ---
-name: "Ripper Tentacles"
+name: Ripper Tentacles
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-2"
-      - "first-strike"
+      - extra-attacks-2
+      - first-strike
 ---

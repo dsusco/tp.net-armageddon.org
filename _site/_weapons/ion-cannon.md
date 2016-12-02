@@ -1,7 +1,7 @@
 ---
-name: "Ion Cannon"
+name: Ion Cannon
 modes:
   -
-    range: "60cm"
-    firepower: "AP4+/AT5+"
+    range: 60cm
+    firepower: AP4+/AT5+
 ---

@@ -1,7 +1,7 @@
 ---
-name: "Twin Hornet Pulse Laser"
+name: Twin Hornet Pulse Laser
 modes:
   -
-    range: "30cm"
-    firepower: "2× AT4+"
+    range: 30cm
+    firepower: 2× AT4+
 ---

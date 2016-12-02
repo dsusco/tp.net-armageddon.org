@@ -1,9 +1,9 @@
 ---
-name: "Power Lances"
+name: Power Lances
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "lance"
+      - lance
 ---

@@ -1,10 +1,10 @@
 ---
-name: "Chain Fist"
+name: Chain Fist
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-3"
-      - "macro-weapon"
+      - extra-attacks-3
+      - macro-weapon
 ---

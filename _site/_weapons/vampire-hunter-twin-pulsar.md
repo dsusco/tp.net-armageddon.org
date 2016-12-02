@@ -1,7 +1,7 @@
 ---
-name: "Vampire Hunter Twin Pulsar"
+name: Vampire Hunter Twin Pulsar
 modes:
   -
-    range: "30cm"
-    firepower: "2× MW2+"
+    range: 30cm
+    firepower: 2× MW2+
 ---

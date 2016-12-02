@@ -1,7 +1,7 @@
 ---
-name: "Shuriken Catapults"
+name: Shuriken Catapults
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

@@ -1,7 +1,7 @@
 ---
-name: "Twin Heavy Bolter"
+name: Twin Heavy Bolter
 modes:
   -
-    range: "30cm"
-    firepower: "AP4+/AA5+"
+    range: 30cm
+    firepower: AP4+/AA5+
 ---

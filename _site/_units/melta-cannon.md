@@ -1,11 +1,11 @@
 ---
-name: "Melta Cannon"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Melta Cannon
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 weapons:
   -
-    id: "melta-cannon"
+    id: melta-cannon
 ---

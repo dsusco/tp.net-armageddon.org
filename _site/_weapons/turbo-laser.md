@@ -1,7 +1,7 @@
 ---
-name: "Turbo-laser"
+name: Turbo-laser
 modes:
   -
-    range: "45cm"
-    firepower: "2× AP5+/AT3+"
+    range: 45cm
+    firepower: 2× AP5+/AT3+
 ---

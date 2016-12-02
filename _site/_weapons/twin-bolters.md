@@ -1,7 +1,7 @@
 ---
-name: "Twin Bolters"
+name: Twin Bolters
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

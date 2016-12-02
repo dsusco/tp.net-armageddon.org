@@ -1,7 +1,7 @@
 ---
-name: "Turbo-Laser Destructor"
+name: Turbo-Laser Destructor
 modes:
   -
-    range: "60cm"
-    firepower: "4× AP5+/AT3+"
+    range: 60cm
+    firepower: 4× AP5+/AT3+
 ---

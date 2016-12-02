@@ -1,7 +1,7 @@
 ---
-name: "Twin Eldar Missile Launcher"
+name: Twin Eldar Missile Launcher
 modes:
   -
-    range: "45cm"
-    firepower: "AP4+/AT5+/AA5+"
+    range: 45cm
+    firepower: AP4+/AT5+/AA5+
 ---

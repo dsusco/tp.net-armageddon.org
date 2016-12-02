@@ -1,9 +1,9 @@
 ---
-name: "Lictor Talons"
+name: Lictor Talons
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "sniper"
+      - sniper
 ---

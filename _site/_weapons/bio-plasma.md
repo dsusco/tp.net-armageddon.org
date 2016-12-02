@@ -1,7 +1,7 @@
 ---
-name: "Bio-Plasma"
+name: Bio-Plasma
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

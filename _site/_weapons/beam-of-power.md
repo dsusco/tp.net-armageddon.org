@@ -1,7 +1,7 @@
 ---
-name: "Beam of Power"
+name: Beam of Power
 modes:
   -
-    range: "60cm"
-    firepower: "MW5+"
+    range: 60cm
+    firepower: MW5+
 ---

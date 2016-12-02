@@ -1,9 +1,9 @@
 ---
-name: "Pin-Point Attacks"
+name: Pin-Point Attacks
 modes:
   -
-    range: "n/a"
-    firepower: "2× MW2+"
+    range: n/a
+    firepower: 2× MW2+
     special_rules:
-      - "titan-killer-d3"
+      - titan-killer-d3
 ---

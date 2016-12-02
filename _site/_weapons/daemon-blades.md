@@ -1,9 +1,9 @@
 ---
-name: "Daemon Blades"
+name: Daemon Blades
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-d3"
+      - extra-attacks-d3
 ---

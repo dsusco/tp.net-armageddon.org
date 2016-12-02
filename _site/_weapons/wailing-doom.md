@@ -1,14 +1,14 @@
 ---
-name: "Wailing Doom"
+name: Wailing Doom
 modes:
   -
-    range: "30cm"
-    firepower: "MW5+"
+    range: 30cm
+    firepower: MW5+
   -
-    boolean: "and"
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    boolean: and
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "macro-weapon"
+      - extra-attacks-1
+      - macro-weapon
 ---

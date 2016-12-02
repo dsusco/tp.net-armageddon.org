@@ -1,7 +1,7 @@
 ---
-name: "Deathwind"
+name: Deathwind
 modes:
   -
-    range: "15cm"
-    firepower: "AP5+/AT5+"
+    range: 15cm
+    firepower: AP5+/AT5+
 ---

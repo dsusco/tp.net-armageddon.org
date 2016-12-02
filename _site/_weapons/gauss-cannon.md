@@ -1,7 +1,7 @@
 ---
-name: "Gauss Cannon"
+name: Gauss Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "AP4+/AT6+"
+    range: 30cm
+    firepower: AP4+/AT6+
 ---

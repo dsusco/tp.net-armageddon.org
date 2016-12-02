@@ -1,9 +1,9 @@
 ---
-name: "Punishers"
+name: Punishers
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
+      - extra-attacks-1
 ---

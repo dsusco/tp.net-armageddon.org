@@ -1,9 +1,9 @@
 ---
-name: "Twin Desolators"
+name: Twin Desolators
 modes:
   -
-    range: "30cm"
-    firepower: "4BP"
+    range: 30cm
+    firepower: 4BP
     special_rules:
-      - "disrupt"
+      - disrupt
 ---

@@ -1,9 +1,9 @@
 ---
-name: "Lightning Arc"
+name: Lightning Arc
 modes:
   -
-    range: "30cm"
-    firepower: "MW4+"
+    range: 30cm
+    firepower: MW4+
     special_rules:
-      - "macro-weapon"
+      - macro-weapon
 ---

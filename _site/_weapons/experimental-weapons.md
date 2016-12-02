@@ -1,7 +1,7 @@
 ---
-name: "Experimental Weapons"
+name: Experimental Weapons
 modes:
   -
-    range: "30cm"
-    firepower: "AP4+"
+    range: 30cm
+    firepower: AP4+
 ---

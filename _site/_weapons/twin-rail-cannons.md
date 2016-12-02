@@ -1,9 +1,9 @@
 ---
-name: "Twin Rail Cannons"
+name: Twin Rail Cannons
 modes:
   -
-    range: "45cm"
-    firepower: "MW3+"
+    range: 45cm
+    firepower: MW3+
     special_rules:
-      - "titan-killer-d3"
+      - titan-killer-d3
 ---

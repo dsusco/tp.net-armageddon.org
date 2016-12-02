@@ -1,7 +1,7 @@
 ---
-name: "Conqueror Cannon"
+name: Conqueror Cannon
 modes:
   -
-    range: "45cm"
-    firepower: "AP5+/AT5+"
+    range: 45cm
+    firepower: AP5+/AT5+
 ---

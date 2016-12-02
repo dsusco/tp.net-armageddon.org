@@ -1,17 +1,17 @@
 ---
-name: "Hell Strider"
-type: "AV"
-speed: "30cm"
-armour: "5+"
-cc: "6+"
-ff: "5+"
+name: Hell Strider
+type: AV
+speed: 30cm
+armour: 5+
+cc: 6+
+ff: 5+
 special_rules:
-  - "fearless"
-  - "invulnerable-save"
-  - "walker"
+  - fearless
+  - invulnerable-save
+  - walker
 weapons:
   -
-    id: "lascannon"
+    id: lascannon
   -
-    id: "multi-melta"
+    id: multi-melta
 ---

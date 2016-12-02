@@ -1,7 +1,7 @@
 ---
-name: "Fangs"
+name: Fangs
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
 ---

@@ -1,7 +1,7 @@
 ---
-name: "Bile Launcher"
+name: Bile Launcher
 modes:
   -
-    range: "60cm"
-    firepower: "3BP"
+    range: 60cm
+    firepower: 3BP
 ---

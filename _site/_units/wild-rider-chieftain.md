@@ -1,15 +1,15 @@
 ---
-name: "Wild Rider Chieftain"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Wild Rider Chieftain
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "supreme-commander"
+  - supreme-commander
 weapons:
   -
-    id: "autarch-ranged-weapon"
+    id: autarch-ranged-weapon
   -
-    id: "autarch-close-combat-weapon"
+    id: autarch-close-combat-weapon
 ---

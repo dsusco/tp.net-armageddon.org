@@ -1,17 +1,17 @@
 ---
-name: "Death Riders"
-type: "INF"
-speed: "20cm"
-armour: "5+"
-cc: "4+"
-ff: "6+"
+name: Death Riders
+type: INF
+speed: 20cm
+armour: 5+
+cc: 4+
+ff: 6+
 special_rules:
-  - "infiltrator"
-  - "mounted"
-  - "walker"
+  - infiltrator
+  - mounted
+  - walker
 weapons:
   -
-    id: "laspistols"
+    id: laspistols
   -
-    id: "power-lances-fs"
+    id: power-lances-fs
 ---

@@ -1,15 +1,15 @@
 ---
-name: "Commissar"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Commissar
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "fearless"
-  - "inspiring"
-  - "leader"
+  - fearless
+  - inspiring
+  - leader
 weapons:
   -
-    id: "upgraded-guns"
+    id: upgraded-guns
 ---

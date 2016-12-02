@@ -1,18 +1,18 @@
 ---
-name: "Leman Russ Exterminator"
-type: "AV"
-speed: "20cm"
-armour: "4+"
-cc: "6+"
-ff: "3+"
+name: Leman Russ Exterminator
+type: AV
+speed: 20cm
+armour: 4+
+cc: 6+
+ff: 3+
 special_rules:
-  - "reinforced-armour"
+  - reinforced-armour
 weapons:
   -
-    id: "twin-autocannon"
+    id: twin-autocannon
   -
-    id: "lascannon"
+    id: lascannon
   -
-    id: "heavy-bolter"
-    multiplier: "2"
+    id: heavy-bolter
+    multiplier: 2
 ---

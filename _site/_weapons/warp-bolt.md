@@ -1,10 +1,10 @@
 ---
-name: "Warp Bolt"
+name: Warp Bolt
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "extra-attacks-1"
-      - "macro-weapon"
+      - extra-attacks-1
+      - macro-weapon
 ---

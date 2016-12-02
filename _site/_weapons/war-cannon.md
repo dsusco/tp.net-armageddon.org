@@ -1,7 +1,7 @@
 ---
-name: "War Cannon"
+name: War Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "AT4+"
+    range: 30cm
+    firepower: AT4+
 ---

@@ -1,13 +1,13 @@
 ---
-name: "Plague Marines"
-type: "INF"
-speed: "15cm"
-armour: "3+"
-cc: "3+"
-ff: "4+"
+name: Plague Marines
+type: INF
+speed: 15cm
+armour: 3+
+cc: 3+
+ff: 4+
 special_rules:
-  - "fearless"
+  - fearless
 weapons:
   -
-    id: "bolters"
+    id: bolters
 ---

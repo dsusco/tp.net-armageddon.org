@@ -1,7 +1,7 @@
 ---
-name: "Heavy Gauss Cannon"
+name: Heavy Gauss Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "AT3+"
+    range: 30cm
+    firepower: AT3+
 ---

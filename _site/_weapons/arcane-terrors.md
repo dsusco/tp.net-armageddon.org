@@ -1,9 +1,9 @@
 ---
-name: "Arcane Terrors"
+name: Arcane Terrors
 modes:
   -
-    range: "15cm"
-    firepower: "AP3+"
+    range: 15cm
+    firepower: AP3+
     special_rules:
-      - "disrupt"
+      - disrupt
 ---

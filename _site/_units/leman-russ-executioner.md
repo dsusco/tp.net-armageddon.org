@@ -1,15 +1,15 @@
 ---
-name: "Leman Russ Executioner"
-type: "AV"
-speed: "20cm"
-armour: "4+"
-cc: "6+"
-ff: "5+"
+name: Leman Russ Executioner
+type: AV
+speed: 20cm
+armour: 4+
+cc: 6+
+ff: 5+
 special_rules:
-  - "reinforced-armour"
+  - reinforced-armour
 weapons:
   -
-    id: "plasma-destroyer"
+    id: plasma-destroyer
   -
-    id: "lascannon"
+    id: lascannon
 ---

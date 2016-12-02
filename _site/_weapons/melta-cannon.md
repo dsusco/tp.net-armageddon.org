@@ -1,15 +1,15 @@
 ---
-name: "Melta Cannon"
+name: Melta Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "MW2+"
+    range: 30cm
+    firepower: MW2+
     special_rules:
-      - "titan-killer-d3"
+      - titan-killer-d3
   -
-    boolean: "and"
-    range: "(15cm)"
-    firepower: "Small Arms"
+    boolean: and
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "titan-killer-d6"
+      - titan-killer-d6
 ---

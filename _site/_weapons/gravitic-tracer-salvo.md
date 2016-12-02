@@ -1,10 +1,10 @@
 ---
-name: "Gravitic Tracer Salvo"
+name: Gravitic Tracer Salvo
 modes:
   -
-    range: "n/a"
-    firepower: "3× MW4+"
+    range: n/a
+    firepower: 3× MW4+
     special_rules:
-      - "guided-missile"
-      - "ignore-cover"
+      - guided-missile
+      - ignore-cover
 ---

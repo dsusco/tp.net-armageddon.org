@@ -1,32 +1,32 @@
 ---
-name: "Thunderhawk Close Air Support"
-type: "AC/WE"
-speed: "Bomber"
-armour: "4+"
-cc: "-"
-ff: "-"
+name: Thunderhawk Close Air Support
+type: AC/WE
+speed: Bomber
+armour: 4+
+cc: '-'
+ff: '-'
 special_rules:
-  - "damage-capacity-2"
-  - "reinforced-armour"
+  - damage-capacity-2
+  - reinforced-armour
 notes:
   |
     Critical Hit Effect: Destroyed.
 weapons:
   -
-    id: "turbo-laser"
-    arc: "FxF"
+    id: turbo-laser
+    arc: FxF
   -
-    id: "twin-heavy-bolter-aa-30cm"
-    multiplier: "2"
-    arc: "FxF"
+    id: twin-heavy-bolter-aa-30cm
+    multiplier: 2
+    arc: FxF
   -
-    id: "twin-heavy-bolter-aa-15cm"
-    arc: "Left"
+    id: twin-heavy-bolter-aa-15cm
+    arc: Left
   -
-    id: "twin-heavy-bolter-aa-15cm"
-    arc: "Right"
+    id: twin-heavy-bolter-aa-15cm
+    arc: Right
   -
-    id: "underwing-rockets"
-    multiplier: "2"
-    arc: "FxF"
+    id: underwing-rockets
+    multiplier: 2
+    arc: FxF
 ---

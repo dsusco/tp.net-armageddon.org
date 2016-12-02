@@ -1,10 +1,10 @@
 ---
-name: "Massive Scything Talons"
+name: Massive Scything Talons
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "titan-killer-1"
+      - extra-attacks-1
+      - titan-killer-1
 ---

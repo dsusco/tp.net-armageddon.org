@@ -1,9 +1,9 @@
 ---
-name: "Orbital Bombardment"
+name: Orbital Bombardment
 modes:
   -
-    range: "n/a"
-    firepower: "14BP"
+    range: n/a
+    firepower: 14BP
     special_rules:
-      - "macro-weapon"
+      - macro-weapon
 ---

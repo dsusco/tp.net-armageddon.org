@@ -1,7 +1,7 @@
 ---
-name: "Laser Destroyer"
+name: Laser Destroyer
 modes:
   -
-    range: "45cm"
-    firepower: "AP6+/AT4+"
+    range: 45cm
+    firepower: AP6+/AT4+
 ---

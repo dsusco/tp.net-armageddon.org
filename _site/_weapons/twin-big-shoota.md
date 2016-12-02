@@ -1,7 +1,7 @@
 ---
-name: "Twin Big Shoota"
+name: Twin Big Shoota
 modes:
   -
-    range: "30cm"
-    firepower: "AP5+/AT6+"
+    range: 30cm
+    firepower: AP5+/AT6+
 ---

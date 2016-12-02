@@ -1,13 +1,13 @@
 ---
-name: "Lunar Class Cruiser"
-type: "SC"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Lunar Class Cruiser
+type: SC
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 weapons:
   -
-    id: "orbital-bombardment-3bp"
+    id: orbital-bombardment-3bp
   -
-    id: "pin-point-attack"
+    id: pin-point-attack
 ---

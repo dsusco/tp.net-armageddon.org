@@ -1,7 +1,7 @@
 ---
-name: "Meltaguns"
+name: Meltaguns
 modes:
   -
-    range: "15cm"
-    firepower: "MW5+"
+    range: 15cm
+    firepower: MW5+
 ---

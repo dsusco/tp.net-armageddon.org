@@ -1,7 +1,7 @@
 ---
-name: "Twin Sawn-Off Big Shoota"
+name: Twin Sawn-Off Big Shoota
 modes:
   -
-    range: "15cm"
-    firepower: "AP5+/AT5+"
+    range: 15cm
+    firepower: AP5+/AT5+
 ---

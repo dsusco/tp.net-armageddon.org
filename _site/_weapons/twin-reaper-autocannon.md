@@ -1,7 +1,7 @@
 ---
-name: "Twin Reaper Autocannon"
+name: Twin Reaper Autocannon
 modes:
   -
-    range: "30cm"
-    firepower: "AP3+/AT5+"
+    range: 30cm
+    firepower: AP3+/AT5+
 ---

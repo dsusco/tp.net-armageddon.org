@@ -1,7 +1,7 @@
 ---
-name: "Gauss Flayers"
+name: Gauss Flayers
 modes:
   -
-    range: "15cm"
-    firepower: "AP5+/AT6+"
+    range: 15cm
+    firepower: AP5+/AT6+
 ---

@@ -1,7 +1,7 @@
 ---
-name: "Twin Stub Battle Cannon"
+name: Twin Stub Battle Cannon
 modes:
   -
-    range: "45cm"
-    firepower: "AP3+/AT3+"
+    range: 45cm
+    firepower: AP3+/AT3+
 ---

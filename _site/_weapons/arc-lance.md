@@ -1,7 +1,7 @@
 ---
-name: "Arc Lance"
+name: Arc Lance
 modes:
   -
-    range: "30cm"
-    firepower: "AT4+"
+    range: 30cm
+    firepower: AT4+
 ---

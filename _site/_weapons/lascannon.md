@@ -1,7 +1,7 @@
 ---
-name: "Lascannon"
+name: Lascannon
 modes:
   -
-    range: "45cm"
-    firepower: "AT5+"
+    range: 45cm
+    firepower: AT5+
 ---

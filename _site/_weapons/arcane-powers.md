@@ -1,7 +1,7 @@
 ---
-name: "Arcane Powers"
+name: Arcane Powers
 modes:
   -
-    range: "30cm"
-    firepower: "MW6+"
+    range: 30cm
+    firepower: MW6+
 ---

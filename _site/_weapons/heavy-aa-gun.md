@@ -1,7 +1,7 @@
 ---
-name: "Heavy AA Gun"
+name: Heavy AA Gun
 modes:
   -
-    range: "60cm"
-    firepower: "AP5+/AT5+/AA5+"
+    range: 60cm
+    firepower: AP5+/AT5+/AA5+
 ---

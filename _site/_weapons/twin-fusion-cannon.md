@@ -1,7 +1,7 @@
 ---
-name: "Twin Fusion Cannon"
+name: Twin Fusion Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "MW4+"
+    range: 30cm
+    firepower: MW4+
 ---

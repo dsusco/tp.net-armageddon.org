@@ -1,7 +1,7 @@
 ---
-name: "Bomb Racks"
+name: Bomb Racks
 modes:
   -
-    range: "15cm"
-    firepower: "3BP"
+    range: 15cm
+    firepower: 3BP
 ---

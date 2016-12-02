@@ -1,10 +1,10 @@
 ---
-name: "Close Combat Weapon"
+name: Close Combat Weapon
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-3"
-      - "titan-killer-d3"
+      - extra-attacks-3
+      - titan-killer-d3
 ---

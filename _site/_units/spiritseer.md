@@ -1,13 +1,13 @@
 ---
-name: "Spiritseer"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Spiritseer
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "farsight"
+  - farsight
 weapons:
   -
-    id: "singing-spear"
+    id: singing-spear
 ---

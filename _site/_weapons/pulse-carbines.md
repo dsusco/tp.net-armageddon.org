@@ -1,9 +1,9 @@
 ---
-name: "Pulse Carbines"
+name: Pulse Carbines
 modes:
   -
-    range: "15cm"
-    firepower: "AP5+"
+    range: 15cm
+    firepower: AP5+
     special_rules:
-      - "disrupt"
+      - disrupt
 ---

@@ -1,7 +1,7 @@
 ---
-name: "Hunter-Killer"
+name: Hunter-Killer
 modes:
   -
-    range: "60cm"
-    firepower: "AT4+/AA4+"
+    range: 60cm
+    firepower: AT4+/AA4+
 ---
