@@ -22,7 +22,13 @@ h1, h2, h3, h4 {
   bookmark-label: none;
   margin: 0;
 
-  &[id] { bookmark-label: attr(data-number) ' ' content(); }
+  &[id] { bookmark-label: content(); }
+}
+
+.default-layout {
+  h1, h2, h3, h4 {
+    &[id] { bookmark-label: attr(data-number) ' ' content(); }
+  }
 }
 
 p, blockquote, figcaption, dl, ol, ul, table, .text {
