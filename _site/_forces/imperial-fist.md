@@ -1,7 +1,6 @@
 ---
 name: Imperial Fist
-classes:
-  - page-break-right
+
 units:
   - captain
   - chaplain

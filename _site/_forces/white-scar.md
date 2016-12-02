@@ -1,7 +1,6 @@
 ---
 name: White Scar
-classes:
-  - page-break-right
+
 units:
   - captain
   - chaplain
@@ -35,6 +34,7 @@ units:
   - strike-cruiser
 
   - drop-pod
+
 special_rules:
   - they-shall-know-no-fear
 ---

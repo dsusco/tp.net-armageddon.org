@@ -1,7 +1,6 @@
 ---
 name: Saim-Hann Eldar
-classes:
-  - page-break-right
+
 units:
   - exarch
   - farseer-ch
@@ -42,6 +41,7 @@ units:
 
   - dragonship
   - wraithship
+
 special_rules:
   - farsight
   - hit-and-run-tactics

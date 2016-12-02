@@ -1,7 +1,6 @@
 ---
 name: Knight World
-classes:
-  - page-break-right
+
 units:
   - aspirant
   - seneschal

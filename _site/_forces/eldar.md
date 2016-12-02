@@ -1,7 +1,6 @@
 ---
 name: Eldar
-classes:
-  - page-break-right
+
 units:
   - autarch
   - court-of-the-young-king
@@ -48,6 +47,7 @@ units:
 
   - dragonship
   - wraithship
+
 special_rules:
   - farsight
   - hit-and-run-tactics

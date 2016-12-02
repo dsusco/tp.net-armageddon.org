@@ -1,7 +1,6 @@
 ---
 name: Imperial Guard
-classes:
-  - page-break-right
+
 units:
   - commissar
 

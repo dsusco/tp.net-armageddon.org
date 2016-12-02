@@ -1,5 +1,9 @@
 ---
 name: Titan Legion
+
+classes:
+  - page-break
+
 units:
   - reaver-class-titan
   - warhound-class-titan

@@ -1,7 +1,6 @@
 ---
 name: Black Legion
-classes:
-  - page-break-right
+
 units:
   - champion-of-chaos
   - chaos-lord
@@ -51,6 +50,7 @@ units:
   - despoiler-class-battleship
   - devastation-class-cruiser
   - dreadclaw
+
 special_rules:
   - augmented-summoning
   - daemonic-focus

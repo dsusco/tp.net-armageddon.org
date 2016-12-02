@@ -1,5 +1,6 @@
 ---
 name: Space Wolf
+
 units:
   - captain
   - chaplain
@@ -39,6 +40,7 @@ units:
   - strike-cruiser
 
   - space-wolf-drop-pod
+
 special_rules:
   - pack-mentality
   - they-shall-know-no-fear

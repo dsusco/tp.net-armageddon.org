@@ -1,7 +1,9 @@
 ---
 name: Death Korps of Krieg
+
 classes:
   - page-break-right
+
 units:
   - commissar
   - gorgon-mortars
@@ -42,6 +44,7 @@ units:
   - marauder-heavy-bomber
 
   - hades-breaching-drill
+
 special_rules:
   - death-korps-of-krieg-fortifications
 ---
