@@ -27,7 +27,7 @@ BEGIN {
   def prince_commands(site, redirect, pdf, html)
     commands = [
       %Q`prince --media=print --script=#{site.dest}/assets/js/tp.net-armageddon.org.print.js --style=#{site.dest}/assets/css/tp.net-armageddon.org.print.css -o #{pdf} #{html}`,
-      %Q`ruby -EASCII-8BIT -i -p -e '$_.sub!(/^\\/Annots \\[\\d+ \\d R ?/, "/Annots [") unless @found;@found = !($_ =~ /^\\/Annots \\[/).nil?' #{pdf}`,
+      %Q`ruby -EASCII-8BIT -i -p -e 'found ||= false' -e 'line = $_.sub!(/^\\/Annots \\[\\d+ \\d R \\d+ \\d R /, "/Annots [") unless found' -e 'found = true unless line.nil?' #{pdf}`,
       %Q`ruby -i -p -e 'sub("#{redirect}", "#{pdf.sub(/.+\//, '')}")' #{site.dest}/.htaccess`
     ]
     %x(#{commands.join(';')})

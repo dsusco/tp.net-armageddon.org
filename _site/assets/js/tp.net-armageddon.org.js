@@ -22,11 +22,11 @@ $(function () {
         $body.scrollTop($body.scrollTop() - +$body.data('offset') + 1);
       }, 1);
     })
-    // close open FAQs when clicking outside of them
+    // close/open FAQs when clicking outside of them
     .on('click', function (event) {
       $faqs.not($(event.target).closest('.faq')).collapse('hide');
     })
-    // close open FAQs with Esc
+    // close/open FAQs with Esc
     .on('keyup', function (event) {
       if (event.keyCode === 27) {
         $faqs.collapse('hide');
