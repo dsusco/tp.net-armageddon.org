@@ -2,6 +2,7 @@
 include:
   - bower_components/jquery/dist/jquery.js
   - bower_components/bootstrap/dist/js/bootstrap.js
+  - _site/_assets/javascripts/zebra-stripe.js
 ---
 $(function () {
   'use strict';
@@ -90,24 +91,5 @@ $(function () {
   });
 
   // zebra stripe all army list table bodies that don't contain another army list table
-  $('.table-army-list:not(:has(.table-army-list)) > tbody').each(function () {
-    var
-      $tbody = $(this),
-      cols = $tbody.siblings('colgroup').children('col').length,
-      stripe = false;
-
-    $('> tr', $tbody).each(function () {
-      var
-        $tr = $(this),
-        cells = 0;
-
-      $('> th, > td', $tr).each(function () {
-        cells += +this.getAttribute('colspan') || 1;
-      });
-
-      if (cols === cells) { stripe = !stripe; }
-
-      if (stripe) { $tr.addClass('stripe'); }
-    });
-  });
+  $('.table-army-list:not(:has(.table-army-list)) > tbody').zebraStripe();
 });
