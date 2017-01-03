@@ -17,20 +17,20 @@ weapons:
   -
     id: demolisher
     arc: FxF
-    multiplier: 0-1
+    multiplier: 0–1
   -
     id: heavy-bolters
     arc: FwA
-    multiplier: 0-1
+    multiplier: 0–1
   -
     id: aa-missile-launcher
-    multiplier: 0-1
+    multiplier: 0–1
   -
     id: multilasers
     arc: FwA
-    multiplier: 0-1
+    multiplier: 0–1
   -
     id: vanquisher
     arc: FxF
-    multiplier: 0-1
+    multiplier: 0–1
 ---

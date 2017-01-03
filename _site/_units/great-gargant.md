@@ -13,7 +13,7 @@ special_rules:
   - walker
 notes:
   |
-    Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5-6 the fire is put out. Any fires not put out cause one point of damage.
+    Armed with either two Twin Soopaguns, or a Twin Soopagun and Lifta-Droppa. Critical Hit Effect: The unit catches fires. Roll a D6 for each fire burning on the unit in the end phase of each turn. On a roll of 1 a second fire starts, and on a roll of 5–6 the fire is put out. Any fires not put out cause one point of damage.
 weapons:
   -
     id: gaze-of-mork

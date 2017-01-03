@@ -22,16 +22,16 @@ weapons:
     arc: FwA
   -
     id: barrage-missile
-    multiplier: 0-8
+    multiplier: 0–8
   -
     id: deathstrike-missile
-    multiplier: 0-8
+    multiplier: 0–8
   -
     id: vortex-missile
-    multiplier: 0-8
+    multiplier: 0–8
   -
     id: warp-missile
-    multiplier: 0-8
+    multiplier: 0–8
   -
     id: twin-hydra-autocannon
     multiplier: 4

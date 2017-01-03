@@ -21,11 +21,11 @@ weapons:
     arc: FwA
   -
     id: power-lance
-    multiplier: 0-1
+    multiplier: 0–1
   -
     id: power-gauntlet
-    multiplier: 0-1
+    multiplier: 0–1
   -
     id: shock-lance
-    multiplier: 0-1
+    multiplier: 0–1
 ---
