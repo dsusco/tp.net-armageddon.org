@@ -24,17 +24,11 @@ How do transported units that are immobile or which have a speed of 0cm disembar
 Where are transported units placed when the unit transporting them is destroyed?
 : Where the unit transporting them was.
 
-What happens to transported units when the unit transporting them is destroyed by dangerous terrain?
-: They make their normal armour save or a 6+ cover save.
+What happens to transported units when the unit transporting them is destroyed by: dangerous terrain, the result of an assault, or an additional hit from a Blast marker on a broken formation?
+: They make their normal armour save or a 6+ cover save, the formation they are part of would not receive a Blast marker for any of these saves if they failed.
 
-What happens to transported units when the unit transporting them is destroyed by the extra hits from the result of an assault?
-: They make their normal armour save or a 6+ cover save.
-
-What happens to transported units when the unit transporting them is destroyed from ending its second withdrawal move within 15cm of the enemy?
+What happens to transported units when the unit transporting them is destroyed by ending its second withdrawal move within 15cm of the enemy?
 : If they're broken and not _fearless_ they will be destroyed. Otherwise they make their normal armour save or a 6+ cover save.
-
-What happens to transported units when the unit transporting them is destroyed from an additional hit from a Blast marker on a broken formation?
-: They make their normal armour save or a 6+ cover save.
 
 If a transport is destroyed by a hit with a special ability does that carry over to the transported units?
 : Yes, the transported units save is affected by the type of hit the transport is destroyed by. For example, an _ignore cover_ hit would prevent the transported units from making a 6+ cover save.
