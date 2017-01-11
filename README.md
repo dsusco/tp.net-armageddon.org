@@ -15,7 +15,7 @@ That should build and serve up the site at [http://localhost:4000/](http://local
 ## Dependencies
 
  * [RVM](https://rvm.io/) (for Ruby and RubyGems)
- * [Bunlder](http://bundler.io/) (for the gems)
+ * [Bundler](http://bundler.io/) (for the gems)
  * [Node.js](https://nodejs.org/) (for Bower)
  * [Bower](https://bower.io/) (for the front-end frameworks and libraries)
  * [Prince](https://www.princexml.com/) (to build the PDFs)
