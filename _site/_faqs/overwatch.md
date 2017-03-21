@@ -14,7 +14,7 @@ A formation carries out an action that involves a move but none of the units phy
 Do units that enter play via a special rule (landing, planetfall, self planetfall, teleporting, tunneling, being summoned or swarmed) trigger overwatch fire?
 : No, only completing a move or disembarking triggers overwatch.
 
-Does counter-charging trigger overwatch fire?
+Does a counter charge move trigger overwatch fire?
 : No.
 
 What happens to formation that is broken from overwatch fire while it is carrying out an action?

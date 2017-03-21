@@ -12,3 +12,6 @@ What happens to a charging unit that enters the zone of control of an enemy unit
 
 Can a unit making a charge move claim the cover to hit modifier and receive a cover save against overwatch fire?
 : Yes and yes.
+
+After it makes a charge move does the engaging formation need to have at least one unit with a line of fire to a unit in the target formation in order for the assault to take place?
+: Yes. While it is not specifically stated in the rules it is implied (<q>close enough that individual infantry are able to engage in the fight and make use of their small arms</q>) and required to resolve firefight attacks.
