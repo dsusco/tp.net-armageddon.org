@@ -6,6 +6,7 @@ RedirectMatch /pdfs/netea-adeptus-mechanicus-titan-legion.pdf /pdfs/netea-adeptu
 RedirectMatch /pdfs/netea-chaos-cultist-stigmatus-covenant.pdf /pdfs/netea-chaos-cultist-stigmatus-covenant-.pdf
 RedirectMatch /pdfs/netea-chaos-space-marine-black-legion.pdf /pdfs/netea-chaos-space-marine-black-legion-.pdf
 RedirectMatch /pdfs/netea-chaos-space-marine-emperors-children.pdf /pdfs/netea-chaos-space-marine-emperors-children-.pdf
+RedirectMatch /pdfs/netea-chaos-space-marine-red-corsairs.pdf /pdfs/netea-chaos-space-marine-red-corsairs-.pdf
 RedirectMatch /pdfs/netea-dark-eldar.pdf /pdfs/netea-dark-eldar-.pdf
 RedirectMatch /pdfs/netea-eldar-alaitoc.pdf /pdfs/netea-eldar-alaitoc-.pdf
 RedirectMatch /pdfs/netea-eldar-biel-tan.pdf /pdfs/netea-eldar-biel-tan-.pdf
