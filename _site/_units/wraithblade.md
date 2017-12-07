@@ -8,6 +8,9 @@ ff: '-'
 special_rules:
   - fearless
   - reinforced-armour
+notes:
+  |
+    Counts as a Wraithguard unit for the purposes of being transported.
 weapons:
   -
     id: wraithblades
