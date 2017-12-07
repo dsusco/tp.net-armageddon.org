@@ -5,7 +5,6 @@ units:
   - captain
   - chaplain
   - librarian
-  - supreme-commander
 
   - bike
   - scout
