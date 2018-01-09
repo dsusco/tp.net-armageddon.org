@@ -1,6 +1,6 @@
 ---
 name: Ragnarok Heavy Tank
-type: CH
+type: AV
 speed: 15cm
 armour: 4+
 cc: 6+
