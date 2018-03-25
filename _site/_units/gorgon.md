@@ -12,7 +12,7 @@ special_rules:
   - walker
 notes:
   |
-    May transport ten infantry units without _Jump Packs_ or _Mounted_. Critical Hit Effect: Immobilized and D6 units being transported are hit. Subsequent critical hits destroy the unit.
+    May transport ten infantry units without _Jump Packs_ or _Mounted_. Critical Hit Effect: Immobilized, and D6 transported units of the owner’s choice are hit. Subsequent critical hits destroy the unit.
 weapons:
   -
     id: twin-heavy-stubber
