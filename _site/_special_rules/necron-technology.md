@@ -11,5 +11,5 @@ Portal
 : If, at the end of the movement, a unit is out of formation it is destroyed (see [Formations](/tournament-pack/#formations-1)). Example: if you moved a formation of four units through one portal and out another and two units were unable to make the full movement (i.e. get through the second portal), the Necron player would have to choose which units were to be destroyed, the two that moved through the portal or the two that didn’t.
 
 Living Metal
-: Units made of _living metal_ receive a _reinforced armor_ saving throw against normal weapons, or weapons with _lance_ or _macro-weapon_. In addition, their save is not reduced by _sniper_. Any titan killer attacks are automatically reduced to _titan killer (1)_ when resolving hits against units with living metal, and living metal units are permitted a single armor save.
+: Units made of _living metal_ receive a second save. This save functions exactly like an invulnerable save except that it is a 4+ save rather than a 6+.
 {: .dl-colonated }
