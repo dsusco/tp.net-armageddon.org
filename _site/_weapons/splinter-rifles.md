@@ -1,7 +1,7 @@
 ---
-name: "Splinter Rifles"
+name: Splinter Rifles
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

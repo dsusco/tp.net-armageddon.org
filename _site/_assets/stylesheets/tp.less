@@ -1,0 +1,190 @@
+body.default-layout {
+  #nav.expanded .nav > li > a,
+  h1, h2, h3 {
+    &[data-number]:before {
+      content: attr(data-number) ' ';
+    }
+  }
+}
+
+/* lists */
+.dl-colonated {
+  > dt {
+    float: left;
+
+    &:after {
+      content: ': ';
+      white-space: pre;
+    }
+  }
+}
+
+.list-army-list {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  > li:not(:first-child) {
+    margin-top: (@line-height-computed / 2);
+  }
+}
+
+
+.list-upper-roman {
+  counter-reset: list-upper-roman;
+
+  ol& {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  > dt:before, > li:before {
+    counter-increment: list-upper-roman;
+    content: counter(list-upper-roman, upper-roman) ' – ';
+    font-weight: bold;
+  }
+}
+
+/* tables */
+.table-centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/* panels */
+.panel-body {
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+}
+
+/* tp classes */
+aside.faq > div > .panel-body > dl > dt, article.faq > dl > dt {
+  &:before { content: 'Q: '; }
+
+  + dd:before { content: 'A: '; }
+}
+
+article.faq {
+  > div { font-weight: bold; }
+  > dl {
+    > dt { font-weight: normal; }
+    > dd + dt { margin-top: 1em; }
+  }
+}
+
+.has-footnote {
+  cursor: pointer;
+
+  &:after {
+    content: ' ' attr(data-footnote);
+    font-size: @font-size-small;
+    font-weight: normal;
+    line-height: 0;
+    vertical-align: super;
+  }
+}
+
+.unit {
+  .clearfix();
+
+  .stats {
+    display: table;
+    width: 100%;
+
+    > * {
+      display: table-cell;
+      padding: 0 0.5em;
+      text-align: center;
+
+      &:before { display: block; }
+
+      &.name {
+        text-align: left;
+
+        &:before { content: 'Name'; }
+      }
+      &.type:before { content: 'Type'; }
+      &.speed:before { content: 'Speed'; }
+      &.armour:before { content: 'Armour'; }
+      &.cc:before { content: 'CC'; }
+      &.ff:before { content: 'FF'; }
+    }
+  }
+  .weapons {
+    display: table;
+    width: 100%;
+  }
+  .weapon {
+    display: table-row-group;
+
+    &:first-child > .weapon-line:first-child > * {
+      &:before { display: block; }
+
+      &.name:before { content: 'Weapons'; }
+      &.range:before { content: 'Range'; }
+      &.firepower:before { content: 'Firepower'; }
+    }
+  }
+  .weapon-line {
+    display: table-row;
+
+    > * {
+      display: table-cell;
+      padding: 0 0.5em;
+      text-align: center;
+
+      &.name { text-align: left; }
+      &.boolean { text-align: right; }
+      &.firepower {
+        text-align: left;
+
+        > :not(:last-child):after { content: ', '; }
+
+        .special-rules >  li:last-child:after { content: none; }
+      }
+    }
+  }
+  .notes {
+    padding: 0 0.5em;
+
+    > * { margin-bottom: 0; }
+    > .special-rules {
+      font-style: italic;
+
+      + * { display: inline; }
+    }
+    > :first-child:before {
+      content: 'Notes: ';
+      font-style: normal;
+    }
+  }
+
+  .special-rules {
+    padding: 0;
+
+    &, > li { display: inline; }
+
+    > li:after { content: ', '; }
+    > li:last-child:after { content: '.'; }
+  }
+}
+
+/* IDs */
+#weapon-fire-arc-figures {
+  max-width: 100%;
+  width: (2 * 194px);
+
+  figure {
+    position: relative;
+    float: left;
+    width: 50%;
+  }
+
+  figcaption {
+    padding: 0 0.5em;
+    position: absolute;
+    top: 0.25em;
+    width: 100%;
+  }
+}

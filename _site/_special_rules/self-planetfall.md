@@ -1,3 +1,3 @@
 ---
-name: "Self Planetfall"
+name: Self Planetfall
 ---

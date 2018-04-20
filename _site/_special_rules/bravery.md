@@ -1,5 +1,5 @@
 ---
-name: "Bravery"
+name: Bravery
 classes:
   - column-break
 ---

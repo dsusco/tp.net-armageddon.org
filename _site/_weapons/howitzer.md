@@ -1,9 +1,9 @@
 ---
-name: "Howitzer"
+name: Howitzer
 modes:
   -
-    range: "90cm"
-    firepower: "1BP"
+    range: 90cm
+    firepower: 1BP
     special_rules:
-      - "indirect-fire"
+      - indirect-fire
 ---

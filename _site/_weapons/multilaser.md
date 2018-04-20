@@ -1,7 +1,7 @@
 ---
-name: "Multilaser"
+name: Multilaser
 modes:
   -
-    range: "30cm"
-    firepower: "AP5+/AT6+"
+    range: 30cm
+    firepower: AP5+/AT6+
 ---

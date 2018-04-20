@@ -1,3 +1,3 @@
 ---
-name: "Inspiring"
+name: Inspiring
 ---

@@ -1,5 +1,5 @@
 ---
-name: "God Machines"
+name: God Machines
 classes:
   - column-break
 ---

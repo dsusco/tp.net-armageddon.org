@@ -1,5 +1,5 @@
 ---
-name: "Place Objective Markers"
+name: Place Objective Markers
 ---
 Can the player with the higher strategy rating choose to make their opponent place first?
 : No.

@@ -1,3 +1,3 @@
 ---
-name: "Reinforced Armour"
+name: Reinforced Armour
 ---

@@ -1,0 +1,445 @@
+---
+---
+@import 'reset';
+@import 'page';
+@import 'tp';
+@import 'print-variables';
+
+body { font-family: Garamond; }
+
+/* type */
+h1 {
+  .text(16pt);
+  page-break-before: right;
+}
+h2 {
+  .text(12pt);
+  column-break-before: always;
+}
+h1, h2 { text-transform: uppercase; }
+h3, h4 { .text(10pt); }
+h1, h2, h3, h4 {
+  bookmark-label: none;
+  margin: 0;
+
+  &[id] { bookmark-label: content(); }
+}
+
+.default-layout {
+  h1, h2, h3, h4 {
+    &[id] { bookmark-label: attr(data-number) ' ' content(); }
+  }
+}
+
+p, blockquote, figcaption, dl, ol, ul, table, .text {
+  .text(10pt);
+
+  p, blockquote, figcaption, dl, ol, ul, table, .text {
+    font-size: 100%;
+    line-height: inherit;
+  }
+}
+
+/* lists */
+ol, ul { padding-left: 1.5em; }
+
+.dl-colonated > dd:not(:last-child) { margin-bottom: @line-height-computed; }
+
+.list-army-list {
+  .text();
+  margin-bottom: 0;
+
+  > li:not(:first-child) { margin-top: 3pt; }
+}
+
+/* tables */
+th, td { padding: 0 0.5em; }
+
+.table-army-list {
+  .text(8pt);
+  .table-captioned();
+  margin-bottom: 3pt;
+
+  > caption {
+    font-size: percentage((9pt / 8pt));
+    background: none;
+    line-height: unit((12 / 9));
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  > thead {
+    > tr {
+      > th {
+        font-style: normal;
+        text-transform: uppercase;
+      }
+
+      &:last-child > th { border-bottom: 1pt solid @dark-grey; }
+    }
+  }
+  > thead > tr > td { text-align: center; }
+  > tbody > .stripe { background: @light-grey; }
+
+  .table-army-list{
+    font-size: 100%;
+    line-height: inherit;
+  }
+}
+
+.table-captioned {
+  border: 1pt solid @dark-grey;
+  border-top: 0;
+  margin-bottom: (@line-height-computed - 2pt);
+  width: 100%;
+
+  > caption {
+    background: @grey;
+    border: 1pt solid @dark-grey;
+    border-bottom: 0;
+    font-weight: bold;
+    padding: 0 0.5em;
+    text-align: left;
+  }
+
+  > thead, > tbody > tr > th, > tfoot { font-style: italic; }
+}
+
+/* tp classes */
+.has-footnote:after { font-size: 6pt !important; }
+
+aside.faq {
+  float: left;
+  font-size: 0;
+
+  > div {
+    float: prince-column-footnote;
+    font-size: 8pt;
+    line-height: 1.5;
+    page-break-inside: avoid;
+
+    &::footnote-call { content: none; }
+
+    > .panel-heading {
+      display: block;
+      font-weight: bold;
+    }
+
+    > .panel-body > dl {
+      line-height: inherit;
+      margin: 0;
+
+      > dt, > dd {
+        padding-left: 0;
+        position: relative;
+
+        &:before {
+          left: -1.25em;
+          position: absolute;
+          text-align: right;
+          width: 1em;
+        }
+      }
+
+      > dt { font-weight: normal; }
+    }
+  }
+  &.float-footnote > div { float: footnote; }
+}
+
+#netea-faq {
+  .two-column();
+
+  #nav { display: none; }
+
+  .faq {
+    > h2 {
+      .text(10pt);
+      column-break-before: auto;
+      margin: 0;
+      text-transform: none;
+    }
+
+    > dl > dt {
+      &, + dd {
+        &:before {
+          margin-left: -1.25em;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+.short-story {
+  .text();
+  background: @light-grey;
+  border: 1pt solid @dark-grey;
+  font-style: italic;
+  margin-bottom: (@line-height-computed - 2pt);
+  padding: 6pt 1em;
+  page-break-inside: avoid;
+}
+.design-concept, .example-of-play, .special-rule {
+  .short-story();
+  font-style: normal;
+  margin-bottom: (@line-height-computed - 8pt);
+
+  &:before {
+    content: 'Design Concept';
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  > :first-child {
+    .text();
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: (@line-height-computed - 6pt);
+    text-align: center;
+  }
+}
+.example-of-play:before { content: 'Example of Play'; }
+.special-rule:before { content: 'Special Rule'; }
+
+.datasheet {
+  .text(8pt);
+  display: table;
+  margin-bottom: 3pt;
+
+  .unit {
+    font-size: 100%;
+    line-height: inherit;
+    margin-bottom: 0;
+    width: 91.875em;
+
+    .stats, .weapons { width: auto; }
+
+    &:first-child {
+      .before() {
+        background: @white;
+        border-bottom: 1pt solid @dark-grey;
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+
+      .stats, .weapon:first-child > .weapon-line:first-child {
+        > *:before { .before(); }
+      }
+      .notes:before {
+        .before();
+        content: 'Notes';
+      }
+    }
+
+    &:not(:first-child) {
+      .stats, .weapon:first-child > .weapon-line:first-child {
+        > :before { content: none; }
+      }
+    }
+
+    &:nth-child(even) { background: @white; }
+  }
+
+  .type { width: 4em; }
+  .speed, .range { width: 5em; }
+  .armour { width: 6em; }
+  .cc, .ff { width: 3em; }
+
+  .notes {
+    clear: none;
+    float: left;
+    font-style: italic;
+
+    > :first-child:before { content: none; }
+  }
+}
+
+.unit {
+  .text(8pt);
+  background: @light-grey;
+  page-break-inside: avoid;
+
+  .stats, .weapons {
+    float: left;
+    width: 49.999%;
+  }
+
+  .notes > :first-child:before {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &:first-child {
+    .stats, .weapon:first-child > .weapon-line:first-child {
+      > *:before {
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.force {
+  > :first-child {
+    .text-center();
+    margin-bottom: 3pt;
+  }
+
+  aside.faq > div {
+    margin-left: 1.5em;
+  }
+}
+
+.army-list {
+  > h3.page-break {
+    .text(12pt);
+    .text-center();
+    .text-uppercase();
+
+    &, + p { margin-bottom: 3pt; }
+  }
+
+  .army-list-table-container {
+    padding-bottom: 3pt;
+    padding-top: 3pt;
+  }
+}
+
+/* IDs */
+#cover {
+  #title, #mtime {
+    font-family: Impact, sans-serif;
+    font-size: 24pt;
+    line-height: 1.5;
+    margin-bottom: (21 * @line-height-computed);
+  }
+  #title {
+    font-size: 32pt;
+    line-height: 1.125;
+    margin: (14 * @line-height-computed) 0 0;
+  }
+
+  a {
+    font-size: 12pt;
+    line-height: 2;
+  }
+
+  > * { .text-center(); }
+}
+
+#copyright .short-story > :first-child {
+  .text();
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: (@line-height-computed - 6pt);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#nav {
+  ol {
+    list-style: none;
+    padding-left: 0;
+
+    a {
+      display: block;
+      content: attr(data-number) ' ' target-content(attr(href)) leader('.') target-counter(attr(href), page);
+
+      &.h2 { margin-left: 1em; }
+      &.h3 { margin-left: 2em; }
+    }
+
+    span { display: none; }
+  }
+}
+.army_list-layout #nav { display: none; }
+
+#examples-of-formations {
+  figcaption {
+    background: @black;
+    color: @white;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 351px;
+    text-align: center;
+  }
+
+  figcaption, img {
+    border: 1pt solid @dark-grey;
+    margin: 0 auto;
+  }
+  img { border-top-width: 0; }
+}
+
+#examples-of-terrain > .panel-body {
+  figure {
+    display: table;
+
+    + figure figcaption { padding: 0 1em 0 0; }
+  }
+  div, figcaption {
+    display: table-cell;
+    width: 67%;
+    vertical-align: middle;
+  }
+  figcaption {
+    padding: 0 0 0 1em;
+    width: 33%;
+  }
+}
+
+#weapon-fire-arcs + .panel-body > .row {
+  .col-sm-push-6 {
+    float: right;
+    margin-bottom: 0;
+  }
+  .col-sm-pull-6 {
+    float: left;
+    width: 20em;
+  }
+}
+
+#weapon-fire-arc-figures {
+  margin: 0 auto;
+
+  &, img { border: 1pt solid @dark-grey; }
+}
+
+.barrage-table { td, th { text-align: center; } }
+
+#abbreviations {
+  .short-story();
+  font-style: normal;
+
+  dd { margin-bottom: 0; }
+
+  .panel-heading { display: none; }
+}
+
+#reference-sheet {
+  #epic-armageddon-reference-sheet {
+    .text(14pt);
+    .text-center();
+    .text-uppercase();
+  }
+  .dl-colonated > dd { margin: 0; }
+}
+
+/* generated content */
+title { string-set: title content(), mtime attr(data-mtime); }
+
+main h1[id] { string-set: section content(); }
+
+@import 'forces';
+@import 'utilities';

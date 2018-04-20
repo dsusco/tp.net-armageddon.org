@@ -1,3 +1,3 @@
 ---
-name: "Knight Shield"
+name: Knight Shield
 ---

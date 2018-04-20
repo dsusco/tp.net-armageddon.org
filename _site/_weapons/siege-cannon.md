@@ -1,10 +1,10 @@
 ---
-name: "Siege Cannon"
+name: Siege Cannon
 modes:
   -
-    range: "45cm"
-    firepower: "3BP"
+    range: 45cm
+    firepower: 3BP
     special_rules:
-      - "disrupt"
-      - "ignore-cover"
+      - disrupt
+      - ignore-cover
 ---

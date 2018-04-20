@@ -1,7 +1,7 @@
 ---
-name: "Plague of Flies"
+name: Plague of Flies
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

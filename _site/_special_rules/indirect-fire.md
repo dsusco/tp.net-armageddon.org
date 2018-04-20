@@ -1,4 +1,4 @@
 ---
-name: "Indirect Fire"
-abbr: "Ind"
+name: Indirect Fire
+abbr: Ind
 ---

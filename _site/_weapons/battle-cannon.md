@@ -1,7 +1,7 @@
 ---
-name: "Battle Cannon"
+name: Battle Cannon
 modes:
   -
-    range: "75cm"
-    firepower: "AP4+/AT4+"
+    range: 75cm
+    firepower: AP4+/AT4+
 ---

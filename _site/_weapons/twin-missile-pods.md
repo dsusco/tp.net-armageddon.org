@@ -1,7 +1,7 @@
 ---
-name: "Twin Missile Pods"
+name: Twin Missile Pods
 modes:
   -
-    range: "45cm"
-    firepower: "AP5+/AT6+"
+    range: 45cm
+    firepower: AP5+/AT6+
 ---

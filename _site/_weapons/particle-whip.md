@@ -1,7 +1,7 @@
 ---
-name: "Particle Whip"
+name: Particle Whip
 modes:
   -
-    range: "30cm"
-    firepower: "AP4+/AT4+"
+    range: 30cm
+    firepower: AP4+/AT4+
 ---

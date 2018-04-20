@@ -1,14 +1,14 @@
 ---
-name: "Thousand Sons"
-type: "INF"
-speed: "15cm"
-armour: "4+"
-cc: "5+"
-ff: "4+"
+name: Thousand Sons
+type: INF
+speed: 15cm
+armour: 4+
+cc: 5+
+ff: 4+
 special_rules:
-  - "fearless"
-  - "reinforced-armour"
+  - fearless
+  - reinforced-armour
 weapons:
   -
-    id: "bolters"
+    id: bolters
 ---

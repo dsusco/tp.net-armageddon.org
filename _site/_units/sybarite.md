@@ -1,13 +1,13 @@
 ---
-name: "Sybarite"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Sybarite
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "leader"
+  - leader
 weapons:
   -
-    id: "punisher"
+    id: punisher
 ---

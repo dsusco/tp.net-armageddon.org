@@ -1,7 +1,7 @@
 ---
-name: "Twin Plasma Rifles"
+name: Twin Plasma Rifles
 modes:
   -
-    range: "30cm"
-    firepower: "AP4+"
+    range: 30cm
+    firepower: AP4+
 ---

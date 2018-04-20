@@ -1,7 +1,7 @@
 ---
-name: "Scorpion Twin Pulsar"
+name: Scorpion Twin Pulsar
 modes:
   -
-    range: "75cm"
-    firepower: "2× MW2+"
+    range: 75cm
+    firepower: 2× MW2+
 ---

@@ -1,7 +1,6 @@
 ---
 name: Feral Ork
-classes:
-  - page-break-right
+
 units:
   - warlord
   - wyrdboy
@@ -19,6 +18,7 @@ units:
 
   - orkeosaurus
   - steam-gargant
+
 special_rules:
   - feral-ork-mob-rule
   - feral-ork-power-of-the-waaagh

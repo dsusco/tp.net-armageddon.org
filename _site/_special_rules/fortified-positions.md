@@ -1,5 +1,5 @@
 ---
-name: "Fortified Positions"
+name: Fortified Positions
 ---
 A Siege Regiment army regiment is allowed to purchase one set of fortified positions for its troops to occupy for each Regimental HQ or Infantry company included in the army.
 

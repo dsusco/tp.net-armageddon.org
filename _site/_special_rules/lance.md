@@ -1,4 +1,4 @@
 ---
-name: "Lance"
-abbr: "L"
+name: Lance
+abbr: L
 ---

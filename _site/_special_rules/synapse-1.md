@@ -1,3 +1,3 @@
 ---
-name: "Synapse (1)"
+name: Synapse (1)
 ---

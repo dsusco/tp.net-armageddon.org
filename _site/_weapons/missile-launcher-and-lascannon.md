@@ -1,7 +1,7 @@
 ---
-name: "Missile Launcher and Lascannon"
+name: Missile Launcher and Lascannon
 modes:
   -
-    range: "45cm"
-    firepower: "3× AP5+/AT5+"
+    range: 45cm
+    firepower: 3× AP5+/AT5+
 ---

@@ -1,10 +1,10 @@
+
 {% assign faq = site.data.faqs[include.id] %}
-<aside class="faq panel panel-default{% for c in faq.classes %} {{c}}{% endfor %}">
+<aside id="faq-{{include.id}}" class="collapse faq panel panel-default {{ faq.classes | join: ' ' }}">
   <div>
-    <div class="panel-heading">{{ faq.heading }} {{ faq.name }}</div>
+    <div class="panel-heading sr-only">{{ faq.number }} {{ faq.name }}</div>
 
     <div class="panel-body">
-{% if page.layout == 'army_list' %}{{ faq.content | markdownify }}{% else %}{{ faq.content }}{% endif %}
-    </div>
+{{ faq.content | markdownify }}  </div>
   </div>
 </aside>

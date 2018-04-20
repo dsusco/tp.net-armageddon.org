@@ -1,7 +1,7 @@
 ---
-name: "Fleshborers"
+name: Fleshborers
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

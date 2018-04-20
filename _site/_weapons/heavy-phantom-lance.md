@@ -1,9 +1,9 @@
 ---
-name: "Heavy Phantom Lance"
+name: Heavy Phantom Lance
 modes:
   -
-    range: "60cm"
-    firepower: "MW3+"
+    range: 60cm
+    firepower: MW3+
     special_rules:
-      - "titan-killer-d3"
+      - titan-killer-d3
 ---

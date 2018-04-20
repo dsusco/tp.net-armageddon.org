@@ -1,3 +1,3 @@
 ---
-name: "Deflector Shield"
+name: Deflector Shield
 ---

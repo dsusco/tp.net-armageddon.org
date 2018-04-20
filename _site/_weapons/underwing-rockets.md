@@ -1,7 +1,7 @@
 ---
-name: "Underwing Rockets"
+name: Underwing Rockets
 modes:
   -
-    range: "30cm"
-    firepower: "AT4+"
+    range: 30cm
+    firepower: AT4+
 ---

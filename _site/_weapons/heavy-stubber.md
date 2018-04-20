@@ -1,7 +1,7 @@
 ---
-name: "Heavy Stubber"
+name: Heavy Stubber
 modes:
   -
-    range: "30cm"
-    firepower: "AP6+"
+    range: 30cm
+    firepower: AP6+
 ---

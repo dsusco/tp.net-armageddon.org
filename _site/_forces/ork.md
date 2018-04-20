@@ -1,7 +1,6 @@
 ---
 name: Ork
-classes:
-  - page-break-right
+
 units:
   - oddboy
   - warlord
@@ -36,6 +35,7 @@ units:
 
   - battlekroozer
   - kill-kroozer
+
 special_rules:
   - mob-rule
   - power-of-the-waaagh

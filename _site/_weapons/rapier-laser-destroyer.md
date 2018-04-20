@@ -1,7 +1,7 @@
 ---
-name: "Rapier Laser Destroyer"
+name: Rapier Laser Destroyer
 modes:
   -
-    range: "45cm"
-    firepower: "AP6+/AT4+"
+    range: 45cm
+    firepower: AP6+/AT4+
 ---

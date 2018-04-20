@@ -1,7 +1,7 @@
 ---
-name: "Hellstorm Cannon"
+name: Hellstorm Cannon
 modes:
   -
-    range: "60cm"
-    firepower: "10BP"
+    range: 60cm
+    firepower: 10BP
 ---

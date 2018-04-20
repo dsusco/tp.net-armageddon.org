@@ -1,14 +1,13 @@
-{% assign weapon = site.data.weapons[include.weapon.id] %}
-<div class="weapon{% for c in weapon.classes %} {{c}}{% endfor %}">{% for m in weapon.modes %}
-  <div class="weapon-line">{% if m.boolean %}
-    <span class="boolean">{{ m.boolean }}</span>{% else %}
-    <span class="name">{% if include.weapon.multiplier %}{{ include.weapon.multiplier }}× {% endif %}{{ weapon.name }}</span>{% endif %}
+{% assign weapon = site.data.weapons[include.w.id] %}
+<div class="weapon {{ unit.classes | join: ' ' }}">{% for m in weapon.modes %}
+  <div class="weapon-line">
+    {{ weapon | weapon_name: w, m }}
     <span class="range">{{ m.range }}</span>
-    <div class="firepower">{% if m.firepower != '' %}
-      <span>{{ m.firepower }}</span>{% endif %}{% if include.weapon.arc or m.special_rules %}
+    <div class="firepower">{% if m.firepower %}
+      <span>{{ m.firepower }}</span>{% endif %}{% if include.w.arc or m.special_rules %}
 
-      <ul class="special-rules">{% if include.weapon.arc and m.range != '(bc)' and m.range != '(15cm)' %}
-        <li>{{ include.weapon.arc }}</li>{% endif %}{% for sr in m.special_rules %}{% assign special_rule = site.data.special_rules[sr] %}
+      <ul class="special-rules">
+        {{ w | weapon_arc: m }}{% for sr in m.special_rules %}{% assign special_rule = site.data.special_rules[sr] %}
         <li><abbr title="{{ special_rule.name }}">{{ special_rule.abbr }}</abbr></li>{% endfor %}
       </ul>{% endif %}
     </div>

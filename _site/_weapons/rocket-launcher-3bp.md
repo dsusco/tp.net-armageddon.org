@@ -1,7 +1,7 @@
 ---
-name: "Rocket Launcher"
+name: Rocket Launcher
 modes:
   -
-    range: "60cm"
-    firepower: "3BP"
+    range: 60cm
+    firepower: 3BP
 ---

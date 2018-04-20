@@ -1,7 +1,6 @@
 ---
 name: Tau
-classes:
-  - page-break-right
+
 units:
   - ethereal
   - shasel
@@ -33,6 +32,7 @@ units:
 
   - custodian-class-battleship
   - protector-class-cruiser
+
 special_rules:
   - coordinated-fire
   - tau-technology

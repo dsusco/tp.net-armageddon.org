@@ -1,10 +1,10 @@
 ---
-name: "Teeth and Horns"
+name: Teeth and Horns
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-d3"
-      - "macro-weapon"
+      - extra-attacks-d3
+      - macro-weapon
 ---

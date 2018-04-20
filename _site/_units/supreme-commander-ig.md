@@ -1,15 +1,15 @@
 ---
-name: "Supreme Commander"
-type: "INF"
-speed: "15cm"
-armour: "5+"
-cc: "4+"
-ff: "5+"
+name: Supreme Commander
+type: INF
+speed: 15cm
+armour: 5+
+cc: 4+
+ff: 5+
 special_rules:
-  - "supreme-commander"
+  - supreme-commander
 weapons:
   -
-    id: "autocannon"
+    id: autocannon
   -
-    id: "power-weapon"
+    id: power-weapon
 ---

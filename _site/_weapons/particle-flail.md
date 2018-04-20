@@ -1,7 +1,7 @@
 ---
-name: "Particle Flail"
+name: Particle Flail
 modes:
   -
-    range: "45cm"
-    firepower: "AP4+/AT4+"
+    range: 45cm
+    firepower: AP4+/AT4+
 ---

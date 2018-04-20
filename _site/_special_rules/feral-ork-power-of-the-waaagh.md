@@ -1,5 +1,5 @@
 ---
-name: "Power of the Waaagh!"
+name: Power of the Waaagh!
 classes:
   - one-half
 ---

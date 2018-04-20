@@ -1,5 +1,5 @@
 {% assign unit = site.data.units[include.id] %}
-<div class="unit{% for c in unit.classes %} {{c}}{% endfor %}">
+<div class="unit {{ unit.classes | join: ' ' }}">
   <div class="stats">
     <span class="name">{{ unit.name }}</span>
     <span class="type">{{ unit.type }}</span>
@@ -9,22 +9,20 @@
     <span class="ff">{{ unit.ff }}</span>
   </div>
 
-  <div class="weapons">{% if unit.weapons %}{% for w in unit.weapons %}
-{% include weapon.html weapon=w %}{% endfor %}{% else %}
+  <div class="weapons">{% for w in unit.weapons %}{% include weapon.html w=w %}{% else %}
     <div class="weapon">
       <div class="weapon-line">
         <span class="name">-</span>
         <span class="range"></span>
         <span class="firepower"></span>
       </div>
-    </div>{% endif %}
+    </div>{% endfor %}
   </div>
 
   <div class="notes">{% if unit.special_rules %}
     <ul class="special-rules">{% for sr in unit.special_rules %}
       <li>{{ site.data.special_rules[sr].name }}</li>{% endfor %}
-    </ul>{% endif %}{% if unit.notes %}
-
-    {{ unit.notes | markdownify }}{% endif %}
-  </div>
+    </ul>
+{% endif %}{% if unit.notes %}
+    {{ unit.notes | markdownify }}{% endif %}  </div>
 </div>

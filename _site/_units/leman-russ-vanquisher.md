@@ -1,18 +1,18 @@
 ---
-name: "Leman Russ Vanquisher"
-type: "AV"
-speed: "20cm"
-armour: "4+"
-cc: "6+"
-ff: "4+"
+name: Leman Russ Vanquisher
+type: AV
+speed: 20cm
+armour: 4+
+cc: 6+
+ff: 4+
 special_rules:
-  - "reinforced-armour"
+  - reinforced-armour
 weapons:
   -
-    id: "vanquisher"
+    id: vanquisher
   -
-    id: "lascannon"
+    id: lascannon
   -
-    id: "heavy-bolter"
-    multiplier: "2"
+    id: heavy-bolter
+    multiplier: 2
 ---

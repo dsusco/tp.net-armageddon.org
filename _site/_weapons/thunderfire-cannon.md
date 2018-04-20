@@ -1,15 +1,15 @@
 ---
-name: "Thunderfire Cannon"
+name: Thunderfire Cannon
 modes:
   -
-    range: "60cm"
-    firepower: "2× AP4+/AT6+"
+    range: 60cm
+    firepower: 2× AP4+/AT6+
     special_rules:
-      - "disrupt"
+      - disrupt
   -
-    boolean: "or"
-    range: "60cm"
-    firepower: "2× AP4+/AT6+"
+    boolean: or
+    range: 60cm
+    firepower: 2× AP4+/AT6+
     special_rules:
-      - "ignore-cover"
+      - ignore-cover
 ---

@@ -1,5 +1,6 @@
 ---
 name: Adeptus Mechanicus Titan Legion
+
 units:
   - apocalypse-missile-launcher
   - carapace-landing-pad
@@ -39,6 +40,7 @@ units:
   - lysander-fighter
 
   - ark-mechanicus-battleship
+
 special_rules:
   - automaton
   - weapon-mount

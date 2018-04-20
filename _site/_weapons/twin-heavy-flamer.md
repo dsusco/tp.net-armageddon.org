@@ -1,9 +1,9 @@
 ---
-name: "Twin Heavy Flamer"
+name: Twin Heavy Flamer
 modes:
   -
-    range: "15cm"
-    firepower: "AP3+"
+    range: 15cm
+    firepower: AP3+
     special_rules:
-      - "ignore-cover"
+      - ignore-cover
 ---

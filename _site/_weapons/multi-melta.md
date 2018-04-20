@@ -1,13 +1,13 @@
 ---
-name: "Multi-melta"
+name: Multi-melta
 modes:
   -
-    range: "15cm"
-    firepower: "MW5+"
+    range: 15cm
+    firepower: MW5+
   -
-    boolean: "and"
-    range: "(15cm)"
-    firepower: "Small Arms"
+    boolean: and
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "macro-weapon"
+      - macro-weapon
 ---

@@ -1,10 +1,10 @@
 ---
-name: "Power Gauntlet"
+name: Power Gauntlet
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "titan-killer-1"
+      - extra-attacks-1
+      - titan-killer-1
 ---

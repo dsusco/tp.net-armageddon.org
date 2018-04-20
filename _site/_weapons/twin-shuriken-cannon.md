@@ -1,7 +1,7 @@
 ---
-name: "Twin Shuriken Cannon"
+name: Twin Shuriken Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "AP4+"
+    range: 30cm
+    firepower: AP4+
 ---

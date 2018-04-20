@@ -1,7 +1,7 @@
 ---
-name: "Flesh Hooks"
+name: Flesh Hooks
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

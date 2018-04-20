@@ -1,11 +1,11 @@
 ---
-name: "Deathstrike Missiles"
+name: Deathstrike Missiles
 modes:
   -
-    range: "Unlimited"
-    firepower: "2× MW2+"
+    range: Unlimited
+    firepower: 2× MW2+
     special_rules:
-      - "indirect-fire"
-      - "single-shot"
-      - "titan-killer-d6"
+      - indirect-fire
+      - single-shot
+      - titan-killer-d6
 ---

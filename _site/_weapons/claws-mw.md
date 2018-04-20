@@ -1,9 +1,9 @@
 ---
-name: "Claws"
+name: Claws
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "macro-weapon"
+      - macro-weapon
 ---

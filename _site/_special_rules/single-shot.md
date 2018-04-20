@@ -1,4 +1,4 @@
 ---
-name: "Single Shot"
-abbr: "SS"
+name: Single Shot
+abbr: SS
 ---

@@ -1,19 +1,19 @@
 ---
-name: "Falcon"
-type: "AV"
-speed: "35cm"
-armour: "5+"
-cc: "6+"
-ff: "4+"
+name: Falcon
+type: AV
+speed: 35cm
+armour: 5+
+cc: 6+
+ff: 4+
 special_rules:
-  - "skimmer"
-  - "transport"
+  - skimmer
+  - transport
 notes:
   |
     May transport one infantry unit (except Support Weapon Platforms and Wraithguard) without _Jump Packs_ or _Mounted_.
 weapons:
   -
-    id: "pulse-laser"
+    id: pulse-laser
   -
-    id: "scatter-laser"
+    id: scatter-laser
 ---

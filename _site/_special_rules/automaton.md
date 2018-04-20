@@ -1,5 +1,5 @@
 ---
-name: "Automaton"
+name: Automaton
 ---
 A formation does not receive a Blast marker when a unit with automaton is destroyed, this includes the extra Blast marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with disrupt <strong>do</strong> take a Blast marker however.
 

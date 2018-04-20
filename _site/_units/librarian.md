@@ -1,16 +1,16 @@
 ---
-name: "Librarian"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Librarian
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "invulnerable-save"
-  - "leader"
+  - invulnerable-save
+  - leader
 weapons:
   -
-    id: "smite"
+    id: smite
   -
-    id: "power-weapon"
+    id: power-weapon
 ---

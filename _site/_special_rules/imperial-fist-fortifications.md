@@ -1,11 +1,14 @@
 ---
-name: "Imperial Fist Fortifications"
+name: Imperial Fist Fortifications
 ---
 Bunker
 : Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
 
 Gun Emplacement
 : Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit.
+
+Minefield
+: Enemy units with _Jumps Packs_ or _Skimmer_ must take dangerous tests for Minefields. Enemy units may not re-roll failed dangerous terrain tests for minefields.
 
 Trench
 : Can hold one infantry unit per 4cm of length.

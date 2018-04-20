@@ -1,5 +1,5 @@
 ---
-name: "Mob Rule"
+name: Mob Rule
 classes:
   - one-half
 ---

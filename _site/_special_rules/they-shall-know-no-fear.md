@@ -1,5 +1,5 @@
 ---
-name: "They Shall Know No Fear"
+name: They Shall Know No Fear
 ---
 Space Marines are renowned for their tenacity and bravery. This is represented by the following rules:
 

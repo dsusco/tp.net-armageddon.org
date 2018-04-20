@@ -1,7 +1,6 @@
 ---
 name: Baran Siegemaster
-classes:
-  - page-break-right
+
 units:
   - commissar
 
@@ -27,6 +26,7 @@ units:
 
   - baneblade
   - shadowsword
+
 special_rules:
   - baran-siegemaster-fortified-positions
 ---

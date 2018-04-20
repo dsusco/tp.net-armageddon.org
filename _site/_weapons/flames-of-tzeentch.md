@@ -1,9 +1,9 @@
 ---
-name: "Flames of Tzeentch"
+name: Flames of Tzeentch
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "extra-attacks-1"
+      - extra-attacks-1
 ---

@@ -1,9 +1,9 @@
 ---
-name: "Aircraft Seeker Missiles"
+name: Aircraft Seeker Missiles
 modes:
   -
-    range: "45cm"
-    firepower: "AT6+"
+    range: 45cm
+    firepower: AT6+
     special_rules:
-      - "guided-missile"
+      - guided-missile
 ---

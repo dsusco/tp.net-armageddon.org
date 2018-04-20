@@ -1,4 +1,4 @@
 ---
-name: "Guided Missile"
-abbr: "GM"
+name: Guided Missile
+abbr: GM
 ---

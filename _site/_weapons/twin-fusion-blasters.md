@@ -1,7 +1,7 @@
 ---
-name: "Twin Fusion Blasters"
+name: Twin Fusion Blasters
 modes:
   -
-    range: "15cm"
-    firepower: "MW4+"
+    range: 15cm
+    firepower: MW4+
 ---

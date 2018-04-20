@@ -1,5 +1,5 @@
 ---
-name: "Victory Conditions"
+name: Victory Conditions
 ---
 Do formations that are <q>off board</q> (spacecraft) or in reserve count towards the Break Their Spirit goal?
 : No. However, a formation that enters play and is destroyed (e.g. an aircraft) would count towards the goal.

@@ -1,4 +1,4 @@
 ---
-name: "First Strike"
-abbr: "FS"
+name: First Strike
+abbr: FS
 ---

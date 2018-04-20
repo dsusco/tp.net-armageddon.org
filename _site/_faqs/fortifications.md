@@ -1,5 +1,5 @@
 ---
-name: "Fortifications"
+name: Fortifications
 ---
 Do all fortifications purchased need to be set up?
 : No.

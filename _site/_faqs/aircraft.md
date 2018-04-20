@@ -1,5 +1,5 @@
 ---
-name: "Aircraft"
+name: Aircraft
 ---
 Can a formation on CAP choose to carry out an interception action in reaction to an enemy CAP interception?
 : No.

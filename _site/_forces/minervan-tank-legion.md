@@ -1,7 +1,6 @@
 ---
 name: Minervan Tank Legion
-classes:
-  - page-break-right
+
 units:
   - commissar-minervan
   - supreme-commander-minervan

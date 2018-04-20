@@ -1,5 +1,5 @@
 ---
-name: "Allocating Hits To War Engines"
+name: Allocating Hits To War Engines
 ---
 How many units does a war engine in the target formation count as with regards to placing a barrage template?
 : A number equal to its starting damage capacity.

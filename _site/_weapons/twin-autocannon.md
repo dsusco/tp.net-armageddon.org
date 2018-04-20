@@ -1,7 +1,7 @@
 ---
-name: "Twin Autocannon"
+name: Twin Autocannon
 modes:
   -
-    range: "45cm"
-    firepower: "AP4+/AT5+"
+    range: 45cm
+    firepower: AP4+/AT5+
 ---

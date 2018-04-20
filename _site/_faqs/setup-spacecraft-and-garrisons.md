@@ -1,5 +1,5 @@
 ---
-name: "Setup Spacecraft &amp; Garrisons"
+name: Setup Spacecraft &amp; Garrisons
 ---
 Can the player with the higher strategy rating choose to make their opponent set up a garrison first?
 : No.

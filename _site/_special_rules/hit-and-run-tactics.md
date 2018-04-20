@@ -1,5 +1,5 @@
 ---
-name: "Hit &amp; Run Tactics"
+name: Hit &amp; Run Tactics
 ---
 The Eldar are a dying race, and any loss is deeply mourned. Because of this they have developed tactics that, when combined with their highly advanced technology, allows them to attack the enemy and then quickly retire in order to avoid any return fire. This special ability is reflected by the following special rules, which apply to all formations in an Eldar army.
 

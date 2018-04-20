@@ -1,12 +1,10 @@
 ---
 name: Scions of Iron
-classes:
-  - page-break-right
+
 units:
   - captain
   - chaplain
   - librarian
-  - supreme-commander
 
   - bike
   - scout

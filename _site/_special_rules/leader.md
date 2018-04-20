@@ -1,3 +1,3 @@
 ---
-name: "Leader"
+name: Leader
 ---

@@ -1,5 +1,5 @@
 ---
-name: "Augmented Summoning"
+name: Augmented Summoning
 classes:
   - one-half
 ---

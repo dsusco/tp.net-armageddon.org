@@ -1,5 +1,5 @@
 ---
-name: "Power Fields"
+name: Power Fields
 classes:
   - one-third
 ---

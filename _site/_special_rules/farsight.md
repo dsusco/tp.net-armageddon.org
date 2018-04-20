@@ -1,5 +1,5 @@
 ---
-name: "Farsight"
+name: Farsight
 ---
 Eldar Farseers are able to partially unravel the threads of time, allowing them to foresee events that may affect his army, and act to counter them. To represent this, any Eldar formation that includes a unit with Farsight may ignore the -1 Action test penalty when they try to retain the initiative.
 

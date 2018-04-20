@@ -1,9 +1,9 @@
 ---
-name: "Arm Weapon Mount"
+name: Arm Weapon Mount
 modes:
   -
-    range: "-"
-    firepower: ""
+    range: '-'
+    firepower:
     special_rules:
-      - "weapon-mount"
+      - weapon-mount
 ---

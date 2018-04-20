@@ -1,7 +1,7 @@
 ---
-name: "Twin Burst Cannon"
+name: Twin Burst Cannon
 modes:
   -
-    range: "15cm"
-    firepower: "AA6+"
+    range: 15cm
+    firepower: AA6+
 ---

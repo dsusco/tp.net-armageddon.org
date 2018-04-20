@@ -1,5 +1,5 @@
 ---
-name: "Fortified Positions"
+name: Fortified Positions
 ---
 Do all Fortified Positions purchased need to be set up?
 : No.

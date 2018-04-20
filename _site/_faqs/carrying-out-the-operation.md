@@ -1,5 +1,5 @@
 ---
-name: "Carrying Out The Operation"
+name: Carrying Out The Operation
 ---
 What is the order of events with regards to a spacecraft's operation.
 : 1. The spacecraft resolves all of its orbital bombardment and pin-point attacks, assuming an action test is passed.

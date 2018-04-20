@@ -1,7 +1,7 @@
 ---
-name: "Eldar Missile Launcher"
+name: Eldar Missile Launcher
 modes:
   -
-    range: "45cm"
-    firepower: "AP5+/AT6+/AA6+"
+    range: 45cm
+    firepower: AP5+/AT6+/AA6+
 ---

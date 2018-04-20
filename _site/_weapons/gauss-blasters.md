@@ -1,7 +1,7 @@
 ---
-name: "Gauss Blasters"
+name: Gauss Blasters
 modes:
   -
-    range: "15cm"
-    firepower: "AP4+/AT6+"
+    range: 15cm
+    firepower: AP4+/AT6+
 ---

@@ -1,11 +1,11 @@
 ---
-name: "Shas'el"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Shas'el
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "coordinated-fire"
-  - "leader"
+  - coordinated-fire
+  - leader
 ---

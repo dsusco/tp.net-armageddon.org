@@ -1,13 +1,13 @@
 ---
-name: "Immortals"
-type: "INF"
-speed: "15cm"
-armour: "4+"
-cc: "4+"
-ff: "3+"
+name: Immortals
+type: INF
+speed: 15cm
+armour: 4+
+cc: 4+
+ff: 3+
 special_rules:
-  - "necron"
+  - necron
 weapons:
   -
-    id: "gauss-blasters"
+    id: gauss-blasters
 ---

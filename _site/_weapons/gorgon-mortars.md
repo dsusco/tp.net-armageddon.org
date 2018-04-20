@@ -1,10 +1,10 @@
 ---
-name: "Gorgon Mortars"
+name: Gorgon Mortars
 modes:
   -
-    range: "30cm"
-    firepower: "2BP"
+    range: 30cm
+    firepower: 2BP
     special_rules:
-      - "indirect-fire"
-      - "single-shot"
+      - indirect-fire
+      - single-shot
 ---

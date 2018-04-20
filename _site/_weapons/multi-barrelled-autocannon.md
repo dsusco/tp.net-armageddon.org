@@ -1,7 +1,7 @@
 ---
-name: "Multi-barrelled Autocannon"
+name: Multi-barrelled Autocannon
 modes:
   -
-    range: "45cm"
-    firepower: "3× AP5+/AT6+"
+    range: 45cm
+    firepower: 3× AP5+/AT6+
 ---

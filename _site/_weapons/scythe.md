@@ -1,10 +1,10 @@
 ---
-name: "Scythe"
+name: Scythe
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-2"
-      - "titan-killer-d3"
+      - extra-attacks-2
+      - titan-killer-d3
 ---

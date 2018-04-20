@@ -1,7 +1,7 @@
 ---
-name: "Bio-Titan Bio-Cannon"
+name: Bio-Titan Bio-Cannon
 modes:
   -
-    range: "45cm"
-    firepower: "3× AP4+/AT5+"
+    range: 45cm
+    firepower: 3× AP4+/AT5+
 ---

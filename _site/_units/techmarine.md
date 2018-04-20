@@ -1,16 +1,16 @@
 ---
-name: "Techmarine"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Techmarine
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "leader"
+  - leader
 notes:
   |
     If added to a Bastion unit the Bastion gains 1 Void Shield.
 weapons:
   -
-    id: "power-weapon"
+    id: power-weapon
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Jump Packs"
+name: Jump Packs
 ---

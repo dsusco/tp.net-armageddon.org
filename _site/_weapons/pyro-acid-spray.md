@@ -1,9 +1,9 @@
 ---
-name: "Pyro-Acid Spray"
+name: Pyro-Acid Spray
 modes:
   -
-    range: "15cm"
-    firepower: "3BP"
+    range: 15cm
+    firepower: 3BP
     special_rules:
-      - "ignore-cover"
+      - ignore-cover
 ---

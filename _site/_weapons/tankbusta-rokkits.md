@@ -1,7 +1,7 @@
 ---
-name: "Tankbusta Rokkits"
+name: Tankbusta Rokkits
 modes:
   -
-    range: "30cm"
-    firepower: "AT4+"
+    range: 30cm
+    firepower: AT4+
 ---

@@ -1,9 +1,9 @@
 ---
-name: "Gauss Flux Arc"
+name: Gauss Flux Arc
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
     special_rules:
-      - "extra-attacks-2"
+      - extra-attacks-2
 ---

@@ -1,4 +1,12 @@
-url: http://tp/
+# LESS
+less:
+  paths:
+    - ./bower_components
+    - ./_site/_assets/stylesheets
+
+# CSS
+css:
+  compress: true
 
 # Where things are
 source: _site/
@@ -6,18 +14,13 @@ destination: public_html/
 collections:
   army_lists:
     output: true
-    permalink: army-lists/:title.html
+    permalink: army-lists/:name.html
   faqs:
   forces:
   special_rules:
   units:
   weapons:
 
-# Handling Reading
-exclude: ['_js', '_less']
-
-# Conversion
-markdown: kramdown
 
 # Outputting
 defaults:
@@ -32,8 +35,3 @@ defaults:
       type: army_lists
     values:
       layout: army_list
-
-kramdown:
-  enable_coderay: false
-  parse_block_html: true
-  toc_levels: 1..3

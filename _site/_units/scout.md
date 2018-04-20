@@ -1,14 +1,14 @@
 ---
-name: "Scout"
-type: "INF"
-speed: "15cm"
-armour: "5+"
-cc: "4+"
-ff: "5+"
+name: Scout
+type: INF
+speed: 15cm
+armour: 5+
+cc: 4+
+ff: 5+
 special_rules:
-  - "infiltrator"
-  - "scout"
+  - infiltrator
+  - scout
 weapons:
   -
-    id: "heavy-bolter"
+    id: heavy-bolter
 ---

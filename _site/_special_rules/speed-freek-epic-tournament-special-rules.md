@@ -1,5 +1,5 @@
 ---
-name: "Speed Freek Epic Tournament Special Rules"
+name: Speed Freek Epic Tournament Special Rules
 ---
 Every Speed Freek Ork army _must_ include a Mekboy Bad Ork Bikerboy unit. The unit is free, you don’t have to pay any points for him, and it can be added to any formation in the army.
 

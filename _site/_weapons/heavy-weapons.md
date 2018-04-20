@@ -1,7 +1,7 @@
 ---
-name: "Heavy Weapons"
+name: Heavy Weapons
 modes:
   -
-    range: "30cm"
-    firepower: "AP6+/AT6+"
+    range: 30cm
+    firepower: AP6+/AT6+
 ---

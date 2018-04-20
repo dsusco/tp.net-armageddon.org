@@ -1,7 +1,7 @@
 ---
-name: "Tormentor Helms"
+name: Tormentor Helms
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

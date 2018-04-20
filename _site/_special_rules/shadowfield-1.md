@@ -1,3 +1,3 @@
 ---
-name: "1 Shadowfield"
+name: 1 Shadowfield
 ---

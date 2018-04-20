@@ -1,11 +1,11 @@
 ---
-name: "Siege Mortar"
+name: Siege Mortar
 modes:
   -
-    range: "45cm"
-    firepower: "2BP"
+    range: 45cm
+    firepower: 2BP
     special_rules:
-      - "ignore-cover"
-      - "indirect-fire"
-      - "slow-firing"
+      - ignore-cover
+      - indirect-fire
+      - slow-firing
 ---

@@ -1,11 +1,11 @@
 ---
-name: "Squig Katapult"
-type: "INF"
-speed: "10cm"
-armour: "-"
-cc: "6+"
-ff: "5+"
+name: Squig Katapult
+type: INF
+speed: 10cm
+armour: '-'
+cc: 6+
+ff: 5+
 weapons:
   -
-    id: "squig-katapult"
+    id: squig-katapult
 ---

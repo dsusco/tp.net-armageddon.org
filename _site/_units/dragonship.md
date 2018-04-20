@@ -1,20 +1,20 @@
 ---
-name: "Dragonship"
-type: "SC"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Dragonship
+type: SC
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "transport"
+  - transport
 notes:
   |
     May transport twelve Vampire Raiders and the units being carried on them. Armed with either an Orbital Bombardment or Pin-Point Attacks.
 weapons:
   -
-    id: "orbital-bombardment-8bp"
-    multiplier: "0–1"
+    id: orbital-bombardment-8bp
+    multiplier: 0–1
   -
-    id: "pin-point-attacks-2x"
-    multiplier: "0–1"
+    id: pin-point-attacks-2x
+    multiplier: 0–1
 ---

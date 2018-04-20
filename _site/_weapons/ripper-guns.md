@@ -1,7 +1,7 @@
 ---
-name: "Ripper Guns"
+name: Ripper Guns
 modes:
   -
-    range: "(15cm)"
-    firepower: "Small Arms"
+    range: (15cm)
+    firepower: Small Arms
 ---

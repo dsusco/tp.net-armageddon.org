@@ -1,7 +1,7 @@
 ---
-name: "D-Cannon"
+name: D-Cannon
 modes:
   -
-    range: "30cm"
-    firepower: "MW5+"
+    range: 30cm
+    firepower: MW5+
 ---

@@ -1,5 +1,5 @@
 ---
-name: "Xeno-Sociology"
+name: Xeno-Sociology
 classes:
   - one-half
 ---

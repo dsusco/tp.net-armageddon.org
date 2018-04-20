@@ -1,5 +1,5 @@
 ---
-name: "Daemonic Focus"
+name: Daemonic Focus
 classes:
   - one-half
 ---

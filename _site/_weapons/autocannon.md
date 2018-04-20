@@ -1,7 +1,7 @@
 ---
-name: "Autocannon"
+name: Autocannon
 modes:
   -
-    range: "45cm"
-    firepower: "AP5+/AT6+"
+    range: 45cm
+    firepower: AP5+/AT6+
 ---

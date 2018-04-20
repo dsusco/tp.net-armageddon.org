@@ -1,4 +1,4 @@
 ---
-name: "Extra Attacks (+1)"
-abbr: "EA(+1)"
+name: Extra Attacks (+1)
+abbr: EA(+1)
 ---

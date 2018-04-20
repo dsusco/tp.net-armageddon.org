@@ -1,7 +1,7 @@
 ---
-name: "Heavy Shootas"
+name: Heavy Shootas
 modes:
   -
-    range: "15cm"
-    firepower: "AP5+/AA5+"
+    range: 15cm
+    firepower: AP5+/AA5+
 ---

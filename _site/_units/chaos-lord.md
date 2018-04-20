@@ -1,15 +1,15 @@
 ---
-name: "Chaos Lord"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Chaos Lord
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 special_rules:
-  - "commander"
-  - "invulnerable-save"
-  - "leader"
+  - commander
+  - invulnerable-save
+  - leader
 weapons:
   -
-    id: "daemon-weapon"
+    id: daemon-weapon
 ---

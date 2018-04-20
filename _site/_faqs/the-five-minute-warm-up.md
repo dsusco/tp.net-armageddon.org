@@ -1,5 +1,5 @@
 ---
-name: "The Five Minute Warm Up"
+name: The Five Minute Warm Up
 ---
 Is there a complete list of what to cover in the five minute warm up?
 : * Should you dice for each ability used at the start of the turn?

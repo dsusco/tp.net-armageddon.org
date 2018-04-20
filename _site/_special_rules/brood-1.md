@@ -1,3 +1,3 @@
 ---
-name: "Brood (1)"
+name: Brood (1)
 ---

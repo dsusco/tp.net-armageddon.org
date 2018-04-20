@@ -1,4 +1,4 @@
 ---
-name: "Macro-weapon"
-abbr: "MW"
+name: Macro-weapon
+abbr: MW
 ---

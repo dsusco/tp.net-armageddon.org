@@ -1,11 +1,11 @@
 ---
-name: "Mutants"
-type: "INF"
-speed: "15cm"
-armour: "6+"
-cc: "4+"
-ff: "6+"
+name: Mutants
+type: INF
+speed: 15cm
+armour: 6+
+cc: 4+
+ff: 6+
 weapons:
   -
-    id: "firearms"
+    id: firearms
 ---

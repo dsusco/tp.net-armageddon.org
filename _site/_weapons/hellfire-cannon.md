@@ -1,7 +1,7 @@
 ---
-name: "Hellfire Cannon"
+name: Hellfire Cannon
 modes:
   -
-    range: "75cm"
-    firepower: "MW4+"
+    range: 75cm
+    firepower: MW4+
 ---

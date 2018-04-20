@@ -1,11 +1,11 @@
 ---
-name: "Laser Blaster"
-type: "CH"
-speed: "n/a"
-armour: "n/a"
-cc: "n/a"
-ff: "n/a"
+name: Laser Blaster
+type: CH
+speed: n/a
+armour: n/a
+cc: n/a
+ff: n/a
 weapons:
   -
-    id: "laser-blaster"
+    id: laser-blaster
 ---

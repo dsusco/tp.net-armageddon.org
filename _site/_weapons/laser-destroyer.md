@@ -1,9 +1,9 @@
 ---
-name: "Laser Destroyer"
+name: Laser Destroyer
 modes:
   -
-    range: "75cm"
-    firepower: "AT4+"
+    range: 75cm
+    firepower: AT4+
     special_rules:
-      - "titan-killer-1"
+      - titan-killer-1
 ---

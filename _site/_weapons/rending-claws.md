@@ -1,9 +1,9 @@
 ---
-name: "Rending Claws"
+name: Rending Claws
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "first-strike"
+      - first-strike
 ---

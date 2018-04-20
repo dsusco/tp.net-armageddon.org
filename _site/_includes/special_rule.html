@@ -1,8 +1,7 @@
 {% assign special_rule = site.data.special_rules[include.id] %}
-<div class="panel panel-default special-rule{% for c in special_rule.classes %} {{c}}{% endfor %}">
-  {% h3 special_rule.name #special_rule.id .panel-heading %}
+<div class="panel panel-default special-rule {{ special_rule.classes | join: ' ' }}">
+  {% h3 special_rule.name #include.id .panel-heading %}
 
   <div class="panel-body">
-{% if page.layout == 'army_list' %}{{ special_rule.content | markdownify }}{% else %}{{ special_rule.content }}{% endif %}
-  </div>
+{{ special_rule.content | markdownify }}  </div>
 </div>

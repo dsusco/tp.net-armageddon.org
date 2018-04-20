@@ -1,7 +1,7 @@
 ---
-name: "Rapid Fire Battle Cannon"
+name: Rapid Fire Battle Cannon
 modes:
   -
-    range: "75cm"
-    firepower: "2× AP4+/AT4+"
+    range: 75cm
+    firepower: 2× AP4+/AT4+
 ---

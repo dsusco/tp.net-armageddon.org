@@ -1,17 +1,17 @@
 ---
-name: "Goring Tusks"
+name: Goring Tusks
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-d3"
-      - "macro-weapon"
+      - extra-attacks-d3
+      - macro-weapon
   -
-    boolean: "or"
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    boolean: or
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-1"
-      - "titan-killer-d3"
+      - extra-attacks-1
+      - titan-killer-d3
 ---

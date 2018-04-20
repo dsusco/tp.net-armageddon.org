@@ -1,9 +1,9 @@
 ---
-name: "Horrific Mutations"
+name: Horrific Mutations
 modes:
   -
-    range: "(bc)"
-    firepower: "Assault Weapons"
+    range: (bc)
+    firepower: Assault Weapons
     special_rules:
-      - "extra-attacks-d3"
+      - extra-attacks-d3
 ---
