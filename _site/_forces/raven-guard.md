@@ -30,6 +30,7 @@ units:
   - rhino
 
   - storm-eagle
+  - storm-talon-gunship
   - thunderhawk-gunship
 
   - battle-barge
