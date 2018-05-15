@@ -10,5 +10,5 @@ notes:
     Counts as two units for the purposes of being transported.
 weapons:
   -
-    id: squat-laser-destroyer-knight-world
+    id: laser-destroyer-knight-world
 ---

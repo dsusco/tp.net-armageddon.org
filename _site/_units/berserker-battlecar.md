@@ -11,7 +11,7 @@ special_rules:
   - void-shield-1
 notes:
   |
-    May transport five infantry units without _Jump Packs_ or _Mounted_.
+    May transport six infantry units without _Jump Packs_ or _Mounted_.
 weapons:
   -
     id: rapid-fire-autocannon

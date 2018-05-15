@@ -33,6 +33,10 @@ units:
   - cyclops
   - goliath
   - land-train
+  - leviathan
+  - mole
+  - overlord
+
   - berserker-battlecar
   - bomb-battlecar
   - dragon-battlecar
@@ -40,7 +44,8 @@ units:
   - iron-eagle-battlecar
   - mortar-battlecar
   - skyhammer-battlecar
-  - leviathan
-  - mole
-  - overlord
+
+special_rules:
+  - directed
+  - spotter
 ---

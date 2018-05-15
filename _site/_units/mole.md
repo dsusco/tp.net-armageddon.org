@@ -11,5 +11,5 @@ special_rules:
   - tunneler
 notes:
   |
-    Critical Hit Effect: Destroyed. May transport ten infantry units (except Mole Mortars, Rapiers, Tarantulas and Thudd Guns) without _Jump Packs_ or _Mounted_.
+    Critical Hit Effect: Destroyed. May transport ten infantry units without _Jump Packs_ or _Mounted_.
 ---

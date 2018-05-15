@@ -9,5 +9,5 @@ special_rules:
   - mounted
 weapons:
   -
-    id: bolters
+    id: lasguns
 ---

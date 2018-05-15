@@ -2,9 +2,9 @@
 name: Steel Hawk
 type: AV
 speed: 35cm
-armour: 5+
+armour: 4+
 cc: 6+
-ff: 4+
+ff: 5+
 special_rules:
   - scout
   - skimmer

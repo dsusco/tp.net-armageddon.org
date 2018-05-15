@@ -3,9 +3,9 @@ name: Rad Bomb
 modes:
   -
     range: Unlimited
-    firepower: 3BP
+    firepower: 6BP
     special_rules:
-      - ignore-cover
       - indirect-fire
+      - macro-weapon
       - single-shot
 ---

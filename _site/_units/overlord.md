@@ -16,12 +16,18 @@ notes:
 weapons:
   -
     id: battle-cannon
-    multiplier: 3
+    multiplier: 2
+    arc: FwA
+  -
+    id: battle-cannon
     arc: Left
   -
     id: battle-cannon
-    multiplier: 3
     arc: Right
+  -
+    id: battle-cannon
+    multiplier: 2
+    arc: RrA
   -
     id: twin-autocannon
     multiplier: 2

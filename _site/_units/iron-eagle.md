@@ -2,7 +2,7 @@
 name: Iron Eagle
 type: AV
 speed: 35cm
-armour: 5+
+armour: 4+
 cc: 6+
 ff: 4+
 special_rules:

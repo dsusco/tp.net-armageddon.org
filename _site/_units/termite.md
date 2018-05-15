@@ -10,5 +10,5 @@ special_rules:
   - tunneler
 notes:
   |
-    May transport two infantry units (except Mole Mortars, Rapiers, Tarantulas and Thudd Guns) without _Jump Packs_ or _Mounted_.
+    May transport two infantry units without _Jump Packs_ or _Mounted_.
 ---
