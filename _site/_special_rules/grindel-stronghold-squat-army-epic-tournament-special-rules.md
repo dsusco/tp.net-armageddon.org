@@ -2,7 +2,7 @@
 name: Grindel Stronghold Squat Army Epic Tournament Special Rules
 ---
 Guild Robot Squadron
-: Units in the formation may not capture objectives.
+: Units in Guild Robot Squadron formations may not capture objectives.
 
 Land Train
 : Land Trains must add at least one Battlecar character upgrade.
