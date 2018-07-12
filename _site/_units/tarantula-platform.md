@@ -9,7 +9,7 @@ special_rules:
   - automata
 notes:
   |
-    Armed with either a twin heavy bolter or a twin lascannon. Units armed with a twin heavy bolter have their firefight value increased to 5+.
+    Armed with either a twin heavy bolter or a twin lascannon. Units armed with a Twin Heavy Bolter have their firefight value increased to 5+.
 weapons:
   -
     id: twin-heavy-bolter
