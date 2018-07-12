@@ -11,7 +11,7 @@ special_rules:
   - skimmer
 notes:
   |
-    The Cobra D-Cannon ignores void shields and power fields. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+.
+    Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 6+.
 weapons:
   -
     id: cobra-d-cannon
