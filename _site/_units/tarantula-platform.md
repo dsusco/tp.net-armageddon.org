@@ -12,9 +12,9 @@ notes:
     Armed with either a twin heavy bolter or a twin lascannon. Units armed with a Twin Heavy Bolter have their firefight value increased to 5+.
 weapons:
   -
-    id: twin-heavy-bolter
+    id: twin-lascannon
     multiplier: 0–1
   -
-    id: twin-lascannon
+    id: twin-heavy-bolter
     multiplier: 0–1
 ---
