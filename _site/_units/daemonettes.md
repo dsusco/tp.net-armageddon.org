@@ -1,7 +1,7 @@
 ---
 name: Daemonettes
 type: INF
-speed: 15cm
+speed: 20cm
 armour: 4+
 cc: 3+
 ff: '-'
