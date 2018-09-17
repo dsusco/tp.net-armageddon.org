@@ -46,5 +46,5 @@ units:
   - hades-breaching-drill
 
 special_rules:
-  - death-korps-of-krieg-fortifications
+  - death-korps-of-krieg-fortified-positions
 ---

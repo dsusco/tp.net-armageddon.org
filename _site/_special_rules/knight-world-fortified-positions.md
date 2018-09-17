@@ -1,19 +1,18 @@
 ---
-name: Death Korps or Krieg Fortifications
+name: Knight World Fortified Positions
+classes:
+  - one-half
 ---
-Bunker
-: Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
-
 Gun Emplacement
-: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit.
+: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit. Units in a gun emplacement may not be barged by a war engine.
 
 Trench
-: Can hold one infantry unit per 4cm of length.
+: Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine.
 {: .dl-colonated }
 
 <div class="table-responsive">
   <table class="no-margin-bottom table table-borderless table-captioned">
-    <caption>Trenchworks Effects Table</caption>
+    <caption>Fortified Position Effects Table</caption>
     <thead>
       <tr>
         <th>Terrain</th>
@@ -24,15 +23,15 @@ Trench
     </thead>
     <tbody>
       <tr>
-        <td>Bunker</td>
-        <td>3+ Cover Save</td>
-        <td>Dangerous</td>
-        <td>Impassable</td>
-      </tr>
-      <tr>
         <td>Gun Emplacement</td>
         <td>4+ Cover Save</td>
         <td>5+ Cover Save</td>
+        <td>No Effect</td>
+      </tr>
+      <tr>
+        <td>Razor Wire</td>
+        <td>Dangerous</td>
+        <td>No Effect</td>
         <td>No Effect</td>
       </tr>
       <tr>
