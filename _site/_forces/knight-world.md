@@ -26,5 +26,5 @@ units:
 
 special_rules:
   - knight-technology
-  - knight-world-fortifications
+  - knight-world-fortified-positions
 ---

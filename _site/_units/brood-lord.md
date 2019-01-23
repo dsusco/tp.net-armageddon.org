@@ -10,6 +10,4 @@ special_rules:
   - invulnerable-save
   - leader
 weapons:
-  -
-    id: rending-claws-and-talons
 ---
