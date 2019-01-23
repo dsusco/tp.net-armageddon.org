@@ -1,4 +1,5 @@
 require 'action_view'
+require './_site/_helpers/array'
 
 module Jekyll
   module Filters
@@ -8,7 +9,7 @@ module Jekyll
       forces.map { |f|
         force = @context.registers[:site].data['forces'][f]
         content_tag(:a, "the #{ force['name'] } Forces section", { href: "##{force['id']}-forces" })
-      }.join(', ')
+      }.to_sentence()
     end
 
     def weapon_arc(w, m)

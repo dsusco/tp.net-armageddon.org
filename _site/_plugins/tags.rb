@@ -34,14 +34,14 @@ module Jekyll
         unless h[:class].include?('no-numbering')
           case @tag_name.to_sym
           when :h1
-            page[:h1] += 1 rescue page[:h1] = 1
+            (page[:h1] += 1) rescue page[:h1] = 1
             page[:h2] = 0
             page[:h3] = 0
           when :h2
-            page[:h2] += 1 rescue page[:h2] = 1
+            (page[:h2] += 1) rescue page[:h2] = 1
             page[:h3] = 0
           when :h3
-            page[:h3] += 1 rescue page[:h3] = 1
+            (page[:h3] += 1) rescue page[:h3] = 1
           end
 
           h[:number] = "#{page[:h1]}.#{page[:h2]}#{".#{page[:h3]}" unless page[:h3] === 0}"
@@ -52,7 +52,7 @@ module Jekyll
 
         # if this isn't the FAQ page, and an faq exists, set it
         if !page['url'].eql?('/faq/') && faq = context.registers[:site].collections['faqs'].docs.find { |doc| doc.basename_without_ext.eql?(h[:id]) }
-          page[:footnote] += 1 rescue page[:footnote] = 1
+          (page[:footnote] += 1) rescue page[:footnote] = 1
           h[:class] << 'has-footnote'
 
           # used for ordering the FAQ page
