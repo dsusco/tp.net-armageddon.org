@@ -1,9 +1,0 @@
-{
-  "name": "tp.net-armageddon.org",
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "font-awesome": "Font-Awesome#^4.7.0",
-    "jquery": "^3.1.1",
-    "jquery-2.2.4": "jquery#2.2.4"
-  }
-}
