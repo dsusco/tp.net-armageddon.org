@@ -1,10 +1,5 @@
-
 {% assign faq = site.data.faqs[include.id] %}
-<aside id="faq-{{include.id}}" class="collapse faq panel panel-default {{ faq.classes | join: ' ' }}">
+<aside id="{{ faq.basename | replace: '-', '_' }}_faq" class="faq {{ faq.classes | join: ' ' }}" data-control="#{{faq.basename}}">
   <div>
-    <div class="panel-heading sr-only">{{ faq.number }} {{ faq.name }}</div>
-
-    <div class="panel-body">
 {{ faq.content | markdownify }}  </div>
-  </div>
 </aside>

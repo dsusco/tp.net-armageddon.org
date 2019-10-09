@@ -1,8 +1,7 @@
-{% assign army_list = site.data.army_lists[include.id] %}{% unless army_list %}{% assign army_list = page %}{% endunless %}
-<section class="army-list {{ army_list.classes | join: ' ' }}">
-  {% capture heading %}{{ army_list.name }} Army List{% endcapture %}
+{% unless army_list %}{% assign army_list = site.data.army_lists[page.basename] %}{% endunless %}
+<section id="{{ army_list.basename | replace: '-', '_' }}_army_list" class="army-list {{ army_list.classes | join: ' ' }}">
   <div class="two-column">
-    {% h2 heading %}
+    {% capture heading %}{{ army_list.name }} Army List{% endcapture %}{% h2 heading %}
 
 {{ army_list.introduction }}
     <h4>Forces</h4>

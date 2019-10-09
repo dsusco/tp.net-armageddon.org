@@ -1,7 +1,7 @@
 {% assign special_rule = site.data.special_rules[include.id] %}
-<div class="panel panel-default special-rule {{ special_rule.classes | join: ' ' }}">
-  {% h3 special_rule.name #include.id .panel-heading %}
+<div class="special-rule {{ special_rule.classes | join: ' ' }}">
+  {% h3 special_rule.name #include.id %}
 
-  <div class="panel-body">
+  <div>
 {{ special_rule.content | markdownify }}  </div>
 </div>

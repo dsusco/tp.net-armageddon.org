@@ -1,6 +1,5 @@
-{% assign force = site.data.forces[include.id] %}
-<section class="force {{ force.classes | join: ' ' }}">{% capture heading %}{{ force.name }} Forces{% endcapture %}
-  {% h2 heading %}
+<section id="{{ force.basename | replace: '-', '_' }}_force" class="force {{ force.classes | join: ' ' }}">
+  {% capture heading %}{{ force.name }} Forces{% endcapture %} {% h2 heading %}
 
   <div class="datasheet">{% for u in force.units %}
 {% include unit.html id=u %}{% endfor %}

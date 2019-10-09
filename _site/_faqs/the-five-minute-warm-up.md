@@ -3,7 +3,7 @@ name: The Five Minute Warm Up
 ---
 Is there a complete list of what to cover in the five minute warm up?
 : * Should you dice for each ability used at the start of the turn?
-: * Are transported units considered to be in specific transporting units of their formation?
+* Are transported units considered to be in specific transporting units of their formation?
 * When disembarking, are transported units placed completely within 5cm of the transport unit or just so one part of the transported unit is within 5cm of the transport unit?
 * When does a unit count as being in cover?
 * How many units can claim cover from a armoured vehicle, war engine, or terrain feature?
