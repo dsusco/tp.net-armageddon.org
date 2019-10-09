@@ -9,10 +9,9 @@ Gun Emplacement
 
 Trench
 : Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine.
-{: .dl-colonated }
 
 <div class="table-responsive">
-  <table class="no-margin-bottom table table-borderless table-captioned">
+  <table>
     <caption>Trenchworks Effects Table</caption>
     <thead>
       <tr>

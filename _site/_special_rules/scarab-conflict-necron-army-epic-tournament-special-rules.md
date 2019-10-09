@@ -6,4 +6,3 @@ Necron Reserves
 
 Garrisons
 : The Necron typically act in an offensive manner and as such, their formations may not garrison in the Epic Tournament scenario unless fielding a Tomb Complex. To represent that a tomb may contain active Necron, the player may choose to garrison up to two Infantry Phalanx formations at the Tomb Complex.
-{: .dl-colonated }
