@@ -1,5 +1,6 @@
 ---
 name: Space Wolf
+order: 26
 
 units:
   - captain

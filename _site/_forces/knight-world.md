@@ -1,5 +1,6 @@
 ---
 name: Knight World
+order: 23
 
 units:
   - aspirant

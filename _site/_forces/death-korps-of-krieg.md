@@ -1,6 +1,6 @@
 ---
 name: Death Korps of Krieg
-
+order: 16
 classes:
   - page-break-right
 

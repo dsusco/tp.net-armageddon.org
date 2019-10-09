@@ -1,5 +1,6 @@
 ---
 name: Salamander
+order: 17
 
 units:
   - captain

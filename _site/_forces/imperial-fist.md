@@ -1,5 +1,6 @@
 ---
 name: Imperial Fist
+order: 25
 
 units:
   - captain

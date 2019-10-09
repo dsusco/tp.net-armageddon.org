@@ -1,5 +1,6 @@
 ---
 name: Scions of Iron
+order: 18
 
 units:
   - captain

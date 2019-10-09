@@ -1,5 +1,6 @@
 ---
 name: Adeptus Mechanicus Titan Legion
+order: 22
 
 units:
   - apocalypse-missile-launcher

@@ -1,5 +1,6 @@
 ---
 name: Minervan Tank Legion
+order: 14
 
 units:
   - commissar-minervan

@@ -1,5 +1,6 @@
 ---
 name: Speed Freek
+order: 10
 
 units:
   - big-gunz

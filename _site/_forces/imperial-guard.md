@@ -1,5 +1,6 @@
 ---
 name: Imperial Guard
+order: 2
 
 units:
   - commissar

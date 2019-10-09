@@ -1,5 +1,6 @@
 ---
 name: Alaitoc Eldar
+order: 20
 
 units:
   - autarch

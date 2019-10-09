@@ -1,5 +1,6 @@
 ---
 name: Baran Siegemaster
+order: 7
 
 units:
   - commissar

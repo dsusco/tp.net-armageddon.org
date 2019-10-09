@@ -1,5 +1,6 @@
 ---
 name: Eldar
+order: 6
 
 units:
   - autarch

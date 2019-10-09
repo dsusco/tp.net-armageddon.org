@@ -1,5 +1,6 @@
 ---
 name: White Scar
+order: 9
 
 units:
   - captain

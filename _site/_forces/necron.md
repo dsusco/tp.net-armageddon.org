@@ -1,5 +1,6 @@
 ---
 name: Necron
+order: 15
 
 units:
   - necron-lord
