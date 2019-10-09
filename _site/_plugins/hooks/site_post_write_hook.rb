@@ -1,3 +1,4 @@
+__END__
 Jekyll::Hooks.register(:site, :post_write) do |site|
   pdfs_dir = "#{site.dest}/pdfs"
   Dir.mkdir(pdfs_dir) unless File.directory?(pdfs_dir)
