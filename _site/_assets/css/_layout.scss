@@ -22,6 +22,7 @@
 
   button {
     border: 0;
+    border-radius: 0;
     background: none;
     color: inherit;
     margin: 0;
@@ -50,6 +51,12 @@
 
     &.fa-chevron-circle-down {
       right: 0;
+    }
+
+    &:focus,
+    &:hover {
+      background: lighten($_color_primary, 6.25%);
+      outline: 0;
     }
   }
 
@@ -85,7 +92,7 @@
   float: none;
   list-style: none;
   margin: 0 auto;
-  padding: 0 map-get($neat-grid, gutter);
+  padding: 0;
   overflow-y: auto;
   text-align: left;
   width: 100%;
@@ -94,20 +101,32 @@
   a {
     color: inherit;
     display: block;
-    padding: ($_ / 2) 0;
+    padding: ($_ / 2) map-get($neat-grid, gutter);
     text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background: lighten($_color_primary, 6.25%);
+      outline: 0;
+    }
   }
 
   @include grid-media($md-neat-grid) {
-    @include padding(null map-get($md-neat-grid, gutter));
+    a {
+      @include padding(null map-get($md-neat-grid, gutter));
+    }
   }
 
   @include grid-media($lg-neat-grid) {
-    @include padding(null map-get($lg-neat-grid, gutter));
+    a {
+      @include padding(null map-get($lg-neat-grid, gutter));
+    }
   }
 
   @include grid-media($xl-neat-grid) {
-    @include padding(null map-get($xl-neat-grid, gutter));
+    a {
+      @include padding(null map-get($xl-neat-grid, gutter));
+    }
   }
 }
 

@@ -6,7 +6,14 @@ $(function () {
     headingOffsets,
     navHeight = $('#nav').height(),
     $currentHeading = $('#current_heading'),
-    $navLinks = $('#nav_menu').modal({ open: false }).find('a[href^="#"]');
+    $navLinks =
+      $('#nav_menu')
+        .modal({ open: false })
+        // scroll the modal to the current heading
+        .on('modal:opened', function (event) {
+          $(this).scrollTop($navLinks.eq($currentHeading.data('nav-link-index')).offset().top);
+        })
+        .find('a[href^="#"]');
 
   if ($navLinks.length) {
     $(window)
