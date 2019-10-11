@@ -14,7 +14,7 @@
     <style>
 {{ page.style }}    </style>{% endif %}
 
-    <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title data-mtime="{{ page.mtime | date: '%F' }}">{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   </head>
 
   <body class="no-js {{ page.layout }}-layout">
