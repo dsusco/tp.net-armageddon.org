@@ -15,14 +15,16 @@ module Jekyll
 
         # get the various arguments
         @markup.strip.split(/ (#[^ ]+|\.[^ ]+|\{[^\}]+\})/).each do |token|
-          # id is preceded by #
-          token.match(/^#(.+)$/) { |m| h[:id] = context[m[1]] || m[1] }
-          # classes are preceded by .
-          token.match(/^\.(.+)$/) { |m| h[:class].concat(m[1].split('.')) }
-          # styles are enclosed within {}
-          token.match(/^\{(.+)\}$/) { |m| h[:style].concat(m[1].split(';')) }
-          # text is what doesn't match the above
-          token.match(/^[^#\.\{]/) { |m| h[:text] = context[token] || token }
+          case token
+            when /^#(.+)$/
+              h[:id] = context[$1] || $1
+            when /^\.(.+)$/
+              h[:class].concat($1.split('.'))
+            when /^\{(.+)\}$/
+              h[:style].concat($1.split(';'))
+            else
+              h[:text] = context[token] || token unless token.empty?
+          end
         end
 
         # if no ID is given, use the text

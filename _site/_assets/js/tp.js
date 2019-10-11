@@ -70,7 +70,7 @@ $(function () {
 
           $currentHeading
             .data('nav-link-index', navLinkIndex)
-            .text($navLinks.eq(navLinkIndex).text());
+            .html($navLinks.eq(navLinkIndex).html());
         } catch (ignore) {}
       });
 

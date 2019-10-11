@@ -38,7 +38,7 @@
 
         <ol id="nav_menu" data-control="#nav_menu_control" hidden>{% for pair in page.headings %}
           <li>
-            <a href="{{ pair[1].href }}" title="Jump to {{ pair[1].number }} {{ pair[1].text }}…">{% if page.show_nav_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text }}</a>
+            <a href="{{ pair[1].href }}" title="Jump to {% if page.show_nav_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text | strip_html }}…">{% if page.show_nav_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text }}</a>
           </li>{% endfor %}
         </ol>
       </nav>{% endunless %}

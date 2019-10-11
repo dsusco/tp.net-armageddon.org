@@ -180,7 +180,7 @@ table.army-list {
 #abbreviations,
 .design-concept,
 .example-of-play,
-.faq,
+article.faq,
 .short-story,
 .special-rule {
   border: .1rem solid $_color_light;
@@ -249,7 +249,7 @@ table.army-list {
   content: 'Design Concept: ';
 }
 .faq {
-  > div > dl {
+  dl {
     > dt {
       float: none;
 

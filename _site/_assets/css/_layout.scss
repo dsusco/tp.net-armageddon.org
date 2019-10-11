@@ -81,7 +81,7 @@
   float: none;
   list-style: none;
   margin: 0 auto;
-  padding: 0  map-get($neat-grid, gutter);
+  padding: 0 map-get($neat-grid, gutter);
   overflow-y: auto;
   text-align: left;
   width: 100%;
@@ -92,6 +92,19 @@
     display: block;
     padding: ($_ / 2) 0;
     text-decoration: none;
+  }
+
+
+  @include grid-media($md-neat-grid) {
+    @include padding(null map-get($md-neat-grid, gutter));
+  }
+
+  @include grid-media($lg-neat-grid) {
+    @include padding(null map-get($lg-neat-grid, gutter));
+  }
+
+  @include grid-media($xl-neat-grid) {
+    @include padding(null map-get($xl-neat-grid, gutter));
   }
 }
 
