@@ -1,0 +1,30 @@
+$_color_light: #ddd;
+$_color_lighter: #eee;
+$_color_lightest: #f5f5f5;
+
+$neat-grid: (
+  columns: 4,
+  gutter: 1.6rem,
+  color: rgba(#00f, 0.25)
+);
+
+$md-neat-grid: (
+  columns: 12,
+  gutter: 1.6rem,
+  media: 769px,
+  color: rgba(#0f0, 0.25)
+);
+
+$lg-neat-grid: (
+  columns: 12,
+  gutter: 1.6rem,
+  media: 1025px,
+  color: rgba(#0ff, 0.25)
+);
+
+$xl-neat-grid: (
+  columns: 12,
+  gutter: 1.6rem,
+  media: 1281px,
+  color: rgba(#f00, 0.25)
+);

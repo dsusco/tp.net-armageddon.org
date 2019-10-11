@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:dsusco/baseline-scss.git
-  revision: ad52231a997d7bbb28b75ad40489c8d5a09dadef
+  revision: 9cd1cf77bbefc1c5fe7d6ca2844778d2910bb002
   specs:
-    baseline-scss (0.2.9)
+    baseline-scss (0.2.10)
       bourbon (~> 6.0, >= 6.0.0)
       neat (~> 4.0, >= 4.0.0)
       normalize-scss (~> 7.0, >= 7.0.1)
@@ -129,7 +129,7 @@ PLATFORMS
 
 DEPENDENCIES
   actionview (~> 5.2.3)
-  baseline-scss (~> 0.2.9)!
+  baseline-scss (~> 0.2.10)!
   jekyll (~> 3.8.6)
   jekyll-assets (~> 3.0.12)
   sprockets (~> 3.7.2)

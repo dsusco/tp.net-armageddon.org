@@ -9,6 +9,6 @@ gem 'uglifier', '~> 4.2.0'
 gem 'actionview', '~> 5.2.3'
 
 group :jekyll_plugins do
-  gem 'baseline-scss', '~> 0.2.9', :git => 'git@github.com:dsusco/baseline-scss.git'
+  gem 'baseline-scss', '~> 0.2.10', :git => 'git@github.com:dsusco/baseline-scss.git'
 end
 

@@ -18,15 +18,39 @@
   </head>
 
   <body class="no-js {{ page.layout }}-layout">
-    <a class="sr-only-focusable" href="#main">Skip to main content.</a>
+    <div id="page">
+      <a class="sr-only-focusable" href="#main">Skip to main content.</a>{% unless page.hide_nav %}
 
-    <main id="main">
-      <div class="container">
+      <nav id="nav" style="counter-reset:page 1">
+        <div class="container">
+          <div>
+            <a class="fa fa-home" href="/" title="NetEA Tournament Pack Website"><span class="sr-only">NetEA Tournament Pack Website</span></a>
+
+            <button id="nav_menu_control" class="fa fa-plus-circle" title="Toggle navigation menu…"><span class="sr-only">Toggle navigation menu…</span></button>
+
+            <span id="current_heading"></span>
+
+            <button class="fa fa-chevron-circle-up" title="Jump to previous heading…"><span class="sr-only">Jump to previous heading…</span></button>
+
+            <button class="fa fa-chevron-circle-down" title="Jump to next heading…"><span class="sr-only">Jump to next heading…</span></button>
+          </div>
+        </div>
+
+        <ol id="nav_menu" data-control="#nav_menu_control" hidden>{% for pair in page.headings %}
+          <li>
+            <a href="{{ pair[1].href }}" title="Jump to {{ pair[1].number }} {{ pair[1].text }}…">{% if page.show_nav_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text }}</a>
+          </li>{% endfor %}
+        </ol>
+      </nav>{% endunless %}
+
+      <main id="main">
+        <div class="container">
 {{ content }}
-      </div>
-    </main>
+        </div>
+      </main>
 
-    <a class="sr-only-focusable" href="#main">Go back to main content.</a>
+      <a class="sr-only-focusable" href="#main">Go back to main content.</a>
+    </div>
 
 {% for script in site.scripts %}
     <script src="{{ script }}"></script>{% endfor %}{% for script in page.scripts %}
