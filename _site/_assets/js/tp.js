@@ -1,37 +1,6 @@
 //= require baseline
 //= require_tree .
 
-jQuery.fn.extend({
-  zebraStripe: function () {
-    return this.each(function () {
-      var
-        $tbody = $(this),
-        cols = $tbody.siblings('colgroup').children('col').length,
-        stripe = false;
-
-      $('> tr', $tbody).each(function () {
-        var
-          $tr = $(this),
-          cells = 0;
-
-        $('> th, > td', $tr).each(function () {
-          cells += +this.getAttribute('colspan') || 1;
-        });
-
-        if (cols === cells) {
-          stripe = !stripe;
-          $tr.addClass('bordered');
-        }
-
-        if (stripe) {
-          $tr.addClass('striped');
-        }
-      });
-    });
-  }
-});
-
-
 $(function () {
   var
     headingOffsets,
@@ -80,6 +49,7 @@ $(function () {
         $(this).trigger('modal:close');
       });
 
+    // jump to previous and next headings
     $('#nav .fa-chevron-circle-up')
       .on('click', function () {
         $navLinks.eq($currentHeading.data('nav-link-index') - 1).get(0).click();

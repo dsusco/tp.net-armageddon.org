@@ -39,12 +39,15 @@ table.army-list {
   }
 
   > tbody {
-    > tr.bordered {
-      border-top: .1rem solid $_color_light;
-      padding-top: ($_ / 2 - .1rem);
-    }
-    > tr.striped {
-      background: $_color_lightest;
+    > tr {
+      &.bordered {
+        border-top: .1rem solid $_color_light;
+        padding-top: ($_ / 2 - .1rem);
+      }
+
+      &.striped {
+        background: $_color_lightest;
+      }
     }
   }
 
@@ -180,7 +183,7 @@ table.army-list {
 #abbreviations,
 .design-concept,
 .example-of-play,
-article.faq,
+aside.faq,
 .short-story,
 .special-rule {
   border: .1rem solid $_color_light;

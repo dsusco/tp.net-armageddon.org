@@ -53,6 +53,10 @@
     }
   }
 
+  + #main {
+    padding-top: 2 * $_;
+  }
+
   @include grid-media($md-neat-grid) {
     > .container > div {
       @include grid-column(12);
@@ -94,7 +98,6 @@
     text-decoration: none;
   }
 
-
   @include grid-media($md-neat-grid) {
     @include padding(null map-get($md-neat-grid, gutter));
   }
@@ -111,7 +114,7 @@
 #main {
   @include grid-column(4);
 
-  padding-top: 2 * $_;
+  padding: $_ 0;
 
   .page-heading {
     border-bottom: .1rem solid $_color_lighter;

@@ -4,7 +4,7 @@ pdf: true
 ---
 {% h1 <abbr title='Net Epic Armageddon'>NetEA</abbr> <abbr title='Frequently Asked Questions'>FAQ</abbr> .hide-heading-number %}{% assign faqs = site.faqs | sort: 'footnote' %}{% for faq in faqs %}
 
-<section class="faq">{% capture heading %}{{ faq.number }} {{ faq.name }}{% endcapture %}
+<article class="faq">{% capture heading %}{{ faq.number }} {{ faq.name }}{% endcapture %}
   {% h2 heading .hide-heading-number %}
 
-{{ faq.content }}</section>{% endfor %}
+{{ faq.content }}</article>{% endfor %}

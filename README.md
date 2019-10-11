@@ -9,7 +9,7 @@ The [Net Epic Armageddon Tournament Pack website](http://tp.net-armageddon.org/)
     $ bundle install
     $ jekyll serve -l
 
-That should build and serve up the site at [http://localhost:4000/](http://localhost:4000/). You can have the the page automatically refresh by running `guard` in a separate terminal.
+That should build and serve up the site at [http://localhost:4000/](http://localhost:4000/).
 
 ## Dependencies
 

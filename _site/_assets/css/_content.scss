@@ -141,9 +141,9 @@ table {
 }
 
 .center-block {
-    @include margin(null auto ($_ / 2));
+  @include margin(null auto ($_ / 2));
 
-    display: block;
+  display: block;
 }
 
 .table-responsive {
