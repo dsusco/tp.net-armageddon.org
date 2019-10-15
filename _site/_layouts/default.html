@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="{{ stylesheet }}" />{% endfor %}{% for stylesheet in page.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}" />{% endfor %}
     {% asset tp.css !type %}
+    {% asset tp.print.css media="print" !type %}
 
     <meta charset="utf-8">
     <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}" />
@@ -14,7 +15,7 @@
     <style>
 {{ page.style }}    </style>{% endif %}
 
-    <title data-mtime="{{ page.mtime | date: '%F' }}">{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title data-mtime="{{ page.mtime | date: '%F' }}">{{ page.title }}</title>
   </head>
 
   <body class="no-js {{ page.layout }}-layout">
@@ -55,7 +56,8 @@
 {% for script in site.scripts %}
     <script src="{{ script }}"></script>{% endfor %}{% for script in page.scripts %}
     <script src="{{ script }}"></script>{% endfor %}
-    {% asset tp.js !type %}{% if page.script %}
+    {% asset tp.js !type %}
+    <!-- {% asset tp.print.js !type %}-->{% if page.script %}
 
     <script>
 {{ page.script }}    </script>{% endif %}

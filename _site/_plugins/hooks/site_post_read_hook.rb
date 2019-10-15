@@ -76,7 +76,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
       al.data['mtime'] = faq.data['mtime'] if faq.data['mtime'].to_s > al.data['mtime'].to_s rescue false
       sr = site.data['special_rules'][sr]
       al.data['mtime'] = sr.data['mtime'] if sr.data['mtime'].to_s > al.data['mtime'].to_s
-    } if f.data['special_rules']
+    } if al.data['special_rules']
 
     # set the mtime on the TP page to the latest FAQ/Special Rule/Army List
     tpPage.data['mtime'] = al.data['mtime'] if al.data['mtime'].to_s > tpPage.data['mtime'].to_s

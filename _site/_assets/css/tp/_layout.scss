@@ -159,3 +159,13 @@
     display: none;
   }
 }
+
+.margin-bottom {
+  margin-bottom: ($_ / 2);
+}
+
+.center-block {
+  @include margin(null auto ($_ / 2));
+
+  display: block;
+}

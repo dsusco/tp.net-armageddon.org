@@ -4,7 +4,6 @@ scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
 stylesheets:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-title: NetEA Tournament Pack Website
 
 # Where things are
 source: ./_site
