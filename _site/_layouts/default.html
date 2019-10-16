@@ -18,7 +18,7 @@
     <title data-mtime="{{ page.mtime | date: '%F' }}">{{ page.title }}</title>
   </head>
 
-  <body class="no-js {{ page.layout }}-layout">
+  <body id="{{ page.url }}" class="no-js {{ page.layout }}-layout {% if page.show_heading_numbers %}show-heading-numbers{% endif %}">
     <div id="page">
       <a class="sr-only-focusable" href="#main">Skip to main content.</a>{% unless page.hide_nav %}
 
@@ -39,7 +39,7 @@
 
         <ol id="nav_menu" data-control="#nav_menu_control" hidden>{% for pair in page.headings %}
           <li>
-            <a href="{{ pair[1].href }}" title="Jump to {% if page.show_nav_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text | strip_html }}…">{% if page.show_nav_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text }}</a>
+            <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" title="Jump to {% if page.show_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text | strip_html }}…">{% if page.show_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text }}</a>
           </li>{% endfor %}
         </ol>
       </nav>{% endunless %}

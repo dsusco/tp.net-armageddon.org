@@ -1,5 +1,5 @@
 //= require baseline
-//= require_tree .
+//= require plugins/jquery.zebraStripe.js
 
 $(function () {
   var
@@ -71,7 +71,7 @@ $(function () {
   $(document)
     // close FAQs when clicking outside of them
     .on('click', function (event) {
-      if (!$(event.target).closest('.faq, .has-footnote').length) {
+      if (!$(event.target).closest('.faq, [data-footnote]').length) {
         $('.faq:not([hidden])').trigger('accessibleToggle:hide');
       }
     })
@@ -85,7 +85,7 @@ $(function () {
   // change anchor text to heading number if it exists
   $('.default-layout #main a[href]').each(function () {
     try {
-      var number = $($(this).attr('href').match(/(#.+)$/).pop()).data('heading-number');
+      var number = $($(this).attr('href').match(/(#.+)$/).pop()).data('heading');
 
       if (number) {
         this.innerHTML = number;

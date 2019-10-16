@@ -1,3 +1,21 @@
+/* typography */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p, .text {
+  margin: 0 0 ($_ / 2);
+}
+h3, .h3 {
+  line-height: 2;
+}
+
+.show-heading-numbers [data-heading]::before {
+  content: attr(data-heading) ' ';
+}
+
 blockquote {
   border-left: .5rem solid $_color_lighter;
   padding: ($_ / 2) 0 ($_ / 2) 2.5em;
@@ -27,6 +45,7 @@ img {
   padding: .4rem;
 }
 
+/* lists */
 dl,
 ol,
 ul {
@@ -73,31 +92,7 @@ ul {
   padding: 0 0 0 1em;
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6,
-p, .text {
-  margin: 0 0 ($_ / 2);
-}
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  &.hide-heading-number {
-    .heading-number {
-      display: none;
-    }
-  }
-}
-h3, .h3 {
-  line-height: 2;
-}
-
+/* tables */
 table {
   border: .1rem solid $_color_light;
   border-top: 0;
@@ -204,8 +199,10 @@ table {
   }
 }
 
+/* IDs */
 #cover,
-#copyright {
+#copyright,
+#reference_sheet {
   display: none;
 }
 
@@ -303,6 +300,7 @@ table {
   }
 }
 
+/* classes */
 #abbreviations,
 .design-concept,
 .example-of-play,
@@ -374,8 +372,13 @@ aside.faq,
 .design-concept header::before {
   content: 'Design Concept: ';
 }
+aside.faq > div > h4 {
+  display: none;
+}
 .faq {
   dl {
+    margin: 0;
+
     > dt {
       float: none;
 
@@ -390,9 +393,6 @@ aside.faq,
       + dd::before {
         content: 'A: ';
       }
-    }
-
-    > dd {
     }
   }
 }
@@ -546,7 +546,7 @@ aside.faq,
   }
 }
 
-.has-footnote::after {
+[data-footnote]::after {
   content: ' ' attr(data-footnote);
   font-size: 1rem;
   font-weight: normal;

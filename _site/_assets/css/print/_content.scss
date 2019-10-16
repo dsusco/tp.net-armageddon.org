@@ -1,0 +1,532 @@
+/* typography */
+h1, h2, h3, h4 {
+  bookmark-label: none;
+
+  &[id] { bookmark-label: content(); }
+
+  .default-layout &[id] { bookmark-label: attr(data-heading) ' ' content(); }
+}
+
+h1 {
+  @include _($_font_size_h1);
+
+  page-break-before: right;
+  text-transform: uppercase;
+}
+
+h2 {
+  @include _($_font_size_h2);
+
+  column-break-before: always;
+  text-transform: uppercase;
+}
+
+h3 {
+  @include _($_font_size_h3);
+}
+
+h4 {
+  @include _($_font_size_h4);
+}
+
+.show-heading-numbers [data-heading]::before {
+  content: attr(data-heading) ' ';
+}
+
+p, blockquote, figcaption, .text {
+  @include _($_font_size);
+
+  margin-bottom: $_;
+}
+
+blockquote footer { text-align: right; }
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 $_;
+}
+
+/* lists */
+dl, ol, ul {
+  @include _($_font_size);
+
+  margin-bottom: $_;
+
+  &.list-upper-roman {
+    counter-reset: list-upper-roman;
+    list-style-type: none;
+    padding: 0;
+
+    > li,
+    > dt {
+      &::before {
+        counter-increment: list-upper-roman;
+        content: counter(list-upper-roman, upper-roman) ' – ';
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+dl {
+  margin: 0 0 $_;
+
+  > dt {
+    float: left;
+
+    &::after {
+      content: ': ';
+      white-space: pre;
+    }
+  }
+
+  > dd {
+    margin: 0 0 $_;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+ol, ul { padding-left: 1.5em; }
+
+/* tables */
+table {
+  @include _($_font_size);
+
+  border: 1pt solid $_color_dark;
+  border-top: 0;
+  margin: 0 0 ($_ - 2pt);
+  width: 100%;
+
+  > caption {
+    background: $_color_gray;
+    border: 1pt solid $_color_dark;
+    border-bottom: 0;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  > thead,
+  > tbody > tr > th,
+  > tfoot {
+    font-style: italic;
+  }
+
+  > caption,
+  th,
+  td {
+    padding: 0 0.5em;
+  }
+
+  &.borderless {
+    border: 0;
+    margin-bottom: ($_ / 2);
+
+    > caption { border: 0; }
+  }
+
+  &.army-list {
+    @include _($_font_size_small);
+
+    margin-bottom: 3pt;
+    page-break-before: avoid;
+
+    > caption {
+      background: none;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    > thead {
+      border-bottom: 1px solid $_color_dark;
+
+      > tr {
+        &:last-child > th { border-bottom: 1pt solid $_color_dark; }
+
+        > th {
+          font-style: normal;
+          text-transform: uppercase;
+        }
+        > td { text-align: center; }
+      }
+    }
+
+    > tbody {
+      td.table-container {
+        padding-top: 3pt;
+      }
+
+      > tr.striped {
+        background: $_color_light;
+      }
+    }
+
+    ul {
+      font: inherit;
+      line-height: 1.25;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li:not(:last-child) { margin-bottom: 3pt; }
+    }
+  }
+}
+
+/* classes */
+#abbreviations,
+.design-concept,
+.example-of-play,
+.short-story,
+.special-rule {
+  background: $_color_light;
+  border: 1pt solid $_color_dark;
+  margin-bottom: ($_ - 2pt);
+  padding: 6pt 1em;
+  page-break-inside: avoid;
+
+  header,
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    @include _($_font_size_h3);
+
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 ($_ / 2);
+    text-align: center;
+
+    &::before {
+      display: block;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+  }
+
+  > div  > :last-child {
+    &, &.table-responsive > table {
+      margin-bottom: 0;
+    }
+  }
+}
+.design-concept header::before { content: 'Design Concept'; }
+.example-of-play header::before { content: 'Example of Play'; }
+.short-story {
+  header {
+    font-style: normal;
+    text-transform: uppercase;
+  }
+
+  > div { font-style: italic; }
+}
+.special-rule {
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    &::before { content: 'Special Rule'; }
+  }
+}
+
+aside.faq {
+  @include _($_font_size_small);
+
+  height: 0;
+
+  &.float-footnote > div { float: footnote; }
+
+  > div {
+    float: prince-column-footnote;
+    page-break-inside: avoid;
+
+    &::footnote-call { content: none; }
+
+    > h4,
+    > div > dl {
+      font-style: normal;
+      margin-bottom: 0;
+      text-align: left;
+
+      &, * {
+        font: inherit;
+        line-height: inherit;
+        margin-bottom: 0;
+      }
+    }
+
+    > h4,
+    > div > dl > dt,
+    > div > dl > dt + dd {
+      position: relative;
+
+      &::before {
+        content: attr(data-footnote);
+        left: -1.25em;
+        position: absolute;
+        text-align: right;
+        width: 1em;
+      }
+    }
+
+    > div > dl {
+      > dt {
+        font-weight: normal;
+        float: none;
+
+        &::before {
+          content: 'Q: ';
+        }
+
+        &::after {
+          content: none;
+        }
+
+        + dd::before {
+          content: 'A: ';
+        }
+      }
+
+      > dd {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+[data-footnote]::after {
+  content: ' ' attr(data-footnote);
+  font-size: 6pt;
+  font-weight: normal;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.datasheet {
+  display: table;
+  margin-bottom: 3pt;
+  width: 100%;
+
+  .unit {
+    display: table-row;
+    width: 91.875em;
+
+    &:first-child {
+      .stats > *::before,
+      .weapon:first-child > .weapon-line:first-child > *::before,
+      .notes::before {
+        background: $_color_white;
+        border-bottom: 1pt solid $_color_dark;
+      }
+
+      .notes::before {
+        content: 'Notes';
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+    }
+
+    &:nth-child(even) { background: $_color_white; }
+
+    .stats, .weapons { width: auto; }
+
+    .notes {
+      clear: none;
+      float: left;
+      font-style: italic;
+
+      > :first-child::before { content: none; }
+    }
+  }
+
+  .type { width: 4em; }
+  .speed, .range { width: 5em; }
+  .armour { width: 6em; }
+  .cc, .ff { width: 3em; }
+}
+
+.unit {
+  @include clearfix();
+  @include _($_font_size_small);
+
+  background: $_color_light;
+  page-break-inside: avoid;
+
+  &:first-child {
+    .stats,
+    .weapon:first-child > .weapon-line:first-child {
+      > *::before {
+        display: block;
+        font-weight: bold;
+        font-style: normal;
+        margin: 0 -0.5em;
+        padding: 0 0.5em;
+        text-transform: uppercase;
+      }
+    }
+
+    .stats {
+      .name::before { content: 'Name'; }
+      .type::before { content: 'Type'; }
+      .speed::before { content: 'Speed'; }
+      .armour::before { content: 'Armour'; }
+      .cc::before { content: 'CC'; }
+      .ff::before { content: 'FF'; }
+    }
+
+    .weapon:first-child > .weapon-line:first-child {
+      .name::before { content: 'Weapons'; }
+      .range::before { content: 'Range'; }
+      .firepower::before { content: 'Firepower'; }
+    }
+  }
+
+  .stats,
+  .weapons {
+    display: table;
+    float: left;
+    width: 49.999%;
+  }
+  .stats > *,
+  .weapon-line > * {
+    display: table-cell;
+    padding: 0 0.5em;
+    text-align: center;
+  }
+
+  .weapon { display: table-row-group; }
+  .weapon-line { display: table-row; }
+
+  .notes {
+    padding: 0 0.5em;
+
+    > .special-rules {
+      font-style: italic;
+
+      > li:last-child::after { content: '.'; }
+    }
+    > :first-child::before {
+      content: 'Notes: ';
+      font-style: normal;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    * { display: inline; }
+  }
+
+  .special-rules {
+    padding: 0;
+
+    &, > li { display: inline; }
+
+    > li {
+      &::after { content: ', '; }
+      &:last-child::after { content: none; }
+    }
+  }
+
+  .name, .firepower { text-align: left; }
+
+  .firepower > :first-child:not(:last-child)::after { content: ', '; }
+
+  .name.boolean { text-align: right; }
+
+  * {
+    font: inherit;
+    line-height: inherit;
+    margin-bottom: 0;
+  }
+}
+
+/* IDs */
+#examples_of_formations {
+  figcaption {
+    background: $_color_black;
+    color: $_color_white;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 351px;
+    text-align: center;
+  }
+
+  figcaption, img {
+    border: 1pt solid $_color_dark;
+    margin: 0 auto;
+  }
+  img {
+    border-top-width: 0;
+    display: block;
+  }
+}
+
+#example_initiatve_values,
+#needing_7_to_hit {
+  border: 0;
+  margin: 0 auto $_;
+  width: auto;
+
+  > thead { font-style: normal; }
+}
+
+#examples_of_terrain {
+  figure {
+    display: table;
+    margin: 0 0 $_;
+
+    + figure { margin: 0; }
+  }
+
+  img,
+  figcaption {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  #hull_down_example {
+    margin-right: 1em;
+    width: 408px;
+  }
+
+  #partial_cover_example {
+    margin-left: 1em;
+    width: 408px;
+  }
+}
+
+#weapon_fire_arcs {
+  border: 1pt solid $_color_dark;
+  float: right;
+  margin: 0;
+
+  ~ p {
+    margin-right: 395px;
+    padding-right: 1em;
+  }
+}
+
+.barrage-table {
+  td, th { text-align: center; }
+}
+
+#abbreviations {
+  @include clearfix();
+
+  > div > dl {
+    @extend .one-third;
+
+    margin-bottom: 0;
+
+    > dd { margin: 0; }
+  }
+}

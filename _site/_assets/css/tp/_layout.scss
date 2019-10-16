@@ -99,9 +99,14 @@
   z-index: 1;
 
   a {
+    @include _($_font_size_h3);
+
     color: inherit;
     display: block;
+    font-weight: normal;
+    margin: 0;
     padding: ($_ / 2) map-get($neat-grid, gutter);
+
     text-decoration: none;
 
     &:focus,
@@ -151,12 +156,6 @@
 
   @include grid-media($xl-neat-grid) {
     @include grid-column(12);
-  }
-}
-
-.army_list-layout {
-  .heading-number {
-    display: none;
   }
 }
 

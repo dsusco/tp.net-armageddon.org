@@ -1,5 +1,9 @@
 {% assign faq = site.data.faqs[include.id] %}
 <aside id="{{ faq.basename | replace: '-', '_' }}_faq" class="faq {{ faq.classes | join: ' ' }}" data-control="#{{faq.basename}}">
   <div>
-{{ faq.content | markdownify }}  </div>
+    <h4>{{ faq.number }} {{ faq.name }}</h4>
+
+    <div>
+  {{ faq.content | markdownify }}  </div>
+  </div>
 </aside>

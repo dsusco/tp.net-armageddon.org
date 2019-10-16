@@ -55,7 +55,7 @@ module Jekyll
         # if this isn't the FAQ page, and an faq exists, set it
         if !page['url'].eql?('/faq/') && faq = context.registers[:site].collections['faqs'].docs.find { |doc| doc.basename_without_ext.eql?(h[:id]) }
           (page[:footnote] += 1) rescue page[:footnote] = 1
-          h[:class] << 'has-footnote'
+          h[:footnote] = page[:footnote]
 
           # used for ordering the FAQ page
           if page['url'].eql?('/tournament-pack/')
@@ -66,7 +66,7 @@ module Jekyll
           faq = Liquid::Template.parse("{% include faq.html id='#{h[:id]}' %}").render(context)
         end
 
-        "#{content_tag(@tag_name, content_tag(:span, h[:number], class: 'heading-number') + ' ' + raw(h[:text]), { id: h[:id], class: h[:class].join(' '), style: h[:style].join(';'), data: { footnote: page[:footnote], heading_number: h[:number] } })}#{faq}"
+        "#{content_tag(@tag_name, raw(h[:text]), { id: h[:id], class: h[:class].join(' '), style: h[:style].join(';'), data: { footnote: h[:footnote], heading: h[:number] } })}#{faq}"
       end
     end
   end
