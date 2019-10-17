@@ -15,22 +15,18 @@ $(function () {
         })
         .find('a[href^="#"]');
 
+  function setHeadingOffets() {
+    headingOffsets = $navLinks.toArray().map(function(navLink) {
+        return document.getElementById(navLink.getAttribute('href').substr(1)).offsetTop;
+      });
+
+    $(window).trigger('scroll');
+  }
+
   if ($navLinks.length) {
     $(window)
       // set the heading offsets array on load and resize
-      .on('load', function () {
-        function setHeadingOffets() {
-          headingOffsets = $navLinks.toArray().map(function(navLink) {
-              return document.getElementById(navLink.getAttribute('href').substr(1)).offsetTop;
-            });
-
-          $(window).trigger('scroll');
-        }
-
-        $(window).on('resize', setHeadingOffets);
-
-        setHeadingOffets();
-      })
+      .on('resize', setHeadingOffets)
       // set the current heading on scroll
       .on('scroll', function () {
         try {
@@ -49,6 +45,8 @@ $(function () {
             .html($navLinks.eq(navLinkIndex).html());
         } catch (ignore) {}
       });
+
+    setHeadingOffets();
 
     // close the nav links modal when a link is clicked
     $navLinks
