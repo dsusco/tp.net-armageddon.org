@@ -14,8 +14,17 @@ A formation carries out an action that involves a move but none of the units phy
 Do units that enter play via a special rule (landing, planetfall, self planetfall, teleporting, tunneling, being summoned or swarmed) trigger overwatch fire?
 : No, only completing a move or disembarking triggers overwatch.
 
+An air assault suffers overwatch fire when a transported formation disembarks. Which formation receives the Blast marker for coming under fire?
+: The disembarking formation, as it triggered the overwatch.
+
+A commander orders a second formation to follow their formation in an assault, they count as a single formation when making an engage move and take overwatch fire. Which formation receives the Blast marker for coming under fire?
+: The formation that was closest to the enemy overwatching formation.
+
 Does a counter charge move trigger overwatch fire?
 : No.
 
 What happens to formation that is broken from overwatch fire while it is carrying out an action?
 : See [Withdrawals](/tournament-pack/#withdrawals), <q>it makes a withdrawal and loses the rest of its action.</q>
+
+Do formations on overwatch need to take an Action test to remain on overwatch?
+: Yes. However, if all the unactivated formations you have left are on overwatch you can declare they are all remaining on overwatch without an Action test (even if they are not a legal formation, in enemy zone of control, have Blast markers, etc.), effectively ending your part in the Action phase.

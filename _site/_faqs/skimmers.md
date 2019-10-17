@@ -27,3 +27,6 @@ If a unit is in base contact with a skimmer that chooses to use its firefight va
 
 Can a war engine skimmer choose to use its firefight against units in base contact with it?
 : Yes.
+
+Two skimmers in an assault are in base contact with enemy units. One uses its close combat and the other its firefight. The enemy inflicts one hit on them, can the skimmer in firefight be allocated the hit?
+: Rules as written, yes. However, players doing so should be publicly shamed and ridiculed.
