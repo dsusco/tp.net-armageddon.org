@@ -239,3 +239,11 @@
   .firepower { width: 14em; }
   .notes { width: 28.874em; }
 }
+#iron_warrior_force .datasheet {
+  .name { width: 12em; }
+  .weapon {
+    .name, .boolean  { width: 13em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 25.874em; }
+}
