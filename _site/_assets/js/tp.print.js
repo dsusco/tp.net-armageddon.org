@@ -6,7 +6,7 @@ $(function () {
   // move the ToC to the proper location
   $('#nav').detach().insertAfter($('#copyright'));
 
-  $('#main a[href*="#"]').each(function () {
+  $('.default-layout #main a[href*="#"]').each(function () {
     var $target = $(this.getAttribute('href').match(/(#.+)$/).pop());
 
     if ($target.length) {
