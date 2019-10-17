@@ -9,6 +9,7 @@ Is there a complete list of what to cover in the five minute warm up?
 * How many units can claim cover from a armoured vehicle, war engine, or terrain feature?
 * Does the charging formation need to get within 15cm of the original target or can it get within 15cm of any intermingled formation?
 * How are attacks with special abilities like ignore cover and lance allocated in an assault?
+* Can a war engine counter charge if it has enemy units in base contact?
 * Is it possible to air assault into a formation which is completely covered by the zone of control of another formation?
 * Where should measurements for capturing/contesting an objective be made from?
 * What house rules do you normally play with?
