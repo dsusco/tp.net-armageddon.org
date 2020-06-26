@@ -7,5 +7,4 @@ modes:
     special_rules:
       - ignore-cover
       - indirect-fire
-      - slow-firing
 ---
