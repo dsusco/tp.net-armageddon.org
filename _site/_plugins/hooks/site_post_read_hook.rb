@@ -1,7 +1,7 @@
 Jekyll::Hooks.register :site, :post_read do |site|
   site.data['pages'] =
     site.pages.reduce({}) do |hash, page|
-      page.data['mtime'] = Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, page.relative_path)})) unless page.data['mtime']
+      page.data['mtime'] = Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, page.relative_path)})) rescue File.mtime(File.join(site.source, page.relative_path))
       hash[page.url] = page
       hash
     end
@@ -10,7 +10,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     site.data[label] =
       collection.docs.reduce({}) do |hash, doc|
         doc.data['basename'] = doc.basename_without_ext
-        doc.data['mtime'] = Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, doc.relative_path)})) unless doc.data['mtime']
+        doc.data['mtime'] = Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, doc.relative_path)})) rescue File.mtime(File.join(site.source, doc.relative_path))
         hash[doc.data['slug']] = doc
         hash
       end
