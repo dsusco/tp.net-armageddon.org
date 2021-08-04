@@ -16,7 +16,6 @@ notes:
 weapons:
   -
     id: carapace-weapon-mount
-    multiplier: 1
     arc: FxF
   -
     id: heavy-bolter-aa
