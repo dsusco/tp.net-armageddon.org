@@ -2,7 +2,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
   pdfs_dir = "#{site.dest}/pdfs"
   Dir.mkdir(pdfs_dir) unless File.directory?(pdfs_dir)
 
-  site.pages.each do |page|
+  site.pages.select { |p| Jekyll.env.eql?('production') or p.data['prince'] } .each do |page|
     if page.data['pdf']
       prince_commands(
         site,
@@ -13,7 +13,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
     end
   end
 
-  site.collections['army_lists'].docs.each do |army_list|
+  site.collections['army_lists'].docs.select { |d| Jekyll.env.eql?('production') or d.data['prince'] } .each do |army_list|
     prince_commands(
       site,
       "#{army_list.data['pdf']}-.pdf",
