@@ -36,6 +36,7 @@ units:
   - crusader-robot
 
   - chimedon
+  - hydra
 
   - imperator-class-titan
   - macharius
