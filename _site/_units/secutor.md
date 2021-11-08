@@ -7,7 +7,6 @@ cc: 3+
 ff: 3+
 special_rules:
   - commander
-  - leader
   - reinforced-armour
 weapons:
   -

@@ -32,10 +32,10 @@ units:
   - secutor
   - rapier-skitarii-legion
 
-  - colossus-robot
   - crusader-robot
 
   - chimedon
+  - colossus-robot
   - hydra
 
   - imperator-class-titan
@@ -49,6 +49,7 @@ units:
   - warmonger-class-titan
 
   - avenger-strike-fighter
+  - lysander-fighter
 
   - ark-mechanicus-battleship
 

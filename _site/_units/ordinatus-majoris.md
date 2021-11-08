@@ -18,12 +18,15 @@ weapons:
   -
     id: sonic-disruptor
     multiplier: 0–1
+    arc: FxF
   -
     id: hellfire-missiles
     multiplier: 0–1
+    arc: FxF
   -
     id: nova-cannon
     multiplier: 0–1
+    arc: FxF
   -
     id: heavy-bolter-aa
     multiplier: 2
