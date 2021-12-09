@@ -12,5 +12,5 @@ weapons:
   -
     id: shuriken-pistols
   -
-    id: biveblades
+    id: riveblades
 ---
