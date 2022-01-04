@@ -1,6 +1,6 @@
 ---
 name: Colossus Robot
-type: LV
+type: AV
 speed: 15cm
 armour: 3+
 cc: 6+
@@ -10,7 +10,7 @@ special_rules:
   - walker
 weapons:
   -
-    id: autocannon
+    id: autocannon-skitarii
     multiplier: 2
   -
     id: lascannon
