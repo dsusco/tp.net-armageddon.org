@@ -19,5 +19,5 @@ Is it possible to air assault into a formation which is completely covered by th
 Is a _fearless_ aircraft that looses an assault automatically destroyed?
 : No.
 
-Can a unit that disembarked from an aircraft as part of an air assault use its consolidation move to get back into the aircraft?
+Can a unit use its consolidation move to get into an aircraft?
 : Yes, but the aircraft may not make a disengagement move.
