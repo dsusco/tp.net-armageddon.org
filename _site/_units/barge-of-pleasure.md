@@ -12,7 +12,7 @@ special_rules:
   - transport
 notes:
   |
-    May transport four infantry units without _Jump Packs_ or _Mounted_; plus two units of Mandrakes. Units being transported may shoot. Critical Hit Effect: The unit looses all of its weapons and has no close combat and firefight values. Subsequent critical hits destroy the unit.
+    May transport four infantry units without _Jump Packs_ or _Mounted_; plus two units of Mandrakes. Units being transported may shoot and use their firefight value in an assault or to lend support. Critical Hit Effect: The unit looses all of its weapons and has no close combat and firefight values. Subsequent critical hits destroy the unit.
 weapons:
   -
     id: dark-lance
