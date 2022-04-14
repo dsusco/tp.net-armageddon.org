@@ -15,7 +15,7 @@ special_rules:
   - reinforced-armour
 notes:
   |
-    A Chaos Altar may have wheel, the unit gains a move of 25cm while its armour value is reduced to 5+. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 6+.
+    A Chaos Altar may be wheeled, the unit gains a move of 25cm while its armour value is reduced to 5+. Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 6+.
 weapons:
   -
     id: arcane-technology
