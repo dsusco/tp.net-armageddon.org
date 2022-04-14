@@ -1,5 +1,5 @@
 ---
-name: Chaos Cultist
+name: Slaves of Darkness
 order: 33
 
 units:
