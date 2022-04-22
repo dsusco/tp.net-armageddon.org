@@ -1,5 +1,5 @@
 ---
-name: Slaves of Darkness
+name: Slaves to Darkness
 order: 33
 
 units:
@@ -32,7 +32,7 @@ units:
   - silver-tower
 
   - bloodthirster
-  - chaos-altar-slaves-of-darkness
+  - chaos-altar-slaves-to-darkness
   - great-unclean-one
   - keeper-of-secrets
   - lord-of-battle
