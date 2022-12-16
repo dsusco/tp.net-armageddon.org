@@ -1,4 +1,4 @@
-#ruby=2.7.4
+#ruby=2.7.6
 #ruby-gemset=tp.net-armageddon.org
 source 'https://rubygems.org'
 

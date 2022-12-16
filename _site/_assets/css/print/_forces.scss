@@ -263,3 +263,11 @@
   .firepower { width: 15em; }
   .notes { width: 29.874em; }
 }
+#gargant_mob_force .datasheet {
+  .name { width: 8em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 16em; }
+  .notes { width: 30.874em; }
+}
