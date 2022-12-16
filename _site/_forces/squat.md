@@ -1,5 +1,6 @@
 ---
 name: Squat
+order: 34
 
 units:
   - grand-warlord
