@@ -1,5 +1,6 @@
 ---
 name: Ork
+order: 5
 
 units:
   - oddboy

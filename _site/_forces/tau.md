@@ -1,5 +1,6 @@
 ---
 name: Tau
+order: 19
 
 units:
   - ethereal

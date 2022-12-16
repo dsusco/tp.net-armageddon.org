@@ -1,0 +1,10 @@
+---
+title: NetEA FAQ
+pdf: netea-faq
+---
+{% h1 <abbr title='Net Epic Armageddon'>NetEA</abbr> <abbr title='Frequently Asked Questions'>FAQ</abbr> %}{% assign faqs = site.faqs | sort: 'footnote' %}{% for faq in faqs %}
+
+<article class="faq">{% capture heading %}{{ faq.number }} {{ faq.name }}{% endcapture %}
+  {% h2 heading %}
+
+{{ faq.content }}</article>{% endfor %}

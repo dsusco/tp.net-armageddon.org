@@ -1,0 +1,70 @@
+body, div, hr,
+address, blockquote, h1, h2, h3, h4, h5, h6, p, pre,
+article, aside, figure, figcaption, footer, header, main, nav, section,
+dl, dt, dd, ol, ul, li,
+form, fieldset, legend, button, input, label, select, option, optgroup, textarea,
+table, caption, col, colgroup, thead, tbody, tfoot, tr, th, td,
+a, abbr, cite, q, span, sub, sup,
+b, del, i, ins, mark, s, u,
+code, dfn, em, kbd, samp, strong, var,
+img, map, area,
+br, wbr {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: baseline;
+
+  &, &:before, &:after { box-sizing: border-box; }
+}
+
+body { font: 10pt/1 sans-serif; }
+
+article, aside, figure, figcaption, footer, header, main, nav, section { display: block; }
+
+b, dt, h1, h2, h3, h4, h5, h6, strong, th { font-weight: bold; }
+
+blockquote {
+  font-style: italic;
+
+  &:before, &:after { content: none; }
+
+  > p:first-child:before { content: '“'; }
+  > p:last-of-type:after { content: '”'; }
+}
+
+cite, dfn, em, i { font-style: italic; }
+
+code, kdb, samp, var { font-family: monospace; }
+
+del { text-decoration: line-through; }
+
+ins, u { text-decoration: underline; }
+
+ol { list-style: decimal; }
+
+q {
+  &:before { content: '“'; }
+  &:after { content: '”'; }
+
+  q {
+    &:before { content: '‘'; }
+    &:after { content: '’'; }
+  }
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: sub;
+}
+sup { vertical-align: super; }
+
+table { border-spacing: 0; }
+
+textarea { overflow: auto; }
+
+ul { list-style-type: disc; }

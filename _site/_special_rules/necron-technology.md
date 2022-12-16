@@ -12,4 +12,3 @@ Portal
 
 Living Metal
 : Units made of _living metal_ receive a second save. This save functions exactly like an invulnerable save except that it is a 4+ save rather than a 6+.
-{: .dl-colonated }

@@ -1,5 +1,6 @@
 ---
 name: Dark Eldar
+order: 13
 
 units:
   - archon

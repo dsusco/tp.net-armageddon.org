@@ -17,6 +17,7 @@ weapons:
   -
     id: soopagun
     multiplier: 0–2
+    arc: FxF
   -
     id: mega-choppa-steam-gargant
     multiplier: 0–2

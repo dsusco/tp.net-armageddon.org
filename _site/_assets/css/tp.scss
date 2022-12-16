@@ -1,0 +1,24 @@
+@import 'tp/variables';
+@import 'baseline';
+@import 'tp/layout';
+@import 'tp/components';
+@import 'tp/content';
+
+.container {
+  @include grid-container();
+
+  margin: 0 auto;
+  max-width: 72rem + 2 * map-get($neat-grid, gutter);
+
+  @include grid-media($md-neat-grid) {
+    max-width: 96rem + 2 * map-get($md-neat-grid, gutter);
+  }
+
+  @include grid-media($lg-neat-grid) {
+    max-width: 96rem + 2 * map-get($lg-neat-grid, gutter);
+  }
+
+  @include grid-media($xl-neat-grid) {
+    max-width: 96rem + 2 * map-get($xl-neat-grid, gutter);
+  }
+}

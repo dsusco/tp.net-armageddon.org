@@ -14,7 +14,7 @@ notes:
 weapons:
   -
     id: vanquisher
-    multiplier: 0–2
+    multiplier: 0–1× 2
   -
     id: vulcan-mega-bolter
     multiplier: 0–1

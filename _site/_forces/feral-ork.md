@@ -1,5 +1,6 @@
 ---
 name: Feral Ork
+order: 8
 
 units:
   - warlord

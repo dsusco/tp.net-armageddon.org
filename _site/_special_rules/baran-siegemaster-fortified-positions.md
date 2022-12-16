@@ -1,18 +1,17 @@
 ---
-name: Fortified Positions
+name: Baran Siegemaster Fortified Positions
 ---
 Bunker
-: Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units.
+: Counts as Fortifications (see [Terrain Effects](/tournament-pack/#terrain-effects)). Can hold three units. Units in a bunker may not be barged by a war engine.
 
 Gun Emplacement
-: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit.
+: Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit. Units in a gun emplacement may not be barged by a war engine.
 
 Trench
-: Can hold one infantry unit per 4cm of length.
-{: .dl-colonated }
+: Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine.
 
 <div class="table-responsive">
-  <table class="no-margin-bottom table table-borderless table-captioned">
+  <table>
     <caption>Fortified Position Effects Table</caption>
     <thead>
       <tr>
@@ -27,7 +26,7 @@ Trench
         <td>Bunker</td>
         <td>3+ Cover Save</td>
         <td>Dangerous</td>
-        <td>Impassable</td>
+        <td>Dangerous</td>
       </tr>
       <tr>
         <td>Gun Emplacement</td>

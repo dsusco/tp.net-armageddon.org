@@ -13,9 +13,10 @@ special_rules:
   - shadowfields-4
   - support-craft
   - transport
+  - webway-portal
 notes:
   |
-    May transport eight armoured vehicle, light vehicle or war engine units; war engines count as a number of units equal to their starting damage capacity; plus 16 infantry units. Critical Hit Effect: The unit looses all of its weapons, has no close combat value and a firefight value of 6+. Subsequent critical hits cause one point of damage.
+    May transport eight armoured vehicle, light vehicle or war engine units; war engines count as a number of units equal to their starting damage capacity; plus 16 infantry units. Critical Hit Effect: The unit loses all of its weapons, has no close combat value and a firefight value of 6+. Subsequent critical hits cause one point of damage.
 weapons:
   -
     id: disintegrator-array

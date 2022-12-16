@@ -12,8 +12,11 @@ If a unit is under multiple templates from the same barrage how many to hit roll
 Do extra Barrage templates have to be placed to get as many enemy units from the target formation under them as possible?
 : The rules are unclear here, but yes they do.
 
-Is it possible to place extra Barrage templates so that they cover units that no weapon contributing to the barrage has range or a line of fire to?
-: Yes, but only the extra templates.
+Can a Barrage template be placed over units that can't be seen? Or over units that are out of range?
+: Yes, each weapon contributing to the barrage need only have a line of fire and range to a _single unit_ under the _first_ Barrage template. Extra Barrage templates do not require either condition, and an indirect fire barrage does not require a line of fire.
+
+Can a Barrage template be placed completely out of range?
+: Extra templates certainly can, and the first Barrage template can in certain circumstances (a unit that is partially in and partially out of range for instance). The Barrage template can be placed over any part of a unit (even if that part is out of range) so long as part of that unit is in range. A line of fire is still required to this unit, unless it is an indirect fire barrage.
 
 How do you resolve hits for a Barrage template that's over some units in cover and some that aren't?
 : Roll to hit separately for those units in cover, and for those units not in cover.

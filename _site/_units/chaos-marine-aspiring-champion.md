@@ -11,7 +11,7 @@ special_rules:
   - leader
 weapons:
   -
-    id: heavy-weapons
+    id: autocannon
   -
     id: daemon-weapon
 ---

@@ -1,5 +1,6 @@
 ---
 name: Knight World
+order: 23
 
 units:
   - aspirant
@@ -26,5 +27,5 @@ units:
 
 special_rules:
   - knight-technology
-  - knight-world-fortifications
+  - knight-world-fortified-positions
 ---

@@ -1,5 +1,6 @@
 ---
 name: Black Legion
+order: 11
 
 units:
   - champion-of-chaos

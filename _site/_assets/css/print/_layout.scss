@@ -1,0 +1,241 @@
+/* generated content */
+title { string-set: title content(), mtime attr(data-mtime); }
+
+main h1[id] { string-set: section content(); }
+
+/* pages */
+@page {
+  font: $_font_size $_font_family;
+  line-height: $_line_height;
+  margin: 1.75cm 1cm 1.25cm;
+  size: 210mm 11in;
+
+  @top-left {
+    padding: 0 0 0.5cm;
+    vertical-align: bottom;
+  }
+  @top-center {
+    content: string(title) ' – ' string(mtime);
+    padding: 0 0 0.5cm;
+    vertical-align: bottom;
+  }
+  @top-right {
+    padding: 0 0 0.5cm;
+    vertical-align: bottom;
+  }
+  @bottom-left {
+    padding: 0.125cm 0 0;
+    vertical-align: top;
+  }
+  @bottom-right {
+    padding: 0.125cm 0 0;
+    vertical-align: top;
+  }
+
+  @footnotes {
+    border-top: 1pt solid $_color_dark;
+    margin: 5.5pt 0 0;
+    padding: 5.5pt 0 0;
+  }
+}
+@page:blank {
+  @top-left { content: none; }
+  @top-center { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+@page:left {
+  margin: 1.75cm 1.4cm 1.25cm 1cm;
+
+  @top-left { content: string(section); }
+  @bottom-left { content: counter(page); }
+}
+@page:right {
+  margin: 1.75cm 1cm 1.25cm 1.4cm;
+
+  @top-right { content: string(section); }
+  @bottom-right { content: counter(page); }
+}
+
+@page cover, copyright, datasheet, reference-sheet {
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+@page cover, datasheet, reference-sheet {
+  margin: 0.75cm 1cm;
+
+  @top-center { content: none; }
+}
+@page cover {
+  background: center/190mm no-repeat url(../tournament-pack/images/cover.png);
+}
+@page copyright {
+  margin-bottom: 1cm;
+}
+@page datasheet, reference-sheet {
+  border: 1pt solid $_color_dark;
+  padding: 6pt;
+}
+@page datasheet {
+  margin: 1cm 0.75cm;
+  size: 11in 210mm;
+}
+
+@page table-of-contents:left {
+  @top-left { content: 'Table of Contents'; }
+
+  @bottom-left { content: counter(page, lower-roman); }
+}
+@page table-of-contents:right {
+  @top-right { content: 'Table of Contents'; }
+
+  @bottom-right { content: counter(page, lower-roman); }
+}
+
+/* body */
+body {
+  font: $_font_size $_font_family;
+  line-height: $_line_height;
+}
+
+/* sections */
+#cover {
+  page: cover;
+
+  #title {
+    font: 32pt/1.125 Impact, sans-serif;
+    margin: (14 * $_) 0 0;
+  }
+
+  #mtime {
+    font: 24pt/1.5 Impact, sans-serif;
+    margin: 0 0 (21 * $_);
+  }
+
+  a {
+    font-size: 12pt;
+    line-height: 2;
+  }
+
+  > div { text-align: center; }
+}
+
+#copyright {
+  @include two-column();
+
+  page: copyright;
+}
+
+#nav {
+  @include two-column();
+
+  page: table-of-contents;
+
+  > .container { display: none; }
+}
+#nav_menu {
+  list-style: none;
+  padding-left: 0;
+
+  a {
+    display: block;
+    content: content(text) leader('.') target-counter(attr(href), page);
+
+    &.h2 { margin-left: 1em; }
+    &.h3 { margin-left: 2em; }
+  }
+
+  span { display: none; }
+}
+
+#reference_sheet {
+  display: block;
+  page: reference-sheet;
+
+  #epic-armageddon-reference-sheet {
+    @include _(14pt);
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  dd { margin: 0; }
+}
+
+.force {
+  page-break-before: right;
+  page: datasheet;
+
+  > h2 {
+    margin-bottom: 3pt;
+    text-align: center;
+  }
+
+  aside.faq > div {
+    margin-left: 1.5em;
+  }
+
+  > .special-rule { margin-bottom: 3pt; }
+}
+
+.army-list {
+  page-break-before: right;
+
+  > h3.page-break {
+    @include _($_font_size_h2);
+
+    text-align: center;
+    text-transform: uppercase;
+
+    &, + p { margin-bottom: 3pt; }
+  }
+}
+
+/* utility */
+.column-break { column-break-before: always; }
+
+.page-break { page-break-before: always; }
+.page-break-avoid { page-break-before: avoid; }
+.page-break-left { page-break-before: left; }
+.page-break-right { page-break-before: right; }
+
+/* FAQ page */
+body[id='/faq/'] {
+  @include two-column();
+
+  .faq {
+    > h2 {
+      @include _($_font_size);
+
+      column-break-before: auto;
+      margin: 0;
+      text-transform: none;
+    }
+
+    > dl {
+      > dt {
+        font-weight: normal;
+        float: none;
+
+        &::before {
+          content: 'Q: ';
+          margin-left: -1.25em;
+          position: absolute;
+        }
+
+        &::after {
+          content: none;
+        }
+
+        + dd::before {
+          content: 'A: ';
+          margin-left: -1.25em;
+          position: absolute;
+        }
+      }
+    }
+  }
+}

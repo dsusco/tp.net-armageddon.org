@@ -1,7 +1,7 @@
 ---
 name: Salamander Attack Bike
 type: LV
-speed: 35
+speed: 35cm
 armour: 4+
 cc: 5+
 ff: 5+
