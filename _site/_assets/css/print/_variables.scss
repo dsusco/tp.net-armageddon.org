@@ -1,0 +1,19 @@
+$_font_family: Garamond, serif;
+
+$_font_size: 10pt;
+$_font_size_small: $_font_size * 0.8;
+
+$_font_size_h1: $_font_size * 1.6;
+$_font_size_h2: $_font_size * 1.2;
+$_font_size_h3: $_font_size;
+$_font_size_h4: $_font_size;
+
+$_line_height: 1.2;
+
+$_: $_font_size * $_line_height;
+
+$_color_black: #000;
+$_color_dark: #999;
+$_color_gray: #ccc;
+$_color_light: #eee;
+$_color_white: #fff;

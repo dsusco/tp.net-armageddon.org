@@ -1,5 +1,6 @@
 ---
 name: Emperor's Children
+order: 27
 
 units:
   - champion-of-chaos

@@ -1,5 +1,6 @@
 ---
 name: Saim-Hann Eldar
+order: 28
 
 units:
   - exarch

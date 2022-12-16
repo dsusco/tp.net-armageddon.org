@@ -1,7 +1,7 @@
 ---
 name: Keeper of Secrets
 type: WE
-speed: 15cm
+speed: 20cm
 armour: 4+
 cc: 3+
 ff: 4+

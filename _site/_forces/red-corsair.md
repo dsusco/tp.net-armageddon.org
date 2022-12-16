@@ -1,5 +1,6 @@
 ---
 name: Red Corsair
+order: 29
 
 units:
   - champion-of-chaos

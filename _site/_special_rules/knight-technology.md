@@ -8,4 +8,3 @@ Knight Shield
 
 Power Lance and Shock Lance
 : The Power Lance and Shock Lance may only be used if the unit's formation carried out an engage action.
-{: .dl-colonated }

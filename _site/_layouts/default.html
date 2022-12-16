@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html class="no-js no-prince" lang="en">
-  <head>
-    <link href="/assets/css/tp.net-armageddon.org.css" rel="stylesheet" media="screen">
+<html lang="en">
+  <head>{% for stylesheet in site.stylesheets %}
+    <link rel="stylesheet" href="{{ stylesheet }}" />{% endfor %}{% for stylesheet in page.stylesheets %}
+    <link rel="stylesheet" href="{{ stylesheet }}" />{% endfor %}
+    {% asset tp.css !type %}
+    {% asset tp.print.css media="print" !type %}
 
-    <meta charset="utf-8">
-    <meta name="author" content="NetERC">
-    <meta name="description" content="NetEA is the Tactical Wargame Network’s fan-made rule extensions, army lists and army list updates for Games Workshop’s Epic Armageddon">
-    <meta name="keywords" content="Epic Armageddon EA NetEA 40,000 40k Space Marine Titan Legions Adeptus Titanicus">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />{% if page.style %}
+
+    <style>
+{{ page.style }}    </style>{% endif %}
 
     <title data-mtime="{{ page.mtime | date: '%F' }}">{{ page.title }}</title>
   </head>
 
-  <body id="{{ page.id }}" class="{{ page.layout }}-layout" data-spy="scroll" data-target="#nav" data-offset="42">
-    <main id="main" class="container">
-{{ content }}
-    </main>{% if page.headings %}
+  <body id="{{ page.url }}" class="no-js {{ page.layout }}-layout {% if page.show_heading_numbers %}show-heading-numbers{% endif %}">
+    <div id="page">
+      <a class="sr-only-focusable" href="#main">Skip to main content.</a>{% unless page.hide_nav %}
 
-    <nav id="nav" style="counter-reset:page 1">
-      <div class="container">
-        <div class="row">
-          <a class="fa fa-home" href="/"></a>
-          <i class="fa fa-plus-circle"></i>
+      <nav id="nav" style="counter-reset:page 1">
+        <div class="container">
+          <div>
+            <a class="fa fa-home" href="/" title="NetEA Tournament Pack Website"><span class="sr-only">NetEA Tournament Pack Website</span></a>
 
-          <ol class="nav nav-pills nav-stacked">{% for pair in page.headings %}{% if forloop.first %}
-            <li>
-              <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" data-number="{{ pair[1].number }}">{{ pair[1].text }}</a>
-              <span>{% elsif forloop.last %}
-                <a class="fa fa-chevron-circle-down" href="{{ pair[1].href }}"></a>
-              </span>
-            </li>
-            <li>
-              <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" data-number="{{ pair[1].number }}">{{ pair[1].text }}</a>
-              <span>
-                <a class="fa fa-chevron-circle-up" href="{{ prev.href }}"></a>
-              </span>
-            </li>{% else %}
-                <a class="fa fa-chevron-circle-down" href="{{ pair[1].href }}"></a>
-              </span>
-            </li>
-            <li>
-              <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" data-number="{{ pair[1].number }}">{{ pair[1].text }}</a>
-              <span>
-                <a class="fa fa-chevron-circle-up" href="{{ prev.href }}"></a>{% endif %}{% assign prev = pair[1] %}{% endfor %}
-          </ol>
+            <button id="nav_menu_control" class="fa fa-plus-circle" title="Toggle navigation menu…"><span class="sr-only">Toggle navigation menu…</span></button>
+
+            <span id="current_heading"></span>
+
+            <button class="fa fa-chevron-circle-up" title="Jump to previous heading…"><span class="sr-only">Jump to previous heading…</span></button>
+
+            <button class="fa fa-chevron-circle-down" title="Jump to next heading…"><span class="sr-only">Jump to next heading…</span></button>
+          </div>
         </div>
-      </div>
-    </nav>{% endif %}
-{% if jekyll.environment == 'development' %}
-    <script src="http://localhost:35729/livereload.js"></script>{% endif %}
-    <script src="/assets/js/tp.net-armageddon.org.js"></script>
+
+        <ol id="nav_menu" data-control="#nav_menu_control" hidden>{% for pair in page.headings %}
+          <li>
+            <a class="{{ pair[1].class }}" href="{{ pair[1].href }}" title="Jump to {% if page.show_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text | strip_html }}…">{% if page.show_heading_numbers %}{{ pair[1].number }} {% endif %}{{ pair[1].text }}</a>
+          </li>{% endfor %}
+        </ol>
+      </nav>{% endunless %}
+
+      <main id="main">
+        <div class="container">
+{{ content }}
+        </div>
+      </main>
+
+      <a class="sr-only-focusable" href="#main">Go back to main content.</a>
+    </div>
+
+{% for script in site.scripts %}
+    <script src="{{ script }}"></script>{% endfor %}{% for script in page.scripts %}
+    <script src="{{ script }}"></script>{% endfor %}
+    {% asset tp.js !type %}
+    <!-- {% asset tp.print.js !type %}-->{% if page.script %}
+
+    <script>
+{{ page.script }}    </script>{% endif %}
   </body>
 </html>

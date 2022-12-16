@@ -3,5 +3,5 @@ name: Baneblade Battle Cannon
 modes:
   -
     range: 75cm
-    firepower: AP3+/AT3+
+    firepower: 2× AP3+/AT3+
 ---

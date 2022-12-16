@@ -1,0 +1,5 @@
+<li>
+  <a href="{{ include.page.url }}">{{ include.page.title }}</a>
+  ({{ include.page.mtime | date: '%F' }})
+  <a class="fa fa-file-pdf-o" href="pdfs/{{ include.page.pdf }}.pdf" title="{{ include.page.title }}"><span class="sr-only">{{ include.page.title }} <abbr>PDF</abbr></span></a>
+</li>

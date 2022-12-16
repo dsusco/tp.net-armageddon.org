@@ -1,0 +1,170 @@
+#nav {
+  @include _($_font_size_h3, 2 * $_);
+  @include position(fixed, 0 0 null 0);
+
+  background: $_color_primary;
+  color: $_body_background;
+  height: 2 * $_;
+  overflow-y: hidden;
+  z-index: 1;
+
+  > .container > div {
+    @include grid-column(4);
+
+    padding: 0 (4 * $_);
+    position: relative;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .fa {
+    @include position(absolute, 0 null null);
+
+    line-height: 2 * $_;
+    text-align: center;
+    width: 2 * $_;
+    z-index: 1;
+
+    &.fa-home {
+      left: 0;
+    }
+
+    &.fa-plus-circle {
+      left: 2 * $_;
+    }
+
+    &.fa-chevron-circle-up {
+      right: 2 * $_;
+    }
+
+    &.fa-chevron-circle-down {
+      right: 0;
+    }
+
+    &:focus,
+    &:hover {
+      background: lighten($_color_primary, 6.25%);
+      outline: 0;
+    }
+  }
+
+  + #main {
+    padding-top: 2 * $_;
+  }
+
+  @include grid-media($md-neat-grid) {
+    > .container > div {
+      @include grid-column(12);
+    }
+  }
+
+  @include grid-media($lg-neat-grid) {
+    > .container > div {
+      @include grid-column(12);
+    }
+  }
+
+  @include grid-media($xl-neat-grid) {
+    > .container > div {
+      @include grid-column(12);
+    }
+  }
+}
+
+#nav_menu {
+  @include _($_font_size_h3);
+  @include position(fixed, 0);
+
+  background: $_color_primary;
+  color: $_body_background;
+  float: none;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow-y: auto;
+  text-align: left;
+  width: 100%;
+  z-index: 1;
+
+  a {
+    @include _($_font_size_h3);
+
+    color: inherit;
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: ($_ / 2) map-get($neat-grid, gutter);
+
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background: lighten($_color_primary, 6.25%);
+      outline: 0;
+    }
+  }
+
+  @include grid-media($md-neat-grid) {
+    a {
+      @include padding(null map-get($md-neat-grid, gutter));
+    }
+  }
+
+  @include grid-media($lg-neat-grid) {
+    a {
+      @include padding(null map-get($lg-neat-grid, gutter));
+    }
+  }
+
+  @include grid-media($xl-neat-grid) {
+    a {
+      @include padding(null map-get($xl-neat-grid, gutter));
+    }
+  }
+}
+
+#main {
+  @include grid-column(4);
+
+  padding: $_ 0;
+
+  .page-heading {
+    border-bottom: .1rem solid $_color_lighter;
+    margin-bottom: $_ / 2;
+    padding-bottom: $_ / 2 - .1rem;
+  }
+
+  @include grid-media($md-neat-grid) {
+    @include grid-column(12);
+  }
+
+  @include grid-media($lg-neat-grid) {
+    @include grid-column(12);
+  }
+
+  @include grid-media($xl-neat-grid) {
+    @include grid-column(12);
+  }
+}
+
+.margin-bottom {
+  margin-bottom: ($_ / 2);
+}
+
+.center-block {
+  @include margin(null auto ($_ / 2));
+
+  display: block;
+}

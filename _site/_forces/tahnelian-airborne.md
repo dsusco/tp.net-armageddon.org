@@ -1,5 +1,6 @@
 ---
 name: Tahnelian Airborne
+order: 100
 
 units:
   - commissar

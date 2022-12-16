@@ -1,38 +1,27 @@
 ---
 title: NetEA Tournament Pack Website
+hide_nav: true;
 ---
 <h1><abbr title="Net Epic Armageddon">NetEA</abbr> Tournament Pack</h1>
 
 <p>The <abbr title="Net Epic Armageddon">NetEA</abbr> Tournament Pack contains the unmodified Epic Armageddon game rules and errata that used to be found on Games Workshop's website. It includes the <abbr title="Frequently Asked Questions">FAQ</abbr> and all of the <abbr title="Net Epic Armageddon">NetEA</abbr> Approved army lists that are listed below.</p>
 
-<ul>
-  <li>{% assign tp = site.data.pages.netea-tournament-pack %}
-    <a href="{{ tp.url | remove: 'index.html' }}">{{ tp.title }}</a>
-    <small>({{ tp.mtime | date: '%F' }})</small>
-    <a href="pdfs/{{ tp.id }}.pdf" title="{{ tp.title }}"><i class="fa fa-file-pdf-o"></i></a>
-  </li>
+<ul>{% assign tp = site.data.pages['/tournament-pack/'] %}
+  {% include page_link.html page=tp %}
 </ul>
 
 <h2>Army Lists</h2>
 
 <p><abbr title="Net Epic Armageddon">NetEA</abbr> Approved army lists are tournament ready and balanced against one another using the Epic tournament game rules. They vary slightly from the those that used to be found on Games Workshop's website due to community feedback.</p>
 
-<ul>{% for al in site.army_lists %}
-  <li>{% assign al = site.data.army_lists[al] %}
-    <a href="{{ al.url }}">{{ al.title }}</a>
-    <small>({{ al.mtime | date: '%F' }})</small>
-    <a href="{{ al.url | replace: 'army-lists/', 'pdfs/netea-' | replace: 'html', 'pdf' }}" title="NetEA {{ al.title }}"><i class="fa fa-file-pdf-o"></i></a>
-  </li>{% endfor %}
+<ul>{% for al in site.army_lists %}{% assign al = site.data.army_lists[al] %}
+  {% include page_link.html page=al %}{% endfor %}
 </ul>
 
 <h2><abbr title="Frequently Asked Questions">FAQ</abbr></h2>
 
 <p>The following <abbr title="Frequently Asked Questions">FAQ</abbr> have been expanded and updated from those that used to be available on Games Workshop's website.</p>
 
-<ul>
-  <li>{% assign faq = site.data.pages.netea-faq %}
-    <a href="{{ faq.url | remove: 'index.html' }}">{{ faq.title }}</a>
-    <small>({{ faq.mtime | date: '%F' }})</small>
-    <a href="pdfs/{{ faq.id }}.pdf" title="{{ faq.title }}"><i class="fa fa-file-pdf-o"></i></a>
-  </li>
+<ul>{% assign faq = site.data.pages['/faq/'] %}
+  {% include page_link.html page=faq %}
 </ul>

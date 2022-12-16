@@ -1,5 +1,6 @@
 ---
 name: Chaos Cultist
+order: 12
 
 units:
   - arch-heretic

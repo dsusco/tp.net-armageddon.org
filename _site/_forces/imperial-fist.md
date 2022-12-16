@@ -1,5 +1,6 @@
 ---
 name: Imperial Fist
+order: 25
 
 units:
   - captain
@@ -48,7 +49,7 @@ units:
 special_rules:
   - they-shall-know-no-fear
   - masters-of-siege
-  - imperial-fist-fortifications
+  - imperial-fist-fortified-positions
   - automata
   - imperial-void-shields
 ---

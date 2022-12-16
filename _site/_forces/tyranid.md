@@ -1,5 +1,6 @@
 ---
 name: Tyranid
+order: 21
 
 units:
   - brood-lord

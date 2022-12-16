@@ -8,6 +8,7 @@ ff: 4+
 special_rules:
   - damage-capacity-2
   - fearless
+  - inspiring
   - knight-shield
   - reinforced-armour
   - supreme-commander

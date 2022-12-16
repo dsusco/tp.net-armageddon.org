@@ -7,5 +7,5 @@ modes:
   -
     boolean: or
     range: 90cm
-    firepower: 2BP
+    firepower: 1BP
 ---

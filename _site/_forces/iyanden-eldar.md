@@ -1,5 +1,6 @@
 ---
 name: Iyanden Eldar
+order: 24
 
 units:
   - exarch

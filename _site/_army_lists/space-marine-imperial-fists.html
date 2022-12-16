@@ -1,5 +1,5 @@
 ---
-id: imperial-fists-space-marine
+order: 23
 title: Space Marine – Imperial Fists
 name: Imperial Fists Space Marine
 introduction:
@@ -22,21 +22,21 @@ using_the_army_list:
     Imperial Fist armies may be supported by Titan Legion battlegroups, and Imperial Fist aircraft and static defence formations. A maximum of up to a third of the points available to the army may be spent on these formations.
 special_rules_text:
   |
-    The _They Shall Know No Fear_ rule applies to all Imperial Fist detachment, aircraft and static defence formations (see [_They Shall Know No Fear_](#they-shall-know-no-fear)). The _Fortifications_ rule applies to Imperial Fist Space Marine armies (see [_Fortifications_](#fortifications)).
+    The _They Shall Know No Fear_ rule applies to all Imperial Fist detachment, aircraft and static defence formations (see [_They Shall Know No Fear_](#they-shall-know-no-fear)). The _Fortified Positions_ rule applies to Imperial Fist Space Marine armies (see [_Fortified Positions_](#fortified-positions)).
 special_rules:
   - imperial-fists-transport
-  - fortifications
+  - fortified-positions
 ---
 <p>Imperial Fist Space Marine armies have a strategy rating of 5. Imperial Fist static defence formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.</p>
 
 <div class="table-responsive">
-  <table class="table table-army-list">
+  <table class="army-list">
     <caption>Imperial Fist Detachments</caption>
     <colgroup>
       <col style="width:8em">
       <col>
       <col>
-      <col style="width:9em">
+      <col style="width:5.5em">
     </colgroup>
     <thead>
       <tr>
@@ -123,14 +123,14 @@ special_rules:
         <td>Whirlwind</td>
         <td>Four Whirlwinds</td>
         <td>Commander, Hunter, Whirlwinds</td>
-        <td>300 points</td>
+        <td>275 points</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 <div class="table-responsive">
-  <table class="table table-army-list">
+  <table class="army-list">
     <caption>Imperial Fist Upgrades</caption>
     <colgroup>
       <col style="width:8em">
@@ -176,12 +176,11 @@ special_rules:
       </tr>
       <tr>
         <td rowspan="2">Land Raiders</td>
-        <td colspan="2">Add up to four of any of the following units: Land Raider, Land Raider Crusader</td>
+        <td rowspan="2" colspan="2">Add up to four of any of the following units: Land Raider, Land Raider Crusader</td>
         <td>+75 points each</td>
       </tr>
       <tr>
-        <td colspan="2">Add two of any of the following units: Land Raider, Land Raider Crusader</td>
-        <td>+125 points</td>
+        <td>+125 points per pair</td>
       </tr>
       <tr>
         <td>Razorbacks</td>
@@ -189,13 +188,9 @@ special_rules:
         <td>+25 points each</td>
       </tr>
       <tr>
-        <td rowspan="2">Snipers</td>
-        <td colspan="2">Give up to two Scout units <em>Sniper</em></td>
-        <td>+25 points</td>
-      </tr>
-      <tr>
+        <td>Snipers</td>
         <td colspan="2">Give up to four Scout units <em>Sniper</em></td>
-        <td>+50 points</td>
+        <td>+10 points each</td>
       </tr>
       <tr>
         <td>Support Battery</td>
@@ -204,7 +199,7 @@ special_rules:
       </tr>
       <tr>
         <td>Tarantulas</td>
-        <td colspan="2">Add up to four Taratula Platforms each with a Gun Emplacement</td>
+        <td colspan="2">Add up to four Tarantula Platforms each with a Gun Emplacement</td>
         <td>+25 points each</td>
       </tr>
       <tr>
@@ -214,13 +209,16 @@ special_rules:
       </tr>
       <tr>
         <td>Typhoons</td>
-        <td colspan="2">Replace any number of Land Speeders in the formation with an equal number of Land Speeder Typhoons</td>
+        <td colspan="2">Replace up to five Land Speeders with an equal number of Land Speeder Typhoons</td>
         <td>+10 points each</td>
       </tr>
       <tr>
-        <td>Vindicators</td>
-        <td colspan="2">Add one or two Vindicators</td>
-        <td>+50 or +75 points</td>
+        <td rowspan="2">Vindicators</td>
+        <td rowspan="2" colspan="2">Add up to two Vindicators</td>
+        <td>+50 points each</td>
+      </tr>
+      <tr>
+        <td>+75 points per pair</td>
       </tr>
       <tr>
         <td>Whirlwinds</td>
@@ -232,7 +230,7 @@ special_rules:
 </div>
 
 <div class="table-responsive">
-  <table class="table table-army-list">
+  <table class="army-list">
     <caption>Imperial Fist Support and Ally Formations</caption>
     <thead>
       <tr>
@@ -241,41 +239,13 @@ special_rules:
     </thead>
     <tbody>
       <tr>
-        <td class="army-list-table-container">
-          <table class="one-half table table-army-list">
-            <caption>Imperial Fist Aircraft</caption>
-            <colgroup>
-              <col style="width:10em">
-              <col>
-              <col style="width:6em">
-            </colgroup>
-            <thead>
-              <tr>
-                <th>Formation</th>
-                <th>Units</th>
-                <th>Cost</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Storm Talon Squadron</td>
-                <td>Two Storm Talons</td>
-                <td>200 points</td>
-              </tr>
-              <tr>
-                <td>Thunderhawk SB</td>
-                <td>One Thunderhawk Saturation Bomber</td>
-                <td>250 points</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table class="one-half table table-army-list">
+        <td class="table-container">
+          <table class="one-half army-list">
             <caption>Titan Legion Battlegroups</caption>
             <colgroup>
-              <col style="width:10em">
+              <col style="width:8em">
               <col>
-              <col style="width:6em">
+              <col style="width:5.5em">
             </colgroup>
             <thead>
               <tr>
@@ -298,12 +268,12 @@ special_rules:
             </tbody>
           </table>
 
-          <table class="no-margin-bottom table table-army-list">
-            <caption>Imperial Fist Static Defences</caption>
+          <table class="one-half army-list">
+            <caption>Imperial Fist Aircraft</caption>
             <colgroup>
-              <col style="width:16em">
+              <col style="width:10em">
               <col>
-              <col style="width:6em">
+              <col style="width:5.5em">
             </colgroup>
             <thead>
               <tr>
@@ -314,7 +284,35 @@ special_rules:
             </thead>
             <tbody>
               <tr>
-                <td>Fortifications</td>
+                <td>Storm Talon Squadron</td>
+                <td>Two Storm Talons</td>
+                <td>200 points</td>
+              </tr>
+              <tr>
+                <td>Thunderhawk SB</td>
+                <td>One Thunderhawk Saturation Bomber</td>
+                <td>250 points</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="army-list">
+            <caption>Imperial Fist Static Defences</caption>
+            <colgroup>
+              <col style="width:15em">
+              <col>
+              <col style="width:5.5em">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Formation</th>
+                <th>Units</th>
+                <th>Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fortified Positions</td>
                 <td>Two Bunkers and 50cm of Trenches or Minefields</td>
                 <td>50 points</td>
               </tr>
@@ -324,8 +322,8 @@ special_rules:
                 <td>125 points</td>
               </tr>
               <tr>
-                <td>0–1 Taratulas per Scout detachment</td>
-                <td>Four Taratula Platforms and four Gun Emplacements</td>
+                <td>0–1 Tarantulas per Scout detachment</td>
+                <td>Four Tarantula Platforms and four Gun Emplacements</td>
                 <td>100 points</td>
               </tr>
             </tbody>

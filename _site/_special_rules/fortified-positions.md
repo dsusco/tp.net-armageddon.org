@@ -1,8 +1,8 @@
 ---
 name: Fortified Positions
 ---
-A Siege Regiment army regiment is allowed to purchase one set of fortified positions for its troops to occupy for each Regimental HQ or Infantry company included in the army.
+Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up. The only exception to this are fortified positions that are listed as part of a formation's <q>units</q>. While they are not actually units, they are set up with the formation they are part of.
 
-Fortified positions must be set up after Objectives, but before Spacecraft and Garrisons are deployed. They may be set up anywhere a vehicle may deploy in the Siegemasters half of the table. You may split up a set of fortified positions as desired, as long as the rules for formation coherence are adhered to. For example, you could split up trenches into several lines, as long as there are 5cm <q>links</q> between the different parts of the position. Fortified positions count as having a move of zero, and may <q>garrison</q> (e.g., they can be set up in positions that garrison units can be set up in). It goes without saying that they may not be transported, and any players that were considering transporting them onto the table should be deeply ashamed of themselves!
+Fortified positions may be set up anywhere a vehicle may deploy on the player's half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a <q>chain</q> without any gaps of more than 5cm. Additionally, if a group of fortified positions is part of a formation then at least one piece must be within 5cm of a unit from the formation when they are set up.
 
-Once set up fortified positions may be used by any unit, not just the units they were purchased for. They may be captured and used by enemy units too.
+Once set up, fortified positions may be used by any unit (including enemy units).

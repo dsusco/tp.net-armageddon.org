@@ -4,7 +4,7 @@ type: INF
 speed: 15cm
 armour: 5+
 cc: 5+
-ff: 4+
+ff: 3+
 special_rules:
   - expendable
   - invulnerable-save

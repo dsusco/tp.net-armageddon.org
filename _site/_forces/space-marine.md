@@ -1,5 +1,6 @@
 ---
 name: Space Marine
+order: 1
 
 units:
   - captain

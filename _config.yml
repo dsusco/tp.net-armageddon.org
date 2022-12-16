@@ -1,37 +1,37 @@
-# LESS
-less:
-  paths:
-    - ./bower_components
-    - ./_site/_assets/stylesheets
-
-# CSS
-css:
-  compress: true
+author: NetERC
+description: Tactical Wargame Network's fan-made army lists and frequently asked questions for Games Workshop's Epic Armageddon.
+scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
+stylesheets:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 
 # Where things are
-source: _site/
-destination: public_html/
+source: ./_site
+destination: ./public_html
 collections:
   army_lists:
     output: true
-    permalink: army-lists/:name.html
+    permalink: army-lists/:name:output_ext
   faqs:
   forces:
   special_rules:
   units:
   weapons:
 
+# Plugins
+plugins:
+  - jekyll-assets
+
+# Outputting
+timezone: America/New_York
 
 # Outputting
 defaults:
   -
-    scope:
-      path: ''
     values:
       layout: default
   -
     scope:
-      path: ''
       type: army_lists
     values:
       layout: army_list
