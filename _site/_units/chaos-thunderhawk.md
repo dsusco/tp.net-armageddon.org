@@ -12,7 +12,7 @@ special_rules:
   - transport
 notes:
   |
-    May transport eight infantry units or Chaos Dreadnoughts; Chaos Space Marine Terminators, Chaos Dreadnoughts and Obliterators count as two units each. May counts as a Thunderhawk Gunship for the purposes of being transported. Critical Hit Effect: The unit and all units being carried are destroyed.
+    May transport eight infantry units or Chaos Dreadnoughts; Chaos Space Marine Terminators, Chaos Dreadnoughts and Obliterators count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed. Counts as a Thunderhawk Gunship for the purposes of being transported.
 weapons:
   -
     id: battle-cannon
