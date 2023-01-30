@@ -1,8 +1,8 @@
 ---
-name: Stalker Bolters
+name: Stalker Pattern Bolters
 modes:
   -
-    range: 15cm
+    range: 30cm
     firepower: AP4+
     special_rules:
       - disrupt

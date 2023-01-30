@@ -10,5 +10,5 @@ special_rules:
   - scout
 weapons:
   -
-    id: stalker-bolters
+    id: stalker-pattern-bolters
 ---

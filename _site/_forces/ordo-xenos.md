@@ -7,30 +7,31 @@ units:
   - chaplain
   - commissar
   - librarian
+  - ordo-xenos-inquisitor-lord
   - supreme-commander
 
-  - commander
-  - infantry
-  - rough-riders
-  - storm-troopers
   - deathwatch-assault
   - deathwatch-bike
   - deathwatch-scout
   - deathwatch-terminator
   - deathwatch-veteran
+  - infantry
+  - inquisitorial-storm-troopers
+  - ordo-xenos-inquisitor
+  - rough-riders
 
-  - land-speeder
   - land-speeder-tornado
   - land-speeder-typhoon
   - sentinel
 
+  - corvus-blackstar
   - chimera
-  - dreadnought
   - hydra
   - land-raider
   - leman-russ
   - razorback
   - rhino
+  - venerable-dreadnought
 
   - landing-craft
   - thunderhawk-gunship
@@ -38,7 +39,7 @@ units:
   - battle-barge
   - strike-cruiser
 
-  - drop-pod
+  - deathwatch-drop-pod
 
 special_rules:
   - they-shall-know-no-fear
