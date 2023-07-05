@@ -1,5 +1,5 @@
 ---
-name: Hell Strider
+name: Hell-Strider
 type: AV
 speed: 30cm
 armour: 5+
@@ -11,7 +11,7 @@ special_rules:
   - walker
 weapons:
   -
-    id: lascannon
+    id: twin-lascannon
   -
     id: multi-melta
 ---
