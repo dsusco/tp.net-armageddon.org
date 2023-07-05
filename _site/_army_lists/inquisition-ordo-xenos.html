@@ -13,7 +13,7 @@ using_the_army_list:
   |
     The following army list allows you to field an army based on the Ordo Xenos of the Inquisition.
 
-    Ordo Xenos formations come in two types: _Deathwatch detachments_ and _Imperial Guard support formations_. Each detachment you include in the army allows you to field any one support formations. Although you can only take a support formation if you first take a detachment, they are treated as separate independent formations during a battle and do not have to move around together.
+    Ordo Xenos formations come in two types: _Deathwatch detachments_ and _Inducted Imperial Guard and Inquisitorial support formations_. Each detachment you include in the army allows you to field any one support formations. Although you can only take a support formation if you first take a detachment, they are treated as separate independent formations during a battle and do not have to move around together.
 
     In addition, formations may be given upgrades. Each type of upgrade can only be taken once by a formation. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.
 
@@ -23,8 +23,9 @@ special_rules_text:
     The _They Shall Know No Fear_ rule applies to all Deathwatch detachment formations (see [_They Shall Know No Fear_](#they-shall-know-no-fear)).
 special_rules:
   - deathwatch-transports
+  - ordo-xenos-epic-tournament-special-rules
 ---
-<p>Ordo Xenos armies have a strategy rating of 5. Imperial Guard support formations and Imperial Navy aircraft formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.</p>
+<p>Ordo Xenos armies have a strategy rating of 5. Inducted Imperial Guard and Inquisitorial support formations, and Imperial Navy aircraft formations have an initiative rating of 2+. All other formations have an initiative rating of 1+.</p>
 
 <div class="table-responsive">
   <table class="army-list">
@@ -48,13 +49,13 @@ special_rules:
         <td>Assault</td>
         <td>Four Deathwatch Assault units</td>
         <td>Commander, Corvus Blackstars</td>
-        <td>250 points</td>
+        <td>225 points</td>
       </tr>
       <tr>
         <td>Bike</td>
         <td>Four Deatchwatch Bike units</td>
         <td>Commander, Corvus Blackstars</td>
-        <td>250 points</td>
+        <td>225 points</td>
       </tr>
       <tr>
         <td>Land Speeder</td>
@@ -63,9 +64,15 @@ special_rules:
         <td>200 points</td>
       </tr>
       <tr>
+        <td>Landing Craft</td>
+        <td>One Landing Craft</td>
+        <td></td>
+        <td>350 points</td>
+      </tr>
+      <tr>
         <td>Scout</td>
         <td>Four Deathwatch Scout units plus transport</td>
-        <td>Commander, Razorbacks</td>
+        <td>Commander, Corvus Blackstars, Razorbacks</td>
         <td>250 points</td>
       </tr>
       <tr>
@@ -83,7 +90,7 @@ special_rules:
       <tr>
         <td>Veterans</td>
         <td>Four Deathwatch Veteran units plus transport</td>
-        <td>Commander, Corvus Blackstars, Dreadnoughts, Razorback, Land Raiders</td>
+        <td>Commander, Corvus Blackstars, Dreadnoughts, Razorbacks, Land Raiders</td>
         <td>225 points</td>
       </tr>
     </tbody>
@@ -92,16 +99,16 @@ special_rules:
 
 <div class="table-responsive">
   <table class="army-list">
-    <caption>Imperial Guard Support Formations</caption>
+    <caption>Inducted Imperial Guard and Inquisitorial Support Formations</caption>
     <colgroup>
       <col style="width:8em">
       <col>
       <col>
-      <col style="width:5.5em">
+      <col style="width:10em">
     </colgroup>
     <thead>
       <tr>
-        <td colspan="4">(Any one Imperial Guard support formation may be fielded per each Deathwatch detachment.)</td>
+        <td colspan="4">(Any one Inducted Imperial Guard or Inquisitorial support formation may be fielded per each Deathwatch detachment.)</td>
       </tr>
       <tr>
         <th>Formation</th>
@@ -112,10 +119,14 @@ special_rules:
     </thead>
     <tbody>
       <tr>
-        <td>Infantry</td>
-        <td>One Ordo Xenos Inquisitor, eight Infantry units and five Rhinos</td>
-        <td>Commissar, Hydra, Inquisitor Lord, Transport</td>
+        <td rowspan="2">Infantry</td>
+        <td>One Ordo Xenos Inquisitor and twelve Infantry units</td>
+        <td>Commissar, Hydra, Inquisitor Lord</td>
         <td>250 points</td>
+      </tr>
+      <tr>
+        <td colspan="2">(add seven Chimera)</td>
+        <td>(+150 points)</td>
       </tr>
       <tr>
         <td>Rough Rider</td>
@@ -130,10 +141,14 @@ special_rules:
         <td>100 points</td>
       </tr>
       <tr>
-        <td>Storm Trooper</td>
-        <td>One Ordo Xenos Inquisitor, eight Inquisitorial Storm Troopers and five Rhinos</td>
-        <td>Commissar, Inquisitor Lord, Transport</td>
-        <td>250 points</td>
+        <td rowspan="2">Storm Trooper</td>
+        <td>One Ordo Xenos Inquisitor, seven Inquisitorial Storm Troopers and four Rhinos</td>
+        <td>Commissar, Inquisitor Lord</td>
+        <td>200 points</td>
+      </tr>
+      <tr>
+        <td colspan="2">(replace four Rhinos with four Chimera or Valkyries)</td>
+        <td>(+100 or +150 points)</td>
       </tr>
       <tr>
         <td>Leman Russ</td>
@@ -217,16 +232,6 @@ special_rules:
         <td>Razorbacks</td>
         <td colspan="2">Add any number of Razorbacks, up to the number required to transport the formation</td>
         <td>+25 points each</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Transport</td>
-        <td rowspan="2">Replace five Rhinos with five unts from one of the following options:</td>
-        <td>Chimeras</td>
-        <td>+75 points</td>
-      </tr>
-      <tr>
-        <td>Valkyries</td>
-        <td>+150 points</td>
       </tr>
       <tr>
         <td>Typhoons</td>
@@ -333,11 +338,6 @@ special_rules:
                 <td>Thunderhawk Gunship</td>
                 <td>One Thunderhawk Gunship</td>
                 <td>200 points</td>
-              </tr>
-              <tr>
-                <td>Landing Craft</td>
-                <td>One Landing Craft</td>
-                <td>350 points</td>
               </tr>
             </tbody>
           </table>

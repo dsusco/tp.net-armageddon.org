@@ -31,6 +31,7 @@ units:
   - leman-russ
   - razorback
   - rhino
+  - valkyrie
   - venerable-dreadnought
 
   - landing-craft
