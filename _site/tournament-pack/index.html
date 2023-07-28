@@ -17,7 +17,12 @@ show_heading_numbers: true
 
 {% include section_5.html %}
 
+{% assign forces = site.forces | sort: 'order' %}{% for force in forces %}
+{% include force.html force=force %}
+{% endfor %}
+
 {% include section_6.html %}
 
-
-
+{% assign army_lists = site.army_lists | sort: 'order' %}{% for army_list in army_lists %}
+{% include army_list.html army_list=armylist %}
+{% endfor %}

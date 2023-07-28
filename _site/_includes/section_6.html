@@ -178,7 +178,3 @@
     </div>
   </div>
 </section>
-
-{% assign army_lists = site.army_lists | sort: 'order' %}{% for army_list in army_lists %}
-{% include army_list.html army_list=armylist %}
-{% endfor %}
