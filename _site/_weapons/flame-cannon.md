@@ -3,7 +3,7 @@ name: Flame Cannon
 modes:
   -
     range: 15cm
-    firepower: AP4+/AT5+/AA5+
+    firepower: 2× AP4+/AT5+/AA6+
     special_rules:
       - ignore-cover
 ---

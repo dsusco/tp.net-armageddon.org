@@ -5,4 +5,4 @@ The Space Marines are a highly mobile army. Because of this, the points cost of 
 
 Note that many formations don’t receive Rhinos, usually because they can’t fit into them. Detachments that come with Rhinos will be noted as having <q>plus transport</q> in the units section of the detachment list below.
 
-In addition you may choose to replace a Devastator or Tactical detachment’s Rhinos with two Bunkers and 50cm of Trenches or Minefields before each game, after the opposing army is known but before objectives are placed.
+In addition you may choose to replace a Devastator or Tactical detachment’s Rhinos with two Bunkers and 52cm of Trenches or Minefields before each game, after the opposing army is known but before objectives are placed.
