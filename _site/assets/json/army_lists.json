@@ -1,0 +1,3 @@
+---
+---
+{{ site.data.army_lists | jsonify_data }}
