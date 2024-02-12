@@ -19,7 +19,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
       "#{army_list.data['pdf']}-.pdf",
       "#{pdfs_dir}/#{army_list.data['pdf']}-#{army_list.data['mtime'].strftime('%F')}.pdf",
       "#{site.dest}#{army_list.url}"
-    ) if army_list.data['prince']
+    )
   end
 end
 
