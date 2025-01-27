@@ -279,3 +279,11 @@
   .firepower { width: 16.5em; }
   .notes { width: 25.874em; }
 }
+#ordo_xenos_force .datasheet {
+  .name { width: 12.5em; }
+  .weapon {
+    .name, .boolean  { width: 14em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 24.874em; }
+}

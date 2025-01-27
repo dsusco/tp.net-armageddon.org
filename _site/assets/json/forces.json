@@ -1,0 +1,3 @@
+---
+---
+{{ site.data.forces | jsonify_data }}

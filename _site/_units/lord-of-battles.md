@@ -1,5 +1,5 @@
 ---
-name: Lord of Battle
+name: Lord of Battles
 type: WE
 speed: 25cm
 armour: 4+

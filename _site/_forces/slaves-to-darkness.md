@@ -35,7 +35,7 @@ units:
   - chaos-altar-slaves-to-darkness
   - great-unclean-one
   - keeper-of-secrets
-  - lord-of-battle
+  - lord-of-battles
   - lord-of-change
   - plague-tower
   - questor-titan
