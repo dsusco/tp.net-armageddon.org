@@ -12,5 +12,5 @@ notes:
     This unit must fire indirectly or not fire at all. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 4+.
 weapons:
   -
-    id: mega-cannon
+    id: mega-cannon-squat
 ---

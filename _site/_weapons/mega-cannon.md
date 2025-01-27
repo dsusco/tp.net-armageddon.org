@@ -1,10 +1,9 @@
 ---
-name: Mega Cannon
+name: Mega-Cannon
 modes:
   -
-    range: 150cm
+    range: 75cm
     firepower: 3BP
     special_rules:
-      - ignore-cover
-      - indirect-fire
+      - macro-weapon
 ---
