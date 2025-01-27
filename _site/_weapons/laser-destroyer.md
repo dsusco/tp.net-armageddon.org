@@ -3,7 +3,7 @@ name: Laser Destroyer
 modes:
   -
     range: 75cm
-    firepower: AT4+
+    firepower: AT2+
     special_rules:
-      - titan-killer-1
+      - sniper
 ---

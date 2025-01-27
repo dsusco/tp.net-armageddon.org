@@ -20,6 +20,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
     parent.data['mtime'] = child.data['mtime'] if child.data['mtime'] > parent.data['mtime'] rescue false
   end
 
+  rulesPage = site.data['pages']['/rules/']
+
   # set the mtime on the FAQ page to the latest FAQ
   faqPage = site.data['pages']['/faq/']
 
@@ -27,10 +29,11 @@ Jekyll::Hooks.register :site, :post_read do |site|
     update_parent_mtime(faqPage, faq)
   end
 
-  # set the mtime on the TP page to the latest FAQ/Special Rule/Army List
+  # set the mtime on the TP page to the latest rules/FAQ/Special Rule/Army List
   tpPage = site.data['pages']['/tournament-pack/']
 
   update_parent_mtime(tpPage, faqPage)
+  update_parent_mtime(tpPage, rulesPage)
 
   # set the mtime on a unit to the latest weapon/special rule(faq)
   site.collections['units'].docs.each do |u|
@@ -92,5 +95,6 @@ Jekyll::Hooks.register :site, :post_read do |site|
   # set the mtime on the TP page to the latest FAQ/Special Rule/Army List
   site.collections['special_rules'].docs.each do |sr|
     update_parent_mtime(tpPage, sr)
+    update_parent_mtime(rulesPage, sr)
   end
 end

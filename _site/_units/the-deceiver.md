@@ -21,5 +21,5 @@ weapons:
   -
     id: despair
   -
-    id: claws-ea2-tkd3
+    id: claws-ea2-tk
 ---

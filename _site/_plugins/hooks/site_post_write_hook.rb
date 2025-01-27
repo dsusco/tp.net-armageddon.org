@@ -9,7 +9,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
         "#{page.data['pdf']}-.pdf",
         "#{pdfs_dir}/#{page.data['pdf']}-#{page.data['mtime'].strftime('%F')}.pdf",
         "#{site.dest}#{page.permalink || "#{page.url}#{page.name if page.index?}"}"
-      )
+      ) if page.data['prince'] or ENV['PRINCE_XML'].eql?('true')
     end
   end
 
@@ -19,7 +19,7 @@ Jekyll::Hooks.register(:site, :post_write) do |site|
       "#{army_list.data['pdf']}-.pdf",
       "#{pdfs_dir}/#{army_list.data['pdf']}-#{army_list.data['mtime'].strftime('%F')}.pdf",
       "#{site.dest}#{army_list.url}"
-    )
+    ) if army_list.data['prince'] or ENV['PRINCE_XML'].eql?('true')
   end
 end
 

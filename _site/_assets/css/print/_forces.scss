@@ -255,6 +255,7 @@
   .firepower { width: 15em; }
   .notes { width: 25.374em; }
 }
+
 #exodite_world_force .datasheet {
   .name { width: 11.5em; }
   .weapon {
@@ -262,4 +263,28 @@
   }
   .firepower { width: 14em; }
   .notes { width: 26.874em; }
+
+#slaves_to_darkness_force .datasheet {
+  .name { width: 11em; }
+  .weapon {
+    .name, .boolean  { width: 10em; }
+  }
+  .firepower { width: 15em; }
+  .notes { width: 29.874em; }
+}
+#gargant_mob_force .datasheet {
+  .name { width: 8.5em; }
+  .weapon {
+    .name, .boolean  { width: 11em; }
+  }
+  .firepower { width: 16em; }
+  .notes { width: 30.374em; }
+}
+#ordo_xenos_force .datasheet {
+  .name { width: 12.5em; }
+  .weapon {
+    .name, .boolean  { width: 14em; }
+  }
+  .firepower { width: 14em; }
+  .notes { width: 24.874em; }
 }

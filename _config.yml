@@ -32,6 +32,11 @@ defaults:
       layout: default
   -
     scope:
+      path: assets
+    values:
+      layout: none
+  -
+    scope:
       type: army_lists
     values:
       layout: army_list

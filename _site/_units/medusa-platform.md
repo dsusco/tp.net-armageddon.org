@@ -7,5 +7,5 @@ cc: 6+
 ff: 6+
 weapons:
   -
-    id: medusa-siege-gun
+    id: medusa-siege-gun-krieg
 ---

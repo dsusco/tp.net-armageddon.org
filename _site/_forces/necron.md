@@ -4,6 +4,7 @@ order: 15
 
 units:
   - necron-lord
+  - necron-overlord
 
   - destroyers
   - flayed-ones
