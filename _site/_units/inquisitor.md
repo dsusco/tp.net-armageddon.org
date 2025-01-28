@@ -1,5 +1,5 @@
 ---
-name: Ordo Xenos Inquisitor
+name: Inquisitor
 type: INF
 speed: 15cm
 armour: 5+

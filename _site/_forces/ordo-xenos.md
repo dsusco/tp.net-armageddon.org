@@ -7,7 +7,7 @@ units:
   - chaplain
   - commissar
   - librarian
-  - ordo-xenos-inquisitor-lord
+  - inquisitor-lord
   - supreme-commander
 
   - deathwatch-assault
@@ -17,7 +17,7 @@ units:
   - deathwatch-veteran
   - infantry
   - inquisitorial-storm-troopers
-  - ordo-xenos-inquisitor
+  - inquisitor
   - rough-riders
 
   - land-speeder-tornado

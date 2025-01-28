@@ -1,5 +1,5 @@
 ---
-name: Ordo Xenos Inquisitor Lord
+name: Inquisitor Lord
 type: CH
 speed: n/a
 armour: n/a
