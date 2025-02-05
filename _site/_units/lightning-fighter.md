@@ -7,7 +7,7 @@ cc: n/a
 ff: n/a
 weapons:
   -
-    id: long-barrelled-autocannon-aa
+    id: autocannon-aa
     arc: FxF
   -
     id: twin-lascannon-aa-30cm

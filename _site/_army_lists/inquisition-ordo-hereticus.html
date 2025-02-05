@@ -13,17 +13,17 @@ using_the_army_list:
   |
     The following army list allows you to field an army based on the Ordo Hereticus of the Inquisition.
 
-    Ordo Hereticus formations come in three types: _missions_, _support formations_ and _inducted Imperial Guard and Inquisitorial formations_. Each mission you include in the army allows you to field any one support formation and any one inducted Imperial Guard and Inquisitorial formation. Although you can only take the later two formations if you first take a mission, they are treated as separate independent formations during a battle and do not have to move around together.
+    Ordo Hereticus formations come in three types: _missions_, _support formations_ and _inducted Imperial Guard and Inquisitorial formations_. Each mission you include in the army allows you to field any one support formation and any one inducted Imperial Guard or Inquisitorial formation. Although you can only take the later two formations if you first take a mission, they are treated as separate independent formations during a battle and do not have to move around together.
 
     In addition, formations may be given upgrades. Each type of upgrade can only be taken once by a formation. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart.
 
-    Ordo Hereticus armies may be supported by Imperial Navy aircraft or Titan Legion battlegroup formations. A maximum of up to a third of the points available to the army may be spent on these formations.
+    Ordo Hereticus armies may be supported by Imperial Navy aircraft or War Engine formations. A maximum of up to a third of the points available to the army may be spent on these formations.
 special_rules_text:
-  |
-    .
 special_rules:
+  - adepta-sororitas-transports
+  - acts-of-faith
 ---
-<p>Ordo Hereticus armies have a strategy rating of 3. Titan Legion Battlegroups have an initiative rating of 1+. All other formations have an initiative rating of 2+.</p>
+<p>Ordo Hereticus armies have a strategy rating of 3. War Engine formations have an initiative rating of 1+. All other formations have an initiative rating of 2+ but may receive a modifier to their Action tests (see <a href="#acts-of-faith"><em>Acts of Faith</em></a>).</p>
 
 <div class="table-responsive">
   <table class="army-list">
@@ -45,20 +45,20 @@ special_rules:
       <tr>
         <td>Battle Sister</td>
         <td>Eight Battle Sister units plus transport</td>
-        <td>All except Commissar, Hydra, Inquisitor Lord, Penitent Engines and Seraphim</td>
-        <td>250 points</td>
+        <td>All except Commissar, Hydra, Inquisitor Lord, Penitent Engines, Repentia and Seraphim</td>
+        <td>275 points</td>
       </tr>
       <tr>
         <td>Retributor</td>
         <td>Six Retributor units plus transport</td>
-        <td>Exorcists, Fireblade, Hunter, Living Saint, Retributors, Superior, Transport</td>
-        <td>225 points</td>
+        <td>Celestians, Exorcists, Fireblade, Hunter, Living Saint, Retributors, Superior, Transport</td>
+        <td>250 points</td>
       </tr>
       <tr>
         <td>Seraphim</td>
         <td>Six Seraphim units</td>
         <td>Living Saint, Seraphim, Superior</td>
-        <td>200 points</td>
+        <td>225 points</td>
       </tr>
     </tbody>
   </table>
@@ -92,9 +92,9 @@ special_rules:
       </tr>
       <tr>
         <td>Dominion</td>
-        <td>Four Dominion units and plus transport</td>
-        <td>Dominions, Priest, Superior, Transport</td>
-        <td>175 points</td>
+        <td>Four Dominion units plus transport</td>
+        <td>Celestians, Dominions, Priest, Superior, Transport</td>
+        <td>200 points</td>
       </tr>
       <tr>
         <td>Exorcist</td>
@@ -111,8 +111,8 @@ special_rules:
       <tr>
         <td>0–1 Repentia per 2,000 points</td>
         <td>Six Repentia units, one with a Mistress character</td>
-        <td>Penitent Engines, Priest</td>
-        <td>225 points</td>
+        <td>Penitent Engines, Priest, Repentia</td>
+        <td>200 points</td>
       </tr>
     </tbody>
   </table>
@@ -187,98 +187,102 @@ special_rules:
     <colgroup>
       <col style="width:9em">
       <col>
-      <col style="width:15em">
-      <col style="width:9em">
+      <col style="width:11em">
     </colgroup>
     <thead>
       <tr>
-        <td colspan="4">(Each upgrade may be taken once per formation.)</td>
+        <td colspan="3">(Each upgrade may be taken once per formation.)</td>
       </tr>
       <tr>
         <th>Upgrade</th>
-        <th colspan="2">Units</th>
+        <th>Units</th>
         <th>Cost</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Battle Sisters</td>
-        <td colspan="2">Add two or four Battle Sister units</td>
+        <td>Add two or four Battle Sister units</td>
         <td>+50 or +100 points</td>
+      </tr>
+        <tr>
+        <td>Celestians</td>
+        <td>Replace two Battle Sister units with two Celestian units or add two Celestian units</td>
+        <td>+25 or +75 points</td>
       </tr>
       <tr>
         <td>Commissar</td>
-        <td colspan="2">Add one Commissar character to any unit in the formation</td>
+        <td>Add one Commissar character to any unit in the formation</td>
         <td>+25 points</td>
       </tr>
       <tr>
         <td>Dominions</td>
-        <td colspan="2">Replace two Battle Sister units with two Dominion units or add two Dominions units</td>
+        <td>Replace two Battle Sister units with two Dominion units or add two Dominion units</td>
         <td>+25 or +75 points</td>
       </tr>
       <tr>
         <td>Exorcists</td>
-        <td colspan="2">Add up to three Exorcists</td>
-        <td>+35 points each</td>
+        <td>Add one, two or three Exorcists</td>
+        <td>+35, +75 or +100 points</td>
       </tr>
       <tr>
         <td>Fireblade</td>
-        <td colspan="2">Add one Fireblade</td>
+        <td>Add one Fireblade</td>
         <td>+175 points each</td>
       </tr>
       <tr>
         <td>Hunter</td>
-        <td colspan="2">Add one Hunter</td>
+        <td>Add one Hunter</td>
         <td>+75 points</td>
       </tr>
       <tr>
         <td>Hydra</td>
-        <td colspan="2">Add one Hydra</td>
+        <td>Add one Hydra</td>
         <td>+50 points</td>
       </tr>
       <tr>
         <td>0–1 Inquisitor Lord</td>
-        <td colspan="2">Add one Inquisitor Lord character per army to an Inquisitor unit</td>
+        <td>Add one Inquisitor Lord character per army to an Inquisitor unit</td>
         <td>+50 points</td>
       </tr>
       <tr>
         <td>0–1 Living Saint</td>
-        <td colspan="2">Add one Living Saint character per army to a unit with a Palatine or Canoness character</td>
+        <td>Add one Living Saint character per army to a unit with a Palatine or Canoness character</td>
         <td>+50 points</td>
       </tr>
       <tr>
         <td>Penitent Engines</td>
-        <td colspan="2">Add up to four Penitent Engines</td>
-        <td>+35 points each</td>
+        <td>Add one, two or Penitent Engines</td>
+        <td>+35, +75 or +100 points</td>
       </tr>
       <tr>
         <td>Priest</td>
-        <td colspan="2">Add one Priest character to an infantry unit in the formation</td>
+        <td>Add one Priest character to an infantry unit in the formation</td>
         <td>+25 points</td>
       </tr>
       <tr>
+        <td>Repentia</td>
+        <td>Add two Repentia units</td>
+        <td>+50 points</td>
+      </tr>
+      <tr>
         <td>Retributors</td>
-        <td colspan="2">Replace two Battle Sister units with two Retributor units or add two Retributor units</td>
+        <td>Replace two Battle Sister units with two Retributor units or add two Retributor units</td>
         <td>+25 or +75 points</td>
       </tr>
       <tr>
         <td>Seraphim</td>
-        <td colspan="2">Add two Seraphim units</td>
+        <td>Add two Seraphim units</td>
         <td>+50 points</td>
       </tr>
       <tr>
-        <td rowspan="2">Superior</td>
-        <td rowspan="2">Add any one of the following characters to any unit in the formation:</td>
-        <td>Palatine</td>
-        <td>+25 points</td>
-      </tr>
-      <tr>
-        <td>0–1 Canoness per army</td>
-        <td>+75 points</td>
+        <td>Superior</td>
+        <td>Add one Palatine character or 0–1 Canoness character per army to any unit in the formation</td>
+        <td>+25 or +75 points</td>
       </tr>
       <tr>
         <td>Transport</td>
-        <td colspan="2">Add any number of Repressors or Immolators, up to the number required to transport the formation</td>
+        <td>Add any number of Immolators or Repressors, up to the number required to transport the formation</td>
         <td>+25 points each</td>
       </tr>
     </tbody>
@@ -335,7 +339,7 @@ special_rules:
           </table>
 
           <table class="one-half army-list">
-            <caption>Titan Legion Battlegroups</caption>
+            <caption>War Engine Formations</caption>
             <colgroup>
               <col style="width:10em">
               <col>
@@ -349,6 +353,11 @@ special_rules:
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td>Cathedral</td>
+                <td>One Cathedral of Purification</td>
+                <td>550 points</td>
+              </tr>
               <tr>
                 <td>Reaver</td>
                 <td>One Reaver Class Titan</td>

@@ -28,14 +28,15 @@ units:
 
   - chimera
   - exorcist
-  - hydra
   - hunter
+  - hydra
   - immolator
   - leman-russ
   - repressor
   - rhino
   - valkyrie
 
+  - cathedral-of-purification
   - fireblade
 
   - lightning-fighter

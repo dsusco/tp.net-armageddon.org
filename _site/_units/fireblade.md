@@ -11,7 +11,7 @@ special_rules:
   - transport
 notes:
   |
-    May transport eight infantry units without _Jump Packs_ or _Mounted_. Four units being transported may shoot and use their firefight value in an assault or to lend support. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+.
+    May transport eight infantry units without _Jump Packs_ or _Mounted_. Two units being transported may shoot and use their firefight value in an assault or to lend support. Critical Hit Effect: Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+.
 weapons:
   -
     id: inferno-gun
@@ -22,6 +22,6 @@ weapons:
   -
     id: twin-heavy-bolter
   -
-    id: twin-heavy-flamer-ff-ic
+    id: inferno-cannon-ff-ic
     multiplier: 2
 ---
