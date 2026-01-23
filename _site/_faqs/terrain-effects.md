@@ -1,7 +1,7 @@
 ---
 name: Terrain Effects
 classes:
-  - float-footnote
+  - _float_footnote
 ---
 How many units can claim cover from a fortification?
 : If this isn't covered by special rules or the scenario then it should be brought up in the five minute warm up.

@@ -1,5 +1,8 @@
-//= require baseline
-//= require plugins/jquery.zebraStripe.js
+---
+---
+//= import baseline.js
+//= import jquery.accessibleToggle.js
+//= import jquery.zebraStripe.js
 
 $(function () {
   var
@@ -11,7 +14,7 @@ $(function () {
         .modal({ open: false })
         // scroll the modal to the current heading
         .on('modal:opened', function (event) {
-          $(this).scrollTop($navLinks.eq($currentHeading.data('nav-link-index')).offset().top);
+          $(this).scrollTop($navLinks.eq($currentHeading.data('nav-link-index')).position().top);
         })
         .find('a[href^="#"]');
 
@@ -81,7 +84,7 @@ $(function () {
     });
 
   // change anchor text to heading number if it exists
-  $('.default-layout #main a[href]').each(function () {
+  $('._default_layout #main a[href]').each(function () {
     try {
       var number = $($(this).attr('href').match(/(#.+)$/).pop()).data('heading');
 
@@ -95,5 +98,5 @@ $(function () {
   $('aside.faq').accessibleToggle({ hidden: true, parent: '#main' });
 
   // zebra stripe all army list table bodies that don't contain another army list table
-  $('table.army-list:not(:has(table.army-list)) > tbody').zebraStripe();
+  $('table._army_list:not(:has(table._army_list)) > tbody').zebraStripe();
 });

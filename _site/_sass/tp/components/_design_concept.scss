@@ -1,0 +1,9 @@
+@use 'tp/mixins' as tp;
+
+.design_concept {
+  @include tp.callout();
+
+  > header::before {
+    content: 'Design Concept: ';
+  }
+}

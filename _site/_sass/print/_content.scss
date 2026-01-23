@@ -1,42 +1,46 @@
+@use 'sass:math';
+@use 'print/mixins' as tp;
+@use 'print/variables' as *;
+
 /* typography */
 h1, h2, h3, h4 {
   bookmark-label: none;
 
   &[id] { bookmark-label: content(); }
 
-  .default-layout &[id] { bookmark-label: attr(data-heading) ' ' content(); }
+  ._default_layout &[id] { bookmark-label: attr(data-heading) ' ' content(); }
 }
 
 h1 {
-  @include _($_font_size_h1);
+  @include tp.baselined_text($font_size_h1, 2);
 
   page-break-before: right;
   text-transform: uppercase;
 }
 
 h2 {
-  @include _($_font_size_h2);
+  @include tp.baselined_text($font_size_h2);
 
   column-break-before: always;
   text-transform: uppercase;
 }
 
 h3 {
-  @include _($_font_size_h3);
+  @include tp.baselined_text($font_size_h3);
 }
 
 h4 {
-  @include _($_font_size_h4);
+  @include tp.baselined_text($font_size_h4);
 }
 
-.show-heading-numbers [data-heading]::before {
+._show_heading_numbers [data-heading]::before {
   content: attr(data-heading) ' ';
 }
 
 p, blockquote, figcaption, .text {
-  @include _($_font_size);
+  @include tp.baselined_text($font_size);
 
-  margin-bottom: $_;
+  margin-bottom: $h;
 }
 
 blockquote footer { text-align: right; }
@@ -44,25 +48,25 @@ blockquote footer { text-align: right; }
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 $_;
+  margin: 0 0 $h;
 }
 
 /* lists */
 dl, ol, ul {
-  @include _($_font_size);
+  @include tp.baselined_text($font_size);
 
-  margin-bottom: $_;
+  margin-bottom: $h;
 
-  &.list-upper-roman {
-    counter-reset: list-upper-roman;
+  &._list_upper_roman {
+    counter-reset: _list_upper_roman;
     list-style-type: none;
     padding: 0;
 
     > li,
     > dt {
       &::before {
-        counter-increment: list-upper-roman;
-        content: counter(list-upper-roman, upper-roman) ' – ';
+        counter-increment: _list_upper_roman;
+        content: counter(_list_upper_roman, upper-roman) ' – ';
         font-weight: bold;
       }
     }
@@ -70,7 +74,7 @@ dl, ol, ul {
 }
 
 dl {
-  margin: 0 0 $_;
+  margin: 0 0 $h;
 
   > dt {
     float: left;
@@ -82,7 +86,7 @@ dl {
   }
 
   > dd {
-    margin: 0 0 $_;
+    margin: 0 0 $h;
 
     &:last-child { margin-bottom: 0; }
   }
@@ -92,16 +96,16 @@ ol, ul { padding-left: 1.5em; }
 
 /* tables */
 table {
-  @include _($_font_size);
+  @include tp.baselined_text($font_size);
 
-  border: 1pt solid $_color_dark;
+  border: 1pt solid $color_dark;
   border-top: 0;
-  margin: 0 0 ($_ - 2pt);
+  margin: 0 0 ($h - 2pt);
   width: 100%;
 
   > caption {
-    background: $_color_gray;
-    border: 1pt solid $_color_dark;
+    background: $color_gray;
+    border: 1pt solid $color_dark;
     border-bottom: 0;
     font-weight: bold;
     text-align: left;
@@ -121,13 +125,13 @@ table {
 
   &.borderless {
     border: 0;
-    margin-bottom: ($_ / 2);
+    margin-bottom: math.div($h, 2);
 
     > caption { border: 0; }
   }
 
-  &.army-list {
-    @include _($_font_size_small);
+  &._army_list {
+    @include tp.baselined_text($font_size_small);
 
     margin-bottom: 3pt;
     page-break-before: avoid;
@@ -139,10 +143,10 @@ table {
     }
 
     > thead {
-      border-bottom: 1px solid $_color_dark;
+      border-bottom: 1px solid $color_dark;
 
       > tr {
-        &:last-child > th { border-bottom: 1pt solid $_color_dark; }
+        &:last-child > th { border-bottom: 1pt solid $color_dark; }
 
         > th {
           font-style: normal;
@@ -157,8 +161,8 @@ table {
         padding-top: 3pt;
       }
 
-      > tr.striped {
-        background: $_color_light;
+      > tr._striped {
+        background: $color_light;
       }
     }
 
@@ -176,13 +180,13 @@ table {
 
 /* classes */
 #abbreviations,
-.design-concept,
-.example-of-play,
-.short-story,
-.special-rule {
-  background: $_color_light;
-  border: 1pt solid $_color_dark;
-  margin-bottom: ($_ - 2pt);
+.design_concept,
+.example_of_play,
+.short_story,
+.special_rule {
+  background: $color_light;
+  border: 1pt solid $color_dark;
+  margin-bottom: ($h - 2pt);
   padding: 6pt 1em;
   page-break-inside: avoid;
 
@@ -193,11 +197,11 @@ table {
   h4, .h4,
   h5, .h5,
   h6, .h6 {
-    @include _($_font_size_h3);
+    @include tp.baselined_text($font_size_h3);
 
     font-style: italic;
     font-weight: bold;
-    margin: 0 0 ($_ / 2);
+    margin: 0 0 math.div($h, 2);
     text-align: center;
 
     &::before {
@@ -213,9 +217,9 @@ table {
     }
   }
 }
-.design-concept header::before { content: 'Design Concept'; }
-.example-of-play header::before { content: 'Example of Play'; }
-.short-story {
+.design_concept header::before { content: 'Design Concept'; }
+.example_of_play header::before { content: 'Example of Play'; }
+.short_story {
   header {
     font-style: normal;
     text-transform: uppercase;
@@ -223,7 +227,7 @@ table {
 
   > div { font-style: italic; }
 }
-.special-rule {
+.special_rule {
   h1, .h1,
   h2, .h2,
   h3, .h3,
@@ -235,11 +239,11 @@ table {
 }
 
 aside.faq {
-  @include _($_font_size_small);
+  @include tp.baselined_text($font_size_small);
 
   height: 0;
 
-  &.float-footnote > div { float: footnote; }
+  &._float_footnote > div { float: footnote; }
 
   > div {
     float: prince-column-footnote;
@@ -318,10 +322,10 @@ aside.faq {
 
     &:first-child {
       .stats > *::before,
-      .weapon:first-child > .weapon-line:first-child > *::before,
+      .weapon:first-child > .weapon_line:first-child > *::before,
       .notes::before {
-        background: $_color_white;
-        border-bottom: 1pt solid $_color_dark;
+        background: $color_white;
+        border-bottom: 1pt solid $color_dark;
       }
 
       .notes::before {
@@ -335,7 +339,7 @@ aside.faq {
       }
     }
 
-    &:nth-child(even) { background: $_color_white; }
+    &:nth-child(even) { background: $color_white; }
 
     .stats, .weapons { width: auto; }
 
@@ -355,15 +359,15 @@ aside.faq {
 }
 
 .unit {
-  @include clearfix();
-  @include _($_font_size_small);
+  @include tp.clearfix();
+  @include tp.baselined_text($font_size_small);
 
-  background: $_color_light;
+  background: $color_light;
   page-break-inside: avoid;
 
   &:first-child {
     .stats,
-    .weapon:first-child > .weapon-line:first-child {
+    .weapon:first-child > .weapon_line:first-child {
       > *::before {
         display: block;
         font-weight: bold;
@@ -383,7 +387,7 @@ aside.faq {
       .ff::before { content: 'FF'; }
     }
 
-    .weapon:first-child > .weapon-line:first-child {
+    .weapon:first-child > .weapon_line:first-child {
       .name::before { content: 'Weapons'; }
       .range::before { content: 'Range'; }
       .firepower::before { content: 'Firepower'; }
@@ -397,14 +401,14 @@ aside.faq {
     width: 49.999%;
   }
   .stats > *,
-  .weapon-line > * {
+  .weapon_line > * {
     display: table-cell;
     padding: 0 0.5em;
     text-align: center;
   }
 
   .weapon { display: table-row-group; }
-  .weapon-line { display: table-row; }
+  .weapon_line { display: table-row; }
 
   .notes {
     padding: 0 0.5em;
@@ -424,7 +428,7 @@ aside.faq {
     * { display: inline; }
   }
 
-  .special-rules {
+  .special_rules {
     padding: 0;
 
     &, > li { display: inline; }
@@ -451,8 +455,8 @@ aside.faq {
 /* IDs */
 #examples_of_formations {
   figcaption {
-    background: $_color_black;
-    color: $_color_white;
+    background: $color_black;
+    color: $color_white;
     font-style: italic;
     font-weight: bold;
     max-width: 351px;
@@ -460,7 +464,7 @@ aside.faq {
   }
 
   figcaption, img {
-    border: 1pt solid $_color_dark;
+    border: 1pt solid $color_dark;
     margin: 0 auto;
   }
   img {
@@ -472,7 +476,7 @@ aside.faq {
 #example_initiatve_values,
 #needing_7_to_hit {
   border: 0;
-  margin: 0 auto $_;
+  margin: 0 auto $h;
   width: auto;
 
   > thead { font-style: normal; }
@@ -481,7 +485,7 @@ aside.faq {
 #examples_of_terrain {
   figure {
     display: table;
-    margin: 0 0 $_;
+    margin: 0 0 $h;
 
     + figure { margin: 0; }
   }
@@ -505,7 +509,7 @@ aside.faq {
 }
 
 #weapon_fire_arcs {
-  border: 1pt solid $_color_dark;
+  border: 1pt solid $color_dark;
   float: right;
   margin: 0;
 
@@ -515,18 +519,27 @@ aside.faq {
   }
 }
 
-.barrage-table {
+.barrage_table {
   td, th { text-align: center; }
 }
 
 #abbreviations {
-  @include clearfix();
+  @include tp.clearfix();
 
   > div > dl {
-    @extend .one-third;
-
+    float: left;
     margin-bottom: 0;
+    width: 32%;
 
     > dd { margin: 0; }
+
+    + dl {
+      margin-left: 2%;
+
+      + dl {
+        float: right;
+        margin: 0;
+      }
+    }
   }
 }

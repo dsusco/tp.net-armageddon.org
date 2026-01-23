@@ -17,11 +17,11 @@ jQuery.fn.extend({
 
         if (cols === cells) {
           stripe = !stripe;
-          $tr.addClass('bordered');
+          $tr.addClass('_bordered');
         }
 
         if (stripe) {
-          $tr.addClass('striped');
+          $tr.addClass('_striped');
         }
       });
     });

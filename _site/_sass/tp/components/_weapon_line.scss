@@ -1,0 +1,26 @@
+.weapon_line {
+  display: contents;
+
+  > .name,
+  > .boolean,
+  > .range,
+  > .firepower {
+    padding: var(--datasheet_cell_padding);
+  }
+
+  > .boolean {
+    text-align: right;
+  }
+
+  > .range {
+    text-align: center;
+  }
+
+  > .firepower {
+    > :not(:last-child)::after { content: ', '; }
+
+    > .special_rules > li:last-child::after {
+      content: none;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+@use 'baseline-scss/mixins' as _;
+@use 'tp/mixins' as tp;
+@use 'tp/variables' as *;
+
+#main {
+  padding: var(--_) 0;
+
+  @include _.centered_container();
+
+  display: flex;
+  flex-direction: column;
+  padding: calc(2 * var(--_)) var(--container_padding_inline);
+}
+
+#page_heading {
+  --inset_border_width: 0px;
+  --inset_border_bottom_width: 1px;
+  --inset_border_color: var(--color_light);
+
+  @include _.inset_border();
+
+  margin-bottom: var(--_);
+  padding-bottom: var(--_);
+}
+
+#cover,
+#copyright,
+#reference_sheet {
+  display: none;
+}
+
+#examples_of_formations {
+  border: .1rem solid var(--color_light);
+  margin: 0 auto calc(var(--_) - .2rem);
+  max-width: 391px;
+
+  > figcaption {
+    background: var(--color_lightest);
+    border-bottom: .1rem solid var(--color_light);
+    font-weight: bold;
+    padding: var(--_) 1em calc(var(--_) - .1rem);
+  }
+
+  > div {
+    padding: var(--_) 1em;
+
+    > img:last-child {
+      margin: 0;
+    }
+  }
+}
+
+#example_initiatve_values,
+#needing_7_to_hit {
+  border: 0;
+  margin: 0 auto;
+  width: auto;
+}
+
+#examples_of_terrain {
+  img {
+    display: block;
+    margin-inline: auto;
+  }
+
+  @media screen and (min-width: $breakpoint_small) {
+    figure {
+      display: table;
+    }
+
+    img,
+    figcaption {
+      display: table-cell;
+      margin: 0;
+      vertical-align: top;
+    }
+
+    figcaption {
+      padding-right: 1em;
+    }
+
+    #hull_down_example {
+      margin-right: 1em;
+      min-width: 504px;
+
+      + figcaption {
+        padding-inline: 0 1em;
+      }
+    }
+
+    #partial_cover_example {
+      margin-left: 1em;
+      min-width: 461px;
+    }
+  }
+}
+
+#weapon_fire_arcs {
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 0;
+
+  @media screen and (min-width: $breakpoint_small) {
+    float: right;
+
+    ~ p {
+      margin-right: 395px;
+      padding-right: 1em;
+    }
+  }
+}
+
+#needing_7_to_hit {
+  margin-bottom: 0;
+}
+
+.barrage_table {
+  text-align: center;
+
+  > thead > tr:last-child::after {
+    border: none;
+  }
+}
+
+#abbreviations {
+  @include tp.callout();
+
+  > div {
+    display: flex;
+
+    > dl {
+      flex: 1 1 auto;
+    }
+  }
+}

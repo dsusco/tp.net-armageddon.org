@@ -2,12 +2,16 @@ author: NetERC
 description: Tactical Wargame Network's fan-made army lists and frequently asked questions for Games Workshop's Epic Armageddon.
 scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
+  - /assets/js/tp.js
 stylesheets:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+  - /assets/css/tp.css
 
 # Where things are
 source: ./_site
 destination: ./public_html
+sass:
+  style: compressed
 collections:
   army_lists:
     output: true
@@ -17,10 +21,6 @@ collections:
   special_rules:
   units:
   weapons:
-
-# Plugins
-plugins:
-  - jekyll-assets
 
 # Outputting
 timezone: America/New_York
@@ -40,3 +40,10 @@ defaults:
       type: army_lists
     values:
       layout: army_list
+
+# Theme
+theme: baseline
+
+javascript:
+  uglifier:
+    harmony: true

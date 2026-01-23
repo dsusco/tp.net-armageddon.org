@@ -1,0 +1,12 @@
+@use 'lists';
+@use 'multimedia';
+@use 'tables';
+@use 'typography';
+
+[data-footnote]::after {
+  content: ' ' attr(data-footnote);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 0;
+  vertical-align: super;
+}

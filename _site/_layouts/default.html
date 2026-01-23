@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>{% for stylesheet in site.stylesheets %}
-    <link rel="stylesheet" href="{{ stylesheet }}" />{% endfor %}{% for stylesheet in page.stylesheets %}
-    <link rel="stylesheet" href="{{ stylesheet }}" />{% endfor %}
-    {% asset tp.css !type %}
-    {% asset tp.print.css media="print" !type %}
+    {% include stylesheet.html stylesheet=stylesheet %}{% endfor %}{% for stylesheet in layout.stylesheets %}
+    {% include stylesheet.html stylesheet=stylesheet %}{% endfor %}{% for stylesheet in page.stylesheets %}
+    {% include stylesheet.html stylesheet=stylesheet %}{% endfor %}
 
-    <meta charset="utf-8" />
-    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}" />
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />{% if page.style %}
+    <meta charset="{% value 'charset' 'utf-8' %}">
+    <meta name="author" content="{% value 'author' %}">
+    <meta name="description" content="{% value 'description' %}">
+    <meta name="robots" content="{% value 'robots' 'index,follow' %}">
+    <meta name="viewport" content="{% value 'viewport' 'width=device-width, initial-scale=1' %}">{% if page.style %}
 
     <style>
 {{ page.style }}    </style>{% endif %}
@@ -18,22 +17,22 @@
     <title data-mtime="{{ page.mtime | date: '%F' }}">{{ page.title }}</title>
   </head>
 
-  <body id="{{ page.url }}" class="no-js {{ page.layout }}-layout {% if page.show_heading_numbers %}show-heading-numbers{% endif %}">
+  <body id="{{ page.url }}" class="_no_js _{{ page.layout }}_layout{% if page.show_heading_numbers %} _show_heading_numbers{% endif %}">
     <div id="page">
-      <a class="sr-only-focusable" href="#main">Skip to main content.</a>{% unless page.hide_nav %}
+      <a class="_sr_only_focusable" href="#main">Skip to main content.</a>{% unless page.hide_nav %}
 
       <nav id="nav" style="counter-reset:page 1">
-        <div class="container">
+        <div>
           <div>
-            <a class="fa fa-home" href="/" title="NetEA Tournament Pack Website"><span class="sr-only">NetEA Tournament Pack Website</span></a>
+            <a class="fa fa-home" href="/" title="NetEA Tournament Pack Website"><span class="_sr_only">NetEA Tournament Pack Website</span></a>
 
-            <button id="nav_menu_control" class="fa fa-plus-circle" title="Toggle navigation menu…"><span class="sr-only">Toggle navigation menu…</span></button>
+            <button id="nav_menu_control" class="fa fa-plus-circle" title="Toggle navigation menu…"><span class="_sr_only">Toggle navigation menu…</span></button>
 
             <span id="current_heading"></span>
 
-            <button class="fa fa-chevron-circle-up" title="Jump to previous heading…"><span class="sr-only">Jump to previous heading…</span></button>
+            <button class="fa fa-chevron-circle-up" title="Jump to previous heading…"><span class="_sr_only">Jump to previous heading…</span></button>
 
-            <button class="fa fa-chevron-circle-down" title="Jump to next heading…"><span class="sr-only">Jump to next heading…</span></button>
+            <button class="fa fa-chevron-circle-down" title="Jump to next heading…"><span class="_sr_only">Jump to next heading…</span></button>
           </div>
         </div>
 
@@ -50,14 +49,11 @@
         </div>
       </main>
 
-      <a class="sr-only-focusable" href="#main">Go back to main content.</a>
-    </div>
-
-{% for script in site.scripts %}
-    <script src="{{ script }}"></script>{% endfor %}{% for script in page.scripts %}
-    <script src="{{ script }}"></script>{% endfor %}
-    {% asset tp.js !type %}
-    <!-- {% asset tp.print.js !type %}-->{% if page.script %}
+      <a class="_sr_only_focusable" href="#main">Go back to main content.</a>
+    </div>{% for script in site.scripts %}
+    {% include script.html script=script %}{% endfor %}{% for script in layout.scripts %}
+    {% include script.html script=script %}{% endfor %}{% for script in page.scripts %}
+    {% include script.html script=script %}{% endfor %}{% if page.script %}
 
     <script>
 {{ page.script }}    </script>{% endif %}

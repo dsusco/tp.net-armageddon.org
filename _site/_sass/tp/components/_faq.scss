@@ -1,0 +1,32 @@
+@use 'tp/mixins' as tp;
+
+aside.faq {
+  @include tp.callout();
+
+  > div > h4 {
+    display: none;
+  }
+}
+
+.faq {
+  dl {
+    margin: 0;
+
+    > dt {
+      float: none;
+
+      &::before {
+        content: 'Q: ';
+      }
+
+      &::after {
+        content: none;
+      }
+
+      + dd::before {
+        content: 'A: ';
+      }
+    }
+  }
+}
+

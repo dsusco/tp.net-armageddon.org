@@ -2,7 +2,7 @@
 name: Death Korps of Krieg
 order: 16
 classes:
-  - page-break-right
+  - _page_break_right
 
 units:
   - commissar

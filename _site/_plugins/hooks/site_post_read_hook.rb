@@ -1,18 +1,20 @@
 Jekyll::Hooks.register :site, :post_read do |site|
-  site.data['pages'] =
-    site.pages.reduce({}) do |hash, page|
-      page.data['mtime'] = Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, page.relative_path)})) rescue File.mtime(File.join(site.source, page.relative_path))
-      hash[page.url] = page
-      hash
-    end
+  site.pages.filter { |page| page.ext.eql?('.html') }.each do |page|
+    url = page.url
+    url += page.name if page.index?
+
+    site.data.dig('pages', *url.split('/')[1..]).data['mtime'] =
+      Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, page.relative_path)}))
+        rescue File.mtime(File.join(site.source, page.relative_path))
+  end
 
   site.collections.each do |label, collection|
     site.data[label] =
-      collection.docs.reduce({}) do |hash, doc|
+      collection.docs.reduce({}) do |docs, doc|
         doc.data['basename'] = doc.basename_without_ext
         doc.data['mtime'] = Time.parse(%x(git log -1 --pretty="format:%ci" #{File.join(site.source, doc.relative_path)})) rescue File.mtime(File.join(site.source, doc.relative_path))
-        hash[doc.data['slug']] = doc
-        hash
+        docs[doc.data['slug']] = doc
+        docs
       end
   end
 
@@ -20,17 +22,17 @@ Jekyll::Hooks.register :site, :post_read do |site|
     parent.data['mtime'] = child.data['mtime'] if child.data['mtime'] > parent.data['mtime'] rescue false
   end
 
-  rulesPage = site.data['pages']['/rules/']
+  rulesPage = site.data.dig('pages', 'rules', 'index.html')
 
   # set the mtime on the FAQ page to the latest FAQ
-  faqPage = site.data['pages']['/faq/']
+  faqPage = site.data.dig('pages', 'faq', 'index.html')
 
   site.collections['faqs'].docs.each do |faq|
     update_parent_mtime(faqPage, faq)
   end
 
   # set the mtime on the TP page to the latest rules/FAQ/Special Rule/Army List
-  tpPage = site.data['pages']['/tournament-pack/']
+  tpPage = site.data.dig('pages', 'tournament-pack', 'index.html')
 
   update_parent_mtime(tpPage, faqPage)
   update_parent_mtime(tpPage, rulesPage)

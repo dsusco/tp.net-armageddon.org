@@ -1,7 +1,7 @@
 ---
 name: Titan Legion
 classes:
-  - page-break
+  - _page_break
 order: 4
 
 units:

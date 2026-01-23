@@ -1,0 +1,37 @@
+
+.weapon {
+  display: contents;
+
+  &:first-child > .weapon_line:first-child > * {
+    &.name,
+    &.boolean,
+    &.range,
+    &.firepower {
+      &::before {
+        color: var(--color_gray_500);
+        display: block;
+        font-size: var(--h6_font_size);
+        letter-spacing: 0.03em;
+        line-height: var(--h6_line_height);
+        position: relative;
+        top: 2px;
+        text-transform: uppercase;
+      }
+    }
+
+    &.name,
+    &.boolean {
+      &::before {
+        content: 'Weapons';
+      }
+    }
+
+    &.range::before {
+      content: 'Range';
+    }
+
+    &.firepower::before {
+      content: 'Firepower';
+    }
+  }
+}
