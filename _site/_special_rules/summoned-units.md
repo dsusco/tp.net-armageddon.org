@@ -1,7 +1,7 @@
 ---
 name: Summoned Units
 classes:
-  - pull-up
+  - _pull_up
 ---
 Each formation in an army of chaos belongs to a faction that owes allegiance to one of the gods of chaos (Khorne, Nurgle, Slaanesh or Tzeentch), or to Chaos Undivided. You must decide which faction each formation in your army belongs to before the battle and note it down on your army list. Formations that purchase the Daemonic Pact upgrade are able to summon daemons to the battlefield.
 
@@ -12,7 +12,7 @@ At the start of that formation’s action, before the action test dice roll is m
 Players may only have one greater daemon of a given faction in the army on the board at one time. For example, if you already have a summoned Bloodthirster on the board you are not allowed to summon another Bloodthirster until that first greater daemon has been removed from play. Summoned units must be set up with their base within 5cm of any non-daemonic unit from their formation, (i.e. you cannot place a <q>chain</q> of summoned units). They may not be set up in the Zone of Control of an enemy unit or in impassable terrain. The type of unit that can be summoned depends on the summoning formation’s faction, as follows:
 
 <div class="table-responsive">
-  <table class="borderless">
+  <table class="_borderless">
     <thead>
       <tr>
         <th>Faction</th>

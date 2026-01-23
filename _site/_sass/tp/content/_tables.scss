@@ -1,0 +1,102 @@
+@use 'baseline-scss/mixins' as _;
+
+table {
+  border: .1rem solid var(--color_light);
+  border-top: 0;
+  margin: 0 0 calc(var(--_) - .1rem);
+
+  caption {
+    background-color: var(--color_lightest);
+    border: .1rem solid var(--color_light);
+    border-bottom: 0;
+    padding: calc(var(--_) - .1rem) .5em var(--_);
+  }
+
+  > thead:first-child > tr:first-child::after {
+    content: none;
+  }
+
+  tr {
+    position: relative;
+
+    &::after {
+      border-top: .1rem solid var(--color_light);
+      content: '';
+      position: absolute;
+      inset: null 0;
+    }
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  &._borderless {
+    border: 0;
+    margin-bottom: var(--_);
+  }
+
+  &._striped {
+    > tbody > tr:nth-child(odd) {
+      background: var(--color_lightest);
+    }
+  }
+
+  &._army_list {
+    > caption {
+      background: none;
+    }
+
+    > colgroup > col {
+      width: auto !important;
+    }
+
+    > thead {
+      > tr > td {
+        text-align: center;
+      }
+    }
+
+    > tbody {
+      > tr {
+        &._bordered {
+          border-top: .1rem solid var(--color_light);
+          padding-top: calc(var(--_) - .1rem);
+        }
+
+        &._striped {
+          background: var(--color_lightest);
+        }
+      }
+    }
+
+    tr {
+      position: static;
+
+      &::after {
+        border-top: auto;
+        content: none;
+        position: static;
+        inset: auto;
+      }
+    }
+
+    td, th {
+      vertical-align: top;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        margin-bottom: var(--_);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

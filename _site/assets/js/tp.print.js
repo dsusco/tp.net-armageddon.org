@@ -1,4 +1,4 @@
-//= require plugins/jquery.zebraStripe.js
+// require plugins/jquery.zebraStripe.js
 
 $(function () {
   'use strict';
@@ -6,7 +6,7 @@ $(function () {
   // move the ToC to the proper location
   $('#nav').detach().insertAfter($('#copyright'));
 
-  $('.default-layout #main a[href*="#"]').each(function () {
+  $('._default_layout #main a[href*="#"]').each(function () {
     var $target = $(this.getAttribute('href').match(/(#.+)$/).pop());
 
     if ($target.length) {
@@ -24,5 +24,30 @@ $(function () {
   });
 
   // zebra stripe all army list table bodies that don't contain another army list table
-  $('table.army-list:not(:has(table.army-list)) > tbody').zebraStripe();
+  //$('table._army_list:not(:has(table._army_list)) > tbody').zebraStripe();
+  $('table._army_list:not(:has(table._army_list)) > tbody').each(function () {
+    var
+      $tbody = $(this),
+      cols = $tbody.siblings('colgroup').children('col').length,
+      stripe = false;
+
+    $('> tr', $tbody).each(function () {
+      var
+        $tr = $(this),
+        cells = 0;
+
+      $('> th, > td', $tr).each(function () {
+        cells += +this.getAttribute('colspan') || 1;
+      });
+
+      if (cols === cells) {
+        stripe = !stripe;
+        $tr.addClass('_bordered');
+      }
+
+      if (stripe) {
+        $tr.addClass('_striped');
+      }
+    });
+  });
 });

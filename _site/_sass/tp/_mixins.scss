@@ -1,0 +1,41 @@
+@use 'baseline-scss/mixins' as _;
+
+@mixin callout() {
+  --inset_border_width: 1px;
+  --inset_border_color: var(--color_light);
+
+  @include _.inset_border();
+
+  margin: 0 auto var(--_);
+
+  > header,
+  > h1, > .h1,
+  > h2, > .h2,
+  > h3, > .h3,
+  > h4, > .h4,
+  > h5, > .h5,
+  > h6, > .h6 {
+    --inset_border_bottom_width: 1px;
+
+    @include _.inset_border();
+
+    background: var(--color_lightest);
+    font-size: var(--h4_font_size);
+    font-weight: var(--h_font_weight);
+    line-height: var(--h4_line_height);
+    margin: 0;
+    padding: var(--_) 1em;
+
+    + .faq {
+      margin-top: var(--_);
+    }
+  }
+
+  > div {
+    padding: var(--_) 1em;
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+dl,
+ol,
+ul {
+  &._list_upper_roman {
+    counter-reset: _list_upper_roman;
+    list-style-type: none;
+    padding: 0;
+
+    > li,
+    > dt {
+      &::before {
+        counter-increment: _list_upper_roman;
+        content: counter(_list_upper_roman, upper-roman) ' – ';
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+dl {
+  > dt {
+    float: left;
+
+    &::after {
+      content: ': ';
+      white-space: pre;
+    }
+  }
+
+  > dd {
+    margin: 0 0 var(--_);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}

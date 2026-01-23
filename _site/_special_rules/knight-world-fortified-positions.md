@@ -1,7 +1,7 @@
 ---
 name: Knight World Fortified Positions
 classes:
-  - one-half
+  - _one_half
 ---
 Gun Emplacement
 : Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit. Units in a gun emplacement may not be barged by a war engine.

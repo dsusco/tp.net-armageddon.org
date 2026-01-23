@@ -1,0 +1,6 @@
+@use 'nav';
+@use 'main';
+
+._show_heading_numbers [data-heading]::before {
+  content: attr(data-heading) ' ';
+}

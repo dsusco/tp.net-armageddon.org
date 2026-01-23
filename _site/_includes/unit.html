@@ -11,7 +11,7 @@
 
   <div class="weapons">{% for w in unit.weapons %}{% include weapon.html w=w %}{% else %}
     <div class="weapon">
-      <div class="weapon-line">
+      <div class="weapon_line">
         <span class="name">-</span>
         <span class="range"></span>
         <span class="firepower"></span>
@@ -20,7 +20,7 @@
   </div>
 
   <div class="notes">{% if unit.special_rules %}
-    <ul class="special-rules">{% for sr in unit.special_rules %}
+    <ul class="special_rules">{% for sr in unit.special_rules %}
       <li>{{ site.data.special_rules[sr].name }}</li>{% endfor %}
     </ul>
 {% endif %}{% if unit.notes %}

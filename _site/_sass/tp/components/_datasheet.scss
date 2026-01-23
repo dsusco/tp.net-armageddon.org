@@ -1,0 +1,10 @@
+.datasheet {
+  margin: 0 0 var(--_);
+  overflow-x: auto;
+
+  > .unit {
+    &:nth-child(odd) {
+      background: var(--body_background_color);
+    }
+  }
+}

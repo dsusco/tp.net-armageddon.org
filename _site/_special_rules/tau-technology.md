@@ -1,7 +1,7 @@
 ---
 name: Tau Technology
 classes:
- - one-half
+ - _one_half
 ---
 Deflector Shield
 : Tau deflector shields work like an invulnerable save in all respects, except that this invulnerable save is always at 5+.

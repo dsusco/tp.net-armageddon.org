@@ -1,0 +1,111 @@
+@use 'tp/variables' as *;
+
+.unit {
+  background: var(--color_lighter);
+
+  > .stats {
+    display: flex;
+
+    > * {
+      &.name,
+      &.type,
+      &.speed,
+      &.armour,
+      &.cc,
+      &.ff {
+        flex: 1 1 auto;
+        padding: var(--datasheet_cell_padding);
+        text-align: center;
+
+        &::before {
+          color: var(--color_gray_500);
+          display: block;
+          font-size: var(--h6_font_size);
+          letter-spacing: 0.03em;
+          line-height: var(--h6_line_height);
+          position: relative;
+          top: 2px;
+          text-transform: uppercase;
+        }
+      }
+
+      &.name {
+        font-weight: bold;
+        text-align: left;
+        max-width: 50%;
+
+        &::before {
+          font-weight: normal;
+          content: 'Name';
+        }
+      }
+
+      &.type::before {
+        content: 'Type';
+      }
+
+      &.speed::before {
+        content: 'Speed';
+      }
+
+      &.armour::before {
+        content: 'Armour';
+      }
+
+      &.cc::before {
+        content: 'CC';
+      }
+
+      &.ff::before {
+        content: 'FF';
+      }
+    }
+  }
+
+  > .weapons {
+    display: grid;
+    grid-template-columns: auto max-content minmax(max-content, 50%);
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+  }
+
+  > .notes {
+    padding: var(--datasheet_cell_padding);
+
+    > * {
+      display: inline;
+      margin: 0;
+      padding: 0;
+
+      &.special_rules {
+        font-style: italic;
+      }
+
+      &:first-child::before {
+        content: 'Notes: ';
+        font-style: normal;
+      }
+    }
+  }
+
+  @media screen and (min-width: $breakpoint_small) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      'stats weapons'
+      'notes notes';
+
+    > .stats {
+      grid-area: stats;
+    }
+
+    > .weapons {
+      grid-area: weapons;
+    }
+
+    > .notes {
+      grid-area: notes;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 name: Kashnarak
 classes:
-  - pull-up
+  - _pull_up
 ---
 The Kashnarak is a massive, enraged animal that squeezes through a Webway portal and is set loose on the battlefield at the beginning of any turn the Dark Eldar desire (before strategy roll) and acts as a <q>third</q> player. It will always attempt a barging, close combat assault on the closest formation(s), even Dark Eldar formations! If unable to reach base-to-base contact, the beast will march toward the closest formation, to its maximum movement. If it reaches an enemy zone of control, the beast stops its move. Consolidation moves are also toward the closest formation. From then on, it is the first activation of subsequent turns, before the strategy roll or teleport, following the model above. A broken Kashnarak will remain in place on the board and will not attempt a move until it rallies.
 

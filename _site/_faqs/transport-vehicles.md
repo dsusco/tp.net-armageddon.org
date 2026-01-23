@@ -1,7 +1,7 @@
 ---
 name: Transport Vehicles
 classes:
-  - float-footnote
+  - _float_footnote
 ---
 Does a transported unit lose its zone of control?
 : Yes.

@@ -1,0 +1,5 @@
+@use 'tp/mixins' as tp;
+
+.short_story {
+  @include tp.callout();
+}

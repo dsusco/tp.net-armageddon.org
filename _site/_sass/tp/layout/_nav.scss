@@ -1,0 +1,94 @@
+@use 'baseline-scss/mixins' as _;
+
+#nav,
+#nav_menu {
+  background: var(--color_primary);
+  color: var(--body_background_color);
+  font-size: var(--h3_font_size);
+  line-height: calc(4 * var(--_) / var(--h3_font_size));
+  position: fixed;
+  z-index: 1;
+}
+
+#nav {
+  height: calc(4 * var(--_));
+  overflow-y: hidden;
+  inset: 0 0 null 0;
+
+  > div > div {
+    @include _.centered_container();
+
+    padding: 0 calc(8 * var(--_));
+    position: relative;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .fa {
+    line-height: calc(4 * var(--_));
+    text-align: center;
+    width: calc(4 * var(--_));
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    &.fa-home {
+      left: 0;
+    }
+
+    &.fa-plus-circle {
+      left: calc(4 * var(--_));
+    }
+
+    &.fa-chevron-circle-up {
+      right: calc(4 * var(--_));
+    }
+
+    &.fa-chevron-circle-down {
+      right: 0;
+    }
+
+    &:focus,
+    &:hover {
+      background: var(--color_primary_light);
+      outline: 0;
+    }
+  }
+
+  + #main {
+    padding-top: calc(4 * var(--_));
+  }
+}
+
+#nav_menu {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  inset: 0;
+  overflow-y: auto;
+
+  a {
+    color: inherit;
+    display: block;
+    padding-inline: 1.6rem;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background: var(--color_primary_light);
+      outline: 0;
+    }
+  }
+}

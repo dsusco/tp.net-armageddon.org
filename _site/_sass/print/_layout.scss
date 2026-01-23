@@ -1,3 +1,6 @@
+@use 'print/mixins' as tp;
+@use 'print/variables' as *;
+
 /* generated content */
 title { string-set: title content(), mtime attr(data-mtime); }
 
@@ -5,8 +8,8 @@ main h1[id] { string-set: section content(); }
 
 /* pages */
 @page {
-  font: $_font_size $_font_family;
-  line-height: $_line_height;
+  font: $font_size $font_family;
+  line-height: $line_height;
   margin: 1.75cm 1cm 1.25cm;
   size: 210mm 11in;
 
@@ -33,7 +36,7 @@ main h1[id] { string-set: section content(); }
   }
 
   @footnotes {
-    border-top: 1pt solid $_color_dark;
+    border-top: 1pt solid $color_dark;
     margin: 5.5pt 0 0;
     padding: 5.5pt 0 0;
   }
@@ -70,13 +73,13 @@ main h1[id] { string-set: section content(); }
   @top-center { content: none; }
 }
 @page cover {
-  background: center/190mm no-repeat url(../tournament-pack/images/cover.png);
+  background: center/190mm no-repeat url(../../tournament-pack/images/cover.png);
 }
 @page copyright {
   margin-bottom: 1cm;
 }
 @page datasheet, reference-sheet {
-  border: 1pt solid $_color_dark;
+  border: 1pt solid $color_dark;
   padding: 6pt;
 }
 @page datasheet {
@@ -97,8 +100,8 @@ main h1[id] { string-set: section content(); }
 
 /* body */
 body {
-  font: $_font_size $_font_family;
-  line-height: $_line_height;
+  font: $font_size $font_family;
+  line-height: $line_height;
 }
 
 /* sections */
@@ -107,12 +110,12 @@ body {
 
   #title {
     font: 32pt/1.125 Impact, sans-serif;
-    margin: (14 * $_) 0 0;
+    margin: (14 * $h) 0 0;
   }
 
   #mtime {
     font: 24pt/1.5 Impact, sans-serif;
-    margin: 0 0 (21 * $_);
+    margin: 0 0 (21 * $h);
   }
 
   a {
@@ -124,17 +127,17 @@ body {
 }
 
 #copyright {
-  @include two-column();
+  @include tp.two_column();
 
   page: copyright;
 }
 
 #nav {
-  @include two-column();
+  @include tp.two_column();
 
   page: table-of-contents;
 
-  > .container { display: none; }
+  > div { display: none; }
 }
 #nav_menu {
   list-style: none;
@@ -156,7 +159,7 @@ body {
   page: reference-sheet;
 
   #epic-armageddon-reference-sheet {
-    @include _(14pt);
+    @include tp.baselined_text(14pt, 2);
 
     text-align: center;
     text-transform: uppercase;
@@ -181,11 +184,11 @@ body {
   > .special-rule { margin-bottom: 3pt; }
 }
 
-.army-list {
+._army_list {
   page-break-before: right;
 
-  > h3.page-break {
-    @include _($_font_size_h2);
+  > h3._page_break {
+    @include tp.baselined_text($font_size_h2);
 
     text-align: center;
     text-transform: uppercase;
@@ -195,20 +198,20 @@ body {
 }
 
 /* utility */
-.column-break { column-break-before: always; }
+._column_break { column-break-before: always; }
 
-.page-break { page-break-before: always; }
-.page-break-avoid { page-break-before: avoid; }
-.page-break-left { page-break-before: left; }
-.page-break-right { page-break-before: right; }
+._page_break { page-break-before: always; }
+._page_break_avoid { page-break-before: avoid; }
+._page_break_left { page-break-before: left; }
+._page_break_right { page-break-before: right; }
 
 /* FAQ page */
 body[id='/faq/'] {
-  @include two-column();
+  @include tp.two_column();
 
   .faq {
     > h2 {
-      @include _($_font_size);
+      @include tp.baselined_text($font_size);
 
       column-break-before: auto;
       margin: 0;

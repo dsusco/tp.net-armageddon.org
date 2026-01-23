@@ -1,6 +1,6 @@
 {% unless army_list %}{% assign army_list = site.data.army_lists[page.basename] %}{% endunless %}
-<section id="{{ army_list.basename | replace: '-', '_' }}_army_list" class="army-list {{ army_list.classes | join: ' ' }}">
-  <div class="two-column">
+<section id="{{ army_list.basename | replace: '-', '_' }}_army_list" class="_army_list {{ army_list.classes | join: ' ' }}">
+  <div class="_two_column">
     {% capture heading %}{{ army_list.name }} Army List{% endcapture %}{% h2 heading %}
 
 {{ army_list.introduction }}
@@ -18,7 +18,7 @@
 {% endfor %}
   </div>
 
-  <h3 class="page-break">{{ army_list.name }} Army List</h3>
+  <h3 class="_page_break">{{ army_list.name }} Army List</h3>
 
 {{ army_list.content }}
 </section>

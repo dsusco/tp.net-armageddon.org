@@ -1,7 +1,7 @@
 ---
 name: Barrages
 classes:
-  - float-footnote
+  - _float_footnote
 ---
 Can a barrage claim a crossfire bonus?
 : Yes.

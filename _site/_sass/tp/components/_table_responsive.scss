@@ -1,0 +1,9 @@
+._table_responsive {
+  overflow-x: auto;
+  margin-bottom: var(--_);
+
+  table:not(._army_list),
+  > table._army_list {
+    margin-bottom: 0;
+  }
+}

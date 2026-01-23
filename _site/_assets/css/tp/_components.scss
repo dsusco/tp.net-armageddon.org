@@ -1,8 +1,0 @@
-.modal-overlay {
-  height: 0;
-  overflow-y: hidden;
-
-  &::after {
-    background: $_color_primary;
-  }
-}

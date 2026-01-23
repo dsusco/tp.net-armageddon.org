@@ -1,0 +1,9 @@
+@use 'tp/mixins' as tp;
+
+.example_of_play {
+  @include tp.callout();
+
+  > header::before {
+    content: 'Example of Play: ';
+  }
+}

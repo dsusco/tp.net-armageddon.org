@@ -1,0 +1,40 @@
+---
+---
+@use 'print/variables';
+@use 'print/reset';
+@use 'print/mixins';
+@use 'print/layout';
+@use 'print/content';
+@use 'print/forces';
+
+._pull_up { float: top; }
+._pull_down { float: bottom; }
+._pull_left { float: left; }
+._pull_right { float: right; }
+
+._text_left { text-align: left; }
+._text_center { text-align: center; }
+._text_right { text-align: right; }
+
+._text_uppercase { text-transform: uppercase; }
+
+._one_half {
+  float: left;
+  width: 49%;
+
+  + ._one_half { float: right; }
+}
+
+._one_third {
+  float: left;
+  width: 32%;
+
+  + ._one_third {
+    margin-left: 2%;
+
+    + ._one_third {
+      float: right;
+      margin: 0;
+    }
+  }
+}

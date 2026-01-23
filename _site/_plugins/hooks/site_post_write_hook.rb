@@ -26,7 +26,7 @@ end
 BEGIN {
   def prince_commands(site, redirect, pdf, html)
     commands = [
-      %Q`prince --media=print --script=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js --script=#{Dir[File.join(site.dest, 'assets', 'tp.print-*.js')].pop} --style=#{Dir[File.join(site.dest, 'assets', 'tp.print-*.css')].pop} -o #{pdf} #{html}`,
+      %Q`prince --media=print --script=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js --script=#{Dir[File.join(site.dest, 'assets', 'js', 'tp.print.js')].pop} --style=#{Dir[File.join(site.dest, 'assets', 'css', 'tp.print.css')].pop} -o #{pdf} #{html}`,
       %Q`ruby -EASCII-8BIT -i -p -e 'found ||= false' -e 'line = $_.sub!(/^\\/Annots \\[\\d+ \\d R \\d+ \\d R /, "/Annots [") unless found' -e 'found = true unless line.nil?' #{pdf}`,
       %Q`ruby -i -p -e 'sub("#{redirect}", "#{pdf.sub(/.+\//, '')}")' #{site.dest}/.htaccess`
     ]

@@ -1,7 +1,7 @@
 ---
 name: Hit &amp; Run Tactics
 classes:
-  - one-third
+  - _one_third
 ---
 The Dark Eldar are piratical raiders from the depths of the Dark City and the treacherous expanses of space. Due to their limited population, losses simply cannot be sustained at length. Because of this they have developed tactics that when combined with their highly advanced technology allows them to attack the enemy and then quickly retire in order to avoid any return fire. This ability is reflected by the following special rules, which apply to all formations in a Dark Eldar army:
 

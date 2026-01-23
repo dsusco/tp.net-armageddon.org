@@ -2,7 +2,7 @@
 name: Raven Guard
 order: 30
 classes:
-  - page-break-right
+  - _page_break_right
 
 units:
   - captain

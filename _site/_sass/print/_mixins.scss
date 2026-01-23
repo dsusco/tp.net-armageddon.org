@@ -1,0 +1,30 @@
+@use 'sass:math';
+@use 'print/variables' as *;
+
+._sr_only, ._sr_only_focusable {
+  display: none;
+}
+
+@mixin two_column() {
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 0.75cm;
+  page-break-before: always;
+}
+
+._two_column {
+  @include two_column();
+}
+
+@mixin baselined_text($font_size: $font_size, $lines: 1) {
+  font-size: $font_size;
+  line-height: $lines * $h;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
