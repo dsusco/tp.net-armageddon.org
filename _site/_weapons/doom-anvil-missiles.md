@@ -3,7 +3,7 @@ name: Doom Anvil Missiles
 modes:
   -
     range: 45cm
-    firepower: AT4+
+    firepower: AT3+
     special_rules:
-      - lance
+      - macro-weapon
 ---

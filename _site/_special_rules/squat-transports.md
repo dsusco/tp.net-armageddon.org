@@ -1,4 +1,5 @@
 ---
 name: Squat Transports
 ---
-Any formation with <q>plus transport</q> in its core units may include enough Rhinos to transport all infantry units in the formation if the player desires. The number of Rhinos will always be the minimum required to transport the entire formation and determined after all upgrades have been added. Alternatively, an equal number of Termites may be substituted for all of the Rhinos. Finally, if Termites are taken, every five Termites may be replaced with a Mole.
+If a Squat Brotherhood takes Rhino upgrades it must be the minimum number required to transport the entire
+formation after all other upgrades have been added. The same holds true for Termite and Mole upgrades. While Termites and Moles may be taken together, Rhinos may not be taken with Termites and Moles.
