@@ -32,3 +32,6 @@ What happens to transported units when the unit transporting them is destroyed b
 
 If a transport is destroyed by a hit with a special ability does that carry over to the transported units?
 : Yes, the transported units save is affected by the type of hit the transport is destroyed by. For example, an _ignore cover_ hit would prevent the transported units from making a 6+ cover save.
+
+If a transported unit does not have to disembark to shoot or use their firefight value, where are they considered to be?
+: Measure to the unit transporting them for the purposes of determining line of fire, range and suppression of the transported units. If the transported units are not able to physically fit on the transport unit's model use an off-board piece of card to show their relative position for the purposes of suppression.

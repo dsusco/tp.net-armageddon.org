@@ -13,7 +13,7 @@ special_rules:
   - transport
 notes:
   |
-    May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Transported units may shoot and use their firefight in an assault. The unit counts as rubble once it is destroyed. Critical Hit Effect: The unit takes an extra point of damage.
+    May transport eight infantry units or Dreadnoughts; Terminator units and Dreadnoughts count as two units each. Transported units do not have to disembark in order to shoot or use their firefight value if this unit is able to shoot, assault or lend support. The unit counts as rubble once it is destroyed. Critical Hit Effect: The unit takes an extra point of damage.
 weapons:
   -
     id: thunderfire-cannon

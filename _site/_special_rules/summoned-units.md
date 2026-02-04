@@ -3,47 +3,14 @@ name: Summoned Units
 classes:
   - _pull_up
 ---
-Each formation in an army of chaos belongs to a faction that owes allegiance to one of the gods of chaos (Khorne, Nurgle, Slaanesh or Tzeentch), or to Chaos Undivided. You must decide which faction each formation in your army belongs to before the battle and note it down on your army list. Formations that purchase the Daemonic Pact upgrade are able to summon daemons to the battlefield.
+Each formation in a Chaos army owes allegiance to Chaos Undivided or one of the four chaos gods: Khorne, Nurgle, Slaanesh or Tzeentch. The Chaos player must declare each formation’s allegiance before the battle, noting it down on their army list. Unbroken formations with Daemonic Pact are able to summon daemons with a similar allegiance (or daemons of any allegiance if the formation owes allegiance to Chaos Undivided) to the battlefield from the Daemon Pool.
 
-Daemons in the Daemon Pool are purchased and noted only as being lesser or greater daemons, not by their faction. The summoning formation’s faction dictates what types of daemons may be summoned (see below). Players should either write down the contents of their Daemon Pool or use tokens to indicate the number of each lesser and greater daemon they have available to summon during a game. The Chaos player’s opponent is always able to view the number of lesser and greater daemons remaining in the Daemon Pool. The Daemon Pool is kept off the board and daemons are removed from it as formations summon daemons onto the board.
+Daemons in the Daemon Pool are noted only as being lesser or greater daemons when they are purchased, they should be thought of as markers. The Chaos player must declare the number of lesser and greater daemons in the Daemon Pool in some fashion that is easily apparent to their opponent at all times. The Daemon Pool is kept off the board and daemons are removed from it as formations summon daemons to the battlefield.
 
-At the start of that formation’s action, before the action test dice roll is made, the formation may summon daemonic units from the Daemon Pool. Summoning allows you to call 2D3 summoning points worth of daemonic units to the battlefield (the number of summoning points it costs to summon a unit are listed below in parentheses after each unit). Summoning points must be used to summon daemonic units from the Daemon Pool and summoned units are brought into play immediately. If for any reason any summoning points generated are not used, they are lost and may not be carried over into subsequent turns. You may only summon as many daemons as you have left in your Daemon Pool. Left over daemonic units may be summoned during a later turn. Daemonic units that are destroyed are removed from play and are not put back into the Daemon Pool. Broken formations or formations that have not bought a Daemonic Pact may not summon daemons.
+A formation may summon daemonic units from the Daemon Pool as part of its action before declaring which action it will carry out. The formation generates 2d3 summoning points that can be used to move daemons from the Daemon Pool to the battlefield where they are converted to actual daemonic units. The allegiance of the summoning formation determines which daemonic units it may summon, while the daemonic units available to summon (and their respective summoning point costs) are defined in the specific Chaos army lists. Summoning points must be used immediately or lost, but un-summoned daemons in the Daemon Pool remain to be summoned by other formations or on later turns.
 
-Players may only have one greater daemon of a given faction in the army on the board at one time. For example, if you already have a summoned Bloodthirster on the board you are not allowed to summon another Bloodthirster until that first greater daemon has been removed from play. Summoned units must be set up with their base within 5cm of any non-daemonic unit from their formation, (i.e. you cannot place a <q>chain</q> of summoned units). They may not be set up in the Zone of Control of an enemy unit or in impassable terrain. The type of unit that can be summoned depends on the summoning formation’s faction, as follows:
+Summoned daemonic units must be placed within 5cm of a unit from the formation that was there prior to summoning, you may not place a “chain” of summoned units. They also may not be placed in enemy zone of control or in impassable terrain. Finally, an army may only have one greater daemon with a given allegiance on the battlefield at any one time. Summoned daemonic units count as part of the formation that summoned them while they remain on the battlefield.
 
-<div class="table-responsive">
-  <table class="_borderless">
-    <thead>
-      <tr>
-        <th>Faction</th>
-        <th>Daemons</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Khorne</td>
-        <td>Bloodthirster (8), Bloodletters (1), Daemonic Beasts (1)</td>
-      </tr>
-      <tr>
-        <td>Nurgle</td>
-        <td>Great Unclean One (8), Plaguebearers (1), Daemonic Beasts (1)</td>
-      </tr>
-      <tr>
-        <td>Slaanesh</td>
-        <td>Keeper of Secrets (8), Daemonettes (1), Daemonic Beasts (1)</td>
-      </tr>
-      <tr>
-        <td>Tzeentch</td>
-        <td>Lord of Change (8), Flamers (1), Daemonic Beasts (1)</td>
-      </tr>
-      <tr>
-        <td>Chaos Undivided</td>
-        <td>Bloodthirster (8), Great Unclean One (8), Keeper of Secrets (8), Lord of Change (8), <wbr>Bloodletters (2), Plaguebearers (2), Daemonettes (2), Flamers (2), Daemonic Beasts (1)</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+Daemonic units that are destroyed are removed from play and not put back into the Daemon Pool. If a formation with daemonic units is broken then all the daemonic units are removed from play as well. If a formation with daemonic units loses an assault (see Work Out Result) the extra hits it suffers occur before it becomes broken and the daemonic units are removed from play. Also note that daemonic units do count towards the “For each kill you have inflicted during the assault” assault modifier of your opponent.
 
-Summoned units count as part of the formation for all rules purposes as long as they remain on the battlefield. Summoned units are Expendable, but they are otherwise counted as normal units, and are included when working out if a formation outnumbers an opponent in an assault or is broken by Blast markers, etc. Note that Daemons that are killed in an assault do count towards the number of units killed by the enemy when working out modifiers for assault resolution. If a formation loses an assault (see [Loser Withdraws](/tournament-pack/#loser-withdraws)) remove extra hits from the formation before it is broken and all the remaining summoned units are then removed.
-
-Summoned units remain on the battlefield until the end phase of the turn in which they are summoned. In the end of the rally phase, after formations have attempted to rally, all summoned units in the formation are removed from the board and placed back into the Daemon Pool unless the formation has a unit with Daemonic Focus (see [Daemonic Focus](#daemonic-focus)). Greater Daemons that are returned to the Daemon Pool keep the same DC they had when they left the battlefield. They do not heal back to full DC, so when summoned again they will have that same DC. Summoned units that are destroyed are not put back into the Daemon Pool. Note that this may lead to the formation breaking if the number of Blast markers on the formation is greater than the number of units left in play after the summoned units have been removed. When a formation breaks any summoned units in the formation are lost in the warp and considered destroyed. They do not go back into the Daemon Pool.
+In the End phase, after all rally tests, all summoned daemonic units are converted back into daemon markers and returned to the Daemon Pool. Note that this may lead to the formation breaking. War Engine units that are returned to the Daemon Pool keep their current DC and do not heal back to full DC. If they are summoned again they will have the same DC they had before being returned to the Daemon Pool.

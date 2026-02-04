@@ -26,6 +26,7 @@ units:
   - land-speeder-tempest
   - land-speeder-tornado
   - land-speeder-typhoon
+  - multi-melta-attack-bike
 
   - hunter
   - razorback

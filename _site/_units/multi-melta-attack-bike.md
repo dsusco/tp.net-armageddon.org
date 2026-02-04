@@ -1,5 +1,5 @@
 ---
-name: Salamander Attack Bike
+name: Multi-melta Attack Bike
 type: LV
 speed: 35cm
 armour: 4+

@@ -8,9 +8,6 @@ ff: '-'
 special_rules:
   - expendable
   - invulnerable-save
-notes:
-  |
-    Costs 1 Summoning Point to summon.
 weapons:
   -
     id: fangs

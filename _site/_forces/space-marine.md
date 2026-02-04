@@ -19,6 +19,7 @@ units:
   - land-speeder
   - land-speeder-tornado
   - land-speeder-typhoon
+  - multi-melta-attack-bike
 
   - dreadnought
   - hunter

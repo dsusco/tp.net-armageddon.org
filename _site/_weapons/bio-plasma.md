@@ -2,6 +2,6 @@
 name: Bio-Plasma
 modes:
   -
-    range: (15cm)
-    firepower: Small Arms
+    range: 15cm
+    firepower: AP5+/AT6+
 ---

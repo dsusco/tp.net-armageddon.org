@@ -18,7 +18,7 @@ units:
   - tactical
 
   - land-speeder
-  - salamander-attack-bike
+  - multi-melta-attack-bike
 
   - hunter
   - land-raider

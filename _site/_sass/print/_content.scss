@@ -123,11 +123,29 @@ table {
     padding: 0 0.5em;
   }
 
-  &.borderless {
+  &._borderless {
     border: 0;
     margin-bottom: math.div($h, 2);
 
     > caption { border: 0; }
+  }
+
+  &._striped {
+    caption {
+      background: #ddd;
+    }
+
+    thead {
+      background: $color_white;
+    }
+
+    tbody {
+      background: $color_white;
+
+      > tr:nth-child(odd) {
+        background: $color_light;
+      }
+    }
   }
 
   &._army_list {
@@ -429,13 +447,14 @@ aside.faq {
   }
 
   .special_rules {
+    display: inline;
     padding: 0;
 
-    &, > li { display: inline; }
-
     > li {
+      display: inline;
+
       &::after { content: ', '; }
-      &:last-child::after { content: none; }
+      &:last-child::after { content: '.'; }
     }
   }
 

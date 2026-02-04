@@ -4,7 +4,7 @@ order: 34
 
 units:
   - banna
-  - big-gun-or-scorcha-head
+  - big-gun-or-skorcha-head
   - deth-kannon
   - eavy-armour
   - flak-gunz

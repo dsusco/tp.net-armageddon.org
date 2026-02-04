@@ -15,7 +15,7 @@ special_rules:
   - walker
 notes:
   |
-    Costs 6 Summoning Points to summon. Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+.
+    Critical Hit Effect: The unit is destroyed, all summoned units within 5cm are destroyed on a roll of 6+.
 weapons:
   -
     id: claws-ea-mw

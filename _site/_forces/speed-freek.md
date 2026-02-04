@@ -12,6 +12,7 @@ units:
   - warbikes
 
   - deth-kopta
+  - guntrukk
   - skorcha
   - trukk
   - warbuggy
