@@ -26,10 +26,9 @@ units:
 
   - dominatrix
   - harridan
+  - trygon
   - hierodule-bio-titan
   - hierophant-bio-titan
-  - trygon
-
 special_rules:
   - xeno-sociology
   - xeno-biology

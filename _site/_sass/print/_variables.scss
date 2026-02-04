@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 $font_family: Garamond, serif;
 
 $font_size: 10pt;
@@ -11,6 +13,7 @@ $font_size_h4: $font_size;
 $line_height: 1.2;
 
 $h: $font_size * $line_height;
+$half: math.div($h, 2);
 
 $color_black: #000;
 $color_dark: #999;

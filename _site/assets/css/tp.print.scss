@@ -1,38 +1,62 @@
 ---
 ---
-@use 'print/variables';
+@use 'print/mixins' as tp;
+@use 'print/variables' as *;
+
 @use 'print/reset';
-@use 'print/mixins';
 @use 'print/layout';
 @use 'print/content';
 @use 'print/forces';
 
-._pull_up { float: top; }
-._pull_down { float: bottom; }
-._pull_left { float: left; }
-._pull_right { float: right; }
+[class]._clearfix {
+  @include tp.clearfix();
+}
 
-._text_left { text-align: left; }
-._text_center { text-align: center; }
-._text_right { text-align: right; }
+[class]._margin_bottom { margin-bottom: $half; }
+[class]._margin_top { margin-top: $half; }
+[class]._no_margin_bottom { margin-bottom: 0; }
 
-._text_uppercase { text-transform: uppercase; }
+[class]._pull_up { float: top; }
+[class]._pull_down { float: bottom; }
+[class]._pull_left { float: left; }
+[class]._pull_right { float: right; }
 
-._one_half {
+[class]._sr_only, [class]._sr_only_focusable {
+  display: none;
+}
+
+[class]._text_left { text-align: left; }
+[class]._text_center { text-align: center; }
+[class]._text_right { text-align: right; }
+
+[class]._text_uppercase { text-transform: uppercase; }
+
+[class]._two_column {
+  @include tp.two_column();
+}
+
+[class]._column_break { column-break-before: always; }
+
+[class]._page_break { page-break-before: always; }
+[class]._page_break_avoid { page-break-before: avoid; }
+[class]._page_break_left { page-break-before: left; }
+[class]._page_break_right { page-break-before: right; }
+
+[class]._one_half {
   float: left;
   width: 49%;
 
-  + ._one_half { float: right; }
+  + [class]._one_half { float: right; }
 }
 
-._one_third {
+[class]._one_third {
   float: left;
   width: 32%;
 
-  + ._one_third {
+  + [class]._one_third {
     margin-left: 2%;
 
-    + ._one_third {
+    + [class]._one_third {
       float: right;
       margin: 0;
     }

@@ -14,7 +14,7 @@ Trench
 : Can hold one infantry unit per 4cm of length. Units in a trench may not be barged by a war engine.
 
 <div class="_table_responsive">
-  <table>
+  <table class="_striped _no_margin_bottom">
     <caption>Fortified Position Effects Table</caption>
     <thead>
       <tr>

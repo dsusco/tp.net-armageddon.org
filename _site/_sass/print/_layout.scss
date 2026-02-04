@@ -197,14 +197,6 @@ body {
   }
 }
 
-/* utility */
-._column_break { column-break-before: always; }
-
-._page_break { page-break-before: always; }
-._page_break_avoid { page-break-before: avoid; }
-._page_break_left { page-break-before: left; }
-._page_break_right { page-break-before: right; }
-
 /* FAQ page */
 body[id='/faq/'] {
   @include tp.two_column();

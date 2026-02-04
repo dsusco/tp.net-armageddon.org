@@ -5,7 +5,7 @@ Gun Emplacement
 : Provides vehicles with a Cover Save that works in the same manner as an infantry cover save (see [Infantry Cover Saves](/tournament-pack/#infantry-cover-saves)). Can hold one unit. Units in a gun emplacement may not be barged by a war engine.
 
 <div class="_table_responsive">
-  <table>
+  <table class="_striped _no_margin_bottom">
     <caption>Fortified Position Effects Table</caption>
     <thead>
       <tr>

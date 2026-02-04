@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  @include tp.baselined_text($font_size_h1, 2);
+  @include tp.baselined_text($font_size_h1, 1.5);
 
   page-break-before: right;
   text-transform: uppercase;
@@ -27,10 +27,22 @@ h2 {
 
 h3 {
   @include tp.baselined_text($font_size_h3);
+
+  + *,
+  + aside + * {
+    column-break-before: avoid;
+    page-break-before: avoid;
+  }
 }
 
 h4 {
   @include tp.baselined_text($font_size_h4);
+
+  + *,
+  + aside + * {
+    column-break-before: avoid;
+    page-break-before: avoid;
+  }
 }
 
 ._show_heading_numbers [data-heading]::before {
@@ -40,7 +52,7 @@ h4 {
 p, blockquote, figcaption, .text {
   @include tp.baselined_text($font_size);
 
-  margin-bottom: $h;
+  margin-bottom: $half;
 }
 
 blockquote footer { text-align: right; }
@@ -48,14 +60,14 @@ blockquote footer { text-align: right; }
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 $h;
+  margin: 0 0 $half;
 }
 
 /* lists */
 dl, ol, ul {
   @include tp.baselined_text($font_size);
 
-  margin-bottom: $h;
+  margin-bottom: $half;
 
   &._list_upper_roman {
     counter-reset: _list_upper_roman;
@@ -74,7 +86,7 @@ dl, ol, ul {
 }
 
 dl {
-  margin: 0 0 $h;
+  margin: 0 0 $half;
 
   > dt {
     float: left;
@@ -86,7 +98,7 @@ dl {
   }
 
   > dd {
-    margin: 0 0 $h;
+    margin: 0 0 $half;
 
     &:last-child { margin-bottom: 0; }
   }
@@ -100,7 +112,7 @@ table {
 
   border: 1pt solid $color_dark;
   border-top: 0;
-  margin: 0 0 ($h - 2pt);
+  margin: 0 0 ($half - 2pt);
   width: 100%;
 
   > caption {
@@ -125,7 +137,7 @@ table {
 
   &._borderless {
     border: 0;
-    margin-bottom: math.div($h, 2);
+    margin-bottom: $half;
 
     > caption { border: 0; }
   }
@@ -204,7 +216,7 @@ table {
 .special_rule {
   background: $color_light;
   border: 1pt solid $color_dark;
-  margin-bottom: ($h - 2pt);
+  margin-bottom: ($half - 2pt);
   padding: 6pt 1em;
   page-break-inside: avoid;
 
@@ -219,7 +231,7 @@ table {
 
     font-style: italic;
     font-weight: bold;
-    margin: 0 0 math.div($h, 2);
+    margin: 0 0 $half;
     text-align: center;
 
     &::before {
@@ -431,11 +443,10 @@ aside.faq {
   .notes {
     padding: 0 0.5em;
 
-    > .special-rules {
-      font-style: italic;
-
+    > .special_rules {
       > li:last-child::after { content: '.'; }
     }
+
     > :first-child::before {
       content: 'Notes: ';
       font-style: normal;
@@ -453,8 +464,7 @@ aside.faq {
     > li {
       display: inline;
 
-      &::after { content: ', '; }
-      &:last-child::after { content: '.'; }
+      &:not(:last-child)::after { content: ', '; }
     }
   }
 
@@ -495,7 +505,7 @@ aside.faq {
 #example_initiatve_values,
 #needing_7_to_hit {
   border: 0;
-  margin: 0 auto $h;
+  margin: 0 auto;
   width: auto;
 
   > thead { font-style: normal; }
@@ -504,7 +514,7 @@ aside.faq {
 #examples_of_terrain {
   figure {
     display: table;
-    margin: 0 0 $h;
+    margin: 0 0 $half;
 
     + figure { margin: 0; }
   }
