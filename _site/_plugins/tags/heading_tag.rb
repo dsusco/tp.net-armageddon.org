@@ -53,14 +53,14 @@ module Jekyll
         headings[h[:id]] = { 'class' => @tag_name, 'href' => "##{h[:id]}", 'text' => h[:text], 'number' => h[:number] }
 
         # if this isn't the FAQ page, and an faq exists, set it
-        if !page['url'].eql?('/faq/') && faq = context.registers[:site].collections['faqs'].docs.find { |doc| doc.basename_without_ext.eql?(h[:id]) }
+        if !page['url'].eql?('/faq/') && faq_doc = context.registers[:site].data['faqs'][h[:id]]
           (page[:footnote] += 1) rescue page[:footnote] = 1
           h[:footnote] = page[:footnote]
 
           # used for ordering the FAQ page
           if page['url'].eql?('/tournament-pack/')
-            faq.data['footnote'] ||= page[:footnote]
-            faq.data['number'] = h[:number]
+            faq_doc.data['footnote'] ||= page[:footnote]
+            faq_doc.data['number'] = h[:number]
           end
 
           faq = Liquid::Template.parse("{% include faq.html id='#{h[:id]}' %}").render(context)
