@@ -26,7 +26,6 @@ units:
   - predator-destructor
   - razorback
   - rhino
-  - vindicator
   - whirlwind
   - white-scar-vindicator
 
