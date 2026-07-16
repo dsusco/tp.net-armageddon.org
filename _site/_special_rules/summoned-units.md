@@ -3,7 +3,7 @@ name: Summoned Units
 classes:
   - _pull_up
 ---
-Each formation in a Chaos army owes allegiance to Chaos Undivided or one of the four chaos gods: Khorne, Nurgle, Slaanesh or Tzeentch. The Chaos player must declare each formation’s allegiance before the battle, noting it down on their army list. Unbroken formations with Daemonic Pact are able to summon daemons with a similar allegiance (or daemons of any allegiance if the formation owes allegiance to Chaos Undivided) to the battlefield from the Daemon Pool.
+Unbroken formations with Daemonic Pact are able to summon daemons with a similar allegiance (or daemons of any allegiance if the formation owes allegiance to Chaos Undivided) to the battlefield from the Daemon Pool.
 
 Daemons in the Daemon Pool are noted only as being lesser or greater daemons when they are purchased, they should be thought of as markers. The Chaos player must declare the number of lesser and greater daemons in the Daemon Pool in some fashion that is easily apparent to their opponent at all times. The Daemon Pool is kept off the board and daemons are removed from it as formations summon daemons to the battlefield.
 
